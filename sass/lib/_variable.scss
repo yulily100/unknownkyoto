@@ -1,23 +1,16 @@
 // Color Variables
 
-$bg: #000;
-
-$base: #393C3D; // Base text color
-$text: #393C3D;
-$text-light: #AEAEAE; // Light text color
-
-$link: #37aed5; // Link text color
-$hover: darken($link,8%); // Link text color(hover)
-$border: #ddd; // Border color
-
-$primary: #73100c;
-$global-nav-bg: #4D4D4D;
-
-$footer: #F4F4F4;
+$primary: #7e0f09;
+$secondary: #d3b471;
+$text: #3a372f;
+$text-light: #666054;
+$bg: #f2eee7;
+$border: #ddd;
 
 
 // fonts
-$rambla: "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+$vollkorn: 'Vollkorn', serif;
+$opensans: 'Open Sans', sans-serif;
 
 
 // dimen
@@ -25,10 +18,9 @@ $width-middle: 400px;
 
 // Media Queries - Breakpoints
 
-$mq-l: "(min-width: 1200px)";
 
-$mq-md: "(max-width: 1024px)"; // Media Queries - Tablet
-
+$mq-lg: "(min-width: 1240px)"; // Media queries - Large display
+$mq-md: "(max-width: 1035px)"; // Media Queries - Tablet
 $mq-sm: "(max-width: 767px)"; // Media Queries - Small tablet & smartphone
-
 $mq-xs: "(max-width: 480px)"; // Media Queries - Smartphone
+$mq-320: "(max-width: 360px)"; // Media Queries - small-Smartphone

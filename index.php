@@ -5,12 +5,12 @@
 
 
 <div class="container">
-<?php
+<!-- <?php
   $menu = array(
     'menu_class' => 'nav-category',
   );
   wp_nav_menu( $menu );
-?>
+?> -->
 
 
 
@@ -21,13 +21,13 @@
           while (have_posts()) : the_post();
           $image_id = get_post_thumbnail_id(); ?>
         <li>
-          <?php the_category(""); ?>
           <a href="<?php the_permalink(); ?>">
             <?php the_post_thumbnail('thumbnail'); ?>
           </a>
-          <?php echo get_the_date(); ?>
           <h2 class="article-list-title"><a href="<?php the_permalink(); ?>"><?php echo get_the_title(); ?></a></h2>
+          <?php the_category(""); ?>
           <p class="article-list-tags"><?php the_tags("",""); ?></p>
+          <?php echo get_the_date(); ?>
         </li>
       <?php endwhile;endif; ?>
       </ul>

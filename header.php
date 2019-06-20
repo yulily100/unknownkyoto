@@ -15,9 +15,17 @@
 
   <body>
     <header class="header">
-      <div class="header-inner">
+      <div class="header-main">
         <h1 class="header-title">
-          <a href="/">UNKNOWN KYOTO BLOG</a>
+          <a href="/">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/header-logo.svg" alt="UNKNWON KYOTO">
+          </a>
         </h1>
+        <p class="header-description">京都五條楽園の食事ができて働ける宿泊施設<br>元遊郭建築をリノベーション</p>
       </div>
+      <ul class="header-sns">
+        <li><a href="https://www.instagram.com/unknownkyoto/" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/sns-instagram-primary.svg" alt="Instagram"></a></li>
+        <li><a href="https://www.facebook.com/Unkown.Kyoto.Gojo.Rakuen" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/sns-facebook-primary.svg" alt="Facebook"></a></li>
+        <li><a href="https://twitter.com/unknown_kyoto" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/sns-twitter-primary.svg" alt="Twitter"></a></li>
+      </ul>
     </header>

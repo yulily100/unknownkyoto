@@ -11,6 +11,7 @@ Author: Saori Yuri
  * 1. Remove repeating backgrounds in all browsers (opinionated).
  * 2. Add border box sizing in all browsers (opinionated).
  */
+@import url("https://fonts.googleapis.com/css?family=Vollkorn");
 *,
 ::before,
 ::after {
@@ -489,18 +490,16 @@ textarea,
   position: absolute; }
 
 body {
-  font-family: "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
-  background: #000;
-  color: #393C3D;
+  font-family: Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
   -webkit-font-smoothing: antialiased; }
 
 a {
   text-decoration: none;
-  color: #393C3D; }
+  color: #3a372f; }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, Verdana, Roboto, "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo UI", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; }
-  h1 a, h1 a:hover, h2 a, h2 a:hover, h3 a, h3 a:hover, h4 a, h4 a:hover, h5 a, h5 a:hover, h6 a, h6 a:hover {
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0; }
+  h1 a, h1 a:hover, h2 a, h2 a:hover, h3 a, h3 a:hover, h4 a, h4 a:hover, h5 a, h5 a:hover, h6 a, h6 a:hover, p a, p a:hover {
     text-decoration: none; }
 
 ul, li {
@@ -517,3 +516,142 @@ ul, li {
   @media (max-width: 767px) {
     .for-sp {
       display: block !important; } }
+
+.header {
+  padding: 12px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  @media (max-width: 767px) {
+    .header {
+      display: block;
+      text-align: center;
+      border-bottom: 1px solid #ddd; } }
+
+.header-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  @media (max-width: 767px) {
+    .header-main {
+      display: block; } }
+
+.header-title {
+  margin: 0; }
+  .header-title img {
+    width: 188px;
+    height: 44px; }
+
+.header-description {
+  font-size: .8rem;
+  margin: 0 0 0 16px;
+  color: #666054; }
+  @media (max-width: 767px) {
+    .header-description {
+      display: none; } }
+
+.header-sns {
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0; }
+  .header-sns li {
+    margin: 0 0 0 16px; }
+  .header-sns img {
+    width: 24px;
+    height: 24px; }
+  @media (max-width: 767px) {
+    .header-sns {
+      display: none; } }
+
+.footer {
+  background: #f2eee7; }
+
+.footer-inner {
+  padding: 60px 0;
+  margin: 0 auto; }
+  @media (max-width: 767px) {
+    .footer-inner {
+      margin: 0 1em; } }
+
+.footer-feed {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 0 60px 0; }
+  @media (max-width: 767px) {
+    .footer-feed {
+      display: none; } }
+
+.footer-feed-contents {
+  width: 420px;
+  margin: 0 16px; }
+
+.footer-feed-title {
+  font-family: "Vollkorn", serif;
+  margin: 0 0 .8em;
+  letter-spacing: .8px;
+  font-size: 1.3rem; }
+
+.footer-feed-inner {
+  max-height: 500px;
+  overflow: scroll; }
+
+.footer-info {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  text-align: center; }
+  @media (max-width: 767px) {
+    .footer-info {
+      margin: 0; } }
+
+.footer-title {
+  margin: 0 0 12px 0; }
+  .footer-title img {
+    width: 320px; }
+  @media (max-width: 767px) {
+    .footer-title img {
+      max-width: 100%;
+      height: auto; } }
+
+.footer-text {
+  font-size: .9rem; }
+
+.footer-company {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 24px 0 0 0;
+  padding: 0; }
+  .footer-company li {
+    margin: 0 8px; }
+  .footer-company img {
+    width: 80px;
+    height: 80px; }
+
+.footer-copyright {
+  padding: 12px 0;
+  margin: 0;
+  text-align: center;
+  font-family: "Vollkorn", serif;
+  color: #666054; }
