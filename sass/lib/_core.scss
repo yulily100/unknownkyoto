@@ -1,132 +1,158 @@
 // layout
-@import url('https://fonts.googleapis.com/css?family=Vollkorn');
 
-// header
-.header {
-  padding: 12px 20px;
+@mixin article-list {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  @media #{$mq-sm} {
-    display: block;
-    text-align: center;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+  > li {
+    flex-basis: calc(100% / 3 - 30px);
+    margin: 0 15px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.article-list {
+  @include article-list;
+  > li {
+    margin-bottom: 30px;
+  }
+}
+.article-thumb {
+  display: block;
+  margin: 0 0 8px 0;
+  &:hover {
+    opacity: .8;
+  }
+}
+.article-title {
+  font-size: 1rem;
+  margin: 8px 0 0 0;
+  a:hover {
+    opacity: .8;
+  }
+}
+.article-category {
+  color: $primary;
+  font-family: $vollkorn;
+  font-size: .9rem;
+  a {
+    color: $primary;
+  }
+  .post-categories {
+    display: inline-block;
+  }
+
+  &:before {
+    content: "＜";
+  }
+  &:after {
+    content: "＞";
+  }
+}
+.article-date {
+  color: $text-light;
+  font-size: .9rem;
+}
+
+.article-funding {
+  background: $primary;
+  color: #fff;
+  padding: 40px 0;
+}
+.article-funding-title {
+  text-align: center;
+  font-size: 1.4rem;
+}
+.article-funding-list {
+  @include article-list;
+  > li {
+    background: #fff;
+  }
+}
+.article-funding-inner {
+  padding: 4px 12px 12px;
+}
+
+
+// article menu
+.article-menu {
+  padding: 40px 0;
+  display: flex;
+  margin: 0 -15px;
+}
+.article-menu-contents {
+  flex-basis: calc(100% / 3 - 30px);
+  margin: 0 15px;
+}
+.article-menu-title {
+  border-bottom: 1px solid $text;
+  padding: 8px 0;
+}
+.article-menu-items {
+  li {
     border-bottom: 1px solid $border;
+    padding: 8px 0;
   }
-}
-.header-main {
-  display: flex;
-  align-items: center;
-  @media #{$mq-sm} {
-    display: block;
-  }
-}
-.header-title {
-  margin: 0;
-  img {
-    width: 188px;
-    height: 44px;
-  }
-}
-.header-description {
-  font-size: .8rem;
-  margin: 0 0 0 16px;
-  color: $text-light;
-  @media #{$mq-sm} {
-    display: none;
-  }
-}
-.header-sns {
-  margin-right: auto;
-  display: flex;
-  padding: 0;
-  margin: 0;
-  li {
-    margin: 0 0 0 16px;
-  }
-  img {
-    width: 24px;
-    height: 24px;
-  }
-  @media #{$mq-sm} {
-    display: none;
+  a:hover {
+    opacity: .8;
   }
 }
 
-// footer
-.footer {
-  background: $bg;
+.wrapper {
+  margin-right: 4em;
+  margin-left: 4em;
 }
-.footer-inner {
-  padding: 60px 0;
+
+// top
+.top-eyecatch {
+  background: #808080;
+  text-align: center;
+  color: #fff;
+  padding: 40px 0;
+}
+.top-contents {
+  padding: 40px 0;
+}
+
+
+
+// entry
+.entry {
+  max-width: 640px;
   margin: 0 auto;
-  @media #{$mq-sm} {
-    margin: 0 1em;
-  }
-
+  padding: 40px 0;
 }
-.footer-feed {
-  flex-shrink: 0;
-  display: flex;
-  justify-content: center;
-  margin: 0 0 60px 0;
-  @media #{$mq-sm} {
-    display: none;
-  }
+.entry-header {
+  margin: 0 20px 40px;
 }
-.footer-feed-contents {
-  width: 420px;
-  margin: 0 16px;
-}
-.footer-feed-title {
-  font-family: $vollkorn;
-  margin: 0 0 .8em;
-  letter-spacing: .8px;
-  font-size: 1.3rem;
-}
-.footer-feed-inner {
-  max-height: 500px;
-  overflow: scroll;
-}
-.footer-info {
-  flex-grow: 1;
-  text-align: center;
-  @media #{$mq-sm} {
-    margin: 0;
-  }
-}
-.footer-title {
+.entry-title {
   margin: 0 0 12px 0;
-  img {
-    width: 320px;
-  }
-  @media #{$mq-sm} {
-    img {
-      max-width: 100%;
-      height: auto;
-    }
+}
+.entry-content {
+  p {
+    margin: 0 20px;
   }
 }
-.footer-text {
-  font-size:.9rem;
-}
-.footer-company {
-  display: flex;
-  justify-content: center;
-  margin: 24px 0 0 0;
-  padding: 0;
-  li {
-    margin: 0 8px;
-  }
-  img {
-    width: 80px;
-    height: 80px;
-  }
-}
-
-.footer-copyright {
-  padding: 12px 0;
-  margin: 0;
+.entry-share {
   text-align: center;
-  font-family: $vollkorn;
-  color: $text-light;
+  margin: 0 0 20px;
+  li {
+    display: inline-block;
+  }
+  a {
+    border: 1px solid $text;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 4px 12px;
+  }
+}
+.entry-pager {
+  display: flex;
+  margin: 0 0 20px;
+  li {
+    flex-basis: 50%;
+  }
 }

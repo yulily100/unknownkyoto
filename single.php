@@ -1,50 +1,33 @@
 <?php get_header(); ?>
 
-<div class="container-article">
-  <div class="article-wrapper">
-    <div class="subpage-main">
-      <article class="entry">
-        <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-          <?php the_category(""); ?>
-          <?php echo get_the_date(); ?>
-          <a href="<?php the_permalink(); ?>">
-            <?php the_post_thumbnail('thumbnail'); ?>
-          </a>
-          <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php echo get_the_title(); ?></a></h2>
-          <?php the_content(); ?>
-          <?php
-            endwhile;
-            endif;
-          ?>
-      </article>
+<article class="entry">
+
+
+  <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+    <!-- <a href="<?php the_permalink(); ?>">
+      <?php the_post_thumbnail('thumbnail'); ?>
+    </a> -->
+    <header class="entry-header">
+      <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php echo get_the_title(); ?></a></h2>
+      <span class="article-category"><?php the_category(""); ?></span>
+      <span class="article-date"><?php echo get_the_date(); ?></span>
+    </header>
+    <div class="entry-content">
+      <?php the_content(); ?>
     </div>
-  </div>
-  <div class="related-post">
-    <h3 class="related-title">関連記事</h3>
-    <ul class="related-list">
-      <?php
-      $args = array(
-        'posts_per_page' => 6
-      );
-      $the_query = new WP_Query( $args );
-      ?>
-      <?php if ( $the_query->have_posts() ) : ?>
-      <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-        <li class="article-wrapper">
-          <a href="<?php the_permalink() ?>"><?php the_post_thumbnail('recent-image');?></a>
-          <h3 class="related-post-title"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
-        </li>
-      <?php endwhile; ?>
-      <?php endif; wp_reset_postdata(); ?>
-    </ul>
-  </div>
-  <ul class="sns">
-    <li>twitter</li>
-    <li>instagram</li>
+    <?php
+      endwhile;
+      endif;
+    ?>
+  <ul class="entry-share">
+    <li><a href="">ツイートする</a></li>
+    <li><a href="">シェアする</a></li>
   </ul>
-</div>
-
-
+  <ul class="entry-pager">
+    <li>←<?php previous_post_link('%link', '%title') ?></li>
+    <li><?php next_post_link('%link', '%title' ) ?>→</li>
+  </ul>
+</article>
 
 
 <?php get_footer(); ?>

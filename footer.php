@@ -1,3 +1,74 @@
+<div class="article-funding">
+  <div class="wrapper">
+    <h2 class="article-funding-title">クラウドファンディング実施中！</h2>
+    <ul class="article-funding-list">
+
+      <?php
+      $args = array(
+        'posts_per_page' => 6,
+        'category_name' => 'funding'
+      );
+      $funding_query = new WP_Query( $args );
+      ?>
+      <?php if ( $funding_query->have_posts() ) : ?>
+      <?php while ( $funding_query->have_posts() ) : $funding_query->the_post(); ?>
+
+      <li>
+        <a href="<?php the_permalink(); ?>" class="article-thumb">
+          <?php the_post_thumbnail('thumbnail'); ?>
+        </a>
+        <div class="article-funding-inner">
+          <span class="article-category"><?php the_category(""); ?></span>
+          <span class="article-date"><?php echo get_the_date(); ?></span>
+          <h2 class="article-title"><a href="<?php the_permalink(); ?>"><?php echo get_the_title(); ?></a></h2>
+        </div>
+      </li>
+
+    <?php endwhile; ?>
+    <?php endif; wp_reset_postdata(); ?>
+
+
+    </ul>
+  </div>
+</div>
+<div class="wrapper">
+  <div class="article-menu">
+    <div class="article-menu-contents">
+      <h3 class="article-menu-title">category</h3>
+      <ul class="article-menu-items">
+
+        <?php
+        $args = array(
+          'title_li' => '',
+          'orderby' => 'count',
+          'order' => 'DESC'
+        );
+        wp_list_categories($args); ?>
+      </ul>
+    </div>
+    <div class="article-menu-contents">
+      <h3 class="article-menu-title">archives</h3>
+      <ul class="article-menu-items">
+        <li>2019/06</li>
+        <li>2019/07</li>
+        <li>2019/08</li>
+        <li>2019/09</li>
+      </ul>
+    </div>
+    <div class="article-menu-contents">
+      <h3 class="article-menu-title">member</h3>
+      <ul class="article-menu-items">
+        <?php
+        $args = array(
+          'orderby' => 'post_count',
+          'order' => 'DESC'
+        );
+        wp_list_authors( $args ); ?>
+      </ul>
+    </div>
+  </div>
+</div>
+
 <footer class="footer">
     <div class="wrapper">
       <div class="footer-inner">

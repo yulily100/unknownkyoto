@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+
+
 // Common
 body {
   font-family: Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
@@ -5,6 +8,7 @@ body {
 }
 a {
   text-decoration: none;
+  transition: all .2s;
   color: $text;
 }
 h1,h2,h3,h4,h5,h6,p {
@@ -28,4 +32,134 @@ ul, li {
   @media #{$mq-sm} {
     display: block !important;
   }
+}
+
+// header
+.header {
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @media #{$mq-sm} {
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid $border;
+  }
+}
+.header-main {
+  display: flex;
+  align-items: center;
+  @media #{$mq-sm} {
+    display: block;
+  }
+}
+.header-title {
+  margin: 0;
+  img {
+    width: 188px;
+    height: 44px;
+  }
+}
+.header-description {
+  font-size: .8rem;
+  margin: 0 0 0 16px;
+  color: $text-light;
+  @media #{$mq-sm} {
+    display: none;
+  }
+}
+.header-sns {
+  margin-right: auto;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  li {
+    margin: 0 0 0 16px;
+  }
+  img {
+    width: 24px;
+    height: 24px;
+  }
+  @media #{$mq-sm} {
+    display: none;
+  }
+}
+
+// footer
+.footer {
+  background: $bg;
+}
+.footer-inner {
+  padding: 60px 0;
+  margin: 0 auto;
+  @media #{$mq-sm} {
+    margin: 0 1em;
+  }
+
+}
+.footer-feed {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0 0 60px 0;
+  @media #{$mq-sm} {
+    display: none;
+  }
+}
+.footer-feed-contents {
+  width: 420px;
+  margin: 0 16px;
+}
+.footer-feed-title {
+  font-family: $vollkorn;
+  margin: 0 0 .8em;
+  letter-spacing: .8px;
+  font-size: 1.3rem;
+}
+.footer-feed-inner {
+  max-height: 500px;
+  overflow: scroll;
+}
+.footer-info {
+  flex-grow: 1;
+  text-align: center;
+  @media #{$mq-sm} {
+    margin: 0;
+  }
+}
+.footer-title {
+  margin: 0 0 12px 0;
+  img {
+    width: 320px;
+  }
+  @media #{$mq-sm} {
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
+.footer-text {
+  font-size:.9rem;
+}
+.footer-company {
+  display: flex;
+  justify-content: center;
+  margin: 24px 0 0 0;
+  padding: 0;
+  li {
+    margin: 0 8px;
+  }
+  img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+.footer-copyright {
+  padding: 12px 0;
+  margin: 0;
+  text-align: center;
+  font-family: $vollkorn;
+  color: $text-light;
 }
