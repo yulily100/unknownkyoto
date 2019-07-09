@@ -71,6 +71,9 @@ ul, li {
 .header-menu {
   display: flex;
   align-items: center;
+  @media #{$mq-sm} {
+    display: none;
+  }
 }
 .header-nav {
   font-weight: bold;
@@ -95,9 +98,7 @@ ul, li {
     width: 24px;
     height: 24px;
   }
-  @media #{$mq-sm} {
-    display: none;
-  }
+
 }
 
 // footer

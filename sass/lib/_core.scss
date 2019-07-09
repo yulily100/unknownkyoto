@@ -103,6 +103,11 @@
   > li {
     background: #fff;
   }
+  @media #{$mq-sm} {
+    > li {
+      margin-bottom: 40px;
+    }
+  }
 }
 .article-funding-inner {
   padding: 4px 12px 12px;

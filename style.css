@@ -568,6 +568,9 @@ ul, li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
+  @media (max-width: 767px) {
+    .header-menu {
+      display: none; } }
 
 .header-nav {
   font-weight: bold;
@@ -591,9 +594,6 @@ ul, li {
   .header-sns img {
     width: 24px;
     height: 24px; }
-  @media (max-width: 767px) {
-    .header-sns {
-      display: none; } }
 
 .footer {
   background: #f2eee7; }
@@ -789,6 +789,9 @@ ul, li {
       display: block; } }
   .article-funding-list > li {
     background: #fff; }
+  @media (max-width: 767px) {
+    .article-funding-list > li {
+      margin-bottom: 40px; } }
 
 .article-funding-inner {
   padding: 4px 12px 12px; }
