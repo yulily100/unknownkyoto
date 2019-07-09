@@ -1,6 +1,6 @@
 <div class="article-funding">
   <div class="wrapper">
-    <h2 class="article-funding-title">クラウドファンディング実施中！</h2>
+    <h2 class="article-funding-title">クラウドファンディング<br class="for-sp">実施中！</h2>
     <p class="article-funding-description">UNKNOWN KYOTOでは現在、投資型のクラウドファンディングを実施中です。</p>
 
     <ul class="article-funding-list">
@@ -32,7 +32,7 @@
     </ul>
     <div class="article-funding-footer">
       <p><span class="for-pc">＼</span> クラウドファンディングへの参加<span class="for-pc">や詳細は</span>こちらから <span class="for-pc">／</span></p>
-      <p class="article-funding-link"><a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/top-funding.svg" alt="クラウドファンディングページへ"></a></p>
+      <p class="article-funding-link"><a href="https://hello-renovation.jp/renovations/3428" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/top-funding.svg" alt="クラウドファンディングページへ"></a></p>
     </div>
   </div>
 </div>

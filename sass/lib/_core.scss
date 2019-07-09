@@ -20,7 +20,7 @@
 .article-list {
   @include article-list;
   > li {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
 }
 .article-thumb {
@@ -94,6 +94,9 @@
   text-align: center;
   font-weight: bold;
   margin: 0 0 40px 0;
+  @media #{$mq-sm} {
+    display: none;
+  }
 }
 .article-funding-list {
   @include article-list;
@@ -217,9 +220,18 @@
     background: url("img/blog-title-right.svg");
     background-size: 150px 48px;
   }
+  @media #{$mq-sm} {
+    padding: 80px 0;
+    &:before, &:after {
+      display: none;
+    }
+  }
 }
 .top-contents {
   padding: 40px 0;
+  @media #{$mq-sm} {
+    padding: 30px 0 0;
+  }
 }
 
 
@@ -250,6 +262,9 @@
 .entry-title {
   margin: 0 0 12px 0;
   font-size: 1.8rem;
+  @media #{$mq-sm} {
+    font-size: 1.4rem;
+  }
 }
 .entry-content {
   p {
@@ -319,6 +334,7 @@
   @media #{$mq-sm} {
     margin-left: 6%;
     margin-right: 6%;
+    font-size: .9rem;
   }
 }
 .entry-pager-prev {
@@ -381,6 +397,7 @@
   @media #{$mq-sm} {
     margin-left: 6%;
     margin-right: 6%;
+    padding-left:100px;
   }
 }
 
@@ -391,6 +408,13 @@
     width: 100px;
     height: 100px;
     border-radius: 50%;
+  }
+  @media #{$mq-sm} {
+    left: 0;
+    img {
+      width: 80px;
+      height: 80px;
+    }
   }
 }
 .saboxplugin-authorname {

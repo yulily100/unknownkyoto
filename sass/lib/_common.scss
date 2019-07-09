@@ -68,6 +68,21 @@ ul, li {
     display: none;
   }
 }
+.header-menu {
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+  font-weight: bold;
+  font-family: $vollkorn;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  margin: 0 8px 0 0;
+  a {
+    display: inline-block;
+    height: 100%;
+  }
+}
 .header-sns {
   margin-right: auto;
   display: flex;

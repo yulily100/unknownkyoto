@@ -561,6 +561,24 @@ ul, li {
     .header-description {
       display: none; } }
 
+.header-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.header-nav {
+  font-weight: bold;
+  font-family: "Vollkorn", serif;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  margin: 0 8px 0 0; }
+  .header-nav a {
+    display: inline-block;
+    height: 100%; }
+
 .header-sns {
   margin-right: auto;
   display: -webkit-box;
@@ -676,7 +694,7 @@ ul, li {
     .article-list {
       display: block; } }
   .article-list > li {
-    margin-bottom: 30px; }
+    margin-bottom: 40px; }
 
 .article-thumb {
   display: block;
@@ -748,6 +766,9 @@ ul, li {
   text-align: center;
   font-weight: bold;
   margin: 0 0 40px 0; }
+  @media (max-width: 767px) {
+    .article-funding-description {
+      display: none; } }
 
 .article-funding-list {
   display: -webkit-box;
@@ -877,9 +898,17 @@ ul, li {
     height: 48px;
     background: url("img/blog-title-right.svg");
     background-size: 150px 48px; }
+  @media (max-width: 767px) {
+    .blog-title {
+      padding: 80px 0; }
+      .blog-title:before, .blog-title:after {
+        display: none; } }
 
 .top-contents {
   padding: 40px 0; }
+  @media (max-width: 767px) {
+    .top-contents {
+      padding: 30px 0 0; } }
 
 .entry {
   max-width: 680px;
@@ -905,6 +934,9 @@ ul, li {
 .entry-title {
   margin: 0 0 12px 0;
   font-size: 1.8rem; }
+  @media (max-width: 767px) {
+    .entry-title {
+      font-size: 1.4rem; } }
 
 .entry-content p {
   margin: 0 40px .6em;
@@ -975,7 +1007,8 @@ ul, li {
   @media (max-width: 767px) {
     .entry-pager {
       margin-left: 6%;
-      margin-right: 6%; } }
+      margin-right: 6%;
+      font-size: .9rem; } }
 
 .entry-pager-prev {
   padding-right: 20px;
@@ -1034,7 +1067,8 @@ ul, li {
   @media (max-width: 767px) {
     .saboxplugin-wrap {
       margin-left: 6%;
-      margin-right: 6%; } }
+      margin-right: 6%;
+      padding-left: 100px; } }
 
 .saboxplugin-gravatar {
   position: absolute;
@@ -1043,6 +1077,12 @@ ul, li {
     width: 100px;
     height: 100px;
     border-radius: 50%; }
+  @media (max-width: 767px) {
+    .saboxplugin-gravatar {
+      left: 0; }
+      .saboxplugin-gravatar img {
+        width: 80px;
+        height: 80px; } }
 
 .saboxplugin-authorname {
   font-weight: bold;
