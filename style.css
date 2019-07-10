@@ -850,6 +850,9 @@ ul, li {
   letter-spacing: .5px; }
   .article-pager a:hover {
     opacity: .8; }
+  @media (max-width: 767px) {
+    .article-pager {
+      margin-bottom: 40px; } }
 
 .wrapper {
   margin-right: 5%;

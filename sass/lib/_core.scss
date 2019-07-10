@@ -172,6 +172,9 @@
   a:hover {
     opacity: .8;
   }
+  @media #{$mq-sm} {
+    margin-bottom: 40px;
+  }
 }
 
 
