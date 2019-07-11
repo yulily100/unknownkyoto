@@ -62,10 +62,10 @@ $(function() {
   <div>
     <h1 class="top-main-logo"><img src="<?php echo get_template_directory_uri(); ?>/img/top-logo.svg" alt="UNKNOWN KYOTO"></h1>
     <p class="top-main-description">Hostel, Dining, Co-working</p>
-    <p class="top-main-open"><img src="<?php echo get_template_directory_uri(); ?>/img/header-open.png" alt="2019秋OPEN予定"></p>
+    <p class="top-main-open"><img src="<?php echo get_template_directory_uri(); ?>/img/en/header-open.png" alt="2019秋OPEN予定"></p>
   </div>
 
-  <p class="top-main-funding"><a href="#funding">クラウドファンディング<br class="for-pc">実施中！</a></p>
+  <p class="top-main-funding"><a href="#funding">Crowd Funding</a></p>
 
   <div class="top-main-image">
     <img src="<?php echo get_template_directory_uri(); ?>/img/top-image/05.jpg" alt="UNKNOWN KYOTO" class="top-image5">
@@ -79,32 +79,27 @@ $(function() {
 <div class="top-wrapper">
   <section class="top-about">
     <div class="top-about-intro js-fadein">
-      <h2 class="top-about-title"><img src="<?php echo get_template_directory_uri(); ?>/img/top-about-title.svg" alt="UNKNOWN KYOTO"></h2>
+      <h2 class="top-about-title"><img src="<?php echo get_template_directory_uri() ?>/img/top-about-title.svg" alt="UNKNOWN KYOTO"></h2>
       <p class="top-about-description">
-        京都の元遊郭建築を<br class="for-sp">リノベーションした空間で<br>
-        泊まって、食べて、働いて。</p>
-      <p class="top-about-description">現在リノベーション工事中、<br class="for-sp">2019年秋頃オープン予定です。</p>
+        The highly anticipated Project “UNKNOWN KYOTO” is<br class="for-pc">scheduled to open in the fall of 2019.</p>
+      <p class="top-about-description">Come stay, dine and work at<br class="for-pc">“UNKNOWN KYOTO” and enjoy Kyoto life to the fullest!</p>
       <div class="top-about-img">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/top-about.png" alt="元遊郭建築">
+        <img src="<?php echo get_template_directory_uri() ?>/img/top-about.png" alt="元遊郭建築">
       </div>
-
     </div>
   </section>
 
   <div class="top-contents">
     <section class="top-architecture">
-      <h2 class="section-title">知られざる京都<span class="for-pc">、</span><br class="for-sp">五條楽園</h2>
-
-      <p class="section-description">かつて「五條楽園」と呼ばれた<br class="for-sp">このエリアは<br class="for-pc">すぐ近くに鴨川と<br class="for-sp">高瀬川が流れ、迷路のように<br>細い路地が入り組んだ、古き良き<br class="for-sp">佇まいを残したまち。<br class="for-pc">そんな中に<br class="for-sp">UNKNOWN KYOTOはあります。</p>
-      <p class="section-description">今回、隣り合う二棟の元お茶屋建築を<br class="for-sp">リノベーションして<br class="for-pc">コリビング施設<br class="for-sp">として生まれ変わらせます。</p>
+      <p class="section-description">The area Gojo Rakuen is home to Kyoto’s iconic narrow alleys, <br class="for-pc">traditional architectural structures and the famous Kamogawa and Takasegawa River.<br>Within footsteps from these areas, <br class="for-pc">you will find the astonishingly renovated hostel “UNKNOWN KYOTO” which will open this fall.</p>
+      <p class="section-description">Combining two neighboring Machiya houses that were built more than a hundred years ago, <br class="for-pc">this structure was given new life as a co-living space for guests to enjoy.</p>
 
       <ul class="top-architecture-interior js-fadein">
         <li class="big"><img src="<?php echo get_template_directory_uri(); ?>/img/photo/arch-01.jpg" alt=""></li>
         <li class="small"><img src="<?php echo get_template_directory_uri(); ?>/img/photo/arch-02.jpg" alt=""></li>
       </ul>
 
-      <p class="top-architecture-description">五條楽園には今も多くの<br class="for-sp">元遊郭建築が残っています。<br>
-      その世界に迷い込んでみましょう。</p>
+      <p class="top-architecture-description">With neighboring buildings dating as far back to the Meiji Era,<br>experience Kyoto’s rich history and tradition with a modern twist.</p>
 
       <div class="js-fadein">
         <ul class="top-architecture-street">
@@ -120,39 +115,34 @@ $(function() {
     </section>
 
     <section class="top-coliving">
-      <h2 class="section-title">泊まって、食べて、働く</h2>
-      <p class="section-description">UNKNOWN KYOTOは<br class="for-sp">宿泊できるだけの施設ではありません。<br>
-      ベッドでくつろいで、<br class="for-sp"><span class="for-pc">おいしい</span>ご飯を食べて、それから仕事まで。<br>
-      自分の住む家のように<br class="for-sp">過ごせる場所にします。</p>
+      <h2 class="section-title">Enjoy Lodging, Dining and Coworking<br>at UNKNOWN KYOTO</h2>
+      <p class="section-description">Come experience all of what UNKNOWN KYOTO has to offer.<br>The newly renovated hostel opening in the fall of 2019 will have a dining option<br class="for-pc">along with a coworking space for guests to enjoy.</p>
       <ul class="top-coliving-list">
         <li>
           <div class="top-coliving-inner">
-            <h3>泊まる</h3>
-            <p class="top-coliving-description">遊郭の元客室をゆっくりくつろげるベッドのお部屋に。もっと気軽に泊まれる大部屋も用意しています。</p>
+            <h3>Lodging</h3>
+            <p class="top-coliving-description">Relax in the comfort of one of Japan’s original structures. A building filled with rich history and tradition. UNKNOWN KYOTO also offers larger rooms to accommodate our valued guests.</p>
           </div>
         </li>
         <li>
           <div class="top-coliving-inner">
-            <h3>食べる</h3>
-            <p class="top-coliving-description">朝昼は気軽に食事を、夜はオープンなダイニングバーで楽しいひとときを。宿泊者以外もご利用いただけます。</p>
+            <h3>Dining</h3>
+            <p class="top-coliving-description">Whether you’re looking for a quick bite or a place to have a relaxing meal, UNKNOWN KYOTO offers an excellent dining option. In the evening, guests can have a good time at the open dining bar. Non-hostel guest are also welcome!</p>
           </div>
         </li>
         <li>
           <div class="top-coliving-inner">
-            <h3>働く</h3>
-            <p class="top-coliving-description">wifiと電源を完備。旅先にいながらも、しっかりとお仕事することができます。</p>
+            <h3>Coworking</h3>
+            <p class="top-coliving-description">Fully equipped with Wi-Fi and power outlets, UNKNOWN KYOTO provides a comfortable place to get work done while on the road.</p>
           </div>
         </li>
       </ul>
     </section>
 
     <section class="top-funding js-funding" id="funding">
-      <h3 class="top-funding-title">仲間に加わりませんか</h3>
-      <p class="top-funding-description">このプロジェクトを達成させるべく<br>
-        <span class="for-pc">現在</span>クラウドファンディングを実施中です。</p>
-      <p class="top-funding-description">プロジェクトの詳細はリンク先<span class="for-pc">のページ</span>に。<br>
-        みなさんのご支援をお待ちしております。</p>
-      <p class="top-about-funding"><a href="https://hello-renovation.jp/renovations/3428" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/top-funding.svg" alt="クラウドファンディング実施中！"></a></p>
+      <h3 class="top-funding-title">Crowd Funding</h3>
+      <p class="top-funding-description">To achieve our goals in completing this project, crowdfunding is currently underway.<br>For more information on how to support this project, <br class="for-pc">please click the link below. We appreciate your continued support.</p>
+      <p class="top-about-funding"><a href="https://hello-renovation.jp/renovations/3428" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri() ?>/img/en/top-funding.svg" alt="crowd funding"></a></p>
     </section>
   </div>
 
@@ -165,7 +155,7 @@ $(function() {
     <p class="section-link"><a href="https://www.instagram.com/unknownkyoto/" target="_blank" rel="noopener">Follow on Instagram</a></p>
   </section>
   <section class="top-access">
-    <h2 class="top-access-title">河原町駅からも京都駅からも歩けます</h2>
+    <h2 class="top-access-title">Within walking distance from Kawaramachi station and Kyoto station.</h2>
 
     <div class="top-access-map">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1959.2511057065767!2d135.76514277873042!3d34.9937988822923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x79557a17e1c2815d!2sUNKNOWN+KYOTO+GOJO-RAKUEN!5e0!3m2!1sja!2sjp!4v1553674826210" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>

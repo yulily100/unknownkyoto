@@ -32,4 +32,5 @@ get_header(); ?>
 <?php wp_reset_postdata(); ?>
 </div>
 
+<?php get_template_part('footer-funding'); ?>
 <?php get_footer(); ?>

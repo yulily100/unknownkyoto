@@ -33,6 +33,7 @@
 .article-title {
   font-size: 1rem;
   margin: 8px 0 0 0;
+  line-height: 1.5;
   a:hover {
     opacity: .8;
   }
@@ -235,7 +236,7 @@
     }
   }
 }
-.top-contents {
+.blog-contents {
   padding: 40px 0;
   @media #{$mq-sm} {
     padding: 30px 0 0;

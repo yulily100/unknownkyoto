@@ -5,6 +5,7 @@
 body {
   font-family: Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
   -webkit-font-smoothing: antialiased;
+  background: #fff;
 }
 a {
   text-decoration: none;
@@ -22,6 +23,9 @@ ul, li {
   margin: 0;
   list-style: none;
 }
+img {
+  vertical-align: middle;
+}
 .for-pc {
   @media #{$mq-sm} {
     display: none !important;
@@ -36,14 +40,29 @@ ul, li {
 
 // header
 .header {
-  padding: 12px 20px;
+  padding: 0 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 68px;
   @media #{$mq-sm} {
     display: block;
     text-align: center;
     border-bottom: 1px solid $border;
+  }
+
+  // トップページのみ
+  .page-index & {
+    position: absolute;
+    width: 100%;
+    z-index: $z-higher;
+    a {
+      color: #fff;
+    }
+    @media #{$mq-sm} {
+      border: none;
+      display: flex;
+    }
   }
 }
 .header-main {
@@ -80,10 +99,14 @@ ul, li {
   font-family: $vollkorn;
   font-size: 1.1rem;
   letter-spacing: 1px;
-  margin: 0 8px 0 0;
+  margin: 0 4px 0 0;
   a {
     display: inline-block;
-    height: 100%;
+    padding: 4px 6px;
+    transition: inherit;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 .header-sns {
@@ -98,7 +121,45 @@ ul, li {
     width: 24px;
     height: 24px;
   }
+}
 
+.header-language {
+  display: flex;
+  margin: 0 0 0 56px;
+  font-size: .95rem;
+  li:first-child:after {
+    content: "/";
+    padding: 0 4px;
+    color: #fff;
+  }
+  .current-menu-item {
+    font-weight: bold;
+    color: #fff;
+    a {
+      text-decoration: none;
+    }
+  }
+  a {
+    text-decoration: underline;
+  }
+  @media #{$mq-sm} {
+    margin-left: 40px;
+  }
+}
+.header-sns {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  li {
+    margin: 0 0 0 16px;
+  }
+  img {
+    width: 24px;
+    height: 24px;
+  }
+  @media #{$mq-sm} {
+    display: none;
+  }
 }
 
 // footer
