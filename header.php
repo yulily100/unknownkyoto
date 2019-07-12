@@ -37,10 +37,17 @@
       endif;
       ?>
     </title>
-    <?php wp_head(); ?>
 
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" media="screen">
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/img/favicon.png" >
+
+    <?php if ( is_front_page() && is_home() ) : ?>
+      <link rel="alternate" hreflang="en" href="/en">
+    <?php elseif ( is_page('en') ) : ?>
+      <link rel="alternate" hreflang="ja" href="/">
+    <?php endif; ?>
+
+    <?php wp_head(); ?>
   </head>
 
   <?php

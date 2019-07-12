@@ -26,6 +26,8 @@
     </div>
     <p class="footer-copyright">Copyright © UNKNOWN KYOTO</p>
   </footer>
+
+  <?php wp_footer(); ?>
 </body>
 
 

@@ -45,10 +45,12 @@ img {
   align-items: center;
   justify-content: space-between;
   height: 68px;
+  border-bottom: 1px solid $border;
   @media #{$mq-sm} {
     display: block;
     text-align: center;
-    border-bottom: 1px solid $border;
+    padding: 12px 0;
+    height: auto;
   }
 
   // トップページのみ
@@ -56,12 +58,14 @@ img {
     position: absolute;
     width: 100%;
     z-index: $z-higher;
+    border: none;
     a {
       color: #fff;
     }
     @media #{$mq-sm} {
-      border: none;
       display: flex;
+      padding: 20px 12px;
+      height: auto;
     }
   }
 }
@@ -90,9 +94,6 @@ img {
 .header-menu {
   display: flex;
   align-items: center;
-  @media #{$mq-sm} {
-    display: none;
-  }
 }
 .header-nav {
   font-weight: bold;
@@ -106,6 +107,14 @@ img {
     transition: inherit;
     &:hover {
       text-decoration: underline;
+    }
+  }
+  @media #{$mq-sm} {
+    display: none;
+  }
+  .page-index & {
+    @media #{$mq-sm} {
+      display: inline-block;
     }
   }
 }

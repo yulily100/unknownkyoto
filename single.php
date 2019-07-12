@@ -30,7 +30,7 @@
     <li class="entry-pager-next"><?php next_post_link('%link', '%title' ) ?></li>
   </ul>
   </article>
-  <p class="entry-linktotop"><a href="/">UNKNOWN KYOTO BLOG トップへ</a></p>
+  <p class="entry-linktotop"><a href="/blog">UNKNOWN KYOTO BLOG トップへ</a></p>
 
 <?php get_template_part('footer-funding'); ?>
 <?php get_footer(); ?>

@@ -534,24 +534,28 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 68px; }
+  height: 68px;
+  border-bottom: 1px solid #ddd; }
   @media (max-width: 767px) {
     .header {
       display: block;
       text-align: center;
-      border-bottom: 1px solid #ddd; } }
+      padding: 12px 0;
+      height: auto; } }
   .page-index .header {
     position: absolute;
     width: 100%;
-    z-index: 100; }
+    z-index: 100;
+    border: none; }
     .page-index .header a {
       color: #fff; }
     @media (max-width: 767px) {
       .page-index .header {
-        border: none;
         display: -webkit-box;
         display: -ms-flexbox;
-        display: flex; } }
+        display: flex;
+        padding: 20px 12px;
+        height: auto; } }
 
 .header-main {
   display: -webkit-box;
@@ -585,9 +589,6 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-  @media (max-width: 767px) {
-    .header-menu {
-      display: none; } }
 
 .header-nav {
   font-weight: bold;
@@ -602,6 +603,12 @@ img {
     transition: inherit; }
     .header-nav a:hover {
       text-decoration: underline; }
+  @media (max-width: 767px) {
+    .header-nav {
+      display: none; } }
+  @media (max-width: 767px) {
+    .page-index .header-nav {
+      display: inline-block; } }
 
 .header-sns {
   margin-right: auto;
@@ -1116,51 +1123,6 @@ img {
     font-weight: bold;
     letter-spacing: .5px; }
 
-.saboxplugin-wrap {
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  padding: 20px 20px 20px 140px;
-  position: relative;
-  min-height: 140px;
-  box-sizing: border-box;
-  margin: 60px 0 0; }
-  .saboxplugin-wrap p {
-    margin: 0; }
-  .saboxplugin-wrap a:hover {
-    opacity: .8; }
-  @media (max-width: 767px) {
-    .saboxplugin-wrap {
-      margin-left: 6%;
-      margin-right: 6%;
-      padding-left: 100px; } }
-
-.saboxplugin-gravatar {
-  position: absolute;
-  left: 20px; }
-  .saboxplugin-gravatar img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%; }
-  @media (max-width: 767px) {
-    .saboxplugin-gravatar {
-      left: 0; }
-      .saboxplugin-gravatar img {
-        width: 80px;
-        height: 80px; } }
-
-.saboxplugin-authorname {
-  font-weight: bold;
-  margin: 0 0 8px; }
-  .saboxplugin-authorname a {
-    color: #3a372f;
-    text-decoration: none; }
-    .saboxplugin-authorname a:hover {
-      opacity: 1;
-      text-decoration: none; }
-
-.saboxplugin-desc {
-  font-size: .95rem; }
-
 .category {
   margin: 0 0 60px; }
 
@@ -1172,6 +1134,17 @@ img {
     color: #666054;
     font-size: .8rem;
     margin: 0 8px 0 0; }
+
+.page-404 {
+  text-align: center;
+  margin: 100px 0; }
+
+.page-404-top {
+  margin: 20px 0 0 0; }
+  .page-404-top a {
+    color: #7e0f09; }
+    .page-404-top a:hover {
+      text-decoration: underline; }
 
 .js-fadein {
   opacity: 0;
