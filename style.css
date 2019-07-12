@@ -1123,6 +1123,16 @@ img {
     font-weight: bold;
     letter-spacing: .5px; }
 
+.saboxplugin-authorname {
+  font-weight: bold;
+  margin: 0 0 8px; }
+  .saboxplugin-authorname a {
+    color: #3a372f;
+    text-decoration: none; }
+    .saboxplugin-authorname a:hover {
+      opacity: 1;
+      text-decoration: none; }
+
 .category {
   margin: 0 0 60px; }
 

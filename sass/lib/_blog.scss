@@ -426,21 +426,18 @@
 //     }
 //   }
 // }
-// .saboxplugin-authorname {
-//   font-weight: bold;
-//   margin: 0 0 8px;
-//   a {
-//     color: $text;
-//     text-decoration: none;
-//     &:hover {
-//       opacity: 1;
-//       text-decoration: none;
-//     }
-//   }
-// }
-// .saboxplugin-desc {
-//   font-size: .95rem;
-// }
+.saboxplugin-authorname {
+  font-weight: bold;
+  margin: 0 0 8px;
+  a {
+    color: $text;
+    text-decoration: none;
+    &:hover {
+      opacity: 1;
+      text-decoration: none;
+    }
+  }
+}
 
 
 // category
