@@ -39,7 +39,8 @@
     </title>
 
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" media="screen">
-    <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/img/favicon.png" >
+    <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/img/favicon.png">
+    <script src="<?php echo get_template_directory_uri(); ?>/script.js" async></script>
 
     <?php if ( is_front_page() && is_home() ) : ?>
       <link rel="alternate" hreflang="en" href="/en">
