@@ -86,7 +86,7 @@
       </div>
       <div class="header-menu">
         <ul class="header-nav">
-          <li><a href="/blog/">BLOG</a></li>
+          <li><a href="/blog/">Blog</a></li>
         </ul>
 
 
