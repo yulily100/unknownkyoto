@@ -276,8 +276,20 @@
   }
 }
 .entry-content {
+  h2, h3, h4 {
+    margin: 1.8em 40px .8em 40px;
+  }
+  h2 {
+    font-size: 1.6rem;
+  }
+  h3 {
+    font-size: 1.4rem;
+  }
+  h4 {
+    font-size: 1.2rem;
+  }
   p {
-    margin: 0 40px .6em;
+    margin: 0 40px 1em;
     font-size: 1.1rem;
     line-height: 1.8;
   }
@@ -388,7 +400,11 @@
   }
 }
 
-// // 筆者プロフィールを表示
+// 筆者プロフィールを表示
+.saboxplugin-wrap {
+  margin-top: 60px !important;
+}
+
 // .saboxplugin-wrap {
 //   border-top: 1px solid $border;
 //   border-bottom: 1px solid $border;

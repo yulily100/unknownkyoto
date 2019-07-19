@@ -1009,8 +1009,20 @@ img {
     .entry-title {
       font-size: 1.4rem; } }
 
+.entry-content h2, .entry-content h3, .entry-content h4 {
+  margin: 1.8em 40px .8em 40px; }
+
+.entry-content h2 {
+  font-size: 1.6rem; }
+
+.entry-content h3 {
+  font-size: 1.4rem; }
+
+.entry-content h4 {
+  font-size: 1.2rem; }
+
 .entry-content p {
-  margin: 0 40px .6em;
+  margin: 0 40px 1em;
   font-size: 1.1rem;
   line-height: 1.8; }
 
@@ -1122,6 +1134,9 @@ img {
     display: inline-block;
     font-weight: bold;
     letter-spacing: .5px; }
+
+.saboxplugin-wrap {
+  margin-top: 60px !important; }
 
 .saboxplugin-authorname {
   font-weight: bold;
