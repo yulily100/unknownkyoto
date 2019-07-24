@@ -3,5 +3,5 @@
 	add_theme_support('post-thumbnails');
 
 	// entry page
-	add_image_size('entry-top',680, 383, true);
+	add_image_size('entry-top',740, 416, true);
 ?>
