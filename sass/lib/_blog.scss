@@ -247,9 +247,9 @@
 
 // entry
 .entry {
-  max-width: 680px;
+  max-width: 720px;
   margin: 0 auto;
-  padding: 20px 0 0;
+  padding: 40px 0 0;
   @media #{$mq-sm} {
     padding: 0;
   }
@@ -277,21 +277,21 @@
 }
 .entry-content {
   h2, h3, h4 {
-    margin: 1.8em 40px .8em 40px;
+    margin: 2em 40px .8em 40px;
   }
   h2 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
   h3 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
   h4 {
     font-size: 1.2rem;
   }
   p {
-    margin: 0 40px 1em;
+    margin: 0 40px 1.5em;
     font-size: 1.1rem;
-    line-height: 1.8;
+    line-height: 2;
   }
   a {
     color: $primary;
