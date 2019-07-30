@@ -5,11 +5,11 @@ Template Name: blog
 get_header(); ?>
 
 <div class="container">
-  <div class="blog-top">
-    <h1 class="blog-title"><a href="/blog"><span>UNKNOWN KYOTO</span>BLOG</a></h1>
+  <div class="page-header page-blog">
+    <h1 class="page-title"><a href="/blog"><span>UNKNOWN KYOTO</span>BLOG</a></h1>
   </div>
 
-  <div class="blog-contents">
+  <div class="page-contents">
     <div class="wrapper">
       <ul class="article-list">
         <?php

@@ -1,8 +1,5 @@
 <?php get_header(); ?>
-
 <article class="entry">
-
-
   <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
     <p class="entry-thumb">
       <?php the_post_thumbnail('entry-top'); ?>
