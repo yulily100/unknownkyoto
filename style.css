@@ -1041,7 +1041,7 @@ img {
   margin: 2em 0; }
 
 @media (max-width: 767px) {
-  .entry-content p {
+  .entry-content h2, .entry-content h3, .entry-content h4, .entry-content p {
     margin-left: 6%;
     margin-right: 6%; } }
 
