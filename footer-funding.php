@@ -1,4 +1,4 @@
-<!-- <div class="article-funding">
+<div class="article-funding">
   <div class="wrapper">
     <h2 class="article-funding-title">クラウドファンディング<br class="for-sp">実施中！</h2>
     <p class="article-funding-description">UNKNOWN KYOTOでは現在、投資型のクラウドファンディングを実施中です。</p>
@@ -36,7 +36,7 @@
     </div>
   </div>
 </div>
-<div class="wrapper">
+<!-- <div class="wrapper">
   <div class="article-menu">
     <div class="article-menu-contents">
       <h3 class="article-menu-title">category</h3>
