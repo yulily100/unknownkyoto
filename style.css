@@ -985,6 +985,21 @@ img {
     .page-contents {
       padding: 30px 0 0; } }
 
+.entry-breadcrumbs {
+  padding: 8px 20px;
+  background: #EFEFEF;
+  font-size: .8rem;
+  color: #666054; }
+  .entry-breadcrumbs a {
+    color: #7e0f09; }
+    .entry-breadcrumbs a:hover {
+      text-decoration: underline; }
+  .entry-breadcrumbs .current-item {
+    color: #3a372f; }
+
+.entry-breadcrumbs-arrow {
+  margin: 0 6px; }
+
 .entry {
   max-width: 720px;
   margin: 0 auto;
@@ -1014,37 +1029,38 @@ img {
     .entry-title {
       font-size: 1.4rem; } }
 
-.entry-content h2, .entry-content h3, .entry-content h4 {
-  margin: 2em 40px .8em 40px; }
-
-.entry-content h2 {
-  font-size: 1.8rem; }
-
-.entry-content h3 {
-  font-size: 1.5rem; }
-
-.entry-content h4 {
-  font-size: 1.2rem; }
-
-.entry-content p {
-  margin: 0 40px 1.5em;
+.entry-content {
   font-size: 1.1rem;
   line-height: 2; }
-
-.entry-content a {
-  color: #7e0f09;
-  text-decoration: underline; }
-  .entry-content a:hover {
-    opacity: .8;
+  .entry-content h2, .entry-content h3, .entry-content h4 {
+    margin: 2.2em 40px .8em 40px; }
+  .entry-content h2 {
+    font-size: 1.8rem; }
+  .entry-content h3 {
+    font-size: 1.5rem; }
+  .entry-content h4 {
+    font-size: 1.2rem; }
+  .entry-content p {
+    margin: 0 40px 1.5em; }
+  .entry-content a {
+    color: #7e0f09;
     text-decoration: underline; }
-
-.entry-content .wp-block-image {
-  margin: 2em 0; }
-
-@media (max-width: 767px) {
-  .entry-content h2, .entry-content h3, .entry-content h4, .entry-content p {
-    margin-left: 6%;
-    margin-right: 6%; } }
+    .entry-content a:hover {
+      opacity: .8;
+      text-decoration: underline; }
+  .entry-content .wp-block-image {
+    margin: 2em 0; }
+  .entry-content .wp-block-quote {
+    background: #EFEFEF;
+    padding: 20px 32px;
+    margin: 0 40px 1.5em;
+    line-height: 1.6; }
+    .entry-content .wp-block-quote p {
+      margin: 0; }
+  @media (max-width: 767px) {
+    .entry-content h2, .entry-content h3, .entry-content h4, .entry-content p {
+      margin-left: 6%;
+      margin-right: 6%; } }
 
 .entry-share {
   text-align: center;

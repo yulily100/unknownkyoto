@@ -252,6 +252,27 @@
 
 
 // blog
+
+// パンくず
+.entry-breadcrumbs {
+  padding: 8px 20px;
+  background: $bg-gray;
+  font-size: .8rem;
+  color: $text-light;
+  a {
+    color: $primary;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .current-item {
+    color: $text;
+  }
+}
+.entry-breadcrumbs-arrow {
+  margin: 0 6px;
+}
+
 .entry {
   max-width: 720px;
   margin: 0 auto;
@@ -283,8 +304,10 @@
   }
 }
 .entry-content {
+  font-size: 1.1rem;
+  line-height: 2;
   h2, h3, h4 {
-    margin: 2em 40px .8em 40px;
+    margin: 2.2em 40px .8em 40px;
   }
   h2 {
     font-size: 1.8rem;
@@ -297,8 +320,6 @@
   }
   p {
     margin: 0 40px 1.5em;
-    font-size: 1.1rem;
-    line-height: 2;
   }
   a {
     color: $primary;
@@ -312,6 +333,17 @@
   .wp-block-image {
     margin: 2em 0;
   }
+  // 引用
+  .wp-block-quote {
+    background: $bg-gray;
+    padding: 20px 32px;
+    margin: 0 40px 1.5em;
+    line-height: 1.6;
+    p {
+      margin: 0;
+    }
+  }
+
   @media #{$mq-sm} {
     h2, h3, h4, p {
       margin-left: 6%;

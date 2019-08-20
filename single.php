@@ -1,4 +1,12 @@
 <?php get_header(); ?>
+<div class="entry-breadcrumbs">
+  <div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
+    <?php if(function_exists('bcn_display'))
+    {
+     bcn_display();
+    }?>
+  </div>
+</div>
 <article class="entry">
   <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
     <p class="entry-thumb">
