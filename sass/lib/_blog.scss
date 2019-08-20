@@ -259,6 +259,10 @@
   background: $bg-gray;
   font-size: .8rem;
   color: $text-light;
+  span {
+    display: inline-block;
+    vertical-align: bottom;
+  }
   a {
     color: $primary;
     &:hover {
@@ -267,6 +271,16 @@
   }
   .current-item {
     color: $text;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    @media #{$mq-xs} {
+      max-width: 220px;
+    }
+    @media #{$mq-320} {
+      max-width: 160px;
+    }
   }
 }
 .entry-breadcrumbs-arrow {

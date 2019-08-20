@@ -990,12 +990,25 @@ img {
   background: #EFEFEF;
   font-size: .8rem;
   color: #666054; }
+  .entry-breadcrumbs span {
+    display: inline-block;
+    vertical-align: bottom; }
   .entry-breadcrumbs a {
     color: #7e0f09; }
     .entry-breadcrumbs a:hover {
       text-decoration: underline; }
   .entry-breadcrumbs .current-item {
-    color: #3a372f; }
+    color: #3a372f;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block; }
+    @media (max-width: 480px) {
+      .entry-breadcrumbs .current-item {
+        max-width: 220px; } }
+    @media (max-width: 360px) {
+      .entry-breadcrumbs .current-item {
+        max-width: 160px; } }
 
 .entry-breadcrumbs-arrow {
   margin: 0 6px; }
