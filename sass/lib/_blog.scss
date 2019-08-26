@@ -275,6 +275,9 @@
     overflow: hidden;
     text-overflow: ellipsis;
     display: inline-block;
+    br {
+      display: none;
+    }
     @media #{$mq-xs} {
       max-width: 220px;
     }

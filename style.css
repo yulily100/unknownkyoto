@@ -1003,6 +1003,8 @@ img {
     overflow: hidden;
     text-overflow: ellipsis;
     display: inline-block; }
+    .entry-breadcrumbs .current-item br {
+      display: none; }
     @media (max-width: 480px) {
       .entry-breadcrumbs .current-item {
         max-width: 220px; } }
