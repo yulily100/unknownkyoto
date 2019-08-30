@@ -14,7 +14,7 @@ get_header(); ?>
       <ul class="article-list">
         <?php
         $args = array(
-          'posts_per_page' => 12,
+          'posts_per_page' => 18,
         );
         $post_query = new WP_Query( $args );
         ?>
