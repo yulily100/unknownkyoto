@@ -167,7 +167,7 @@
 }
 .article-pager {
   text-align: center;
-  margin: 40px 0 0;
+  margin: 40px 0 20px;
   font-weight: bold;
   letter-spacing: .5px;
   a:hover {
@@ -175,6 +175,29 @@
   }
   @media #{$mq-sm} {
     margin-bottom: 40px;
+  }
+  .page-numbers {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 28px;
+    border: 2px solid $text;
+    color: $text;
+    margin: 0 2px;
+    &.current {
+      background: $text;
+      color: #fff;
+    }
+    &.next, &.prev {
+      border-color: transparent;
+    }
+    &:hover {
+      background: $text;
+      color: #fff;
+      opacity: 1;
+    }
   }
 }
 

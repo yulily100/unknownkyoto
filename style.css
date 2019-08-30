@@ -910,7 +910,7 @@ img {
 
 .article-pager {
   text-align: center;
-  margin: 40px 0 0;
+  margin: 40px 0 20px;
   font-weight: bold;
   letter-spacing: .5px; }
   .article-pager a:hover {
@@ -918,6 +918,25 @@ img {
   @media (max-width: 767px) {
     .article-pager {
       margin-bottom: 40px; } }
+  .article-pager .page-numbers {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 28px;
+    border: 2px solid #3a372f;
+    color: #3a372f;
+    margin: 0 2px; }
+    .article-pager .page-numbers.current {
+      background: #3a372f;
+      color: #fff; }
+    .article-pager .page-numbers.next, .article-pager .page-numbers.prev {
+      border-color: transparent; }
+    .article-pager .page-numbers:hover {
+      background: #3a372f;
+      color: #fff;
+      opacity: 1; }
 
 .wrapper {
   margin-right: 5%;
