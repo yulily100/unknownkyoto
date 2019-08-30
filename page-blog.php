@@ -14,7 +14,7 @@ get_header(); ?>
       <ul class="article-list">
         <?php
         $args = array(
-          'posts_per_page' => 15,
+          'posts_per_page' => 12,
           'paged' => get_query_var('paged'),
           'orderby' => 'date',
           'order' => 'DESC',
