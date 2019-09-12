@@ -1,22 +1,5 @@
 // layout
 
-@mixin article-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 -15px;
-  > li {
-    flex-basis: calc(100% / 3 - 30px);
-    margin: 0 15px;
-  }
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-  @media #{$mq-sm} {
-    display: block;
-  }
-}
-
 .article-list {
   @include article-list;
   > li {
@@ -201,16 +184,6 @@
   }
 }
 
-
-.wrapper {
-  margin-right: 5%;
-  margin-left: 5%;
-  @media #{$mq-lg} {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-}
-
 // page
 .page-header {
   text-align: center;
@@ -348,6 +321,7 @@
   line-height: 2;
   h2, h3, h4 {
     margin: 2.2em 40px .8em 40px;
+    line-height: 1.4;
   }
   h2 {
     font-size: 1.8rem;
@@ -381,6 +355,10 @@
     line-height: 1.6;
     p {
       margin: 0;
+    }
+    @media #{$mq-sm} {
+      margin-left: 6%;
+      margin-right: 6%;
     }
   }
 
@@ -482,6 +460,17 @@
 // 筆者プロフィールを表示
 .saboxplugin-wrap {
   margin-top: 60px !important;
+  @media #{$mq-sm} {
+    margin-left: 6%;
+    margin-right: 6%;
+    box-sizing: border-box;
+    width: auto !important;
+  }
+}
+.saboxplugin-desc {
+  @media #{$mq-sm} {
+    text-align: left !important;
+  }
 }
 
 // .saboxplugin-wrap {

@@ -76,7 +76,7 @@ $(function() {
   </div>
 </div>
 
-<div class="top-wrapper">
+<div class="wrapper">
   <section class="top-about">
     <div class="top-about-intro js-fadein">
       <h2 class="top-about-title"><img src="<?php echo get_template_directory_uri() ?>/img/top-about-title.svg" alt="UNKNOWN KYOTO"></h2>
@@ -146,6 +146,39 @@ $(function() {
     </section>
   </div>
 
+  <section class="top-article">
+    <h2 class="top-article-title">BLOG</h2>
+    <ul class="top-article-list">
+      <?php
+      $args = array(
+        'posts_per_page' => 8,
+        'paged' => get_query_var('paged'),
+        'orderby' => 'date',
+        'order' => 'DESC',
+        'post_type' => 'post',
+        'post_status' => 'publish'
+      );
+      $post_query = new WP_Query( $args );
+      ?>
+
+      <?php if ( $post_query->have_posts()) :
+        while ( $post_query->have_posts()) : $post_query->the_post();
+        $image_id = get_post_thumbnail_id(); ?>
+      <li>
+        <a href="<?php the_permalink(); ?>" class="article-thumb">
+          <?php the_post_thumbnail('thumbnail'); ?>
+        </a>
+        <span class="article-detail">
+          <span class="article-category"><?php the_category(); ?></span>
+          <span class="article-date"><?php echo get_the_date(); ?></span>
+        </span>
+        <h2 class="article-title"><a href="<?php the_permalink(); ?>"><?php echo get_the_title(); ?></a></h2>
+      </li>
+    <?php endwhile;endif; wp_reset_query();?>
+    </ul>
+    <p class="section-link"><a href="/blog">Read more</a></p>
+  </section>
+
   <section class="top-instafeed">
     <ul id="js-instafeed" class="top-instafeed-list">
       <h2 class="top-instafeed-title">
@@ -154,13 +187,13 @@ $(function() {
     </ul>
     <p class="section-link"><a href="https://www.instagram.com/unknownkyoto/" target="_blank" rel="noopener">Follow on Instagram</a></p>
   </section>
-  <section class="top-access">
-    <h2 class="top-access-title">Within walking distance from Kawaramachi station and Kyoto station.</h2>
-
-    <div class="top-access-map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1959.2511057065767!2d135.76514277873042!3d34.9937988822923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x79557a17e1c2815d!2sUNKNOWN+KYOTO+GOJO-RAKUEN!5e0!3m2!1sja!2sjp!4v1553674826210" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </div>
-  </section>
 </div>
+<section class="top-access">
+  <h2 class="top-access-title">Within walking distance from Kawaramachi station and Kyoto station.</h2>
+
+  <div class="top-access-map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1959.2511057065767!2d135.76514277873042!3d34.9937988822923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x79557a17e1c2815d!2sUNKNOWN+KYOTO+GOJO-RAKUEN!5e0!3m2!1sja!2sjp!4v1553674826210" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+</section>
 
 <?php get_footer(); ?>

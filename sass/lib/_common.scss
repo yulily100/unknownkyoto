@@ -1,6 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Vollkorn');
 
 
+// mixin
+@mixin article-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+  > li {
+    flex-basis: calc(100% / 3 - 30px);
+    margin: 0 15px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  @media #{$mq-sm} {
+    display: block;
+  }
+}
+
+
 // Common
 body {
   font-family: Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
@@ -26,6 +45,21 @@ ul, li {
 img {
   vertical-align: middle;
 }
+.wrapper {
+  margin-right: 80px;
+  margin-left: 80px;
+  @media #{$mq-lg} {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  @media #{$mq-sm} {
+    margin: 0 8%;
+  }
+  @media #{$mq-320} {
+    margin: 0 1em;
+  }
+}
+
 .for-pc {
   @media #{$mq-sm} {
     display: none !important;
