@@ -2002,3 +2002,344 @@ img {
 .lang-en .top-main-funding a {
   font-size: .95rem;
   padding-top: 72px; }
+
+.page-office .header {
+  display: none; }
+
+.office-main {
+  height: 100vh;
+  position: relative;
+  background: url("img/office/office-main.jpg");
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.office-main-link {
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+  font-weight: bold;
+  font-size: .9rem; }
+  .office-main-link span {
+    font-family: "Vollkorn", serif;
+    margin: 0 4px 0 0;
+    letter-spacing: .8px; }
+  .office-main-link a {
+    color: #fff;
+    display: inline-block;
+    padding: 12px 48px 12px 12px;
+    border: 1px solid #fff;
+    letter-spacing: .5px;
+    position: relative;
+    background: rgba(0, 0, 0, 0.3); }
+    .office-main-link a:before {
+      content: "";
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      border-bottom: 1px solid #fff;
+      border-right: 1px solid #fff;
+      right: -5px;
+      bottom: -5px; }
+    .office-main-link a:after {
+      content: "";
+      position: absolute;
+      background: url("img/office/office-main-link.svg");
+      background-size: 34px 6px;
+      width: 34px;
+      height: 6px;
+      display: inline-block;
+      -webkit-transition: -webkit-transform .3s ease-out 0s;
+      transition: -webkit-transform .3s ease-out 0s;
+      transition: transform .3s ease-out 0s;
+      transition: transform .3s ease-out 0s, -webkit-transform .3s ease-out 0s;
+      top: 15px;
+      right: 8px; }
+    .office-main-link a:hover:after {
+      -webkit-transform: translateX(2px);
+          -ms-transform: translateX(2px);
+              transform: translateX(2px); }
+  @media (max-width: 767px) {
+    .office-main-link {
+      width: 300px;
+      left: 0;
+      right: 0;
+      margin: 0 auto; } }
+
+.office-title {
+  color: #fff;
+  margin: 12px 0 0 0; }
+  .office-title img {
+    width: 440px;
+    height: 170px; }
+  @media (max-width: 767px) {
+    .office-title {
+      width: 400px;
+      max-width: 80%; }
+      .office-title img {
+        width: 100%;
+        height: auto; } }
+
+.office-nav {
+  position: absolute;
+  top: 0;
+  right: 40px; }
+
+.office-nav-menu {
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: bold;
+  font-size: .9rem; }
+  .office-nav-menu li {
+    margin: 0 4px; }
+  .office-nav-menu a {
+    color: #fff;
+    display: inline-block;
+    padding: 7px 8px 6px; }
+    .office-nav-menu a:hover {
+      opacity: .8; }
+
+.office-nav-contact {
+  background: #d3b471; }
+  .office-nav-contact:hover {
+    opacity: 1 !important;
+    background: #dbc28c; }
+
+.office-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  @media (max-width: 767px) {
+    .office-about {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: reverse;
+          -ms-flex-flow: column-reverse;
+              flex-flow: column-reverse; } }
+
+.office-about-image {
+  width: 50%;
+  background: url("img/office/about-01.jpg");
+  background-position: center;
+  background-size: cover; }
+  @media (max-width: 767px) {
+    .office-about-image {
+      width: 100%;
+      height: 240px; } }
+
+.office-about-text {
+  -ms-flex-preferred-size: 420px;
+      flex-basis: 420px;
+  margin: 40px 0 40px 60px; }
+  @media (max-width: 1035px) {
+    .office-about-text {
+      -ms-flex-preferred-size: calc(50% - 80px);
+          flex-basis: calc(50% - 80px);
+      margin-left: 40px;
+      margin-right: 40px; } }
+  @media (max-width: 767px) {
+    .office-about-text {
+      margin: 40px 8%; } }
+
+.office-about-title {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin: 0 0 8px 0; }
+  @media (max-width: 767px) {
+    .office-about-title {
+      font-size: 1.3rem; } }
+
+.office-about-description {
+  font-size: .9rem;
+  line-height: 1.6;
+  font-weight: bold;
+  margin: 0 0 20px; }
+
+.office-about-suggestion {
+  border-top: 1px solid #B2ACA3;
+  border-bottom: 1px solid #B2ACA3;
+  position: relative;
+  padding: 16px 8px; }
+  .office-about-suggestion:before, .office-about-suggestion:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0;
+    border-top: 1px solid #B2ACA3;
+    position: absolute;
+    left: 0; }
+  .office-about-suggestion:before {
+    top: 2px; }
+  .office-about-suggestion:after {
+    bottom: 2px; }
+  @media (max-width: 767px) {
+    .office-about-suggestion {
+      padding-left: 0;
+      padding-right: 0; } }
+
+.office-about-suggestion-title {
+  font-size: .95rem;
+  margin: 0 0 8px; }
+
+.office-about-suggestion-list {
+  font-size: .9rem; }
+  .office-about-suggestion-list li {
+    margin: 0 0 4px 0; }
+
+.office-section {
+  padding: 40px 0;
+  text-align: center; }
+  .office-section.bg {
+    background: #f2eee7; }
+
+.office-section-inner {
+  max-width: 960px;
+  margin: 0 auto; }
+  @media (max-width: 1035px) {
+    .office-section-inner {
+      margin: 0 40px; } }
+  @media (max-width: 767px) {
+    .office-section-inner {
+      margin: 0 8%; } }
+
+.office-section-title {
+  font-family: "Vollkorn", serif;
+  font-size: 1.8rem;
+  letter-spacing: 1.5px;
+  margin: 0 0 32px; }
+  .office-section-title span {
+    display: block;
+    font-family: sans-serif;
+    font-size: .85rem;
+    color: #666054;
+    letter-spacing: 3px;
+    margin: 4px 0 0 0; }
+
+.office-facilities-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 -15px; }
+  .office-facilities-list > li {
+    -ms-flex-preferred-size: calc(100% / 3 - 30px);
+        flex-basis: calc(100% / 3 - 30px);
+    margin: 0 15px 30px; }
+  @media (max-width: 767px) {
+    .office-facilities-list {
+      display: block; } }
+
+.office-facilities-img {
+  width: 100%;
+  height: 200px;
+  display: inline-block;
+  background: #ddd;
+  margin: 0 0 12px; }
+
+.office-facilities-title {
+  font-size: 1rem;
+  margin: 0 0 8px; }
+
+.office-facilities-description {
+  text-align: left;
+  font-size: .9rem;
+  line-height: 1.4; }
+
+.office-plan-price {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.15rem;
+  border-top: 1px solid #B2ACA3;
+  border-bottom: 1px solid #B2ACA3;
+  padding: 12px 16px;
+  margin: 0 0 32px;
+  position: relative; }
+  .office-plan-price:before, .office-plan-price:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0;
+    border-top: 1px solid #B2ACA3;
+    position: absolute;
+    left: 0; }
+  .office-plan-price:before {
+    top: 2px; }
+  .office-plan-price:after {
+    bottom: 2px; }
+
+.office-plan-notice {
+  text-align: left;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0 0 0 32px;
+  font-size: .9rem; }
+  .office-plan-notice li {
+    list-style-type: square;
+    margin: 0 0 8px 0; }
+
+.office-access {
+  position: relative; }
+  @media (max-width: 767px) {
+    .office-access iframe {
+      height: 300px; } }
+
+.office-access-route {
+  position: absolute;
+  background: #fff;
+  right: 0;
+  top: 0;
+  margin: 10px;
+  padding: 12px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+  border-radius: 2px;
+  font-size: .9rem;
+  line-height: 1.3; }
+  .office-access-route .station {
+    width: 130px; }
+  .office-access-route .time {
+    width: 60px; }
+  @media (max-width: 767px) {
+    .office-access-route {
+      display: none; } }
+
+.office-contact-btn {
+  margin: -12px 0 0 0; }
+  .office-contact-btn a {
+    display: inline-block;
+    background: #d3b471;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.05rem;
+    padding: 16px 0;
+    width: 300px;
+    position: relative; }
+    .office-contact-btn a span {
+      display: block;
+      font-size: .9rem;
+      margin: 4px 0 0 0; }
+    .office-contact-btn a:before {
+      content: "";
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      border-bottom: 1px solid #B2ACA3;
+      border-right: 1px solid #B2ACA3;
+      right: -5px;
+      bottom: -5px; }
+    .office-contact-btn a:hover {
+      background: #dbc28c; }
+  @media (max-width: 767px) {
+    .office-contact-btn a {
+      max-width: 100%; } }

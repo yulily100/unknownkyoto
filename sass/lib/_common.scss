@@ -45,7 +45,7 @@ ul, li {
 img {
   vertical-align: middle;
 }
-.wrapper {
+@mixin wrapper {
   margin-right: 80px;
   margin-left: 80px;
   @media #{$mq-lg} {
@@ -58,6 +58,9 @@ img {
   @media #{$mq-320} {
     margin: 0 1em;
   }
+}
+.wrapper {
+  @include wrapper;
 }
 
 .for-pc {

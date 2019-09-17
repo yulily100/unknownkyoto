@@ -58,6 +58,9 @@
     elseif ( is_page('en') ) {
       $body_class = "page-index lang-en";
     }
+    elseif ( is_page('office') ) {
+      $body_class = "page-office";
+    }
   ?>
   <body class="<?php echo $body_class; ?>">
     <header class="header">
