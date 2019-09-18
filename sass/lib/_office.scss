@@ -36,6 +36,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  @media #{$mq-sm} {
+    height: 360px;
+  }
 }
 .office-main-link {
   position: absolute;
@@ -100,6 +103,7 @@
   @media #{$mq-sm} {
     width: 400px;
     max-width: 80%;
+    margin: -12px 0 0 0;
     img {
       width: 100%;
       height: auto;
@@ -110,6 +114,9 @@
   position: absolute;
   top: 0;
   right: 40px;
+  @media #{$mq-sm} {
+    display: none;
+  }
 }
 .office-nav-menu {
   padding: 20px 0;
@@ -118,6 +125,16 @@
   font-size: .9rem;
   li {
     margin: 0 4px;
+  }
+  .office-nav-contact {
+    margin: 0 0 0 12px;
+    a {
+      background: $secondary;
+      &:hover {
+        opacity: 1;
+        background: lighten($secondary, 7%);
+      }
+    }
   }
   a {
     color: #fff;
@@ -128,13 +145,7 @@
     }
   }
 }
-.office-nav-contact {
-  background: $secondary;
-  &:hover {
-    opacity: 1 !important;
-    background: lighten($secondary, 7%);
-  }
-}
+
 
 .office-about {
   display: flex;
