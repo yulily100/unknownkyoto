@@ -1,6 +1,6 @@
 <?php get_header(); ?>
-<div class="l-container">
-	<div class="subpage">
+<div>
+	<div>
 			<?php
 			// Start the loop.
 			while ( have_posts() ) : the_post();
