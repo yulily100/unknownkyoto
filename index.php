@@ -59,13 +59,14 @@ $(function() {
 </script>
 
 <div class="top-main">
-  <div>
+  <div class="top-main-inner">
     <h1 class="top-main-logo"><img src="<?php echo get_template_directory_uri(); ?>/img/top-logo.svg" alt="UNKNOWN KYOTO"></h1>
     <p class="top-main-description">Hostel, Dining, Co-working</p>
     <p class="top-main-open"><img src="<?php echo get_template_directory_uri(); ?>/img/header-open.png" alt="2019秋OPEN予定"></p>
   </div>
 
   <p class="top-main-funding"><a href="#funding">クラウドファンディング<br class="for-pc">実施中！</a></p>
+  <p class="btn-main-area"><a href="https://unknown.kyoto/office"><span>UNKNOWN KYOTO</span>本池中はこちら</a></p>
 
   <div class="top-main-image">
     <img src="<?php echo get_template_directory_uri(); ?>/img/top-image/05.jpg" alt="UNKNOWN KYOTO" class="top-image5">
