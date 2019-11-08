@@ -2161,15 +2161,15 @@ img {
       margin: 40px 8%; } }
 
 .office-about-title {
-  font-size: 1.5rem;
-  line-height: 1.5;
+  font-size: 1.8rem;
+  line-height: 1.4;
   margin: 0 0 8px 0; }
   @media (max-width: 767px) {
     .office-about-title {
       font-size: 1.3rem; } }
 
 .office-about-description {
-  font-size: .9rem;
+  font-size: .95rem;
   line-height: 1.6;
   font-weight: bold;
   margin: 0 0 20px; }
@@ -2178,7 +2178,7 @@ img {
   border-top: 1px solid #B2ACA3;
   border-bottom: 1px solid #B2ACA3;
   position: relative;
-  padding: 16px 8px; }
+  padding: 16px 0; }
   .office-about-suggestion:before, .office-about-suggestion:after {
     content: "";
     display: block;
@@ -2201,7 +2201,7 @@ img {
   margin: 0 0 8px; }
 
 .office-about-suggestion-list {
-  font-size: .9rem; }
+  font-size: .95rem; }
   .office-about-suggestion-list li {
     margin: 0 0 4px 0; }
 
@@ -2297,6 +2297,30 @@ img {
   .office-plan-notice li {
     list-style-type: square;
     margin: 0 0 8px 0; }
+
+.office-blog-title {
+  font-size: 1.3rem;
+  margin: 0 0 12px; }
+
+.office-blog-description {
+  line-height: 1.5;
+  margin: 0 0 20px 0; }
+  @media (max-width: 767px) {
+    .office-blog-description {
+      text-align: left; } }
+
+.office-blog-list {
+  font-size: 1.1rem;
+  margin: 0 auto; }
+  .office-blog-list li {
+    margin: 0 0 8px 0; }
+  .office-blog-list a {
+    text-decoration: underline; }
+    .office-blog-list a:hover {
+      opacity: .7; }
+  @media (max-width: 767px) {
+    .office-blog-list {
+      text-align: left; } }
 
 .office-access {
   position: relative; }
