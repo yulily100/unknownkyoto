@@ -84,7 +84,7 @@ $(function() {
       <p class="top-about-description">
         京都の元遊郭建築を<br class="for-sp">リノベーションした空間で<br>
         泊まって、食べて、働いて。</p>
-      <p class="top-about-description">現在リノベーション工事中、<br class="for-sp">2019年秋頃オープン予定です。</p>
+      <p class="top-about-description">2019年11月27日、<br class="for-sp">飲食部門とコワーキングを<br>先行して開業します。</p>
       <div class="top-about-img">
         <img src="<?php echo get_template_directory_uri(); ?>/img/top-about.png" alt="元遊郭建築">
       </div>
