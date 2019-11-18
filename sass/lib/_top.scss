@@ -19,31 +19,6 @@
   transition: all .5s;
 }
 
-.btn-primary {
-  color: #fff;
-  background: $primary;
-  text-decoration: none;
-  display: inline-block;
-  padding: 8px 0;
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.1rem;
-  width: 360px;
-  border-radius: 4px;
-  span {
-    margin: -2px 0 0 0;
-    display: block;
-    font-weight: normal;
-    font-size: .8rem;
-  }
-  &:hover {
-    background: darken($primary, 5%);
-  }
-  @media #{$mq-sm} {
-    width: 100%;
-  }
-}
-
 
 
 // トップだけ特別なheader
@@ -328,35 +303,9 @@
   text-align: right;
   font-family: $vollkorn;
   a {
-    text-decoration: none;
-    color: $text;
-    display: inline-block;
     border-bottom: 2px solid $primary;
-    padding: 6px 46px 6px 6px;
-    position: relative;
-    &:hover {
-      color: lighten($text, 10%);
-    }
-    &:after {
-      content: "";
-      position: absolute;
-      background: url("img/section-link.svg");
-      background-size: 34px 6px;
-      width: 34px;
-      height: 6px;
-      display: inline-block;
-      transition: transform .3s ease-out 0s;
-      top: 12px;
-      right: 6px;
-    }
-    &:hover:after {
-      transform: translateX(4px);
-    }
+    @include link-arrow-right();
   }
-}
-.section-link-img {
-  width: 36px;
-  height: 10px;
 }
 
 

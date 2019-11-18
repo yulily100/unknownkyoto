@@ -822,6 +822,43 @@ img {
         display: block;
         margin: 0 0 4px 0; } }
 
+.btn-primary {
+  margin: 0 0 12px 0; }
+  .btn-primary a {
+    display: inline-block;
+    background: #7e0f09;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.05rem;
+    padding: 16px 0;
+    width: 300px;
+    position: relative; }
+    .btn-primary a span {
+      display: block;
+      font-size: .9rem;
+      margin: 4px 0 0 0; }
+    .btn-primary a:before {
+      content: "";
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      border-bottom: 1px solid #B2ACA3;
+      border-right: 1px solid #B2ACA3;
+      right: -5px;
+      bottom: -5px; }
+    .btn-primary a:hover {
+      background: #9f130b; }
+  @media (max-width: 767px) {
+    .btn-primary a {
+      max-width: 100%; } }
+
+.section {
+  padding: 40px 0;
+  text-align: center; }
+  .section.bg {
+    background: #f2eee7; }
+
 .article-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1362,28 +1399,6 @@ img {
   -webkit-transition: all .5s;
   transition: all .5s; }
 
-.btn-primary {
-  color: #fff;
-  background: #7e0f09;
-  text-decoration: none;
-  display: inline-block;
-  padding: 8px 0;
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.1rem;
-  width: 360px;
-  border-radius: 4px; }
-  .btn-primary span {
-    margin: -2px 0 0 0;
-    display: block;
-    font-weight: normal;
-    font-size: .8rem; }
-  .btn-primary:hover {
-    background: #660c07; }
-  @media (max-width: 767px) {
-    .btn-primary {
-      width: 100%; } }
-
 .header-top {
   position: absolute;
   top: 0;
@@ -1667,10 +1682,8 @@ img {
   text-align: right;
   font-family: "Vollkorn", serif; }
   .section-link a {
-    text-decoration: none;
-    color: #3a372f;
-    display: inline-block;
     border-bottom: 2px solid #7e0f09;
+    display: inline-block;
     padding: 6px 46px 6px 6px;
     position: relative; }
     .section-link a:hover {
@@ -1693,10 +1706,6 @@ img {
       -webkit-transform: translateX(4px);
           -ms-transform: translateX(4px);
               transform: translateX(4px); }
-
-.section-link-img {
-  width: 36px;
-  height: 10px; }
 
 .top-contents {
   max-width: 960px;
@@ -2234,6 +2243,10 @@ img {
     letter-spacing: 3px;
     margin: 4px 0 0 0; }
 
+.office-section-description {
+  margin: -12px 0 28px;
+  line-height: 1.4; }
+
 .office-facilities-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2264,6 +2277,16 @@ img {
   text-align: left;
   font-size: .9rem;
   line-height: 1.4; }
+
+.office-facilities-price {
+  color: #666054;
+  text-align: left;
+  margin: 8px 0 0 0; }
+  .office-facilities-price a {
+    text-decoration: underline; }
+    .office-facilities-price a:hover {
+      text-decoration: underline;
+      color: #565246; }
 
 .office-plan-price {
   display: inline-block;
@@ -2391,32 +2414,27 @@ img {
   .onlySP {
     display: block; } }
 
-table {
+.table-comparison {
+  margin: 3em 0;
+  border-top: 0;
   width: 100%;
   margin: 1em 0;
   padding: 0;
   border-top: 1px solid #cfcfcf;
   border-left: 1px solid #cfcfcf; }
-
-th,
-td {
-  padding: 1.25em 1em;
-  border-right: 1px solid #cfcfcf;
-  border-bottom: 1px solid #cfcfcf; }
-
-th {
-  background-color: #e9e9e9;
-  font-weight: bold;
-  text-align: left; }
-
-thead th {
-  background: #555;
-  color: #fff;
-  text-align: center; }
-
-.table-comparison {
-  margin: 3em 0;
-  border-top: 0; }
+  .table-comparison th,
+  .table-comparison td {
+    padding: 1.25em 1em;
+    border-right: 1px solid #cfcfcf;
+    border-bottom: 1px solid #cfcfcf; }
+  .table-comparison th {
+    background-color: #e9e9e9;
+    font-weight: bold;
+    text-align: left; }
+  .table-comparison thead th {
+    background: #555;
+    color: #fff;
+    text-align: center; }
 
 .table-comparison th,
 .table-comparison td {
@@ -2504,3 +2522,255 @@ thead th {
 #office-floor p.onlySP a {
   font-size: 1.0rem;
   text-decoration: underline; }
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes fadein {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.coworking-title {
+  font-family: "Vollkorn", serif;
+  letter-spacing: 4px;
+  font-size: 2.4rem;
+  line-height: 1.1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 80px 0;
+  text-align: center;
+  -webkit-animation: fadein 1s ease-in 0s;
+          animation: fadein 1s ease-in 0s; }
+  .coworking-title a {
+    color: #fff;
+    display: inline-block;
+    margin: 0 16px; }
+  @media (max-width: 767px) {
+    .coworking-title {
+      padding: 50px 0;
+      font-size: 2rem; } }
+
+.coworking-about {
+  text-align: center;
+  margin: 40px 0; }
+
+.coworking-about-description {
+  line-height: 1.4;
+  margin: 0 0 32px; }
+
+.coworking-about-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .coworking-about-image img {
+    width: 100%; }
+  .coworking-about-image .image-1 {
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover; }
+  .coworking-about-image .image-2 {
+    margin: 0 0 30px 0; }
+  @media (max-width: 767px) {
+    .coworking-about-image {
+      display: block; }
+      .coworking-about-image .image-2 {
+        margin: 0 0 24px 0; } }
+
+.coworking-about-image-left {
+  width: calc(65% - 30px);
+  margin-right: 30px; }
+  @media (max-width: 767px) {
+    .coworking-about-image-left {
+      width: 100%;
+      margin: 0 0 24px; } }
+
+.coworking-about-image-right {
+  width: 35%; }
+  @media (max-width: 767px) {
+    .coworking-about-image-right {
+      width: 100%; } }
+
+.coworking-options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 -10px;
+  padding: 0 20px; }
+  .coworking-options > li {
+    -ms-flex-preferred-size: calc(100% / 5 - 20px);
+        flex-basis: calc(100% / 5 - 20px);
+    margin: 0 10px 20px; }
+  @media (max-width: 767px) {
+    .coworking-options {
+      display: block; } }
+  @media (max-width: 767px) {
+    .coworking-options {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      padding: 0; }
+      .coworking-options > li {
+        -ms-flex-preferred-size: calc(100% / 2 - 20px);
+            flex-basis: calc(100% / 2 - 20px); } }
+
+.coworking-options-title {
+  font-size: 1rem; }
+
+.coworking-options-description {
+  font-size: .85rem;
+  color: #666054;
+  margin: 8px 0 0 0; }
+
+.coworking-plan {
+  max-width: 800px;
+  margin: 0 auto; }
+
+.coworking-plan-title {
+  text-align: left;
+  color: #7e0f09;
+  margin: 0 0 12px 0; }
+
+.cowoking-plan-block {
+  border-top: 1px solid #B2ACA3;
+  border-bottom: 1px solid #B2ACA3;
+  position: relative;
+  margin: 0 0 20px 0;
+  padding: 12px; }
+  .cowoking-plan-block:before, .cowoking-plan-block:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0;
+    border-top: 1px solid #B2ACA3;
+    position: absolute;
+    left: 0; }
+  .cowoking-plan-block:before {
+    top: 2px; }
+  .cowoking-plan-block:after {
+    bottom: 2px; }
+  @media (max-width: 767px) {
+    .cowoking-plan-block {
+      padding: 12px 0; } }
+
+.coworking-plan-tabel {
+  width: 100%;
+  font-size: 1.06rem;
+  text-align: left; }
+  .coworking-plan-tabel th {
+    position: relative;
+    padding: 8px 0 8px 20px;
+    width: 35%; }
+    .coworking-plan-tabel th .name {
+      display: inline-block; }
+    .coworking-plan-tabel th .member {
+      font-size: .8rem;
+      color: #666054;
+      margin: 0 0 0 12px;
+      display: inline-block;
+      line-height: 19px;
+      vertical-align: top; }
+    .coworking-plan-tabel th:before {
+      content: "";
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      background-color: #3a372f;
+      position: absolute;
+      top: 12px;
+      left: 0; }
+  .coworking-plan-tabel .price {
+    width: 30%; }
+  @media (max-width: 767px) {
+    .coworking-plan-tabel tr, .coworking-plan-tabel th, .coworking-plan-tabel td {
+      display: block; }
+    .coworking-plan-tabel tr {
+      margin: 0 0 12px; }
+    .coworking-plan-tabel th {
+      width: 100%; }
+    .coworking-plan-tabel .price {
+      width: 100%;
+      margin: 0 0 4px; } }
+
+.coworking-plan-notice {
+  text-align: left;
+  margin: 0 auto;
+  padding: 0 0 0 30px;
+  margin: 0 0 40px;
+  font-size: .9rem; }
+  .coworking-plan-notice li {
+    list-style-type: square;
+    margin: 0 0 6px 0; }
+  @media (max-width: 767px) {
+    .coworking-plan-notice {
+      padding: 0 0 0 20px; } }
+
+.coworking-rental-description {
+  text-align: left;
+  line-height: 1.4;
+  font-size: .9rem;
+  margin: 0 0 12px; }
+
+.coworking-rental-plan {
+  border-top: 1px solid #B2ACA3;
+  border-bottom: 1px solid #B2ACA3;
+  position: relative;
+  line-height: 1.5;
+  padding: 8px 0; }
+  .coworking-rental-plan:before, .coworking-rental-plan:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0;
+    border-top: 1px solid #B2ACA3;
+    position: absolute;
+    left: 0; }
+  .coworking-rental-plan:before {
+    top: 2px; }
+  .coworking-rental-plan:after {
+    bottom: 2px; }
+
+.coworking-rental-btn {
+  margin: 12px 0 0 0;
+  font-size: .9rem;
+  font-weight: bold; }
+  .coworking-rental-btn a {
+    display: inline-block;
+    padding: 6px 46px 6px 6px;
+    position: relative; }
+    .coworking-rental-btn a:hover {
+      color: #565246; }
+    .coworking-rental-btn a:after {
+      content: "";
+      position: absolute;
+      background: url("img/section-link.svg");
+      background-size: 34px 6px;
+      width: 34px;
+      height: 6px;
+      display: inline-block;
+      -webkit-transition: -webkit-transform .3s ease-out 0s;
+      transition: -webkit-transform .3s ease-out 0s;
+      transition: transform .3s ease-out 0s;
+      transition: transform .3s ease-out 0s, -webkit-transform .3s ease-out 0s;
+      top: 8px;
+      right: 6px; }
+    .coworking-rental-btn a:hover:after {
+      -webkit-transform: translateX(4px);
+          -ms-transform: translateX(4px);
+              transform: translateX(4px); }
