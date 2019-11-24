@@ -134,7 +134,7 @@ $(function() {
     <div class="coworking-shareoffice">
       <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/honikenaka.jpg" alt="UNKNOWN KYOTO本池中" class="coworking-shareoffice-img">
       <h3 class="coworking-shareoffice-title">シェアオフィス <br class="for-sp">UNKNOWN KYOTO 本池中</h3>
-      <p class="coworking-shareoffice-description">UNKNOWN KYOTOには、個室が集まった別館【UNKNOWN KYOTO本池中】がございます。<br>
+      <p class="coworking-shareoffice-description">UNKNOWN KYOTOには別館【UNKNOWN KYOTO 本池中】がございます。こちらには4.5帖と6帖の個室があるので併せてご覧ください。<br>
       別館の会員も本館のフリースペースを利用することができます。</p>
       <p class="coworking-shareoffice-btn"><a href="/office">UNKNOWN KYOTO本池中はこちら</a></p>
     </div>
