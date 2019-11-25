@@ -4,34 +4,6 @@
 
 <script>
 $(function() {
-  // scroll event
-  $(window).scroll(function () {
-    var wh = $(window).height();
-    var scroll = $(window).scrollTop();
-
-    // Nロゴの色を変える
-    if (scroll > wh ) {
-      $('.header-n-logo').addClass('is-active');
-    } else {
-      $('.header-n-logo').removeClass('is-active');
-    }
-
-    // .js-fadein が付けられた要素をふわっと表示
-    $fadeIn.each(function() {
-      var targetElement = $(this).offset().top;
-      if (scroll > targetElement - wh + 200){
-        $(this).css('opacity','1');
-        $(this).css('transform','translateY(0)');
-      }
-    });
-
-    $('.js-funding').each(function() {
-      var targetElement = $(this).offset().top;
-      if (scroll > targetElement - wh ) {
-        $('.top-main-funding').addClass('is-active');
-      }
-    });
-  });
 
   // ページ内をなめらかにスクロール
   $('a[href^="#"]').click(function() {
@@ -109,24 +81,24 @@ $(function() {
     </ul>
     <ul class="coworking-options">
       <li>
-        <img src="" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/coworking-wifi.svg" alt="高速wifi">
         <h3 class="coworking-options-title">高速wifi</h3>
       </li>
       <li>
-        <img src="" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/coworking-locker.svg" alt="">
         <h3 class="coworking-options-title">ロッカー</h3>
       </li>
       <li>
-        <img src="" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/coworking-printer.svg" alt="">
         <h3 class="coworking-options-title">プリンター</h3>
       </li>
       <li>
-        <img src="" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/coworking-speaker.svg" alt="">
         <h3 class="coworking-options-title">スピーカー</h3>
         <p class="coworking-options-description">※イベント使用時のみ</p>
       </li>
       <li>
-        <img src="" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/coworking-monitor.svg" alt="">
         <h3 class="coworking-options-title">モニター</h3>
         <p class="coworking-options-description">※イベント使用時のみ</p>
       </li>
@@ -144,8 +116,8 @@ $(function() {
 <section id="office-floor" class="section">
   <div class="office-section-inner">
     <h2 class="office-section-title">Floor<span>フロア</span></h2>
-<img src="/wp-content/themes/unknownkyoto/img/office/plan.png" alt="間取り図" style="width:100%">
-<p class="onlySP"><a href="/wp-content/themes/unknownkyoto/img/office/plan.png" target="honikenaka" rel="noopener noreferrer">新規ウインドウで拡大して表示する</a></p>
+    <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/floor.png" alt="フロア図" class="coworking-floor-img">
+<p class="onlySP"><a href="<?php echo get_template_directory_uri(); ?>/img/coworking/floor.png" target="honikenaka" rel="noopener noreferrer">新規ウインドウで拡大して表示する</a></p>
 </div></section>
 
 <section id="office-plan" class="section bg">

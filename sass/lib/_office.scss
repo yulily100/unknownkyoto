@@ -215,6 +215,7 @@
   color: $text-light;
   text-align: left;
   margin: 8px 0 0 0;
+  font-size: .9rem;
   a {
     @include link-text;
   }
@@ -529,8 +530,14 @@
 }
 
 .coworking-options {
+  img {
+    width: 80px;
+    height: 80px;
+    margin: 0 0 8px 0;
+  }
   @include column5;
   padding: 0 20px;
+  margin: 40px -10px 0;
   @media #{$mq-sm} {
     display: flex;
     padding: 0;
@@ -604,6 +611,12 @@
   }
 }
 
+.coworking-floor-img {
+  width: 100%;
+}
+
+
+// プラン・価格
 .coworking-plan {
   max-width: 800px;
   margin: 0 auto;
