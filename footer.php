@@ -15,7 +15,10 @@
         </div>
         <div class="footer-info">
           <h2 class="footer-title"><img src="<?php echo get_template_directory_uri(); ?>/img/footer-logo.svg" alt="UNKNOWN KYOTO"></h2>
-          <p class="footer-text">〒600-8118<br class="for-sp">京都府京都市下京区平居町55番地１</p>
+          <p class="footer-text">〒600-8118 <br class="for-sp">京都府京都市下京区平居町55番地１</p>
+          <p class="footer-text">075-746-4635（代表）<br>
+            075-746-4665（飲食）
+          </p>
           <ul class="footer-company">
             <li><a href="https://enjoyworks.jp/" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/footer-ew.png" alt="ENJOYWORKS"></a></li>
             <li><a href="https://www.hachise.jp/" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/footer-hachise.png" alt="八清"></a></li>

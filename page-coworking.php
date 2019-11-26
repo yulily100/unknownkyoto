@@ -20,7 +20,7 @@ $(function() {
 
 
 <div class="container">
-  <div class="page-header page-blog">
+  <div class="page-header page-coworking">
     <h1 class="coworking-title"><a href="/coworking">Coworking</a></h1>
   </div>
 </div>
@@ -32,11 +32,11 @@ $(function() {
       宿泊者もご利用いただけるコワーキングスペースです。</p>
     <div class="coworking-about-image">
       <div class="coworking-about-image-left">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/main-1.png" alt="四角デスク写真" class="image-1">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/main-1.jpg" alt="四角デスク" class="image-1">
       </div>
       <div class="coworking-about-image-right">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/main-2.png" alt="窓際デスク写真" class="image-2">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/main-3.png" alt="壁際デスク写真">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/main-2.jpg" alt="窓際デスク" class="image-2">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/main-3.jpg" alt="壁際デスク">
       </div>
     </div>
   </div>
@@ -47,33 +47,33 @@ $(function() {
     <h2 class="office-section-title">Facilities<span>施設・設備</span></h2>
     <ul class="office-facilities-list">
       <li>
-        <img src="" alt="" class="office-facilities-img">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/facilities-freespace.jpg" alt="フリースペース" class="office-facilities-img">
         <h3 class="office-facilities-title">フリースペース</h3>
         <p class="office-facilities-description">自由に使っていただける空間です。場所を固定しないフリーアドレス制となっています。</p>
       </li>
       <li>
-        <img src="" alt="" class="office-facilities-img">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/facilities-privateroom.jpg" alt="個室" class="office-facilities-img">
         <h3 class="office-facilities-title">個室</h3>
         <p class="office-facilities-description">大個室と小個室があります。個室会員はフリースペースもご利用いただけます。</p>
       </li>
       <li>
-        <img src="" alt="" class="office-facilities-img">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/facilities-living.jpg" alt="リビング" class="office-facilities-img">
         <h3 class="office-facilities-title">リビング</h3>
         <p class="office-facilities-description">くつろげるソファがあります。他の会員との交流や、簡単な打ち合わせにも使えます。</p>
       </li>
       <li>
-        <img src="" alt="" class="office-facilities-img">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/facilities-kitchen.jpg" alt="キッチン" class="office-facilities-img">
         <h3 class="office-facilities-title">キッチン</h3>
         <p class="office-facilities-description">簡単な料理のほか、買ってきた食べ物を温めたり飲み物を冷やしておけます。</p>
       </li>
       <li>
-        <img src="" alt="" class="office-facilities-img">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/facilities-meetingroom.jpg" alt="会議室" class="office-facilities-img">
         <h3 class="office-facilities-title">会議室</h3>
         <p class="office-facilities-description">4人ほどで使える小さな会議室です。落ち着いて打ち合わせすることができます。</p>
         <p class="office-facilities-price"><a href="#rentalspace">詳しくはこちら</a></p>
       </li>
       <li>
-        <img src="" alt="" class="office-facilities-img">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/facilities-meetingroom2.jpg" alt="本池中会議室" class="office-facilities-img">
         <h3 class="office-facilities-title">本池中会議室</h3>
         <p class="office-facilities-description">別館であるUNKNOWN KYOTO本池中の会議室を利用することもできます。</p>
         <p class="office-facilities-price"><a href="#rentalspace">詳しくはこちら</a></p>
@@ -202,7 +202,7 @@ $(function() {
       ご利用の当日は受付のスタッフまで<br class="for-sp">お声掛けください。</p>
     <ul class="office-facilities-list">
       <li>
-        <img src="" alt="" class="office-facilities-img">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/event.jpg" alt="イベント利用" class="office-facilities-img">
         <h3 class="office-facilities-title">イベント利用</h3>
         <p class="coworking-rental-description">フリースペースでイベントが行えます。スピーカーとモニターが利用可能です。</p>
         <p class="coworking-rental-plan">7,000円＋税/1時間<br>
@@ -220,7 +220,7 @@ $(function() {
         <p class="coworking-rental-btn"><a href="https://calendar.google.com/calendar/embed?src=unknown.kyoto_1888eqjoh1j6chk9h6ehd9b1ve3co6gb6sp3acpj6os36chk6k%40resource.calendar.google.com&ctz=Asia%2FTokyo" target="_blank" rel="noopener">カレンダーで空きを確認</a></p>
       </li>
       <li>
-        <img src="" alt="" class="office-facilities-img">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/facilities-meetingroom2.jpg" alt="本池中会議室" class="office-facilities-img">
         <h3 class="office-facilities-title">本池中会議室</h3>
         <p class="coworking-rental-description">別館であるUNKNOWN KYOTO本池中の会議室です。畳敷きの和室です。</p>
         <p class="coworking-rental-plan">1,000円＋税/1時間<br>
