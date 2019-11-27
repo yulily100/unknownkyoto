@@ -212,7 +212,7 @@ $(function() {
         <p class="coworking-rental-btn"><a href="https://calendar.google.com/calendar/embed?src=unknown.kyoto_1885cn5hd6mo2jdjkhgei9r0kgas06gb74rjgd9i6gr3edpl6g%40resource.calendar.google.com&ctz=Asia%2FTokyo" target="_blank" rel="noopener">カレンダーで空きを確認</a></p>
       </li>
       <li>
-        <img src="" alt="" class="office-facilities-img">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/facilities-meetingroom.jpg" alt="会議室" class="office-facilities-img">
         <h3 class="office-facilities-title">会議室</h3>
         <p class="coworking-rental-description">4人ほどで使える小さな会議室です。落ち着いて打ち合わせすることができます。</p>
         <p class="coworking-rental-plan">1,000円＋税/1時間<br>
