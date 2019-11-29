@@ -82,30 +82,54 @@ $(function() {
     <div class="top-about-intro js-fadein">
       <h2 class="top-about-title"><img src="<?php echo get_template_directory_uri(); ?>/img/top-about-title.svg" alt="UNKNOWN KYOTO"></h2>
       <p class="top-about-description">
-        京都の元遊郭建築を<br class="for-sp">リノベーションした空間で<br>
-        泊まって、食べて、働いて。</p>
-      <p class="top-about-description">2019年11月27日、<br class="for-sp">飲食部門とコワーキングを<br>先行して開業します。</p>
+        UNKNOWN KYOTOは<br>
+        京都の元遊郭建築をリノベーション<br class="for-sp">した宿泊複合施設です。<br>
+        ベッドでくつろいで、おいしいご飯を食べて、それから仕事まで。<br>
+        自分の住む家のように過ごせます。
+      </p>
       <div class="top-about-img">
         <img src="<?php echo get_template_directory_uri(); ?>/img/top-about.png" alt="元遊郭建築">
       </div>
-
     </div>
   </section>
+  <div class="top-contents">
+    <section class="top-coliving">
+      <ul class="top-coliving-list">
+        <li>
+          <div class="top-coliving-inner">
+            <h3>泊まる</h3>
+            <p class="top-coliving-description">遊郭の元客室をゆっくりくつろげるベッドのお部屋に。もっと気軽に泊まれる大部屋も用意しています。</p>
+            <p class="top-coliving-notion">※ 宿泊部門の開業は2020年1月末を予定しています。</p>
+          </div>
+        </li>
+        <li>
+          <div class="top-coliving-inner">
+            <h3>食べる</h3>
+            <p class="top-coliving-description">昼は気軽に食事を、夜はオープンなダイニングバーで楽しいひとときを。</p>
+            <p class="top-coliving-restaurant">
+              <span>昼営業 11:30-15:00</span><br>
+              Sin / スパイスオアダイ</p>
+            <p class="top-coliving-restaurant">
+              <span>夜営業 17:00-23:00</span><br>
+              Sin / アンノウン食堂</p>
+          </div>
+        </li>
+        <li>
+          <div class="top-coliving-inner">
+            <h3>働く</h3>
+            <p class="top-coliving-description">wifiと電源を完備。旅先にいながらも、しっかりとお仕事することができます。</p>
+            <p class="top-coliving-btn"><a href="/coworking">詳しくはこちら</a></p>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </div>
 
   <div class="top-contents">
-    <section class="top-architecture">
-      <h2 class="section-title">知られざる京都<span class="for-pc">、</span><br class="for-sp">五條楽園</h2>
+    <section class="top-location">
+      <h2 class="top-location-title">知られざる京都<span class="for-pc">、</span><br class="for-sp">五條楽園</h2>
 
-      <p class="section-description">かつて「五條楽園」と呼ばれた<br class="for-sp">このエリアは<br class="for-pc">すぐ近くに鴨川と<br class="for-sp">高瀬川が流れ、迷路のように<br>細い路地が入り組んだ、古き良き<br class="for-sp">佇まいを残したまち。<br class="for-pc">そんな中に<br class="for-sp">UNKNOWN KYOTOはあります。</p>
-      <p class="section-description">今回、隣り合う二棟の元お茶屋建築を<br class="for-sp">リノベーションして<br class="for-pc">コリビング施設<br class="for-sp">として生まれ変わらせます。</p>
-
-      <ul class="top-architecture-interior js-fadein">
-        <li class="big"><img src="<?php echo get_template_directory_uri(); ?>/img/photo/arch-01.jpg" alt=""></li>
-        <li class="small"><img src="<?php echo get_template_directory_uri(); ?>/img/photo/arch-02.jpg" alt=""></li>
-      </ul>
-
-      <p class="top-architecture-description">五條楽園には今も多くの<br class="for-sp">元遊郭建築が残っています。<br>
-      その世界に迷い込んでみましょう。</p>
+      <p class="top-location-description">かつて「五條楽園」と呼ばれた<br class="for-sp">このエリアは<br class="for-pc">すぐ近くに鴨川と<br class="for-sp">高瀬川が流れ、迷路のように<br>細い路地が入り組んだ、古き良き<br class="for-sp">佇まいを残したまち。<br class="for-pc">そんな中に<br class="for-sp">UNKNOWN KYOTOはあります。</p>
 
       <div class="js-fadein">
         <ul class="top-architecture-street">
@@ -120,32 +144,6 @@ $(function() {
 
     </section>
 
-    <section class="top-coliving">
-      <h2 class="section-title">泊まって、食べて、働く</h2>
-      <p class="section-description">UNKNOWN KYOTOは<br class="for-sp">宿泊できるだけの施設ではありません。<br>
-      ベッドでくつろいで、<br class="for-sp"><span class="for-pc">おいしい</span>ご飯を食べて、それから仕事まで。<br>
-      自分の住む家のように<br class="for-sp">過ごせる場所にします。</p>
-      <ul class="top-coliving-list">
-        <li>
-          <div class="top-coliving-inner">
-            <h3>泊まる</h3>
-            <p class="top-coliving-description">遊郭の元客室をゆっくりくつろげるベッドのお部屋に。もっと気軽に泊まれる大部屋も用意しています。</p>
-          </div>
-        </li>
-        <li>
-          <div class="top-coliving-inner">
-            <h3>食べる</h3>
-            <p class="top-coliving-description">朝昼は気軽に食事を、夜はオープンなダイニングバーで楽しいひとときを。宿泊者以外もご利用いただけます。</p>
-          </div>
-        </li>
-        <li>
-          <div class="top-coliving-inner">
-            <h3>働く</h3>
-            <p class="top-coliving-description">wifiと電源を完備。旅先にいながらも、しっかりとお仕事することができます。</p>
-          </div>
-        </li>
-      </ul>
-    </section>
 
     <section class="top-funding js-funding" id="funding">
       <h3 class="top-funding-title">仲間に加わりませんか</h3>

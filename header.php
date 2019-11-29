@@ -89,6 +89,7 @@
       </div>
       <div class="header-menu">
         <ul class="header-nav">
+          <li><a href="/coworking">Coworking</a></li>
           <li><a href="/blog/">Blog</a></li>
         </ul>
 

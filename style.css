@@ -609,7 +609,10 @@ img {
   font-family: "Vollkorn", serif;
   font-size: 1.1rem;
   letter-spacing: 1px;
-  margin: 0 4px 0 0; }
+  margin: 0 4px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
   .header-nav a {
     display: inline-block;
     padding: 4px 6px;
@@ -622,7 +625,9 @@ img {
       display: none; } }
   @media (max-width: 767px) {
     .page-index .header-nav {
-      display: inline-block; } }
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; } }
 
 .header-sns {
   margin-right: auto;
@@ -730,7 +735,8 @@ img {
       height: auto; } }
 
 .footer-text {
-  font-size: .9rem; }
+  line-height: 1.4;
+  margin: 0 0 4px 0; }
 
 .footer-company {
   display: -webkit-box;
@@ -1065,6 +1071,8 @@ img {
     background-image: url("img/page-header/blog.jpg"); }
   .page-header.page-member {
     background-image: url("img/page-header/member.jpg"); }
+  .page-header.page-coworking {
+    background-image: url("img/page-header/coworking.jpg"); }
 
 .page-title {
   font-family: "Vollkorn", serif;
@@ -1605,15 +1613,7 @@ img {
 
 .top-about {
   padding-top: 80px;
-  text-align: center;
-  background: url("img/section-border.svg") no-repeat center bottom;
-  background-size: 20px 60px;
-  margin-bottom: 100px;
-  padding-bottom: 140px; }
-  @media (max-width: 767px) {
-    .top-about {
-      margin-bottom: 60px;
-      padding-bottom: 100px; } }
+  text-align: center; }
   @media (max-width: 767px) {
     .top-about {
       padding-top: 60px; } }
@@ -1630,7 +1630,7 @@ img {
   font-weight: bold;
   font-size: 1.2rem;
   line-height: 1.8;
-  letter-spacing: 1px;
+  letter-spacing: .5px;
   margin: 0 0 1.2em; }
   @media (max-width: 767px) {
     .top-about-description {
@@ -1716,6 +1716,33 @@ img {
   @media (max-width: 1035px) {
     .top-contents {
       max-width: 600px; } }
+
+.top-location {
+  margin: 0 0 120px;
+  background: url("img/section-border.svg") no-repeat center bottom;
+  background-size: 20px 60px;
+  margin-bottom: 100px;
+  padding-bottom: 140px; }
+  @media (max-width: 767px) {
+    .top-location {
+      margin-bottom: 60px;
+      padding-bottom: 100px; } }
+
+.top-location-title {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  margin: 0.8em 0; }
+  @media (max-width: 767px) {
+    .top-location-title {
+      font-size: 1.4rem;
+      letter-spacing: 1.5px; } }
+
+.top-location-description {
+  margin: 0 0 3em 0;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  letter-spacing: .5px;
+  font-weight: bold; }
 
 .top-architecture {
   margin: 0 0 120px; }
@@ -1877,11 +1904,52 @@ img {
 
 .top-coliving-description {
   text-align: left;
-  margin: 0;
-  line-height: 1.8; }
+  line-height: 1.7;
+  margin: 0 0 4px; }
   @media (max-width: 767px) {
     .top-coliving-description {
       font-size: .9rem; } }
+
+.top-coliving-notion {
+  text-align: left;
+  font-size: .9rem;
+  line-height: 1.5; }
+
+.top-coliving-restaurant {
+  text-align: left;
+  margin: 0 0 4px;
+  line-height: 1.4; }
+  .top-coliving-restaurant span {
+    font-weight: bold; }
+
+.top-coliving-btn {
+  font-weight: bold;
+  margin: 20px 0 0 0; }
+  .top-coliving-btn a {
+    display: inline-block;
+    padding: 6px 46px 6px 6px;
+    position: relative;
+    border-bottom: 2px solid #7e0f09; }
+    .top-coliving-btn a:hover {
+      color: #565246; }
+    .top-coliving-btn a:after {
+      content: "";
+      position: absolute;
+      background: url("img/section-link.svg");
+      background-size: 34px 6px;
+      width: 34px;
+      height: 6px;
+      display: inline-block;
+      -webkit-transition: -webkit-transform .3s ease-out 0s;
+      transition: -webkit-transform .3s ease-out 0s;
+      transition: transform .3s ease-out 0s;
+      transition: transform .3s ease-out 0s, -webkit-transform .3s ease-out 0s;
+      top: 10px;
+      right: 6px; }
+    .top-coliving-btn a:hover:after {
+      -webkit-transform: translateX(4px);
+          -ms-transform: translateX(4px);
+              transform: translateX(4px); }
 
 .top-funding {
   max-width: 800px;
@@ -2264,7 +2332,7 @@ img {
 
 .office-facilities-img {
   width: 100%;
-  height: 200px;
+  height: auto;
   display: inline-block;
   background: #ddd;
   margin: 0 0 12px; }
@@ -2550,7 +2618,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 80px 0;
+  padding: 120px 0;
   text-align: center;
   -webkit-animation: fadein 1s ease-in 0s;
           animation: fadein 1s ease-in 0s; }

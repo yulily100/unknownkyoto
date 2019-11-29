@@ -230,7 +230,6 @@
 .top-about {
   padding-top: 80px;
   text-align: center;
-  @include footer-border;
   @media #{$mq-sm} {
     padding-top: 60px;
   }
@@ -248,7 +247,7 @@
   font-weight: bold;
   font-size: 1.2rem;
   line-height: 1.8;
-  letter-spacing: 1px;
+  letter-spacing: .5px;
   margin: 0 0 1.2em;
   @media #{$mq-sm} {
     font-size: 1rem;
@@ -319,6 +318,27 @@
   @media #{$mq-md} {
     max-width: 600px;
   }
+}
+
+.top-location {
+  margin: 0 0 120px;
+  @include footer-border;
+}
+.top-location-title {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  margin: 0.8em 0;
+  @media #{$mq-sm} {
+    font-size: 1.4rem;
+    letter-spacing: 1.5px;
+  }
+}
+.top-location-description {
+  margin: 0 0 3em 0;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  letter-spacing: .5px;
+  font-weight: bold;
 }
 
 .top-architecture {
@@ -463,11 +483,33 @@
 }
 .top-coliving-description {
   text-align: left;
-  margin: 0;
-  line-height: 1.8;
+  line-height: 1.7;
+  margin: 0 0 4px;
   @media #{$mq-sm} {
     font-size: .9rem;
   }
+}
+.top-coliving-notion {
+  text-align: left;
+  font-size: .9rem;
+  line-height: 1.5;
+}
+.top-coliving-restaurant {
+  text-align: left;
+  margin: 0 0 4px;
+  line-height: 1.4;
+  span {
+    font-weight: bold;
+  }
+}
+.top-coliving-btn {
+  font-weight: bold;
+  margin: 20px 0 0 0;
+  a {
+    @include link-arrow-right($top:10px);
+    border-bottom: 2px solid $primary;
+  }
+
 }
 
 .top-funding {

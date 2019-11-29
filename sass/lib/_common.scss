@@ -171,6 +171,7 @@ img {
   font-size: 1.1rem;
   letter-spacing: 1px;
   margin: 0 4px 0 0;
+  display: flex;
   a {
     display: inline-block;
     padding: 4px 6px;
@@ -184,7 +185,7 @@ img {
   }
   .page-index & {
     @media #{$mq-sm} {
-      display: inline-block;
+      display: flex;
     }
   }
 }
@@ -296,7 +297,8 @@ img {
   }
 }
 .footer-text {
-  font-size:.9rem;
+  line-height: 1.4;
+  margin: 0 0 4px 0;
 }
 .footer-company {
   display: flex;
