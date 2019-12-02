@@ -668,6 +668,16 @@
   .price {
     width: 30%;
   }
+  .is-full {
+    &:after {
+      content: "満室";
+      position: absolute;
+      right: 40px;
+      top: 20px;
+      font-weight: bold;
+      color: #ff3645;
+    }
+  }
   @media #{$mq-sm} {
     tr, th, td {
       display: block;

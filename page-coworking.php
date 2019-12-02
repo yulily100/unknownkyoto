@@ -87,20 +87,22 @@ $(function() {
       <li>
         <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/coworking-locker.svg" alt="">
         <h3 class="coworking-options-title">ロッカー</h3>
+        <p class="coworking-options-description">月額利用者のみ</p>
       </li>
       <li>
         <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/coworking-printer.svg" alt="">
         <h3 class="coworking-options-title">プリンター</h3>
+        <p class="coworking-options-description">A4 1枚10円</p>
       </li>
       <li>
         <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/coworking-speaker.svg" alt="">
         <h3 class="coworking-options-title">スピーカー</h3>
-        <p class="coworking-options-description">※イベント使用時のみ</p>
+        <p class="coworking-options-description">イベント使用時のみ</p>
       </li>
       <li>
         <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/coworking-monitor.svg" alt="">
         <h3 class="coworking-options-title">モニター</h3>
-        <p class="coworking-options-description">※イベント使用時のみ</p>
+        <p class="coworking-options-description">イベント使用時のみ</p>
       </li>
     </ul>
     <div class="coworking-shareoffice">
@@ -146,14 +148,14 @@ $(function() {
         <li>オプションとして登記利用が 5,000円＋税/月 で可能です。</li>
         <li>ゲストを会議室に呼ぶ場合は無料ですが、フリースペース利用時には1ドリンク必要です。</li>
         <li>備え付けの机・椅子の利用が可能です。</li>
-        <li>駐輪場はフルタイム会員は 1,500円＋税/月、週末会員は 1,000円＋税/月  で1台ご利用いただけます。</li>
+        <li>駐輪場は、フルタイム会員：1,500円＋税/月・週末会員：1,000円＋税/月  で1台ご利用いただけます。</li>
         <li>ロッカーの利用が可能です。（大2,500円＋税/月, 中2,000円＋税/月, 小1,500円+税/月）</li>
       </ul>
       <h3 class="coworking-plan-title">個室利用</h3>
       <div class="cowoking-plan-block">
         <table class="coworking-plan-tabel">
           <tbody>
-            <tr>
+            <tr class="is-full">
               <th><span class="name">大個室</span><span class="member">6人まで会員登録可</span></th>
               <td class="price">￥85,000＋税/月</td>
               <td>24時間</td>
@@ -161,7 +163,7 @@ $(function() {
             <tr>
               <th><span class="name">小個室</span><span class="member">4人まで会員登録可</span></th>
               <td class="price">￥50,000＋税/月</td>
-              <td>24 時間</td>
+              <td>24時間</td>
             </tr>
           </tbody>
         </table>
@@ -170,7 +172,7 @@ $(function() {
         <li>入会金 5,000円＋税 が必要です。</li>
         <li>登記利用が無料です。</li>
         <li>ゲストを個室や会議室に呼ぶ場合は無料ですが、フリースペース利用時は1ドリンク/2時間が必要です。</li>
-        <li>駐輪場１台分は無料ですが、二台目からは１枠 1,500円＋税/月 が必要です。</li>
+        <li>駐輪場１台分は無料ですが、二台目からは１台 1,500円＋税/月 が必要です。</li>
         <li>備え付けの机の利用が可能です。椅子は各自お好きなものをご用意ください。</li>
       </ul>
       <h3 class="coworking-plan-title">時間利用</h3>
@@ -180,7 +182,7 @@ $(function() {
             <tr>
               <th>ドロップイン</th>
               <td class="price">1ドリンク/2時間</td>
-              <td>7:00〜22:00</td>
+              <td>10:00〜18:00</td>
             </tr>
           </tbody>
         </table>
@@ -216,7 +218,7 @@ $(function() {
         <h3 class="office-facilities-title">会議室</h3>
         <p class="coworking-rental-description">4人ほどで使える小さな会議室です。落ち着いて打ち合わせすることができます。</p>
         <p class="coworking-rental-plan">1,000円＋税/1時間<br>
-        毎日:7:00~22:00</p>
+        毎日:10:00~18:00</p>
         <p class="coworking-rental-btn"><a href="https://calendar.google.com/calendar/embed?src=unknown.kyoto_1888eqjoh1j6chk9h6ehd9b1ve3co6gb6sp3acpj6os36chk6k%40resource.calendar.google.com&ctz=Asia%2FTokyo" target="_blank" rel="noopener">カレンダーで空きを確認</a></p>
       </li>
       <li>
@@ -224,7 +226,7 @@ $(function() {
         <h3 class="office-facilities-title">本池中会議室</h3>
         <p class="coworking-rental-description">別館であるUNKNOWN KYOTO本池中の会議室です。畳敷きの和室です。</p>
         <p class="coworking-rental-plan">1,000円＋税/1時間<br>
-          毎日:7:00~22:00</p>
+          毎日:10:00~18:00</p>
         <p class="coworking-rental-btn"><a href="https://calendar.google.com/calendar/embed?src=unknown.kyoto_1888b9a18gqv4ggtnk34evr8m1btq6gb68p3gd9n6ko3ad9o6k%40resource.calendar.google.com&ctz=Asia%2FTokyo" target="_blank" rel="noopener">カレンダーで空きを確認</a></p>
       </li>
     </ul>

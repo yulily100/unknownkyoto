@@ -107,10 +107,10 @@ $(function() {
             <h3>食べる</h3>
             <p class="top-coliving-description">昼は気軽に食事を、夜はオープンなダイニングバーで楽しいひとときを。</p>
             <p class="top-coliving-restaurant">
-              <span>昼営業 11:30-15:00</span><br>
+              <span>昼営業 11:30-15:00 (14:30 L.O.)</span><br>
               Sin / スパイスオアダイ</p>
             <p class="top-coliving-restaurant">
-              <span>夜営業 17:00-23:00</span><br>
+              <span>夜営業 17:00-23:00 (22:00 L.O.)</span><br>
               Sin / アンノウン食堂</p>
           </div>
         </li>
