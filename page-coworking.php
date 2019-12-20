@@ -157,12 +157,12 @@ $(function() {
           <tbody>
             <tr class="is-full">
               <th><span class="name">大個室</span><span class="member">6人まで会員登録可</span></th>
-              <td class="price">￥85,000＋税/月</td>
+              <td class="price">85,000円＋税/月</td>
               <td>24時間</td>
             </tr>
             <tr>
               <th><span class="name">小個室</span><span class="member">4人まで会員登録可</span></th>
-              <td class="price">￥50,000＋税/月</td>
+              <td class="price">50,000円＋税/月</td>
               <td>24時間</td>
             </tr>
           </tbody>
@@ -181,7 +181,7 @@ $(function() {
           <tbody>
             <tr>
               <th>ドロップイン</th>
-              <td class="price">1ドリンク/2時間</td>
+              <td class="price">500円/2時間<span class="price-notice">（1ドリンク付き）</span></td>
               <td>10:00〜18:00</td>
             </tr>
           </tbody>

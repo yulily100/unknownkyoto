@@ -668,6 +668,9 @@
   .price {
     width: 30%;
   }
+  .price-notice {
+    font-size: .8rem;
+  }
   .is-full {
     &:after {
       content: "満室";
