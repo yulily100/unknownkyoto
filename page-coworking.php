@@ -206,7 +206,7 @@ $(function() {
       <li>
         <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/event.jpg" alt="イベント利用" class="office-facilities-img">
         <h3 class="office-facilities-title">イベント利用</h3>
-        <p class="coworking-rental-description">フリースペースでイベントが行えます。スピーカーとモニターが利用可能です。</p>
+        <p class="coworking-rental-description">フリースペースでイベントが行えます。スピーカーとモニターが利用可能。３時間以上からご利用いただけます。</p>
         <p class="coworking-rental-plan">7,000円＋税/1時間<br>
         水金:18:00~22:00<br>
         土:10:00~22:00</p>

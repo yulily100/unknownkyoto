@@ -99,7 +99,7 @@ $(function() {
           <div class="top-coliving-inner">
             <h3>泊まる</h3>
             <p class="top-coliving-description">遊郭の元客室をゆっくりくつろげるベッドのお部屋に。もっと気軽に泊まれる大部屋も用意しています。</p>
-            <p class="top-coliving-notion">※ 宿泊部門の開業は2020年1月末を予定しています。</p>
+            <p class="top-coliving-notion">※ 宿泊部門の開業は2020年2月以降を予定しています。</p>
           </div>
         </li>
         <li>
