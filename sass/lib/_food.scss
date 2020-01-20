@@ -1,0 +1,196 @@
+// 飲食店
+
+.food-contents {
+  margin: 0 0 80px;
+}
+
+@mixin food-contents-title() {
+  font-family: $vollkorn;
+  text-align: center;
+  font-weight: normal;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  background-position: center 12px;
+  padding: 56px 0 0 0;
+  font-size: 2.2rem;
+  margin: 0 0 8px;
+}
+.food-contents-title-lunch {
+  @include food-contents-title();
+  background-image: url("img/food/food-lunch.svg");
+}
+.food-contents-title-dinner {
+  @include food-contents-title();
+  background-image: url("img/food/food-dinner.svg");
+}
+.food-contents-hours {
+  text-align: center;
+  font-weight: bold;
+  color: $text-light;
+  margin: 0 0 32px;
+  letter-spacing: .6px;
+}
+
+.food-type {
+  @include column2;
+  margin-bottom: 60px;
+  img {
+    max-width: 100%;
+  }
+}
+.food-type-label {
+  background: url("img/food/food-type.svg") no-repeat 4px center;
+  background-size: 24px 24px;
+  font-weight: bold;
+  padding: 0 0 0 32px;
+  margin: 0 0 8px 0;
+}
+
+@mixin food-type-text() {
+  background: $bg;
+  padding: 16px 20px 16px 140px;
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  background-position: 20px 16px;
+  min-height: 132px;
+  @media #{$mq-md} {
+    background-size: 80px 80px;
+    padding-left: 120px;
+  }
+  @media #{$mq-sm} {
+    background-size: 60px 60px;
+    padding: 16px 16px 16px 90px;
+    background-position: 16px 16px;
+  }
+}
+.food-type-text-sin {
+  @include food-type-text();
+  background-image: url("img/food/food-sin.svg");
+}
+.food-type-text-spiceordie {
+  @include food-type-text();
+  background-image: url("img/food/food-spiceordie.svg");
+}
+.food-type-text-unknownshokudo {
+  @include food-type-text();
+  background-image: url("img/food/food-unknownshokudo.svg");
+}
+.food-type-title {
+  margin: 4px 0 8px;
+  @media #{$mq-sm} {
+    font-size: 1.1rem;
+  }
+}
+.food-type-list {
+  li {
+    border-top: 1px solid $border-brown-light;
+    padding: 8px 0;
+    font-size: .95rem;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.4;
+    &:last-child {
+      text-align: right;
+      font-size: .9rem;
+      padding: 8px 0;
+      justify-content: flex-end;
+    }
+  }
+  .food-type-price {
+    flex-shrink: 0;
+    margin-left: 8px;
+  }
+  @media #{$mq-sm} {
+    li {
+      font-size: .9rem;
+    }
+  }
+}
+
+.food-detail {
+  background: $bg;
+  display: flex;
+  @media #{$mq-sm} {
+    display: block;
+    margin: 0 8%;
+    background: #fff;
+  }
+  @media #{$mq-320} {
+    margin: 0 1em;
+  }
+}
+.food-detail-img {
+  width: 50%;
+  img {
+    max-width: 100%;
+  }
+  @media #{$mq-sm} {
+    width: auto;
+    img {
+      margin: 0 0 12px;
+    }
+  }
+}
+.food-detail-text {
+  margin: 20px 0 40px 40px;
+  @media #{$mq-sm} {
+    margin: 20px 0 40px 0;
+  }
+}
+.food-detail-title {
+  margin: 24px 0 8px;
+  font-size: 1.05rem;
+}
+.food-detail-description {
+  margin: 0 0 4px;
+  line-height: 1.6;
+}
+.food-detail-access {
+  margin: 40px 0 0 0;
+  iframe {
+    width: 400px;
+  }
+  @media #{$mq-sm} {
+    iframe {
+      width: 100%;
+    }
+  }
+}
+.food-detail-access-btn {
+  margin: 16px 0 0 0;
+  a {
+    @include link-arrow-right($top:10px);
+    border-bottom: 2px solid $primary;
+  }
+  @media #{$mq-sm} {
+    text-align: right;
+  }
+}
+
+.food-instafeed {
+  padding: 80px 0;
+}
+.food-instafeed-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+  li {
+    position: relative;
+    padding-top: calc(25% - 20px);
+    flex-basis: calc(100% / 4 - 20px);
+    margin: 0 10px 20px;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+  }
+  @media #{$mq-sm} {
+    li {
+      flex-basis: calc(100% / 2 - 20px);
+      padding-top: calc(50% - 20px);
+    }
+  }
+}

@@ -1,0 +1,116 @@
+// page
+.page-header {
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  &.page-blog {
+    background-image: url("img/page-header/blog.jpg");
+  }
+  &.page-member {
+    background-image: url("img/page-header/member.jpg");
+  }
+  &.page-coworking {
+    background-image: url("img/page-header/coworking.jpg");
+  }
+}
+
+// todo あとでまとめる
+.page-header-food {
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  height: 280px;
+  background-image: url("img/page-header/food.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media #{$mq-sm} {
+    height: 240px;
+  }
+}
+.page-food-title {
+  font-family: $vollkorn;
+  font-weight: normal;
+  letter-spacing: 1px;
+  font-size: 2.6rem;
+  a {
+    color: #fff;
+  }
+  span {
+    display: block;
+    font-size: 1.1rem;
+    letter-spacing: .5px;
+    margin: 0 0 4px;
+  }
+  @media #{$mq-sm} {
+    font-size: 2rem;
+  }
+  @media #{$mq-320} {
+    font-size: 1.8rem;
+  }
+}
+@keyframes fadein {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.page-header-inner {
+  animation: fadein 1s ease-in 0s;
+}
+.page-food-hours {
+  color: #fff;
+  margin: 12px 0 0 0;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  font-weight: bold;
+  letter-spacing: .5px;
+}
+
+
+.page-title {
+  font-family: $vollkorn;
+  letter-spacing: 5px;
+  font-size: 2.4rem;
+  line-height: 1.1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+  text-align: center;
+  span {
+    font-size: .85rem;
+    letter-spacing: .5px;
+    display: block;
+  }
+  a {
+    color: #fff;
+    display: inline-block;
+    margin: 0 16px;
+  }
+  &:before {
+    content: "";
+    width: 150px;
+    height: 48px;
+    background: url("img/blog-title-left.svg");
+    background-size: 150px 48px;
+  }
+  &:after {
+    content: "";
+    width: 150px;
+    height: 48px;
+    background: url("img/blog-title-right.svg");
+    background-size: 150px 48px;
+  }
+  @media #{$mq-sm} {
+    padding: 50px 0;
+    font-size: 2rem;
+    span, &:before, &:after {
+      display: none;
+    }
+  }
+}
+.page-contents {
+  padding: 40px 0;
+  @media #{$mq-sm} {
+    padding: 30px 0 0;
+  }
+}

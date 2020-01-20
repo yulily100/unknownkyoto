@@ -58,6 +58,7 @@ body {
   font-family: Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
   -webkit-font-smoothing: antialiased;
   background: #fff;
+  color: $text;
 }
 a {
   text-decoration: none;
@@ -323,6 +324,49 @@ img {
 }
 
 // btn
+// aタグにつける
+@mixin btn-border($color: #fff) {
+  color: $color;
+  border: 1px solid $color;
+  display: inline-block;
+  position: relative;
+  padding: .6em .8em;
+  font-weight: bold;
+  font-size: .9rem;
+  &:before {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-bottom: 1px solid $color;
+    border-right: 1px solid $color;
+    right: -5px;
+    bottom: -5px;
+  }
+}
+
+// aタグにつける
+@mixin btn-arrow() {
+  padding: 12px 48px 12px 12px;
+  &:after {
+    content: "";
+    position: absolute;
+    background: url("img/office/office-main-link.svg");
+    background-size: 34px 6px;
+    width: 34px;
+    height: 6px;
+    display: inline-block;
+    transition: transform .3s ease-out 0s;
+    top: 15px;
+    right: 8px;
+  }
+  &:hover:after {
+    transform: translateX(2px);
+  }
+}
+
+
 .btn-main-area {
   position: absolute;
   right: 40px;
@@ -335,39 +379,10 @@ img {
     letter-spacing: .8px;
   }
   a {
-    color: #fff;
-    display: inline-block;
-    padding: 12px 48px 12px 12px;
-    border: 1px solid #fff;
+    @include btn-border();
+    @include btn-arrow();
     letter-spacing: .5px;
-    position: relative;
     background: rgba(0,0,0,.3);
-    &:before {
-      content: "";
-      display: inline-block;
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      border-bottom: 1px solid #fff;
-      border-right: 1px solid #fff;
-      right: -5px;
-      bottom: -5px;
-    }
-    &:after {
-      content: "";
-      position: absolute;
-      background: url("img/office/office-main-link.svg");
-      background-size: 34px 6px;
-      width: 34px;
-      height: 6px;
-      display: inline-block;
-      transition: transform .3s ease-out 0s;
-      top: 15px;
-      right: 8px;
-    }
-    &:hover:after {
-      transform: translateX(2px);
-    }
   }
 
   @media #{$mq-sm} {
@@ -397,6 +412,7 @@ img {
     }
   }
 }
+
 .btn-primary {
   margin: 0 0 12px 0;
   a {
@@ -444,7 +460,18 @@ img {
   }
 }
 
-
+@mixin column2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -20px;
+  > li {
+    flex-basis: calc(100% / 2 - 40px);
+    margin: 0 20px 40px;
+  }
+  @media #{$mq-sm} {
+    display: block;
+  }
+}
 @mixin column3 {
   display: flex;
   flex-wrap: wrap;
