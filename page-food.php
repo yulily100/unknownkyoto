@@ -98,9 +98,9 @@ $(function() {
         </li>
         <li>
           <p class="food-type-label">イザカヤ</p>
-          <img src="<?php echo get_template_directory_uri(); ?>/img/food/dinner-2.jpg" alt="スパイスカレー">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/food/dinner-2.jpg" alt="アンノウン食堂">
           <div class="food-type-text-unknownshokudo">
-            <h3 class="food-type-title">スパイスオアダイ</h3>
+            <h3 class="food-type-title">アンノウン食堂</h3>
             <ul class="food-type-list">
               <li><span>ぽてさら</span><span class="food-type-price">350円</li>
               <li><span>お造り盛り合せ</span><span class="food-type-price">650円</li>
