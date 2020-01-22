@@ -126,8 +126,8 @@ $(function() {
       17:00 - 23:00 (L.O. 22:00)</p>
     <p class="food-detail-description">日曜定休</p>
     <h3 class="food-detail-title">店舗規模</h3>
-    <p class="food-detail-description">テーブル席　◯席<br>
-      立ち飲み席　◯席<br>
+    <p class="food-detail-description">テーブル席　8席<br>
+      立ち飲み席　12席<br>
       カウンター席　◯席</p>
     <p class="food-detail-description">立ち飲み席には椅子を出すこともできます。</p>
     <h3 class="food-detail-title">ご連絡</h3>
