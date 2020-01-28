@@ -65,8 +65,6 @@ $(function() {
     <p class="top-main-open"><img src="<?php echo get_template_directory_uri(); ?>/img/en/header-open.png" alt="2019秋OPEN予定"></p>
   </div>
 
-  <p class="top-main-funding"><a href="#funding">Crowd Funding</a></p>
-
   <div class="top-main-image">
     <img src="<?php echo get_template_directory_uri(); ?>/img/top-image/05.jpg" alt="UNKNOWN KYOTO" class="top-image5">
     <img src="<?php echo get_template_directory_uri(); ?>/img/top-image/04.jpg" alt="UNKNOWN KYOTO" class="top-image4">

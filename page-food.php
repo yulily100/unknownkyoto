@@ -31,7 +31,7 @@ $(function() {
 <div class="container">
   <div class="page-header-food page-food">
     <div class="page-header-inner">
-      <h1 class="page-food-title"><a href="/coworking"><span>UNKNOWN KYOTO</span>Lunch & Dining Bar</a></h1>
+      <h1 class="page-food-title"><a href="/coworking"><span>UNKNOWN KYOTO</span>Restaurant & Bar</a></h1>
       <p class="page-food-hours">11:30 - 15:00 (L.O. 14:30)<br>
       17:00 - 23:00 (L.O. 22:00)</p>
     </div>

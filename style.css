@@ -1642,39 +1642,10 @@ img {
             transform: translateY(8px);
     opacity: 0; } }
 
-.top-main-funding {
-  width: 160px;
-  height: 160px;
-  position: fixed;
-  z-index: 100;
+.top-main-share {
+  position: absolute;
   left: 20px;
-  bottom: 20px;
-  margin: 0;
-  font-weight: bold;
-  font-size: .75rem;
-  letter-spacing: -0.8px;
-  box-sizing: border-box;
-  background: url("img/header-funding.svg") no-repeat;
-  background-size: 160px 160px;
-  opacity: 1;
-  visibility: visible;
-  -webkit-transition: opacity .2s, visibility 0s ease .2s;
-  transition: opacity .2s, visibility 0s ease .2s;
-  line-height: 1.5; }
-  .top-main-funding a {
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    width: 160px;
-    height: 160px;
-    padding: 70px 0 0 0;
-    box-sizing: border-box; }
-  .top-main-funding.is-active {
-    opacity: 0;
-    visibility: hidden; }
-  @media (max-width: 767px) {
-    .top-main-funding {
-      display: none; } }
+  bottom: 20px; }
 
 .top-main-image {
   width: 100%;
@@ -1842,6 +1813,79 @@ img {
   @media (max-width: 1035px) {
     .top-contents {
       max-width: 600px; } }
+
+.top-facilities-hostel {
+  background: #999;
+  color: #fff;
+  padding: 20px 0; }
+
+.top-facilities-restaurant {
+  background: #999;
+  color: #fff;
+  padding: 20px 0; }
+
+.top-facilities-coworking {
+  background: #999;
+  color: #fff;
+  padding: 20px 0; }
+
+.top-facilities-title {
+  font-family: "Vollkorn", serif;
+  font-size: 2.2rem;
+  font-weight: normal;
+  margin: 0 0 12px; }
+  .top-facilities-title span {
+    font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", sans-serif;
+    font-weight: bold;
+    display: block;
+    font-size: .9rem;
+    margin: 4px 0 0 0; }
+
+.top-facilities-description {
+  max-width: 45%;
+  line-height: 1.4;
+  margin: 0 0 16px; }
+
+.top-facilities-readmore a {
+  color: #fff;
+  border: 1px solid #fff;
+  display: inline-block;
+  position: relative;
+  padding: .6em .8em;
+  font-weight: bold;
+  font-size: .9rem;
+  padding: 12px 48px 12px 12px;
+  padding: 12px 72px 12px 32px; }
+  .top-facilities-readmore a:before {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    right: -5px;
+    bottom: -5px; }
+  .top-facilities-readmore a:after {
+    content: "";
+    position: absolute;
+    background: url("img/office/office-main-link.svg");
+    background-size: 34px 6px;
+    width: 34px;
+    height: 6px;
+    display: inline-block;
+    -webkit-transition: -webkit-transform .3s ease-out 0s;
+    transition: -webkit-transform .3s ease-out 0s;
+    transition: transform .3s ease-out 0s;
+    transition: transform .3s ease-out 0s, -webkit-transform .3s ease-out 0s;
+    top: 15px;
+    right: 8px; }
+  .top-facilities-readmore a:hover:after {
+    -webkit-transform: translateX(2px);
+        -ms-transform: translateX(2px);
+            transform: translateX(2px); }
+  .top-facilities-readmore a:after {
+    right: 20px; }
 
 .top-location {
   margin: 0 0 120px;
@@ -2093,7 +2137,7 @@ img {
 
 .top-funding-title {
   font-size: 1.6rem;
-  letter-spacing: 1.5px;
+  letter-spacing: .6px;
   margin: 0 0 1em;
   background: url("img/top-funding-top.svg") no-repeat center top;
   background-size: 600px 220px;
@@ -2259,6 +2303,25 @@ img {
 .lang-en .top-main-funding a {
   font-size: .95rem;
   padding-top: 72px; }
+
+.index-0207 .header-sns {
+  display: none; }
+
+.index-0207 .top-location {
+  text-align: center; }
+
+.index-0207 .top-architecture-street {
+  margin: 0 0 20px;
+  height: inherit; }
+  .index-0207 .top-architecture-street .small {
+    -ms-flex-preferred-size: 40%;
+        flex-basis: 40%; }
+  .index-0207 .top-architecture-street .big {
+    -ms-flex-preferred-size: calc(60% - 20px);
+        flex-basis: calc(60% - 20px); }
+
+.index-0207 .top-access {
+  margin: 40px 0 0 0; }
 
 .food-contents {
   margin: 0 0 80px; }

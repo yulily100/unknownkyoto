@@ -61,11 +61,10 @@ $(function() {
 <div class="top-main">
   <div class="top-main-inner">
     <h1 class="top-main-logo"><img src="<?php echo get_template_directory_uri(); ?>/img/top-logo.svg" alt="UNKNOWN KYOTO"></h1>
-    <p class="top-main-description">Hostel, Dining, Co-working</p>
+    <p class="top-main-description">Hostel, Dining, Coworking</p>
     <p class="top-main-open"><img src="<?php echo get_template_directory_uri(); ?>/img/header-open.png" alt="2019秋OPEN予定"></p>
   </div>
 
-  <p class="top-main-funding"><a href="#funding">クラウドファンディング<br class="for-pc">実施中！</a></p>
   <p class="btn-main-area"><a href="https://unknown.kyoto/office"><span>UNKNOWN KYOTO</span>本池中はこちら</a></p>
 
   <div class="top-main-image">
@@ -146,11 +145,9 @@ $(function() {
 
 
     <section class="top-funding js-funding" id="funding">
-      <h3 class="top-funding-title">仲間に加わりませんか</h3>
-      <p class="top-funding-description">このプロジェクトを達成させるべく<br>
-        <span class="for-pc">現在</span>クラウドファンディングを実施中です。</p>
-      <p class="top-funding-description">プロジェクトの詳細はリンク先<span class="for-pc">のページ</span>に。<br>
-        みなさんのご支援をお待ちしております。</p>
+      <h3 class="top-funding-title">クラウドファンディング目標額達成！</h3>
+      <p class="top-funding-description">みなさんのご支援、ありがとうございました。</p>
+      <p class="top-funding-description">プロジェクトの詳細はリンク先<span class="for-pc">のページ</span>にございます。</p>
       <p class="top-about-funding"><a href="https://hello-renovation.jp/renovations/3428" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/top-funding.svg" alt="クラウドファンディング実施中！"></a></p>
     </section>
   </div>

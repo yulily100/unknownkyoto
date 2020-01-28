@@ -121,66 +121,49 @@
   100% { transform:translateY(8px); opacity: 0; }
 }
 
-.top-main-funding {
-  width: 160px;
-  height: 160px;
-  position: fixed;
-  z-index: 100;
+.top-main-share {
+  position: absolute;
   left: 20px;
   bottom: 20px;
-  margin: 0;
-  font-weight: bold;
-  font-size: .75rem;
-  letter-spacing: -0.8px;
-  box-sizing: border-box;
-  background: url("img/header-funding.svg") no-repeat;
-  background-size: 160px 160px;
-  opacity: 1;
-  visibility: visible;
-  transition: opacity .2s, visibility 0s ease .2s;
-  line-height: 1.5;
-  a {
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    width: 160px;
-    height: 160px;
-    padding: 70px 0 0 0;
-    box-sizing: border-box;
-  }
-  &.is-active {
-    opacity: 0;
-    visibility: hidden;
-  }
-  @media #{$mq-sm} {
-    display: none;
-    // position: absolute;
-    // padding: 0;
-    // background: $secondary;
-    // height: auto;
-    // left: 0;
-    // right: 0;
-    // bottom: 0;
-    // width: 100%;
-    // font-size: 1rem;
-    // letter-spacing: .5px;
-    // a {
-    //   width: 100%;
-    //   height: auto;
-    //   padding: 12px 0 !important;
-    //   &:after {
-    //     content: "";
-    //     width: 20px;
-    //     height: 20px;
-    //     display: inline-block;
-    //     background: url("img/header-funding-arrow.svg");
-    //     background-size: 20px 20px;
-    //     vertical-align: sub;
-    //     margin: 0 0 0 4px;
-    //   }
-    // }
-  }
 }
+
+// クラウドファンディング
+// クリックしたら下に
+// .top-main-funding {
+//   width: 160px;
+//   height: 160px;
+//   position: fixed;
+//   z-index: 100;
+//   left: 20px;
+//   bottom: 20px;
+//   margin: 0;
+//   font-weight: bold;
+//   font-size: .75rem;
+//   letter-spacing: -0.8px;
+//   box-sizing: border-box;
+//   background: url("img/header-funding.svg") no-repeat;
+//   background-size: 160px 160px;
+//   opacity: 1;
+//   visibility: visible;
+//   transition: opacity .2s, visibility 0s ease .2s;
+//   line-height: 1.5;
+//   a {
+//     text-decoration: none;
+//     color: #fff;
+//     display: inline-block;
+//     width: 160px;
+//     height: 160px;
+//     padding: 70px 0 0 0;
+//     box-sizing: border-box;
+//   }
+//   &.is-active {
+//     opacity: 0;
+//     visibility: hidden;
+//   }
+//   @media #{$mq-sm} {
+//     display: none;
+//   }
+// }
 
 
 .top-main-image {
@@ -317,6 +300,50 @@
   }
   @media #{$mq-md} {
     max-width: 600px;
+  }
+}
+
+@mixin top-facilities {
+  background: #999;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.top-facilities-hostel {
+  @include top-facilities();
+}
+.top-facilities-restaurant {
+  @include top-facilities();
+}
+.top-facilities-coworking {
+  @include top-facilities();
+}
+.top-facilities-title {
+  font-family: $vollkorn;
+  font-size: 2.2rem;
+  font-weight: normal;
+  margin: 0 0 12px;
+  span {
+    font-family: $yugothic;
+    font-weight: bold;
+    display: block;
+    font-size: .9rem;
+    margin: 4px 0 0 0;
+  }
+}
+.top-facilities-description {
+  max-width: 45%;
+  line-height: 1.4;
+  margin: 0 0 16px;
+}
+.top-facilities-readmore {
+  a {
+    @include btn-border();
+    @include btn-arrow();
+    padding: 12px 72px 12px 32px;
+    &:after {
+      right: 20px;
+    }
   }
 }
 
@@ -521,7 +548,7 @@
 }
 .top-funding-title {
   font-size: 1.6rem;
-  letter-spacing: 1.5px;
+  letter-spacing: .6px;
   margin: 0 0 1em;
   background: url("img/top-funding-top.svg") no-repeat center top;
   background-size: 600px 220px;
@@ -763,3 +790,30 @@
     padding-top: 72px;
   }
 }
+
+.index-0207 {
+  .header-sns {
+    display: none;
+  }
+  .top-location {
+    text-align: center;
+  }
+  .top-architecture-street {
+    margin: 0 0 20px;
+    height: inherit;
+    .small {
+      flex-basis: 40%;
+    }
+    .big {
+      flex-basis: calc(60% - 20px);
+    }
+  }
+  .top-access {
+    margin: 40px 0 0 0;
+  }
+}
+
+// todo
+// .header-sns消す
+// .top-contents消す
+// co-living消す

@@ -55,6 +55,9 @@
     if ( is_front_page() && is_home() ) {
       $body_class = "page-index";
     }
+    elseif ( is_page('index-0207') ) {
+      $body_class = "page-index index-0207";
+    }
     elseif ( is_page('en') ) {
       $body_class = "page-index lang-en";
     }
@@ -65,7 +68,7 @@
   <body class="<?php echo $body_class; ?>">
     <header class="header">
       <div class="header-main">
-        <?php if ( is_front_page() && is_home() || is_page('en') ) : ?>
+        <?php if ( is_front_page() && is_home() || is_page('en') || is_page('index-0207') ) : ?>
           <div class="header-n-logo">
             <a href="/">
               <img src="<?php echo get_template_directory_uri(); ?>/img/top-n-default.svg" alt="UNKNWON KYOTO" class="top-n-default">
