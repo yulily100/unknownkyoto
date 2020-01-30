@@ -31,9 +31,11 @@ $(function() {
 <div class="container">
   <div class="page-header-food page-food">
     <div class="page-header-inner">
-      <h1 class="page-food-title"><a href="/coworking"><span>UNKNOWN KYOTO</span>Restaurant & Bar</a></h1>
-      <p class="page-food-hours">11:30 - 15:00 (L.O. 14:30)<br>
-      17:00 - 23:00 (L.O. 22:00)</p>
+      <h1 class="page-food-title"><a href="/restaurant"><span>UNKNOWN KYOTO</span>Restaurant & Bar</a></h1>
+      <p class="page-food-hours">
+        07:00 - 09:30 (L.O. 09:00)<br>
+        11:30 - 15:00 (L.O. 14:30)<br>
+        17:00 - 23:00 (L.O. 22:00)</p>
     </div>
   </div>
 </div>
@@ -66,7 +68,7 @@ $(function() {
           </div>
         </li>
         <li>
-          <p class="food-type-label">スパイスカレー</p>
+          <p class="food-type-label">スパイス</p>
           <img src="<?php echo get_template_directory_uri(); ?>/img/food/lunch-2.jpg" alt="スパイスカレー">
           <div class="food-type-text-spiceordie">
             <h3 class="food-type-title">スパイスオアダイ</h3>

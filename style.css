@@ -884,7 +884,7 @@ img {
   text-align: center;
   background-position: center;
   background-size: cover;
-  height: 280px;
+  height: 300px;
   background-image: url("img/page-header/food.jpg");
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1898,6 +1898,20 @@ img {
       margin-bottom: 60px;
       padding-bottom: 100px; } }
 
+.top-location-heading {
+  background-image: url("img/top-location-heading.svg");
+  background-size: 50px 50px;
+  padding: 56px 0 0 0;
+  font-family: "Vollkorn", serif;
+  color: #666054;
+  font-size: .95rem;
+  letter-spacing: 1px;
+  margin: 40px 0 0 0;
+  background-repeat: no-repeat;
+  background-position: center top;
+  text-align: center;
+  font-weight: normal; }
+
 .top-location-title {
   font-size: 2rem;
   letter-spacing: 2px;
@@ -1999,6 +2013,23 @@ img {
   @media (max-width: 1035px) {
     .top-architecture-street {
       margin: 0; } }
+
+.top-access {
+  text-align: center;
+  padding: 80px 0 0 0; }
+  @media (max-width: 767px) {
+    .top-access {
+      margin: 0; } }
+
+.top-access-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin: 0 0 1.4em; }
+
+@media (max-width: 767px) {
+  .top-access-map iframe {
+    height: 250px; } }
 
 .top-coliving {
   background: url("img/section-border.svg") no-repeat center bottom;
@@ -2121,57 +2152,22 @@ img {
           -ms-transform: translateX(4px);
               transform: translateX(4px); }
 
-.top-funding {
-  max-width: 800px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  background: url("img/section-border.svg") no-repeat center bottom;
-  background-size: 20px 60px;
-  margin-bottom: 100px;
-  padding-bottom: 140px; }
-  @media (max-width: 767px) {
-    .top-funding {
-      margin-bottom: 60px;
-      padding-bottom: 100px; } }
-
-.top-funding-title {
-  font-size: 1.6rem;
-  letter-spacing: .6px;
-  margin: 0 0 1em;
-  background: url("img/top-funding-top.svg") no-repeat center top;
-  background-size: 600px 220px;
-  padding: 220px 0 0 0; }
-  @media (max-width: 767px) {
-    .top-funding-title {
-      font-size: 1.4rem; } }
-
-.top-funding-description {
-  line-height: 1.8; }
-
-.top-about-funding {
-  margin: 32px 0 0 0;
-  background: url("img/top-funding-bottom.svg") no-repeat center bottom;
-  background-size: 600px 200px;
-  padding: 0 0 180px; }
-  .top-about-funding a {
-    display: block;
-    margin: 0 auto;
-    max-width: 360px;
-    height: 94px;
-    border: 1px solid #b2b2b2;
-    box-shadow: 4px 4px 0px 0px #e5e5e5; }
-    .top-about-funding a:hover {
-      background-color: #f5f5f5; }
-  .top-about-funding img {
-    width: 200px;
-    max-width: 100%; }
-  @media (max-width: 767px) {
-    .top-about-funding img {
-      height: auto; } }
-
 .top-article {
   margin: 0 0 80px; }
+
+.top-article-heading {
+  background-size: 50px 50px;
+  padding: 56px 0 0 0;
+  font-family: "Vollkorn", serif;
+  color: #666054;
+  font-size: .95rem;
+  letter-spacing: 1px;
+  margin: 40px 0 0 0;
+  background-repeat: no-repeat;
+  background-position: center top;
+  text-align: center;
+  font-weight: normal;
+  background-image: url("img/top-blog-heading.svg"); }
 
 .top-article-title {
   font-family: "Vollkorn", serif;
@@ -2187,7 +2183,7 @@ img {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: 0 -15px;
-  margin: 0 -10px; }
+  margin: 40px -10px 0; }
   .top-article-list > li {
     -ms-flex-preferred-size: calc(100% / 3 - 30px);
         flex-basis: calc(100% / 3 - 30px);
@@ -2283,22 +2279,107 @@ img {
         background-size: 40px 40px;
         padding: 44px 0 0 0; } }
 
-.top-access {
+.top-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto; }
+
+.top-footer-contents {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  background: url("img/top-footer-top.svg") no-repeat center top, url("img/top-footer-bottom.svg") no-repeat center bottom;
+  background-size: 400px 150px, 400px 150px;
+  padding: 60px 0;
+  text-align: center; }
+
+.top-funding {
+  max-width: 800px;
   text-align: center;
-  padding: 80px 0 0 0; }
+  margin-left: auto;
+  margin-right: auto; }
+
+.top-funding-heading {
+  background-size: 50px 50px;
+  padding: 56px 0 0 0;
+  font-family: "Vollkorn", serif;
+  color: #666054;
+  font-size: .95rem;
+  letter-spacing: 1px;
+  margin: 40px 0 0 0;
+  background-repeat: no-repeat;
+  background-position: center top;
+  text-align: center;
+  font-weight: normal;
+  background-image: url("img/top-funding-heading.svg"); }
+
+.top-funding-title {
+  font-size: 1.6rem;
+  letter-spacing: .6px;
+  margin: 0 0 1em;
+  background: url("img/top-funding-top.svg") no-repeat center top;
+  background-size: 600px 220px;
+  padding: 220px 0 0 0; }
   @media (max-width: 767px) {
-    .top-access {
-      margin: 0; } }
+    .top-funding-title {
+      font-size: 1.4rem; } }
 
-.top-access-title {
+.top-funding-description {
+  line-height: 1.8; }
+
+.top-about-funding {
+  margin: 32px 0 0 0;
+  background: url("img/top-funding-bottom.svg") no-repeat center bottom;
+  background-size: 600px 200px;
+  padding: 0 0 180px; }
+  .top-about-funding a {
+    display: block;
+    margin: 0 auto;
+    max-width: 360px;
+    height: 94px;
+    border: 1px solid #b2b2b2;
+    box-shadow: 4px 4px 0px 0px #e5e5e5; }
+    .top-about-funding a:hover {
+      background-color: #f5f5f5; }
+  .top-about-funding img {
+    width: 200px;
+    max-width: 100%; }
+  @media (max-width: 767px) {
+    .top-about-funding img {
+      height: auto; } }
+
+.top-funding-link {
+  margin: 32px 0 0 0; }
+  .top-funding-link a {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+    height: 94px;
+    border: 1px solid #b2b2b2;
+    box-shadow: 4px 4px 0px 0px #e5e5e5; }
+    .top-funding-link a:hover {
+      background-color: #f5f5f5; }
+  .top-funding-link img {
+    width: 200px;
+    max-width: 100%; }
+  @media (max-width: 767px) {
+    .top-funding-link img {
+      height: auto; } }
+
+.top-recruit-heading {
+  background-size: 50px 50px;
+  padding: 56px 0 0 0;
+  font-family: "Vollkorn", serif;
+  color: #666054;
+  font-size: .95rem;
+  letter-spacing: 1px;
+  margin: 40px 0 0 0;
+  background-repeat: no-repeat;
+  background-position: center top;
   text-align: center;
-  font-weight: bold;
-  font-size: 1.1rem;
-  margin: 0 0 1.4em; }
-
-@media (max-width: 767px) {
-  .top-access-map iframe {
-    height: 250px; } }
+  font-weight: normal;
+  background-image: url("img/top-recruit-heading.svg"); }
 
 .lang-en .top-main-funding a {
   font-size: .95rem;

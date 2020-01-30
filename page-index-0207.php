@@ -110,7 +110,7 @@ $(function() {
     <div class="wrapper">
       <h3 class="top-facilities-title">Restaurant & Bar<span>食べる</span></h3>
       <p class="top-facilities-description">一日のはじまりはモーニングから。<br>夜はオープンなダイニングバーで楽しいひとときを。<br>宿泊者以外も、誰でも利用することができます。</p>
-      <p class="top-facilities-readmore"><a href="/food">詳しくはこちら</a></p>
+      <p class="top-facilities-readmore"><a href="/restaurant">詳しくはこちら</a></p>
     </div>
   </section>
   <section class="top-facilities-coworking">
@@ -123,7 +123,7 @@ $(function() {
 
 <div class="wrapper">
   <section class="top-location">
-    <p>LOCATION</p>
+    <p class="top-location-heading">LOCATION</p>
     <h2 class="top-location-title">知られざる京都<span class="for-pc">、</span><br class="for-sp">五條楽園</h2>
 
     <p class="top-location-description">かつて「五條楽園」と呼ばれた<br class="for-sp">このエリアは<br class="for-pc">すぐ近くに鴨川と<br class="for-sp">高瀬川が流れ、迷路のように<br>細い路地が入り組んだ、古き良き<br class="for-sp">佇まいを残したまち。<br class="for-pc">そんな中に<br class="for-sp">UNKNOWN KYOTOはあります。</p>
@@ -160,7 +160,7 @@ $(function() {
   </section>
 
   <section class="top-article">
-    <h2 class="top-article-title">BLOG</h2>
+    <h2 class="top-article-heading">BLOG</h2>
     <ul class="top-article-list">
       <?php
       $args = array(
@@ -194,19 +194,20 @@ $(function() {
 
 
 
-
-<section class="top-funding js-funding" id="funding">
-  <p>funding</p>
-  <h3 class="top-funding-title">クラウドファンディング目標額達成！</h3>
-  <p class="top-funding-description">みなさんのご支援、ありがとうございました。</p>
-  <p class="top-funding-description">プロジェクトの詳細はリンク先<span class="for-pc">のページ</span>にございます。</p>
-  <p class="top-about-funding"><a href="https://hello-renovation.jp/renovations/3428" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/top-funding.svg" alt="クラウドファンディング実施中！"></a></p>
-</section>
-<section class="top-recruit">
-  <p>RECRUIT</p>
-  <h3>スタッフ募集</h3>
-  <p>詳しくはこちら</p>
-</section>
+<div class="top-footer">
+  <section class="top-footer-contents js-funding" id="funding">
+    <p class="top-funding-heading">FUNDING</p>
+    <h3>クラウドファンディング目標額達成！</h3>
+    <p class="top-funding-description">みなさんのご支援、ありがとうございました。</p>
+    <p class="top-funding-description">プロジェクトの詳細はリンク先<span class="for-pc">のページ</span>にございます。</p>
+    <p class="top-funding-link"><a href="https://hello-renovation.jp/renovations/3428" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/top-funding.svg" alt="クラウドファンディング実施中！"></a></p>
+  </section>
+  <section class="top-footer-contents">
+    <p class="top-recruit-heading">RECRUIT</p>
+    <h3>スタッフ募集</h3>
+    <p>詳しくはこちら</p>
+  </section>
+</div>
 
 </div>
 

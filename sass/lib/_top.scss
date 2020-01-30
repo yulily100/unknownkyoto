@@ -12,6 +12,20 @@
     padding-bottom: 100px;
   }
 }
+@mixin top-heading() {
+  background-size: 50px 50px;
+  padding: 56px 0 0 0;
+  font-family: $vollkorn;
+  color: $text-light;
+  font-size: .95rem;
+  letter-spacing: 1px;
+  margin: 40px 0 0 0;
+  background-repeat: no-repeat;
+  background-position: center top;
+  text-align: center;
+  font-weight: normal;
+}
+
 
 .js-fadein {
   opacity : 0;
@@ -351,6 +365,10 @@
   margin: 0 0 120px;
   @include footer-border;
 }
+.top-location-heading {
+  background-image: url("img/top-location-heading.svg");
+  @include top-heading();
+}
 .top-location-title {
   font-size: 2rem;
   letter-spacing: 2px;
@@ -435,6 +453,27 @@
     margin: 0;
   }
 }
+.top-access {
+  text-align: center;
+  padding: 80px 0 0 0;
+  @media #{$mq-sm} {
+    margin: 0;
+  }
+}
+.top-access-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin: 0 0 1.4em;
+}
+.top-access-map {
+  @media #{$mq-sm} {
+    iframe {
+      height: 250px;
+    }
+  }
+}
+
 
 .top-coliving {
   @include footer-border;
@@ -539,56 +578,14 @@
 
 }
 
-.top-funding {
-  max-width: 800px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  @include footer-border;
-}
-.top-funding-title {
-  font-size: 1.6rem;
-  letter-spacing: .6px;
-  margin: 0 0 1em;
-  background: url("img/top-funding-top.svg") no-repeat center top;
-  background-size: 600px 220px;
-  padding: 220px 0 0 0;
-  @media #{$mq-sm} {
-    font-size: 1.4rem;
-  }
-}
-.top-funding-description {
-  line-height: 1.8;
-}
-.top-about-funding {
-  margin: 32px 0 0 0;
-  background: url("img/top-funding-bottom.svg") no-repeat center bottom;
-  background-size: 600px 200px;
-  padding: 0 0 180px;
-  a {
-    display: block;
-    margin: 0 auto;
-    max-width: 360px;
-    height: 94px;
-    border: 1px solid #b2b2b2;
-    box-shadow:4px 4px 0px 0px #e5e5e5;
-    &:hover {
-      background-color: #f5f5f5;
-    }
-  }
-  img {
-    width: 200px;
-    max-width: 100%;
-  }
-  @media #{$mq-sm} {
-    img {
-      height: auto;
-    }
-  }
-}
+
 
 .top-article {
   margin: 0 0 80px;
+}
+.top-article-heading {
+  @include top-heading();
+  background-image: url("img/top-blog-heading.svg");
 }
 .top-article-title {
   font-family: $vollkorn;
@@ -599,7 +596,7 @@
 }
 .top-article-list {
   @include article-list;
-  margin: 0 -10px;
+  margin: 40px -10px 0;
   > li {
     flex-basis: calc(100% / 4 - 20px);
     margin: 0 10px 20px;
@@ -682,106 +679,99 @@
 
 }
 
-.top-access {
+
+.top-footer {
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.top-footer-contents {
+  flex-basis: 50%;
+  background:
+    url("img/top-footer-top.svg") no-repeat center top,
+    url("img/top-footer-bottom.svg") no-repeat center bottom;
+  background-size: 400px 150px, 400px 150px;
+  padding: 60px 0;
   text-align: center;
-  padding: 80px 0 0 0;
+}
+.top-funding {
+  max-width: 800px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.top-funding-heading {
+  @include top-heading();
+  background-image: url("img/top-funding-heading.svg");
+}
+.top-funding-title {
+  font-size: 1.6rem;
+  letter-spacing: .6px;
+  margin: 0 0 1em;
+  background: url("img/top-funding-top.svg") no-repeat center top;
+  background-size: 600px 220px;
+  padding: 220px 0 0 0;
   @media #{$mq-sm} {
-    margin: 0;
+    font-size: 1.4rem;
   }
 }
-.top-access-title {
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.1rem;
-  margin: 0 0 1.4em;
+.top-funding-description {
+  line-height: 1.8;
 }
-.top-access-map {
+.top-about-funding { // todo消す
+  margin: 32px 0 0 0;
+  background: url("img/top-funding-bottom.svg") no-repeat center bottom;
+  background-size: 600px 200px;
+  padding: 0 0 180px;
+  a {
+    display: block;
+    margin: 0 auto;
+    max-width: 360px;
+    height: 94px;
+    border: 1px solid #b2b2b2;
+    box-shadow:4px 4px 0px 0px #e5e5e5;
+    &:hover {
+      background-color: #f5f5f5;
+    }
+  }
+  img {
+    width: 200px;
+    max-width: 100%;
+  }
   @media #{$mq-sm} {
-    iframe {
-      height: 250px;
+    img {
+      height: auto;
     }
   }
 }
+.top-funding-link {
+  margin: 32px 0 0 0;
+  a {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+    height: 94px;
+    border: 1px solid #b2b2b2;
+    box-shadow:4px 4px 0px 0px #e5e5e5;
+    &:hover {
+      background-color: #f5f5f5;
+    }
+  }
+  img {
+    width: 200px;
+    max-width: 100%;
+  }
+  @media #{$mq-sm} {
+    img {
+      height: auto;
+    }
+  }
+}
+.top-recruit-heading {
+  @include top-heading();
+  background-image: url("img/top-recruit-heading.svg");
+}
 
-
-// // page-article
-// .page-articles {
-// }
-// .article {
-//   max-width: 640px;
-//   margin: 40px auto 100px;
-// }
-// .article-title {
-//   text-align: center;
-//   font-size: 1.9rem;
-//   margin: 0;
-// }
-// .article-date {
-//   text-align: center;
-//   color: $text-light;
-//   font-size: .9rem;
-//   margin: 0;
-// }
-//
-// .article-body {
-//   margin: 40px 0 60px;
-//   p {
-//     margin: 32px 0;
-//     padding: 0 40px;
-//     line-height: 1.8;
-//     letter-spacing: .5px;
-//   }
-//   p + p {
-//     margin-top: -20px;
-//   }
-//   img {
-//     width: 100%;
-//     height: 400px;
-//     display: inline-block;
-//     background: #ddd;
-//     box-sizing: border-box;
-//   }
-//   @media #{$mq-sm} {
-//     p {
-//       padding: 0;
-//     }
-//   }
-// }
-//
-// .article-table {
-//   width: 100%;
-//   font-size: .95rem;
-//   border-bottom: 1px solid $border;
-//   tr {
-//     border-top: 1px solid $border;
-//     display: block;
-//     padding: 12px;
-//   }
-//   th {
-//     display: inline-block;
-//     width: 120px;
-//     text-align: left;
-//     color: $text-light;
-//   }
-//   td {
-//     display: inline-block;
-//   }
-//   @media #{$mq-sm} {
-//     th {
-//       display: block;
-//       font-size: .9rem;
-//       margin: 0 0 4px 0;
-//     }
-//   }
-// }
-// .article-table-map {
-//   font-size: .85rem;
-//   margin: 0 0 0 4px;
-// }
-// .article-btn-wrapper {
-//   margin: 40px 0;
-//   text-align: center;
-// }
 
 // english
 .lang-en {
@@ -817,3 +807,6 @@
 // .header-sns消す
 // .top-contents消す
 // co-living消す
+// top-fundingけす
+// top-funding-title消す
+// top-about-funding消す
