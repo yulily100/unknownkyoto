@@ -117,7 +117,7 @@
   letter-spacing: 1.5px;
   margin: 0 0 48px;
 }
-.top-main-open {
+.top-main-open { // todo けす
   display: inline-block;
   margin: 0;
   font-weight: bold;
@@ -137,8 +137,45 @@
 
 .top-main-share {
   position: absolute;
-  left: 20px;
+  left: 28px;
   bottom: 20px;
+}
+.top-main-share-text {
+  font-family: $vollkorn;
+  display: inline-block;
+  transform: rotate(90deg);
+  margin: 0 0 40px;
+  position: absolute;
+  top: -100px;
+  letter-spacing: .8px;
+  width: 50px;
+  left: -10px;
+}
+.top-main-share-icon {
+  width: 24px;
+  position: relative;
+  &:before {
+    content: "";
+    width: 1px;
+    height: 40px;
+    display: inline-block;
+    background: #fff;
+    position: absolute;
+    top: -55px;
+  }
+  li {
+    display: block;
+    width: 24px;
+    margin: 0 0 12px;
+  }
+  a {
+    display: inline-block;
+  }
+  img {
+    width: 24px;
+    height: 24px;
+  }
+
 }
 
 // クラウドファンディング
@@ -320,21 +357,26 @@
 @mixin top-facilities {
   background: #999;
   color: #fff;
-  padding: 20px 0;
+  padding: 80px 0;
+  background-position: center;
+  background-size: cover;
 }
 
 .top-facilities-hostel {
   @include top-facilities();
+  background-image: url("img/top-menu/hostel-1.jpg");
 }
 .top-facilities-restaurant {
   @include top-facilities();
+  background-image: url("img/top-menu/restaurant.jpg");
 }
 .top-facilities-coworking {
   @include top-facilities();
+  background-image: url("img/top-menu/coworking.jpg");
 }
 .top-facilities-title {
   font-family: $vollkorn;
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   font-weight: normal;
   margin: 0 0 12px;
   span {
@@ -347,8 +389,9 @@
 }
 .top-facilities-description {
   max-width: 45%;
-  line-height: 1.4;
-  margin: 0 0 16px;
+  line-height: 1.6;
+  font-size: 1.1rem;
+  margin: 0 0 32px;
 }
 .top-facilities-readmore {
   a {
@@ -782,6 +825,52 @@
 }
 
 .index-0207 {
+  .header {
+    padding: 0;
+    height: 60px;
+    position: fixed;
+    &.is-active {
+      background: #fff;
+      a {
+        color: $text;
+      }
+    }
+  }
+  .header-language {
+    margin: 0 0 0 46px;
+  }
+  .header-n-logo {
+    position: inherit;
+    img {
+      left: 26px;
+    }
+  }
+  .header-menu {
+    height: 100%;
+  }
+  .header-nav {
+    font-weight: normal;
+    margin: 0;
+    height: 100%;
+    li {
+      margin: 0 0 0 12px;
+      display: flex;
+      align-items: center;
+    }
+    a {
+      &:hover {
+        text-decoration: none;
+        opacity: .7;
+      }
+    }
+  }
+  .top-about {
+    padding: 80px 0;
+  }
+  .top-main-description {
+    font-size: 1.4rem;
+    margin: 20px 0 0;
+  }
   .header-sns {
     display: none;
   }
@@ -801,6 +890,17 @@
   .top-access {
     margin: 40px 0 0 0;
   }
+  .top-instafeed-title {
+    flex-basis: calc(25% - 20px);
+    margin: 0 10px 20px;
+  }
+  .top-instafeed-list {
+    margin: 0 -10px;
+    li {
+      flex-basis: calc(25% - 20px);
+      margin: 0 10px 20px;
+    }
+  }
 }
 
 // todo
@@ -810,3 +910,5 @@
 // top-fundingけす
 // top-funding-title消す
 // top-about-funding消す
+
+// headerのメニュー部分整理する

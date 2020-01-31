@@ -24,8 +24,11 @@ $(function() {
     // Nロゴの色を変える
     if (scroll > wh ) {
       $('.header-n-logo').addClass('is-active');
-    } else {
+      $('.header').addClass('is-active');
+    }
+    else {
       $('.header-n-logo').removeClass('is-active');
+      $('.header').removeClass('is-active');
     }
 
     // .js-fadein が付けられた要素をふわっと表示
@@ -62,12 +65,11 @@ $(function() {
   <div class="top-main-inner">
     <h1 class="top-main-logo"><img src="<?php echo get_template_directory_uri(); ?>/img/top-logo.svg" alt="UNKNOWN KYOTO"></h1>
     <p class="top-main-description">Hostel, Dining, Coworking</p>
-    <p class="top-main-open"><img src="<?php echo get_template_directory_uri(); ?>/img/header-open.png" alt="2019秋OPEN予定"></p>
   </div>
 
   <div class="top-main-share">
-    <span>share</span>
-    <ul>
+    <p class="top-main-share-text">share</p>
+    <ul class="top-main-share-icon">
       <li><a href="https://www.instagram.com/unknownkyoto/" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/sns-instagram-white.svg" alt="Instagram"></a></li>
       <li><a href="https://www.facebook.com/Unkown.Kyoto.Gojo.Rakuen" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/sns-facebook-white.svg" alt="Facebook"></a></li>
       <li><a href="https://twitter.com/unknown_kyoto" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/sns-twitter-white.svg" alt="Twitter"></a></li>
@@ -76,11 +78,11 @@ $(function() {
   <p class="btn-main-area"><a href="https://unknown.kyoto/office"><span>UNKNOWN KYOTO</span>本池中はこちら</a></p>
 
   <div class="top-main-image">
-    <img src="<?php echo get_template_directory_uri(); ?>/img/top-image/05.jpg" alt="UNKNOWN KYOTO" class="top-image5">
-    <img src="<?php echo get_template_directory_uri(); ?>/img/top-image/04.jpg" alt="UNKNOWN KYOTO" class="top-image4">
-    <img src="<?php echo get_template_directory_uri(); ?>/img/top-image/03.jpg" alt="UNKNOWN KYOTO" class="top-image3">
-    <img src="<?php echo get_template_directory_uri(); ?>/img/top-image/02.jpg" alt="UNKNOWN KYOTO" class="top-image2">
-    <img src="<?php echo get_template_directory_uri(); ?>/img/top-image/01.jpg" alt="UNKNOWN KYOTO" class="top-image1">
+    <img src="<?php echo get_template_directory_uri(); ?>/img/top-image0207/05.jpg" alt="UNKNOWN KYOTO" class="top-image5">
+    <img src="<?php echo get_template_directory_uri(); ?>/img/top-image0207/04.jpg" alt="UNKNOWN KYOTO" class="top-image4">
+    <img src="<?php echo get_template_directory_uri(); ?>/img/top-image0207/03.jpg" alt="UNKNOWN KYOTO" class="top-image3">
+    <img src="<?php echo get_template_directory_uri(); ?>/img/top-image0207/02.jpg" alt="UNKNOWN KYOTO" class="top-image2">
+    <img src="<?php echo get_template_directory_uri(); ?>/img/top-image0207/01.jpg" alt="UNKNOWN KYOTO" class="top-image1">
   </div>
 </div>
 
