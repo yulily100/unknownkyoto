@@ -813,7 +813,7 @@ img {
     .btn-main-area a:after {
       content: "";
       position: absolute;
-      background: url("img/office/office-main-link.svg");
+      background-image: url("img/office/office-main-link.svg");
       background-size: 34px 6px;
       width: 34px;
       height: 6px;
@@ -1671,12 +1671,11 @@ img {
   -webkit-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
           transform: rotate(90deg);
-  margin: 0 0 40px;
   position: absolute;
-  top: -100px;
+  top: -95px;
   letter-spacing: .8px;
   width: 50px;
-  left: -10px; }
+  left: -12px; }
 
 .top-main-share-icon {
   width: 24px;
@@ -1867,46 +1866,111 @@ img {
       max-width: 600px; } }
 
 .top-facilities-hostel {
-  background: #999;
   color: #fff;
-  padding: 80px 0;
+  height: 430px;
   background-position: center;
   background-size: cover;
-  background-image: url("img/top-menu/hostel-1.jpg"); }
+  text-shadow: 1px 1px 0px #000;
+  background-image: url("img/top-facilities/hostel.jpg"); }
+  @media (max-width: 767px) {
+    .top-facilities-hostel {
+      color: #3a372f;
+      background-position: top;
+      background-size: contain;
+      background-repeat: no-repeat;
+      padding: 61.8% 0 36px 0;
+      height: inherit;
+      text-shadow: none;
+      background-color: #f2eee7;
+      margin: 0 0 20px; } }
+  @media (max-width: 767px) {
+    .top-facilities-hostel {
+      background-image: url("img/top-facilities/hostel-sp.jpg"); } }
 
 .top-facilities-restaurant {
-  background: #999;
   color: #fff;
-  padding: 80px 0;
+  height: 430px;
   background-position: center;
   background-size: cover;
-  background-image: url("img/top-menu/restaurant.jpg"); }
+  text-shadow: 1px 1px 0px #000;
+  background-image: url("img/top-facilities/restaurant.jpg"); }
+  @media (max-width: 767px) {
+    .top-facilities-restaurant {
+      color: #3a372f;
+      background-position: top;
+      background-size: contain;
+      background-repeat: no-repeat;
+      padding: 61.8% 0 36px 0;
+      height: inherit;
+      text-shadow: none;
+      background-color: #f2eee7;
+      margin: 0 0 20px; } }
+  @media (max-width: 767px) {
+    .top-facilities-restaurant {
+      background-image: url("img/top-facilities/restaurant-sp.jpg"); } }
 
 .top-facilities-coworking {
-  background: #999;
   color: #fff;
-  padding: 80px 0;
+  height: 430px;
   background-position: center;
   background-size: cover;
-  background-image: url("img/top-menu/coworking.jpg"); }
+  text-shadow: 1px 1px 0px #000;
+  background-image: url("img/top-facilities/coworking.jpg"); }
+  @media (max-width: 767px) {
+    .top-facilities-coworking {
+      color: #3a372f;
+      background-position: top;
+      background-size: contain;
+      background-repeat: no-repeat;
+      padding: 61.8% 0 36px 0;
+      height: inherit;
+      text-shadow: none;
+      background-color: #f2eee7;
+      margin: 0 0 20px; } }
+  @media (max-width: 767px) {
+    .top-facilities-coworking {
+      background-image: url("img/top-facilities/coworking-sp.jpg"); } }
 
 .top-facilities-title {
   font-family: "Vollkorn", serif;
   font-size: 2.4rem;
   font-weight: normal;
-  margin: 0 0 12px; }
+  margin: 0 0 20px;
+  padding: 60px 0 0 0; }
   .top-facilities-title span {
     font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", sans-serif;
     font-weight: bold;
     display: block;
-    font-size: .9rem;
-    margin: 4px 0 0 0; }
+    font-size: .95rem;
+    margin: 8px 0 0 0;
+    padding: 0 0 0 32px;
+    position: relative; }
+    .top-facilities-title span:before {
+      content: "";
+      display: inline-block;
+      width: 24px;
+      height: 1px;
+      background: #fff;
+      position: absolute;
+      top: 8px;
+      left: 0; }
+  @media (max-width: 767px) {
+    .top-facilities-title {
+      font-size: 2rem;
+      padding: 32px 0 0 0; }
+      .top-facilities-title span:before {
+        background: #3a372f; } }
 
 .top-facilities-description {
   max-width: 45%;
   line-height: 1.6;
   font-size: 1.1rem;
-  margin: 0 0 32px; }
+  margin: 0 0 40px; }
+  @media (max-width: 767px) {
+    .top-facilities-description {
+      max-width: 100%;
+      font-size: 1rem;
+      margin: 0 0 20px; } }
 
 .top-facilities-readmore a {
   color: #fff;
@@ -1917,6 +1981,7 @@ img {
   font-weight: bold;
   font-size: .9rem;
   padding: 12px 48px 12px 12px;
+  background-color: rgba(0, 0, 0, 0.2);
   padding: 12px 72px 12px 32px; }
   .top-facilities-readmore a:before {
     content: "";
@@ -1931,7 +1996,7 @@ img {
   .top-facilities-readmore a:after {
     content: "";
     position: absolute;
-    background: url("img/office/office-main-link.svg");
+    background-image: url("img/office/office-main-link.svg");
     background-size: 34px 6px;
     width: 34px;
     height: 6px;
@@ -1948,6 +2013,46 @@ img {
             transform: translateX(2px); }
   .top-facilities-readmore a:after {
     right: 20px; }
+
+@media (max-width: 767px) {
+  .top-facilities-readmore a {
+    color: #3a372f;
+    border: 1px solid #3a372f;
+    display: inline-block;
+    position: relative;
+    padding: .6em .8em;
+    font-weight: bold;
+    font-size: .9rem;
+    padding: 12px 48px 12px 12px;
+    background-color: inherit; }
+    .top-facilities-readmore a:before {
+      content: "";
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      border-bottom: 1px solid #3a372f;
+      border-right: 1px solid #3a372f;
+      right: -5px;
+      bottom: -5px; }
+    .top-facilities-readmore a:after {
+      content: "";
+      position: absolute;
+      background-image: url("img/btn-arrow-text.svg");
+      background-size: 34px 6px;
+      width: 34px;
+      height: 6px;
+      display: inline-block;
+      -webkit-transition: -webkit-transform .3s ease-out 0s;
+      transition: -webkit-transform .3s ease-out 0s;
+      transition: transform .3s ease-out 0s;
+      transition: transform .3s ease-out 0s, -webkit-transform .3s ease-out 0s;
+      top: 15px;
+      right: 8px; }
+    .top-facilities-readmore a:hover:after {
+      -webkit-transform: translateX(2px);
+          -ms-transform: translateX(2px);
+              transform: translateX(2px); } }
 
 .top-location {
   margin: 0 0 120px;
@@ -2353,8 +2458,12 @@ img {
       flex-basis: 50%;
   background: url("img/top-footer-top.svg") no-repeat center top, url("img/top-footer-bottom.svg") no-repeat center bottom;
   background-size: 400px 150px, 400px 150px;
-  padding: 60px 0;
+  padding: 44px 0 140px;
   text-align: center; }
+
+.top-footer-title {
+  line-height: 1.4;
+  margin: 20px 0 16px 0; }
 
 .top-funding {
   max-width: 800px;
@@ -2513,6 +2622,10 @@ img {
   -ms-flex-preferred-size: calc(25% - 20px);
       flex-basis: calc(25% - 20px);
   margin: 0 10px 20px; }
+  @media (max-width: 767px) {
+    .index-0207 .top-instafeed-title {
+      -ms-flex-preferred-size: calc(50% - 20px);
+          flex-basis: calc(50% - 20px); } }
 
 .index-0207 .top-instafeed-list {
   margin: 0 -10px; }
@@ -2520,6 +2633,10 @@ img {
     -ms-flex-preferred-size: calc(25% - 20px);
         flex-basis: calc(25% - 20px);
     margin: 0 10px 20px; }
+    @media (max-width: 767px) {
+      .index-0207 .top-instafeed-list li {
+        -ms-flex-preferred-size: calc(50% - 20px);
+            flex-basis: calc(50% - 20px); } }
 
 .food-contents {
   margin: 0 0 80px; }

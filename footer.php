@@ -4,7 +4,7 @@
         <div class="footer-feed">
           <div class="footer-feed-contents">
             <h2 class="footer-feed-title">Facebook</h2>
-            <div class="fb-page" data-href="https://www.facebook.com/Unknown.Kyoto.Gojo.Rakuen/" data-tabs="timeline" data-width="420" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/Unkown.Kyoto.Gojo.Rakuen/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Unkown.Kyoto.Gojo.Rakuen/">Unknown Kyoto Gojo-Rakuen</a></blockquote></div>
+            <div class="fb-page" data-href="https://www.facebook.com/Unknown.Kyoto.Gojo.Rakuen/" data-tabs="timeline" data-width="420" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/Unknown.Kyoto.Gojo.Rakuen/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Unknown.Kyoto.Gojo.Rakuen/">Unknown Kyoto Gojo-Rakuen</a></blockquote></div>
           </div>
           <div class="footer-feed-contents">
             <h2 class="footer-feed-title">Twitter</h2>

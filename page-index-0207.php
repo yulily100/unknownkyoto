@@ -68,10 +68,10 @@ $(function() {
   </div>
 
   <div class="top-main-share">
-    <p class="top-main-share-text">share</p>
+    <p class="top-main-share-text">SNS</p>
     <ul class="top-main-share-icon">
       <li><a href="https://www.instagram.com/unknownkyoto/" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/sns-instagram-white.svg" alt="Instagram"></a></li>
-      <li><a href="https://www.facebook.com/Unkown.Kyoto.Gojo.Rakuen" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/sns-facebook-white.svg" alt="Facebook"></a></li>
+      <li><a href="https://www.facebook.com/Unknown.Kyoto.Gojo.Rakuen" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/sns-facebook-white.svg" alt="Facebook"></a></li>
       <li><a href="https://twitter.com/unknown_kyoto" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/sns-twitter-white.svg" alt="Twitter"></a></li>
     </ul>
   </div>
@@ -88,16 +88,18 @@ $(function() {
 
 
   <section class="top-about">
-    <div class="top-about-intro js-fadein">
-      <h2 class="top-about-title"><img src="<?php echo get_template_directory_uri(); ?>/img/top-about-title.svg" alt="UNKNOWN KYOTO"></h2>
-      <p class="top-about-description">
-        UNKNOWN KYOTOは<br>
-        京都の元遊郭建築をリノベーション<br class="for-sp">した宿泊複合施設です。<br>
-        ベッドでくつろいで、おいしいご飯を食べて、それから仕事まで。<br>
-        自分の住む家のように過ごせます。
-      </p>
-      <div class="top-about-img">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/top-about.png" alt="元遊郭建築">
+    <div class="wrapper">
+      <div class="top-about-intro js-fadein">
+        <h2 class="top-about-title"><img src="<?php echo get_template_directory_uri(); ?>/img/top-about-title.svg" alt="UNKNOWN KYOTO"></h2>
+        <p class="top-about-description">
+          UNKNOWN KYOTOは<br>
+          京都の元遊郭建築をリノベーション<br class="for-sp">した宿泊複合施設です。<br>
+          ベッドでくつろいで、おいしいご飯を食べて、それから仕事まで。<br>
+          自分の住む家のように過ごせます。
+        </p>
+        <div class="top-about-img">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/top-about.png" alt="元遊郭建築">
+        </div>
       </div>
     </div>
   </section>
@@ -125,11 +127,12 @@ $(function() {
 
 <div class="wrapper">
   <section class="top-location">
-    <p class="top-location-heading">LOCATION</p>
-    <h2 class="top-location-title">知られざる京都<span class="for-pc">、</span><br class="for-sp">五條楽園</h2>
+    <div class="js-fadein">
+      <p class="top-location-heading">LOCATION</p>
+      <h2 class="top-location-title">知られざる京都<span class="for-pc">、</span><br class="for-sp">五條楽園</h2>
 
-    <p class="top-location-description">かつて「五條楽園」と呼ばれた<br class="for-sp">このエリアは<br class="for-pc">すぐ近くに鴨川と<br class="for-sp">高瀬川が流れ、迷路のように<br>細い路地が入り組んだ、古き良き<br class="for-sp">佇まいを残したまち。<br class="for-pc">そんな中に<br class="for-sp">UNKNOWN KYOTOはあります。</p>
-
+      <p class="top-location-description">かつて「五條楽園」と呼ばれた<br class="for-sp">このエリアは<br class="for-pc">すぐ近くに鴨川と<br class="for-sp">高瀬川が流れ、迷路のように<br>細い路地が入り組んだ、古き良き<br class="for-sp">佇まいを残したまち。<br class="for-pc">そんな中に<br class="for-sp">UNKNOWN KYOTOはあります。</p>
+    </div>
     <div class="js-fadein">
       <ul class="top-architecture-street">
         <li class="small"><img src="<?php echo get_template_directory_uri(); ?>/img/photo/02.jpg" alt=""></li>
@@ -141,7 +144,7 @@ $(function() {
       </ul>
     </div>
 
-    <div class="top-access">
+    <div class="top-access js-fadein">
       <h2 class="top-access-title">河原町駅からも京都駅からも歩けます</h2>
 
       <div class="top-access-map">
@@ -199,15 +202,20 @@ $(function() {
 <div class="top-footer">
   <section class="top-footer-contents js-funding" id="funding">
     <p class="top-funding-heading">FUNDING</p>
-    <h3>クラウドファンディング目標額達成！</h3>
+    <h3 class="top-footer-title">クラウドファンディング<br>目標額達成！</h3>
     <p class="top-funding-description">みなさんのご支援、ありがとうございました。</p>
     <p class="top-funding-description">プロジェクトの詳細はリンク先<span class="for-pc">のページ</span>にございます。</p>
-    <p class="top-funding-link"><a href="https://hello-renovation.jp/renovations/3428" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/top-funding.svg" alt="クラウドファンディング実施中！"></a></p>
+    <p class="section-link"><a href="https://hello-renovation.jp/renovations/3428" target="_blank" rel="noopener">プロジェクトページへ</a></p>
   </section>
   <section class="top-footer-contents">
     <p class="top-recruit-heading">RECRUIT</p>
-    <h3>スタッフ募集</h3>
-    <p>詳しくはこちら</p>
+    <h3 class="top-footer-title">スタッフ募集</h3>
+    <p>・朝食専属スタッフ(朝)<br>
+      ・飲食スタッフ(夜)<br>
+      ・コワーキング＆宿スタッフ<br>
+      ・宿清掃スタッフ<br>
+      時給:1000円〜</p>
+    <p>info@unknown.kyoto</p>
   </section>
 </div>
 

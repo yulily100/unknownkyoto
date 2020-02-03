@@ -144,12 +144,11 @@
   font-family: $vollkorn;
   display: inline-block;
   transform: rotate(90deg);
-  margin: 0 0 40px;
   position: absolute;
-  top: -100px;
+  top: -95px;
   letter-spacing: .8px;
   width: 50px;
-  left: -10px;
+  left: -12px;
 }
 .top-main-share-icon {
   width: 24px;
@@ -355,51 +354,104 @@
 }
 
 @mixin top-facilities {
-  background: #999;
   color: #fff;
-  padding: 80px 0;
+  height: 430px;
   background-position: center;
   background-size: cover;
+  text-shadow: 1px 1px 0px #000;
+  @media #{$mq-sm} {
+    color: $text;
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 61.8% 0 36px 0;
+    height: inherit;
+    text-shadow: none;
+    background-color: $bg;
+    margin: 0 0 20px;
+  }
 }
 
 .top-facilities-hostel {
   @include top-facilities();
-  background-image: url("img/top-menu/hostel-1.jpg");
+  background-image: url("img/top-facilities/hostel.jpg");
+  @media #{$mq-sm} {
+    background-image: url("img/top-facilities/hostel-sp.jpg");
+  }
 }
 .top-facilities-restaurant {
   @include top-facilities();
-  background-image: url("img/top-menu/restaurant.jpg");
+  background-image: url("img/top-facilities/restaurant.jpg");
+  @media #{$mq-sm} {
+    background-image: url("img/top-facilities/restaurant-sp.jpg");
+  }
 }
 .top-facilities-coworking {
   @include top-facilities();
-  background-image: url("img/top-menu/coworking.jpg");
+  background-image: url("img/top-facilities/coworking.jpg");
+  @media #{$mq-sm} {
+    background-image: url("img/top-facilities/coworking-sp.jpg");
+  }
 }
 .top-facilities-title {
   font-family: $vollkorn;
   font-size: 2.4rem;
   font-weight: normal;
-  margin: 0 0 12px;
+  margin: 0 0 20px;
+  padding: 60px 0 0 0;
   span {
     font-family: $yugothic;
     font-weight: bold;
     display: block;
-    font-size: .9rem;
-    margin: 4px 0 0 0;
+    font-size: .95rem;
+    margin: 8px 0 0 0;
+    padding: 0 0 0 32px;
+    position: relative;
+    &:before {
+      content: "";
+      display: inline-block;
+      width: 24px;
+      height: 1px;
+      background: #fff;
+      position: absolute;
+      top: 8px;
+      left: 0;
+    }
+  }
+  @media #{$mq-sm} {
+    font-size: 2rem;
+    padding: 32px 0 0 0;
+    span:before {
+      background: $text;
+    }
   }
 }
 .top-facilities-description {
   max-width: 45%;
   line-height: 1.6;
   font-size: 1.1rem;
-  margin: 0 0 32px;
+  margin: 0 0 40px;
+  @media #{$mq-sm} {
+    max-width: 100%;
+    font-size: 1rem;
+    margin: 0 0 20px;
+  }
 }
 .top-facilities-readmore {
   a {
     @include btn-border();
     @include btn-arrow();
+    background-color: rgba(0,0,0,.2);
     padding: 12px 72px 12px 32px;
     &:after {
       right: 20px;
+    }
+  }
+  @media #{$mq-sm} {
+    a {
+      @include btn-border($color: $text);
+      @include btn-arrow-text();
+      background-color: inherit;
     }
   }
 }
@@ -734,8 +786,12 @@
     url("img/top-footer-top.svg") no-repeat center top,
     url("img/top-footer-bottom.svg") no-repeat center bottom;
   background-size: 400px 150px, 400px 150px;
-  padding: 60px 0;
+  padding: 44px 0 140px;
   text-align: center;
+}
+.top-footer-title {
+  line-height: 1.4;
+  margin: 20px 0 16px 0;
 }
 .top-funding {
   max-width: 800px;
@@ -893,12 +949,18 @@
   .top-instafeed-title {
     flex-basis: calc(25% - 20px);
     margin: 0 10px 20px;
+    @media #{$mq-sm} {
+      flex-basis: calc(50% - 20px);
+    }
   }
   .top-instafeed-list {
     margin: 0 -10px;
     li {
       flex-basis: calc(25% - 20px);
       margin: 0 10px 20px;
+      @media #{$mq-sm} {
+        flex-basis: calc(50% - 20px);
+      }
     }
   }
 }
