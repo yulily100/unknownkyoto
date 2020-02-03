@@ -633,6 +633,11 @@ img {
       display: -ms-flexbox;
       display: flex; } }
 
+.header-nav-sp {
+  display: none;
+  width: 100vw;
+  height: 100vh; }
+
 .header-nav-booking {
   text-align: center; }
   .header-nav-booking a {
@@ -1855,6 +1860,32 @@ img {
           -ms-transform: translateX(4px);
               transform: translateX(4px); }
 
+.btn-normal a {
+  border-bottom: 1px solid #3a372f;
+  display: inline-block;
+  padding: 6px 46px 6px 6px;
+  position: relative; }
+  .btn-normal a:hover {
+    color: #565246; }
+  .btn-normal a:after {
+    content: "";
+    position: absolute;
+    background: url("img/section-link.svg");
+    background-size: 34px 6px;
+    width: 34px;
+    height: 6px;
+    display: inline-block;
+    -webkit-transition: -webkit-transform .3s ease-out 0s;
+    transition: -webkit-transform .3s ease-out 0s;
+    transition: transform .3s ease-out 0s;
+    transition: transform .3s ease-out 0s, -webkit-transform .3s ease-out 0s;
+    top: 12px;
+    right: 6px; }
+  .btn-normal a:hover:after {
+    -webkit-transform: translateX(4px);
+        -ms-transform: translateX(4px);
+            transform: translateX(4px); }
+
 .top-contents {
   max-width: 960px;
   margin: 0 auto;
@@ -2452,6 +2483,9 @@ img {
   display: flex;
   max-width: 960px;
   margin: 0 auto; }
+  @media (max-width: 767px) {
+    .top-footer {
+      display: block; } }
 
 .top-footer-contents {
   -ms-flex-preferred-size: 50%;
@@ -2460,10 +2494,16 @@ img {
   background-size: 400px 150px, 400px 150px;
   padding: 44px 0 140px;
   text-align: center; }
+  .top-footer-contents .btn-normal {
+    margin: 32px 0 0 0; }
 
 .top-footer-title {
   line-height: 1.4;
   margin: 20px 0 16px 0; }
+
+.top-footer-description {
+  line-height: 1.4;
+  margin: 0 0 12px; }
 
 .top-funding {
   max-width: 800px;
@@ -2616,7 +2656,7 @@ img {
         flex-basis: calc(60% - 20px); }
 
 .index-0207 .top-access {
-  margin: 40px 0 0 0; }
+  padding: 40px 0 0 0; }
 
 .index-0207 .top-instafeed-title {
   -ms-flex-preferred-size: calc(25% - 20px);

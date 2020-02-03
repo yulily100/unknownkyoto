@@ -339,6 +339,12 @@
     @include link-arrow-right();
   }
 }
+.btn-normal {
+  a {
+    border-bottom: 1px solid $text;
+    @include link-arrow-right();
+  }
+}
 
 
 .top-contents {
@@ -779,6 +785,9 @@
   display: flex;
   max-width: 960px;
   margin: 0 auto;
+  @media #{$mq-sm} {
+    display: block;
+  }
 }
 .top-footer-contents {
   flex-basis: 50%;
@@ -788,11 +797,19 @@
   background-size: 400px 150px, 400px 150px;
   padding: 44px 0 140px;
   text-align: center;
+  .btn-normal {
+    margin: 32px 0 0 0;
+  }
 }
 .top-footer-title {
   line-height: 1.4;
   margin: 20px 0 16px 0;
 }
+.top-footer-description {
+  line-height: 1.4;
+  margin: 0 0 12px;
+}
+
 .top-funding {
   max-width: 800px;
   text-align: center;
@@ -892,6 +909,7 @@
       }
     }
   }
+
   .header-language {
     margin: 0 0 0 46px;
   }
@@ -944,7 +962,7 @@
     }
   }
   .top-access {
-    margin: 40px 0 0 0;
+    padding: 40px 0 0 0;
   }
   .top-instafeed-title {
     flex-basis: calc(25% - 20px);
@@ -972,5 +990,6 @@
 // top-fundingけす
 // top-funding-title消す
 // top-about-funding消す
+// btn section-link などなど整理する
 
 // headerのメニュー部分整理する

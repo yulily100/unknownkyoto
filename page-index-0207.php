@@ -203,19 +203,23 @@ $(function() {
   <section class="top-footer-contents js-funding" id="funding">
     <p class="top-funding-heading">FUNDING</p>
     <h3 class="top-footer-title">クラウドファンディング<br>目標額達成！</h3>
-    <p class="top-funding-description">みなさんのご支援、ありがとうございました。</p>
-    <p class="top-funding-description">プロジェクトの詳細はリンク先<span class="for-pc">のページ</span>にございます。</p>
-    <p class="section-link"><a href="https://hello-renovation.jp/renovations/3428" target="_blank" rel="noopener">プロジェクトページへ</a></p>
+    <p class="top-footer-description">
+      みなさんのご支援、ありがとうございました。<br>
+      プロジェクトの詳細は<br>リンク先のページにございます。</p>
+    <p class="btn-normal"><a href="https://hello-renovation.jp/renovations/3428" target="_blank" rel="noopener">プロジェクトページへ</a></p>
   </section>
   <section class="top-footer-contents">
     <p class="top-recruit-heading">RECRUIT</p>
     <h3 class="top-footer-title">スタッフ募集</h3>
-    <p>・朝食専属スタッフ(朝)<br>
-      ・飲食スタッフ(夜)<br>
-      ・コワーキング＆宿スタッフ<br>
-      ・宿清掃スタッフ<br>
-      時給:1000円〜</p>
-    <p>info@unknown.kyoto</p>
+    <p class="top-footer-description">UNKNOWN KYOTOではスタッフを募集しています。</p>
+    <p class="top-footer-description">朝食専属スタッフ（7:00-11:00）<br>
+      飲食スタッフ（19:00-23:00）<br>
+      コワーキング＆宿スタッフ（9:00-22:00の間で4h以上〜）<br>
+      宿清掃スタッフ</p>
+    <p class="top-footer-description">時給:1000円〜</p>
+    <p class="top-footer-description">ご応募は<br>
+      info@unknown.kyoto<br>
+      までご連絡ください。</p>
   </section>
 </div>
 

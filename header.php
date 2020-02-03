@@ -105,6 +105,14 @@
 
         </ul>
 
+        <ul class="header-nav-sp">
+          <li><a href="/hostel">Hostel</a></li>
+          <li><a href="/restaurant">Restaurant</a></li>
+          <li><a href="/coworking">Coworking</a></li>
+          <li><a href="/access">Access</a></li>
+          <li><a href="https://www.beds24.com/booking2.php?propid=101300" target="_blank">Booking<span>ご予約</span></a></li>
+        </ul>
+
 
 
         <ul class="header-sns">
