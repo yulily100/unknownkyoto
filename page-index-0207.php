@@ -58,6 +58,13 @@ $(function() {
      return false;
   });
 
+  // ハンバーガーメニュー
+  $(function() {
+    $('.js-btn-toggle').on('click',function() {
+      $('.nav-sp').toggleClass('is-open');
+    });
+  });
+
 });
 </script>
 

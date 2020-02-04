@@ -937,6 +937,9 @@
         opacity: .7;
       }
     }
+    @media #{$mq-sm} {
+      display: none;
+    }
   }
   .top-about {
     padding: 80px 0;

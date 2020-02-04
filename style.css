@@ -4,6 +4,7 @@ Theme Name: unknown kyoto blog
 Description: unknown kyoto blog
 Author: Saori Yuri
 */
+@import url("https://fonts.googleapis.com/css?family=Vollkorn");
 /*! sanitize.css v7.0.3 | CC0 License | github.com/csstools/sanitize.css */
 /* Document
  * ========================================================================== */
@@ -11,7 +12,6 @@ Author: Saori Yuri
  * 1. Remove repeating backgrounds in all browsers (opinionated).
  * 2. Add border box sizing in all browsers (opinionated).
  */
-@import url("https://fonts.googleapis.com/css?family=Vollkorn");
 *,
 ::before,
 ::after {
@@ -541,167 +541,6 @@ img {
     .for-sp {
       display: block !important; } }
 
-.header {
-  padding: 0 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  height: 68px;
-  border-bottom: 1px solid #ddd; }
-  @media (max-width: 767px) {
-    .header {
-      display: block;
-      text-align: center;
-      padding: 12px 0;
-      height: auto; } }
-  .page-index .header {
-    position: absolute;
-    width: 100%;
-    z-index: 100;
-    border: none; }
-    .page-index .header a {
-      color: #fff; }
-    @media (max-width: 767px) {
-      .page-index .header {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        padding: 20px 12px;
-        height: auto; } }
-
-.header-main {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
-  @media (max-width: 767px) {
-    .header-main {
-      display: block; } }
-
-.header-title {
-  margin: 0; }
-  .header-title img {
-    width: 188px;
-    height: 44px; }
-
-.header-description {
-  font-size: .8rem;
-  margin: 0 0 0 16px;
-  color: #666054; }
-  @media (max-width: 767px) {
-    .header-description {
-      display: none; } }
-
-.header-menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
-
-.header-nav {
-  font-weight: bold;
-  font-family: "Vollkorn", serif;
-  font-size: 1.1rem;
-  letter-spacing: 1px;
-  margin: 0 4px 0 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
-  .header-nav a {
-    display: inline-block;
-    padding: 4px 6px;
-    -webkit-transition: inherit;
-    transition: inherit; }
-    .header-nav a:hover {
-      text-decoration: underline; }
-  @media (max-width: 767px) {
-    .header-nav {
-      display: none; } }
-  @media (max-width: 767px) {
-    .page-index .header-nav {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex; } }
-
-.header-nav-sp {
-  display: none;
-  width: 100vw;
-  height: 100vh; }
-
-.header-nav-booking {
-  text-align: center; }
-  .header-nav-booking a {
-    color: #fff !important;
-    background: #d3b471;
-    padding: 13px 16px; }
-    .header-nav-booking a:hover {
-      background: #d9be84;
-      opacity: 1 !important; }
-  .header-nav-booking span {
-    font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", sans-serif;
-    font-weight: bold;
-    display: block;
-    font-size: .8rem; }
-
-.header-sns {
-  margin-right: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 0;
-  margin: 0; }
-  .header-sns li {
-    margin: 0 0 0 16px; }
-  .header-sns img {
-    width: 24px;
-    height: 24px; }
-
-.header-language {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 0 0 0 56px;
-  font-size: .95rem; }
-  .header-language li:first-child:after {
-    content: "/";
-    padding: 0 4px;
-    color: #fff; }
-  .header-language .current-menu-item {
-    font-weight: bold;
-    color: #fff; }
-    .header-language .current-menu-item a {
-      text-decoration: none; }
-  .header-language a {
-    text-decoration: underline; }
-  @media (max-width: 767px) {
-    .header-language {
-      margin-left: 40px; } }
-
-.header-sns {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 0;
-  margin: 0; }
-  .header-sns li {
-    margin: 0 0 0 16px; }
-  .header-sns img {
-    width: 24px;
-    height: 24px; }
-  @media (max-width: 767px) {
-    .header-sns {
-      display: none; } }
-
 .footer {
   background: #f2eee7; }
 
@@ -891,6 +730,287 @@ img {
   text-align: center; }
   .section.bg {
     background: #f2eee7; }
+
+.header {
+  padding: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 68px;
+  border-bottom: 1px solid #ddd; }
+  @media (max-width: 767px) {
+    .header {
+      display: block;
+      text-align: center;
+      padding: 12px 0;
+      height: auto; } }
+  .page-index .header {
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    border: none; }
+    .page-index .header a {
+      color: #fff; }
+    @media (max-width: 767px) {
+      .page-index .header {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        padding: 20px 12px;
+        height: auto; } }
+
+.header-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  @media (max-width: 767px) {
+    .header-main {
+      display: block; } }
+
+.header-title {
+  margin: 0; }
+  .header-title img {
+    width: 188px;
+    height: 44px; }
+
+.header-description {
+  font-size: .8rem;
+  margin: 0 0 0 16px;
+  color: #666054; }
+  @media (max-width: 767px) {
+    .header-description {
+      display: none; } }
+
+.header-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.header-nav {
+  font-weight: bold;
+  font-family: "Vollkorn", serif;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  margin: 0 4px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .header-nav a {
+    display: inline-block;
+    padding: 4px 6px;
+    -webkit-transition: inherit;
+    transition: inherit; }
+    .header-nav a:hover {
+      text-decoration: underline; }
+  @media (max-width: 767px) {
+    .header-nav {
+      display: none; } }
+  @media (max-width: 767px) {
+    .page-index .header-nav {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; } }
+
+.header-nav-booking {
+  text-align: center; }
+  .header-nav-booking a {
+    color: #fff !important;
+    background: #d3b471;
+    padding: 13px 16px; }
+    .header-nav-booking a:hover {
+      background: #d9be84;
+      opacity: 1 !important; }
+  .header-nav-booking span {
+    font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", sans-serif;
+    font-weight: bold;
+    display: block;
+    font-size: .8rem; }
+
+.header-sns {
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0; }
+  .header-sns li {
+    margin: 0 0 0 16px; }
+  .header-sns img {
+    width: 24px;
+    height: 24px; }
+
+.header-language {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 0 0 56px;
+  font-size: .95rem; }
+  .header-language li:first-child:after {
+    content: "/";
+    padding: 0 4px;
+    color: #fff; }
+  .header-language .current-menu-item {
+    font-weight: bold;
+    color: #fff; }
+    .header-language .current-menu-item a {
+      text-decoration: none; }
+  .header-language a {
+    text-decoration: underline; }
+  @media (max-width: 767px) {
+    .header-language {
+      margin-left: 40px; } }
+
+.header-sns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0; }
+  .header-sns li {
+    margin: 0 0 0 16px; }
+  .header-sns img {
+    width: 24px;
+    height: 24px; }
+  @media (max-width: 767px) {
+    .header-sns {
+      display: none; } }
+
+.nav-sp-body {
+  text-align: center;
+  display: none;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  color: #000;
+  background: #f2eee7;
+  height: 100vh;
+  z-index: 110; }
+  .nav-sp-body a {
+    color: #000 !important; }
+  .is-open .nav-sp-body {
+    display: block; }
+
+.nav-sp-title {
+  margin: 60px 0 28px; }
+  .nav-sp-title img {
+    width: 188px;
+    height: 44px; }
+
+.nav-sp-toggle {
+  position: absolute;
+  right: 14px;
+  top: 10px;
+  display: none;
+  color: #fff;
+  z-index: 100000;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: none; }
+  .nav-sp-toggle span {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: relative; }
+    .nav-sp-toggle span:before {
+      content: "";
+      display: inline-block;
+      width: 32px;
+      height: 1px;
+      background: #fff;
+      position: absolute;
+      left: 4px;
+      top: 12px; }
+    .nav-sp-toggle span:after {
+      content: "";
+      display: inline-block;
+      width: 32px;
+      height: 1px;
+      background: #fff;
+      position: absolute;
+      left: 4px;
+      bottom: 12px; }
+  @media (max-width: 767px) {
+    .nav-sp-toggle {
+      display: block; } }
+  .is-open .nav-sp-toggle span:before, .is-open .nav-sp-toggle span:after {
+    background: #3a372f; }
+  .is-open .nav-sp-toggle span:before {
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+    top: 20px; }
+  .is-open .nav-sp-toggle span:after {
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    bottom: 19px; }
+  .is-active .nav-sp-toggle span:before, .is-active .nav-sp-toggle span:after {
+    background: #3a372f; }
+
+.nav-sp-menu {
+  font-size: 1.2rem;
+  font-family: "Vollkorn", serif; }
+  .nav-sp-menu a {
+    display: inline-block;
+    padding: 8px 0;
+    width: 100%; }
+
+.nav-sp-booking {
+  padding: 0 20px;
+  margin: 0 auto 16px;
+  width: 260px; }
+  .nav-sp-booking a {
+    color: #3a372f;
+    border: 1px solid #3a372f;
+    display: inline-block;
+    position: relative;
+    padding: .6em .8em;
+    font-weight: bold;
+    font-size: .9rem;
+    font-weight: normal;
+    font-size: 1.2rem; }
+    .nav-sp-booking a:before {
+      content: "";
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      border-bottom: 1px solid #3a372f;
+      border-right: 1px solid #3a372f;
+      right: -5px;
+      bottom: -5px; }
+  .nav-sp-booking span {
+    display: block;
+    font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", sans-serif;
+    font-size: .8rem; }
+
+.nav-sp-sns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 24px 0 0 0; }
+  .nav-sp-sns li {
+    margin: 0 8px; }
+  .nav-sp-sns img {
+    width: 28px; }
 
 .page-header {
   text-align: center;
@@ -2631,6 +2751,9 @@ img {
   .index-0207 .header-nav a:hover {
     text-decoration: none;
     opacity: .7; }
+  @media (max-width: 767px) {
+    .index-0207 .header-nav {
+      display: none; } }
 
 .index-0207 .top-about {
   padding: 80px 0; }

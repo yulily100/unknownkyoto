@@ -4,10 +4,14 @@ Description: unknown kyoto blog
 Author: Saori Yuri
 */
 
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+
 @charset "utf-8";
 @import "lib/sanitize";
 @import "lib/variable";
+@import "lib/mixin";
 @import "lib/common";
+@import "lib/header";
 @import "lib/page";
 @import "lib/blog";
 @import "lib/top";

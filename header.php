@@ -105,16 +105,6 @@
 
         </ul>
 
-        <ul class="header-nav-sp">
-          <li><a href="/hostel">Hostel</a></li>
-          <li><a href="/restaurant">Restaurant</a></li>
-          <li><a href="/coworking">Coworking</a></li>
-          <li><a href="/access">Access</a></li>
-          <li><a href="https://www.beds24.com/booking2.php?propid=101300" target="_blank">Booking<span>ご予約</span></a></li>
-        </ul>
-
-
-
         <ul class="header-sns">
           <?php if ( is_front_page() && is_home() || is_page('en') ) : ?>
 
@@ -130,5 +120,31 @@
 
           <?php endif ; ?>
         </ul>
+      </div>
+
+      <div class="nav-sp">
+        <button type="button" class="nav-sp-toggle js-btn-toggle"><span></span></button>
+
+        <div class="nav-sp-body">
+          <h2 class="nav-sp-title">
+            <a href="/">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/header-logo.svg" alt="UNKNWON KYOTO">
+            </a>
+          </h2>
+
+          <ul class="nav-sp-menu">
+            <li class="nav-sp-booking"><a href="https://www.beds24.com/booking2.php?propid=101300" target="_blank">Booking<span>ご予約</span></a></li>
+            <li><a href="/hostel">Hostel</a></li>
+            <li><a href="/restaurant">Restaurant</a></li>
+            <li><a href="/coworking">Coworking</a></li>
+            <li><a href="/access">Access</a></li>
+            <li><a href="/blog">Blog</a></li>
+          </ul>
+          <ul class="nav-sp-sns">
+            <li><a href="https://www.instagram.com/unknownkyoto/" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/sns-instagram.svg" alt="Instagram"></a></li>
+            <li><a href="https://www.facebook.com/Unknown.Kyoto.Gojo.Rakuen" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/sns-facebook.svg" alt="Facebook"></a></li>
+            <li><a href="https://twitter.com/unknown_kyoto" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/sns-twitter.svg" alt="Twitter"></a></li>
+          </ul>
+        </div>
       </div>
     </header>
