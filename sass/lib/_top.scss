@@ -139,6 +139,10 @@
   position: absolute;
   left: 28px;
   bottom: 20px;
+  @media #{$mq-sm} {
+    left: inherit;
+    bottom: 100px;
+  }
 }
 .top-main-share-text {
   font-family: $vollkorn;
@@ -149,6 +153,9 @@
   letter-spacing: .8px;
   width: 50px;
   left: -12px;
+  @media #{$mq-sm} {
+    display: none;
+  }
 }
 .top-main-share-icon {
   width: 24px;
@@ -174,7 +181,17 @@
     width: 24px;
     height: 24px;
   }
-
+  @media #{$mq-sm} {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    li {
+      margin: 0 8px;
+    }
+    &:before {
+      display: none;
+    }
+  }
 }
 
 // クラウドファンディング
@@ -947,6 +964,9 @@
   .top-main-description {
     font-size: 1.4rem;
     margin: 20px 0 0;
+    @media #{$mq-320} {
+      font-size: 1.2rem;
+    }
   }
   .header-sns {
     display: none;

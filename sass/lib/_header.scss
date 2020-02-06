@@ -83,10 +83,10 @@
   text-align: center;
   a {
     color: #fff !important;
-    background: $secondary;
+    background: $primary;
     padding: 13px 16px;
     &:hover {
-      background: lighten($secondary, 5%);
+      background: lighten($primary, 5%);
       opacity: 1 !important;
     }
   }
@@ -151,6 +151,14 @@
 }
 
 // sp
+.nav-sp {
+  display: none;
+  .index-0207 & {
+    @media #{$mq-sm} {
+      display: block;
+    }
+  }
+}
 .nav-sp-body {
   text-align: center;
   display: none;
@@ -216,7 +224,9 @@
     }
   }
   @media #{$mq-sm} {
-    display: block;
+    .index-0207 & {
+      display: block;
+    }
   }
   .is-open & {
     span {

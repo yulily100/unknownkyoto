@@ -28,7 +28,20 @@
     height: 240px;
   }
 }
-.page-food-title {
+.page-header-hostel {
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  background-image: url("img/page-header/hostel.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media #{$mq-sm} {
+    height: 240px;
+  }
+}
+.page-header-title {
   font-family: $vollkorn;
   font-weight: normal;
   letter-spacing: 1px;
@@ -56,7 +69,7 @@
 .page-header-inner {
   animation: fadein 1s ease-in 0s;
 }
-.page-food-hours {
+.page-header-detail {
   color: #fff;
   margin: 12px 0 0 0;
   font-size: 1.1rem;
@@ -108,6 +121,15 @@
     }
   }
 }
+.page-about {
+  text-align: center;
+  margin: 40px 0;
+}
+.page-about-description {
+  line-height: 1.4;
+  margin: 0 0 32px;
+}
+
 .page-contents {
   padding: 40px 0;
   @media #{$mq-sm} {

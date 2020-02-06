@@ -104,9 +104,6 @@ $(function() {
           ベッドでくつろいで、おいしいご飯を食べて、それから仕事まで。<br>
           自分の住む家のように過ごせます。
         </p>
-        <div class="top-about-img">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/top-about.png" alt="元遊郭建築">
-        </div>
       </div>
     </div>
   </section>

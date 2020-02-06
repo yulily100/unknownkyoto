@@ -1,0 +1,73 @@
+// hostel
+.hostel-room {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px -10px;
+  @media #{$mq-md} {
+    display: block;
+  }
+}
+.hostel-room-inner {
+  flex-basis: calc(50% - 20px);
+  margin: 0 10px 20px;
+  background: $bg;
+}
+.hostel-room-photo {
+  position: relative;
+  &:after {
+    content: "写真は部屋の一例です";
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    display: inline-block;
+    color: #fff;
+    opacity: .8;
+    font-size: .8rem;
+  }
+  img {
+    max-width: 100%;
+  }
+
+}
+.hostel-room-text {
+  padding: 24px;
+}
+.hostel-room-title {
+  font-size: 2rem;
+  font-family: $vollkorn;
+  font-weight: normal;
+  margin: 0 0 12px 0;
+  span {
+    font-size: .9rem;
+    display: block;
+    font-family: $yugothic;
+    font-weight: bold;
+    color: $text-light;
+  }
+}
+.hostel-room-equipment {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 8px 0;
+  li {
+    margin: 0 6px 0 0;
+    &:after {
+      content: "/";
+      margin: 0 0 0 6px;
+      color: $text-light;
+    }
+    &:last-child {
+      margin: 0;
+      &:after {
+        display: none;
+      }
+    }
+  }
+}
+.hostel-room-btn {
+  margin: 20px 0 0 0;
+  a {
+    @include btn-border($color: $text);
+    @include btn-arrow-text();
+  }
+}
