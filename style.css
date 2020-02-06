@@ -772,9 +772,6 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-  @media (max-width: 767px) {
-    .header-main {
-      display: block; } }
 
 .header-title {
   margin: 0; }
@@ -2965,6 +2962,10 @@ img {
       -webkit-transform: translateX(2px);
           -ms-transform: translateX(2px);
               transform: translateX(2px); }
+
+.hostel-booking {
+  text-align: center;
+  margin: 0 0 60px 0; }
 
 .food-contents {
   margin: 0 0 80px; }

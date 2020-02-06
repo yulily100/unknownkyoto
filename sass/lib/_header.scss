@@ -32,9 +32,6 @@
 .header-main {
   display: flex;
   align-items: center;
-  @media #{$mq-sm} {
-    display: block;
-  }
 }
 .header-title {
   margin: 0;

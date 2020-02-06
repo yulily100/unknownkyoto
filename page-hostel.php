@@ -64,7 +64,6 @@ $(function() {
           <li>電源コンセント</li>
         </ul>
         <p class="hostel-room-price">6,000円〜</p>
-        <p class="hostel-room-btn"><a href="" target="_blank" rel="noopener">この部屋を予約する</a></p>
       </div>
     </section>
 
@@ -83,7 +82,6 @@ $(function() {
           <li>電源コンセント</li>
         </ul>
         <p class="hostel-room-price">7,000円〜</p>
-        <p class="hostel-room-btn"><a href="" target="_blank" rel="noopener">この部屋を予約する</a></p>
       </div>
     </section>
     <section class="hostel-room-inner">
@@ -101,7 +99,6 @@ $(function() {
           <li>電源コンセント</li>
         </ul>
         <p class="hostel-room-price">8,000円〜</p>
-        <p class="hostel-room-btn"><a href="" target="_blank" rel="noopener">この部屋を予約する</a></p>
       </div>
     </section>
     <section class="hostel-room-inner">
@@ -111,6 +108,7 @@ $(function() {
       <div class="hostel-room-text">
         <h3 class="hostel-room-title"><span>デラックスツインルーム</span>Deluxe Twin Room</h3>
         <ul class="hostel-room-equipment">
+          <li>洗面台</li>
           <li>デスクライト</li>
           <li>Free wifi</li>
           <li>鏡</li>
@@ -119,7 +117,6 @@ $(function() {
           <li>電源コンセント</li>
         </ul>
         <p class="hostel-room-price">9,000円〜</p>
-        <p class="hostel-room-btn"><a href="" target="_blank" rel="noopener">この部屋を予約する</a></p>
       </div>
     </section>
     <section class="hostel-room-inner">
@@ -136,7 +133,6 @@ $(function() {
           <li>電源コンセント</li>
         </ul>
         <p class="hostel-room-price">3,500円〜</p>
-        <p class="hostel-room-btn"><a href="" target="_blank" rel="noopener">この部屋を予約する</a></p>
       </div>
     </section>
     <section class="hostel-room-inner">
@@ -153,10 +149,13 @@ $(function() {
           <li>電源コンセント</li>
         </ul>
         <p class="hostel-room-price">4,000円〜</p>
-        <p class="hostel-room-btn"><a href="" target="_blank" rel="noopener">この部屋を予約する</a></p>
       </div>
     </section>
-
+  </div>
+  <div class="hostel-booking">
+    <p class="btn-primary">
+      <a href="https://www.beds24.com/booking2.php?propid=101300" target="_blink" rel="noopener">ご予約はこちら</a>
+    </p>
   </div>
 </div>
 
