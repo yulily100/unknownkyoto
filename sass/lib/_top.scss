@@ -904,7 +904,12 @@
   @include top-heading();
   background-image: url("img/top-recruit-heading.svg");
 }
-
+.top-recruit-list {
+  margin: 0 0 12px;
+  li {
+    margin: 0 0 8px;
+  }
+}
 
 // english
 .lang-en {

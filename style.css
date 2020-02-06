@@ -2082,6 +2082,11 @@ img {
   font-weight: normal;
   background-image: url("img/top-recruit-heading.svg"); }
 
+.top-recruit-list {
+  margin: 0 0 12px; }
+  .top-recruit-list li {
+    margin: 0 0 8px; }
+
 .lang-en .top-main-funding a {
   font-size: .95rem;
   padding-top: 72px; }

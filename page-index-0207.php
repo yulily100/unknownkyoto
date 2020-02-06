@@ -216,10 +216,11 @@ $(function() {
     <p class="top-recruit-heading">RECRUIT</p>
     <h3 class="top-footer-title">スタッフ募集</h3>
     <p class="top-footer-description">UNKNOWN KYOTOではスタッフを募集しています。</p>
-    <p class="top-footer-description">朝食専属スタッフ（7:00-11:00）<br>
-      飲食スタッフ（19:00-23:00）<br>
-      コワーキング＆宿スタッフ（9:00-22:00の間で4h以上〜）<br>
-      宿清掃スタッフ</p>
+    <ul class="top-recruit-list">
+      <li>朝食専属スタッフ<br>（7:00-11:00）</li>
+      <li>飲食スタッフ<br>（19:00-23:00）</li>
+      <li>コワーキング＆宿スタッフ<br>（9:00-22:00の間で4h以上〜）</li>
+      宿清掃スタッフ</ul>
     <p class="top-footer-description">時給:1000円〜</p>
     <p class="top-footer-description">ご応募は<br>
       info@unknown.kyoto<br>
