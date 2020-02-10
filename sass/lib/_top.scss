@@ -804,6 +804,7 @@
   margin: 0 auto;
   @media #{$mq-sm} {
     display: block;
+    margin: 0 0 40px 0;
   }
 }
 .top-footer-contents {
@@ -919,7 +920,7 @@
   }
 }
 
-.index-0207 {
+
   .header {
     padding: 0;
     height: 60px;
@@ -930,10 +931,6 @@
         color: $text;
       }
     }
-  }
-
-  .header-language {
-    margin: 0 0 0 46px;
   }
   .header-n-logo {
     position: inherit;
@@ -1009,7 +1006,7 @@
       }
     }
   }
-}
+
 
 // todo
 // .header-sns消す

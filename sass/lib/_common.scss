@@ -41,6 +41,10 @@ img {
     margin: 0 1em;
   }
 }
+
+.container {
+  padding: 60px 0 0 0;
+}
 .wrapper {
   @include wrapper;
 }

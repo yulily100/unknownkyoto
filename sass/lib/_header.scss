@@ -6,6 +6,9 @@
   justify-content: space-between;
   height: 68px;
   border-bottom: 1px solid $border;
+  width: 100%;
+  background: #fff;
+  z-index: 100;
   @media #{$mq-sm} {
     display: block;
     text-align: center;
@@ -15,16 +18,14 @@
 
   // トップページのみ
   .page-index & {
-    position: absolute;
-    width: 100%;
     z-index: $z-higher;
     border: none;
+    background: none;
     a {
       color: #fff;
     }
     @media #{$mq-sm} {
       display: flex;
-      padding: 20px 12px;
       height: auto;
     }
   }
@@ -32,6 +33,12 @@
 .header-main {
   display: flex;
   align-items: center;
+  justify-content: center;
+  height: 60px;
+  padding: 0 0 0 20px;
+  @media #{$mq-sm} {
+    padding: 0;
+  }
 }
 .header-title {
   margin: 0;
@@ -51,6 +58,9 @@
 .header-menu {
   display: flex;
   align-items: center;
+  @media #{$mq-sm} {
+    display: none;
+  }
 }
 .header-nav {
   font-weight: bold;
@@ -110,7 +120,7 @@
 
 .header-language {
   display: flex;
-  margin: 0 0 0 56px;
+  margin: 0 0 0 28px;
   font-size: .95rem;
   li:first-child:after {
     content: "/";
@@ -150,11 +160,9 @@
 // sp
 .nav-sp {
   display: none;
-  .index-0207 & {
     @media #{$mq-sm} {
       display: block;
     }
-  }
 }
 .nav-sp-body {
   text-align: center;
@@ -204,7 +212,7 @@
       display: inline-block;
       width: 32px;
       height: 1px;
-      background: #fff;
+      background: $text;
       position: absolute;
       left: 4px;
       top: 12px;
@@ -214,15 +222,20 @@
       display: inline-block;
       width: 32px;
       height: 1px;
-      background: #fff;
+      background: $text;
       position: absolute;
       left: 4px;
       bottom: 12px;
     }
   }
   @media #{$mq-sm} {
-    .index-0207 & {
       display: block;
+  }
+  .page-index & {
+    span {
+      &:before, &:after {
+        background: #fff;
+      }
     }
   }
   .is-open & {

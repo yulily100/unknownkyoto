@@ -51,6 +51,72 @@
     <?php wp_head(); ?>
   </head>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script>
+  $(function() {
+    // instagram feed
+    var accessToken = '10677467838.a39ffa6.79cee58175a245f994d8e86f61a27698'; //token
+    $.getJSON('https://api.instagram.com/v1/users/self/media/recent/?access_token='+accessToken+'&callback=?',function (insta) {
+      $.each(insta.data,function (photos,src) {
+        if ( photos === 7 ) { return false; }
+        $('<li><a href="'+src.link+'" target="_blank"><img src="'+src.images.standard_resolution.url+'"></a></li>').appendTo('#js-instafeed');
+      });
+    });
+
+    var $fadeIn = $('.js-fadein');
+
+    // scroll event
+    $(window).scroll(function () {
+      var wh = $(window).height();
+      var scroll = $(window).scrollTop();
+
+      // Nロゴの色を変える
+      if (scroll > wh ) {
+        $('.header-n-logo').addClass('is-active');
+        $('.header').addClass('is-active');
+      }
+      else {
+        $('.header-n-logo').removeClass('is-active');
+        $('.header').removeClass('is-active');
+      }
+
+      // .js-fadein が付けられた要素をふわっと表示
+      $fadeIn.each(function() {
+        var targetElement = $(this).offset().top;
+        if (scroll > targetElement - wh + 200){
+          $(this).css('opacity','1');
+          $(this).css('transform','translateY(0)');
+        }
+      });
+
+      $('.js-funding').each(function() {
+        var targetElement = $(this).offset().top;
+        if (scroll > targetElement - wh ) {
+          $('.top-main-funding').addClass('is-active');
+        }
+      });
+    });
+
+    // ページ内をなめらかにスクロール
+    $('a[href^="#"]').click(function() {
+       var speed = 600;
+       var href= $(this).attr("href");
+       var target = $(href == "#" || href == "" ? 'html' : href);
+       var position = target.offset().top;
+       $('body,html').animate({scrollTop:position}, speed, 'swing');
+       return false;
+    });
+
+    // ハンバーガーメニュー
+    $(function() {
+      $('.js-btn-toggle').on('click',function() {
+        $('.nav-sp').toggleClass('is-open');
+      });
+    });
+
+  });
+  </script>
+
   <?php
     if ( is_front_page() && is_home() ) {
       $body_class = "page-index";
@@ -66,6 +132,7 @@
     }
   ?>
   <body class="<?php echo $body_class; ?>">
+
     <header class="header">
       <div class="header-main">
         <?php if ( is_front_page() && is_home() || is_page('en') || is_page('index-0207') ) : ?>
@@ -92,32 +159,11 @@
       </div>
       <div class="header-menu">
         <ul class="header-nav">
-          <?php if ( is_page('index-0207') ) : ?>
             <li><a href="/hostel">Hostel</a></li>
             <li><a href="/restaurant">Restaurant</a></li>
             <li><a href="/coworking">Coworking</a></li>
             <li class="header-nav-booking"><a href="https://www.beds24.com/booking2.php?propid=101300" target="_blank">Booking<span>ご予約</span></a></li>
-          <?php else : ?>
-            <li><a href="/coworking">Coworking</a></li>
-            <li><a href="/blog/">Blog</a></li>
-          <?php endif; ?>
 
-        </ul>
-
-        <ul class="header-sns">
-          <?php if ( is_front_page() && is_home() || is_page('en') ) : ?>
-
-            <li><a href="https://www.instagram.com/unknownkyoto/" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/sns-instagram-white.svg" alt="Instagram"></a></li>
-            <li><a href="https://www.facebook.com/Unknown.Kyoto.Gojo.Rakuen" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/sns-facebook-white.svg" alt="Facebook"></a></li>
-            <li><a href="https://twitter.com/unknown_kyoto" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/sns-twitter-white.svg" alt="Twitter"></a></li>
-
-          <?php else : ?>
-
-            <li><a href="https://www.instagram.com/unknownkyoto/" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/sns-instagram.svg" alt="Instagram"></a></li>
-            <li><a href="https://www.facebook.com/Unknown.Kyoto.Gojo.Rakuen" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/sns-facebook.svg" alt="Facebook"></a></li>
-            <li><a href="https://twitter.com/unknown_kyoto" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/sns-twitter.svg" alt="Twitter"></a></li>
-
-          <?php endif ; ?>
         </ul>
       </div>
 
@@ -136,7 +182,6 @@
             <li><a href="/hostel">Hostel</a></li>
             <li><a href="/restaurant">Restaurant</a></li>
             <li><a href="/coworking">Coworking</a></li>
-            <li><a href="/access">Access</a></li>
             <li><a href="/blog">Blog</a></li>
           </ul>
           <ul class="nav-sp-sns">
