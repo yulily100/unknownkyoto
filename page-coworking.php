@@ -1,24 +1,5 @@
 <?php get_header(); ?>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-
-<script>
-$(function() {
-
-  // ページ内をなめらかにスクロール
-  $('a[href^="#"]').click(function() {
-     var speed = 600;
-     var href= $(this).attr("href");
-     var target = $(href == "#" || href == "" ? 'html' : href);
-     var position = target.offset().top;
-     $('body,html').animate({scrollTop:position}, speed, 'swing');
-     return false;
-  });
-
-});
-</script>
-
-
 <div class="container">
   <div class="page-header-coworking page-coworking">
     <div class="page-header-inner">
@@ -162,7 +143,7 @@ $(function() {
               <td class="price">85,000円＋税/月</td>
               <td>24時間</td>
             </tr>
-            <tr>
+            <tr class="is-full">
               <th><span class="name">小個室</span><span class="member">4人まで会員登録可</span></th>
               <td class="price">50,000円＋税/月</td>
               <td>24時間</td>
