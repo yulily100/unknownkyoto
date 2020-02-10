@@ -5,8 +5,12 @@ Template Name: blog
 get_header(); ?>
 
 <div class="container">
-  <div class="page-header page-blog">
-    <h1 class="page-title"><a href="/blog"><span>UNKNOWN KYOTO</span>BLOG</a></h1>
+  <div class="page-header-blog page-blog">
+    <div class="page-header-inner">
+      <h1 class="page-header-title">
+        <a href="/blog"><span>UNKNOWN KYOTO</span>BLOG</a>
+      </h1>
+    </div>
   </div>
 
   <div class="page-contents">
@@ -59,6 +63,4 @@ get_header(); ?>
     </div>
   </div>
 </div>
-
-<?php get_template_part('footer-funding'); ?>
 <?php get_footer(); ?>

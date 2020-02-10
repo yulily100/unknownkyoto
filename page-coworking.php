@@ -20,8 +20,10 @@ $(function() {
 
 
 <div class="container">
-  <div class="page-header page-coworking">
-    <h1 class="coworking-title"><a href="/coworking">Coworking</a></h1>
+  <div class="page-header-coworking page-coworking">
+    <div class="page-header-inner">
+      <h1 class="page-header-title"><a href="/coworking"><span>UNKNOWN KYOTO</span>Coworking</a></h1>
+    </div>
   </div>
 </div>
 

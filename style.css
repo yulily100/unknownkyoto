@@ -2176,23 +2176,11 @@ img {
         -ms-flex-preferred-size: calc(50% - 20px);
             flex-basis: calc(50% - 20px); } }
 
-.page-header {
-  text-align: center;
-  background-position: center;
-  background-size: cover; }
-  .page-header.page-blog {
-    background-image: url("img/page-header/blog.jpg"); }
-  .page-header.page-member {
-    background-image: url("img/page-header/member.jpg"); }
-  .page-header.page-coworking {
-    background-image: url("img/page-header/coworking.jpg"); }
-
-.page-header-food {
+.page-header-coworking {
   text-align: center;
   background-position: center;
   background-size: cover;
   height: 300px;
-  background-image: url("img/page-header/food.jpg");
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2201,7 +2189,27 @@ img {
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  background-image: url("img/page-header/coworking.jpg"); }
+  @media (max-width: 767px) {
+    .page-header-coworking {
+      height: 240px; } }
+
+.page-header-food {
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("img/page-header/food.jpg"); }
   @media (max-width: 767px) {
     .page-header-food {
       height: 240px; } }
@@ -2211,7 +2219,6 @@ img {
   background-position: center;
   background-size: cover;
   height: 300px;
-  background-image: url("img/page-header/hostel.jpg");
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2220,9 +2227,29 @@ img {
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  background-image: url("img/page-header/hostel.jpg"); }
   @media (max-width: 767px) {
     .page-header-hostel {
+      height: 240px; } }
+
+.page-header-blog {
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("img/page-header/blog.jpg"); }
+  @media (max-width: 767px) {
+    .page-header-blog {
       height: 240px; } }
 
 .page-header-title {
@@ -2267,49 +2294,6 @@ img {
   line-height: 1.4;
   font-weight: bold;
   letter-spacing: .5px; }
-
-.page-title {
-  font-family: "Vollkorn", serif;
-  letter-spacing: 5px;
-  font-size: 2.4rem;
-  line-height: 1.1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 100px 0;
-  text-align: center; }
-  .page-title span {
-    font-size: .85rem;
-    letter-spacing: .5px;
-    display: block; }
-  .page-title a {
-    color: #fff;
-    display: inline-block;
-    margin: 0 16px; }
-  .page-title:before {
-    content: "";
-    width: 150px;
-    height: 48px;
-    background: url("img/blog-title-left.svg");
-    background-size: 150px 48px; }
-  .page-title:after {
-    content: "";
-    width: 150px;
-    height: 48px;
-    background: url("img/blog-title-right.svg");
-    background-size: 150px 48px; }
-  @media (max-width: 767px) {
-    .page-title {
-      padding: 50px 0;
-      font-size: 2rem; }
-      .page-title span, .page-title:before, .page-title:after {
-        display: none; } }
 
 .page-about {
   text-align: center;

@@ -37,5 +37,4 @@
   </article>
   <p class="entry-linktotop"><a href="/blog">UNKNOWN KYOTO BLOG トップへ</a></p>
 
-<?php get_template_part('footer-funding'); ?>
 <?php get_footer(); ?>
