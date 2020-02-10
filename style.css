@@ -2802,7 +2802,9 @@ img {
 .category-title {
   margin: 40px 0;
   text-align: center;
-  font-size: 1.8rem; }
+  font-size: 1.8rem;
+  font-family: "Vollkorn", serif;
+  font-weight: normal; }
   .category-title span {
     color: #666054;
     font-size: .8rem;
@@ -3206,6 +3208,8 @@ img {
     -ms-flex-preferred-size: calc(100% / 4 - 20px);
         flex-basis: calc(100% / 4 - 20px);
     margin: 0 10px 20px; }
+    .food-instafeed-list li:nth-child(n+5) {
+      display: none; }
   .food-instafeed-list img {
     width: 100%;
     height: 100%;

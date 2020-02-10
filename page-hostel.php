@@ -45,7 +45,7 @@ $(function() {
     遊郭の元客室をゆっくりくつろげるベッドのお部屋に。<br>もっと気軽に泊まれるドミトリータイプのお部屋も用意しています。
     </p>
     <p class="btn-primary">
-      <a href="https://www.beds24.com/booking2.php?propid=101300" target="_blink" rel="noopener">ご予約はこちら</a>
+      <a href="https://www.beds24.com/book-unknownkyoto" target="_blink" rel="noopener">ご予約はこちら</a>
     </p>
   </div>
   <div class="hostel-room">
@@ -154,7 +154,7 @@ $(function() {
   </div>
   <div class="hostel-booking">
     <p class="btn-primary">
-      <a href="https://www.beds24.com/booking2.php?propid=101300" target="_blink" rel="noopener">ご予約はこちら</a>
+      <a href="https://www.beds24.com/book-unknownkyoto" target="_blink" rel="noopener">ご予約はこちら</a>
     </p>
   </div>
 </div>

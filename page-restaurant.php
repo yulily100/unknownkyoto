@@ -1,33 +1,5 @@
 <?php get_header(); ?>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-
-<script>
-$(function() {
-
-  // instagram feed
-  var accessToken = '10677467838.a39ffa6.79cee58175a245f994d8e86f61a27698'; //token
-  $.getJSON('https://api.instagram.com/v1/users/self/media/recent/?access_token='+accessToken+'&callback=?',function (insta) {
-    $.each(insta.data,function (photos,src) {
-      if ( photos === 4 ) { return false; }
-      $('<li><a href="'+src.link+'" target="_blank"><img src="'+src.images.standard_resolution.url+'"></a></li>').appendTo('#js-instafeed');
-    });
-  });
-
-  // ページ内をなめらかにスクロール
-  $('a[href^="#"]').click(function() {
-     var speed = 600;
-     var href= $(this).attr("href");
-     var target = $(href == "#" || href == "" ? 'html' : href);
-     var position = target.offset().top;
-     $('body,html').animate({scrollTop:position}, speed, 'swing');
-     return false;
-  });
-
-});
-</script>
-
-
 <div class="container">
   <div class="page-header-food page-food">
     <div class="page-header-inner">
@@ -124,13 +96,15 @@ $(function() {
   </div>
   <div class="food-detail-text">
     <h3 class="food-detail-title">営業時間</h3>
-    <p class="food-detail-description">11:30 - 15:00 (L.O. 14:30)<br>
+    <p class="food-detail-description">
+      07:00 - 09:30 (L.O. 09:00)<br>
+      11:30 - 15:00 (L.O. 14:30)<br>
       17:00 - 23:00 (L.O. 22:00)</p>
     <p class="food-detail-description">日曜定休</p>
     <h3 class="food-detail-title">店舗規模</h3>
     <p class="food-detail-description">テーブル席　8席<br>
       立ち飲み席　12席<br>
-      カウンター席　◯席</p>
+      カウンター席　8席</p>
     <p class="food-detail-description">立ち飲み席には椅子を出すこともできます。</p>
     <h3 class="food-detail-title">ご連絡</h3>
     <p class="food-detail-description">075-746-4665</p>
