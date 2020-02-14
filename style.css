@@ -2329,13 +2329,19 @@ img {
   margin: 60px auto 100px; }
 
 .page-basic-title {
-  font-size: 2.2rem;
-  margin: 0 0 2rem; }
+  font-size: 2.4rem;
+  margin: 0 0 2.5rem; }
 
 .page-basic-contents {
   line-height: 1.6; }
-  .page-basic-contents h2, .page-basic-contents h3, .page-basic-contents h4 {
-    margin: 1.5em 0 .4rem 0; }
+  .page-basic-contents h2 {
+    margin: 3rem 0 0 0;
+    font-size: 1.8rem; }
+  .page-basic-contents h3 {
+    margin: 1.5em 0 0 0;
+    font-size: 1.3rem; }
+  .page-basic-contents h4 {
+    margin: 1.5em 0 0 0; }
 
 .article-list {
   display: -webkit-box;
