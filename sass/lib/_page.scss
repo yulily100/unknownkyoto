@@ -86,11 +86,15 @@
 // その他の固定ページ
 .page-basic {
   max-width: 720px;
-  margin: 60px auto;
+  margin: 60px auto 100px;
 }
 .page-basic-title {
-  margin: 0 0 1rem;
+  font-size: 2.2rem;
+  margin: 0 0 2rem;
 }
 .page-basic-contents {
   line-height: 1.6;
+  h2, h3, h4 {
+    margin: 1.5em 0 .4rem 0;
+  }
 }
