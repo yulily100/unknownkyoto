@@ -133,6 +133,20 @@ img {
     height: 80px;
   }
 }
+.footer-menu {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0 60px 0;
+  li {
+    margin: 0 12px 0 0;
+    padding: 0 12px 0 0;
+    border-right: 1px solid $border-brown;
+    &:first-child {
+      border-left: 1px solid $border-brown;
+      padding-left: 12px;
+    }
+  }
+}
 
 .footer-copyright {
   padding: 12px 0;

@@ -15,6 +15,13 @@
         </div>
         <div class="footer-info">
           <h2 class="footer-title"><img src="<?php echo get_template_directory_uri(); ?>/img/footer-logo.svg" alt="UNKNOWN KYOTO"></h2>
+          <ul class="footer-menu">
+            <li><a href="/hostel">Hostel</a></li>
+            <li><a href="/restaurant">Restaurant</a></li>
+            <li><a href="/coworking">Coworking</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/transaction">特定商取引法に基づく表記</a></li>
+          </ul>
           <p class="footer-text">〒600-8118 <br class="for-sp">京都府京都市下京区平居町55番地１</p>
           <p class="footer-text">075-746-4635（代表）<br>
             075-746-4665（飲食）

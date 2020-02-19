@@ -619,6 +619,22 @@ img {
     width: 80px;
     height: 80px; }
 
+.footer-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 40px 0 60px 0; }
+  .footer-menu li {
+    margin: 0 12px 0 0;
+    padding: 0 12px 0 0;
+    border-right: 1px solid #B2ACA3; }
+    .footer-menu li:first-child {
+      border-left: 1px solid #B2ACA3;
+      padding-left: 12px; }
+
 .footer-copyright {
   padding: 12px 0;
   margin: 0;
@@ -1986,7 +2002,7 @@ img {
   display: -ms-flexbox;
   display: flex;
   max-width: 960px;
-  margin: 0 auto; }
+  margin: 0 auto 60px; }
   @media (max-width: 767px) {
     .top-footer {
       display: block;
