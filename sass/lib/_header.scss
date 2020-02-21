@@ -51,7 +51,7 @@
   font-size: .8rem;
   margin: 0 0 0 16px;
   color: $text-light;
-  @media #{$mq-sm} {
+  @media #{$mq-md} {
     display: none;
   }
 }

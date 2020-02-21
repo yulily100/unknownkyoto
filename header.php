@@ -134,8 +134,8 @@
             <li><a href="/hostel">Hostel</a></li>
             <li><a href="/restaurant">Restaurant</a></li>
             <li><a href="/coworking">Coworking</a></li>
+            <li><a href="/access">Access</a></li>
             <li class="header-nav-booking"><a href="https://www.beds24.com/book-unknownkyoto" target="_blank">Booking<span>ご予約</span></a></li>
-
         </ul>
       </div>
 
@@ -154,6 +154,7 @@
             <li><a href="/hostel">Hostel</a></li>
             <li><a href="/restaurant">Restaurant</a></li>
             <li><a href="/coworking">Coworking</a></li>
+            <li><a href="/access">Access</a></li>
             <li><a href="/blog">Blog</a></li>
           </ul>
           <ul class="nav-sp-sns">

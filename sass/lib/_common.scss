@@ -64,21 +64,14 @@ img {
 
 // footer
 .footer {
-  background: $bg;
-}
-.footer-inner {
-  padding: 60px 0;
-  margin: 0 auto;
-  @media #{$mq-sm} {
-    margin: 0 1em;
-  }
-
+  background: #e2d9cf;
 }
 .footer-feed {
+  background: $bg;
   flex-shrink: 0;
   display: flex;
   justify-content: center;
-  margin: 0 0 60px 0;
+  padding: 40px 0;
   @media #{$mq-sm} {
     display: none;
   }
@@ -98,16 +91,18 @@ img {
   overflow: scroll;
 }
 .footer-info {
-  flex-grow: 1;
+  @include wrapper;
+  display: flex;
   text-align: center;
+  padding: 40px 0 20px 0;
   @media #{$mq-sm} {
     margin: 0;
   }
 }
 .footer-title {
-  margin: 0 0 12px 0;
+  margin: 0 auto 12px 0;
   img {
-    width: 320px;
+    width: 300px;
   }
   @media #{$mq-sm} {
     img {
@@ -116,27 +111,40 @@ img {
     }
   }
 }
+.footer-adress {
+  margin: 0 40px 0 0;
+}
 .footer-text {
   line-height: 1.4;
   margin: 0 0 4px 0;
+  text-align: left;
 }
 .footer-company {
   display: flex;
   justify-content: center;
-  margin: 24px 0 0 0;
   padding: 0;
   li {
     margin: 0 8px;
   }
   img {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
   }
+}
+
+
+.footer-bottom {
+  padding: 20px 0;
+}
+.footer-bottom-inner {
+  @include wrapper;
+  display: flex;
+  justify-content: space-between;
 }
 .footer-menu {
   display: flex;
   justify-content: center;
-  margin: 40px 0 60px 0;
+  flex-wrap: wrap;
   li {
     margin: 0 12px 0 0;
     padding: 0 12px 0 0;
@@ -146,10 +154,15 @@ img {
       padding-left: 12px;
     }
   }
+  @media #{$mq-sm} {
+    li {
+      border: none !important;
+      padding: 0 0 8px;
+      margin: 0 20px 0 0;
+    }
+  }
 }
-
 .footer-copyright {
-  padding: 12px 0;
   margin: 0;
   text-align: center;
   font-family: $vollkorn;

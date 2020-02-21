@@ -42,7 +42,8 @@
     transform: translateX(2px);
   }
 }
-@mixin btn-arrow-text {
+@mixin btn-arrow-text() {
+  position: relative;
   padding: 12px 48px 12px 12px;
   &:after {
     content: "";

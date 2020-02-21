@@ -28,6 +28,10 @@
   @include page-header;
   background-image: url("img/page-header/blog.jpg");
 }
+.page-header-access {
+  @include page-header;
+  background-image: url("img/page-header/access.jpg");
+}
 
 .page-header-title {
   font-family: $vollkorn;
