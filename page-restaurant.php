@@ -5,7 +5,6 @@
     <div class="page-header-inner">
       <h1 class="page-header-title"><a href="/restaurant"><span>UNKNOWN KYOTO</span>Restaurant & Bar</a></h1>
       <p class="page-header-detail">
-        07:00 - 09:30 (L.O. 09:00)<br>
         11:30 - 15:00 (L.O. 14:30)<br>
         17:00 - 23:00 (L.O. 22:00)<br>
         日曜定休</p>
@@ -98,7 +97,6 @@
   <div class="food-detail-text">
     <h3 class="food-detail-title">営業時間</h3>
     <p class="food-detail-description">
-      07:00 - 09:30 (L.O. 09:00)<br>
       11:30 - 15:00 (L.O. 14:30)<br>
       17:00 - 23:00 (L.O. 22:00)</p>
     <p class="food-detail-description">日曜定休</p>
