@@ -596,7 +596,8 @@ img {
       margin: 0 1em; } }
   @media (max-width: 767px) {
     .footer-info {
-      margin: 0; } }
+      margin: 0;
+      display: block; } }
 
 .footer-title {
   margin: 0 auto 12px 0; }
@@ -609,11 +610,17 @@ img {
 
 .footer-adress {
   margin: 0 40px 0 0; }
+  @media (max-width: 767px) {
+    .footer-adress {
+      margin: 0 0 12px 0; } }
 
 .footer-text {
   line-height: 1.4;
   margin: 0 0 4px 0;
   text-align: left; }
+  @media (max-width: 767px) {
+    .footer-text {
+      text-align: center; } }
 
 .footer-company {
   display: -webkit-box;
@@ -651,6 +658,9 @@ img {
   @media (max-width: 360px) {
     .footer-bottom-inner {
       margin: 0 1em; } }
+  @media (max-width: 767px) {
+    .footer-bottom-inner {
+      display: block; } }
 
 .footer-menu {
   display: -webkit-box;
@@ -669,10 +679,12 @@ img {
       border-left: 1px solid #B2ACA3;
       padding-left: 12px; }
   @media (max-width: 767px) {
-    .footer-menu li {
-      border: none !important;
-      padding: 0 0 8px;
-      margin: 0 20px 0 0; } }
+    .footer-menu {
+      margin: 0 0 12px; }
+      .footer-menu li {
+        border: none !important;
+        padding: 0 0 8px;
+        margin: 0 20px 0 0; } }
 
 .footer-copyright {
   margin: 0;

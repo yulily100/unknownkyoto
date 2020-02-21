@@ -97,6 +97,7 @@ img {
   padding: 40px 0 20px 0;
   @media #{$mq-sm} {
     margin: 0;
+    display: block;
   }
 }
 .footer-title {
@@ -113,11 +114,17 @@ img {
 }
 .footer-adress {
   margin: 0 40px 0 0;
+  @media #{$mq-sm} {
+    margin: 0 0 12px 0;
+  }
 }
 .footer-text {
   line-height: 1.4;
   margin: 0 0 4px 0;
   text-align: left;
+  @media #{$mq-sm} {
+    text-align: center;
+  }
 }
 .footer-company {
   display: flex;
@@ -135,11 +142,15 @@ img {
 
 .footer-bottom {
   padding: 20px 0;
+
 }
 .footer-bottom-inner {
   @include wrapper;
   display: flex;
   justify-content: space-between;
+  @media #{$mq-sm} {
+    display: block;
+  }
 }
 .footer-menu {
   display: flex;
@@ -155,6 +166,7 @@ img {
     }
   }
   @media #{$mq-sm} {
+    margin: 0 0 12px;
     li {
       border: none !important;
       padding: 0 0 8px;
