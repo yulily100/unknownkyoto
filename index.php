@@ -49,7 +49,7 @@
   <section class="top-facilities-restaurant">
     <div class="wrapper">
       <h3 class="top-facilities-title">Restaurant & Bar<span>食べる</span></h3>
-      <p class="top-facilities-description">一日のはじまりはモーニングから。<br>夜はオープンなダイニングバーで楽しいひとときを。<br>宿泊者以外も、誰でも利用することができます。</p>
+      <p class="top-facilities-description">夜はオープンなダイニングバーで楽しいひとときを。<br>宿泊者以外も、誰でも利用することができます。</p>
       <p class="top-facilities-readmore"><a href="/restaurant">詳しくはこちら</a></p>
     </div>
   </section>
