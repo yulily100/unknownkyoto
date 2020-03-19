@@ -639,6 +639,7 @@
   width: 100%;
   font-size: 1.06rem;
   text-align: left;
+  line-height: 1.4;
   tr {
     position: relative;
   }
@@ -654,9 +655,12 @@
       color: $text-light;
       margin: 0 0 0 12px;
       display: inline-block;
-      line-height: 19px;
+      line-height: 22px;
       vertical-align: top;
     }
+  }
+  .title {
+    position: relative;
     &:before {
       content: "";
       display: inline-block;
@@ -664,8 +668,8 @@
       height: 10px;
       background-color: $text;
       position: absolute;
-      top: 12px;
-      left: 0;
+      top: 6px;
+      left: -20px;
     }
   }
   .price {
@@ -679,7 +683,7 @@
       content: "満室";
       position: relative;
       right: 40px;
-      top: 8px;
+      top: 7px;
       font-weight: bold;
       color: #ff3645;
     }

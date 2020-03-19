@@ -4114,7 +4114,8 @@ img {
 .coworking-plan-tabel {
   width: 100%;
   font-size: 1.06rem;
-  text-align: left; }
+  text-align: left;
+  line-height: 1.4; }
   .coworking-plan-tabel tr {
     position: relative; }
   .coworking-plan-tabel th {
@@ -4128,17 +4129,19 @@ img {
       color: #666054;
       margin: 0 0 0 12px;
       display: inline-block;
-      line-height: 19px;
+      line-height: 22px;
       vertical-align: top; }
-    .coworking-plan-tabel th:before {
+  .coworking-plan-tabel .title {
+    position: relative; }
+    .coworking-plan-tabel .title:before {
       content: "";
       display: inline-block;
       width: 10px;
       height: 10px;
       background-color: #3a372f;
       position: absolute;
-      top: 12px;
-      left: 0; }
+      top: 6px;
+      left: -20px; }
   .coworking-plan-tabel .price {
     width: 30%; }
   .coworking-plan-tabel .price-notice {
@@ -4147,7 +4150,7 @@ img {
     content: "満室";
     position: relative;
     right: 40px;
-    top: 8px;
+    top: 7px;
     font-weight: bold;
     color: #ff3645; }
   @media (max-width: 767px) {

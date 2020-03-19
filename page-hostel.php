@@ -42,7 +42,11 @@ $(function() {
 <div class="wrapper">
   <div class="page-about">
     <p class="page-about-description">
-    遊郭の元客室をゆっくりくつろげるベッドのお部屋に。<br>もっと気軽に泊まれるドミトリータイプのお部屋も用意しています。
+      築100年以上の元遊郭建築をベッドのお部屋に。<br>
+      出来るだけ昔の姿を残しながら、使いやすいように改装しました。<br>
+      コワーキングスペースを併設しており、宿泊のお客様は<br>
+      チェックイン日の朝から、チェックアウト日の夜までご利用いただけます。<br>
+      お食事やお酒を楽しめるレストランもございます。
     </p>
     <p class="btn-primary">
       <a href="https://www.beds24.com/book-unknownkyoto" target="_blink" rel="noopener">ご予約はこちら</a>

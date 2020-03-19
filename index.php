@@ -42,7 +42,9 @@
   <section class="top-facilities-hostel">
     <div class="wrapper">
       <h3 class="top-facilities-title">Hostel<span>泊まる</span></h3>
-      <p class="top-facilities-description">遊郭の元客室をゆっくりくつろげるベッドのお部屋に。<br>もっと気軽に泊まれる大部屋も用意しています。</p>
+      <p class="top-facilities-description">
+        築100年以上の元遊郭建築をベッドのお部屋に。<br>
+        もっと気軽に泊まれるドミトリーも用意しています。</p>
       <p class="top-facilities-readmore"><a href="/hostel">詳しくはこちら</a></p>
     </div>
   </section>
