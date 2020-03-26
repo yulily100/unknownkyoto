@@ -2488,6 +2488,9 @@ img {
   line-height: 1.4;
   margin: 0 0 32px; }
 
+.page-about-bold {
+  font-weight: bold; }
+
 .page-contents {
   padding: 40px 0; }
   @media (max-width: 767px) {

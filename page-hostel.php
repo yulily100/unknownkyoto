@@ -48,6 +48,12 @@ $(function() {
       チェックイン日の朝から、チェックアウト日の夜までご利用いただけます。<br>
       お食事やお酒を楽しめるレストランもございます。
     </p>
+    <p class="page-about-description">
+      長期割引も実施しております。<br>
+      <span class="page-about-bold">3泊以上ご宿泊、宿泊料金の20%オフ<br>
+      6泊以上ご宿泊、宿泊料金の40%オフ</span><br>
+      暮らしているかのように京都に滞在してみませんか。<br>
+    </p>
     <p class="btn-primary">
       <a href="https://www.beds24.com/book-unknownkyoto" target="_blink" rel="noopener">ご予約はこちら</a>
     </p>
