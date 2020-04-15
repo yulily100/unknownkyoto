@@ -67,9 +67,8 @@
   @include food-type-text();
   background-image: url("img/food/food-sin.svg");
 }
-.food-type-text-spiceordie {
+.food-type-text-kissa {
   @include food-type-text();
-  background-image: url("img/food/food-spiceordie.svg");
 }
 .food-type-text-unknownshokudo {
   @include food-type-text();
@@ -95,6 +94,10 @@
       padding: 8px 0;
       justify-content: flex-end;
     }
+
+  }
+  .comming-soon {
+    justify-content: flex-start !important;
   }
   .food-type-price {
     flex-shrink: 0;
@@ -104,6 +107,17 @@
     li {
       font-size: .9rem;
     }
+  }
+}
+.comming-soon-img {
+  position: relative;
+  &:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.7);
+    left: 0;
   }
 }
 

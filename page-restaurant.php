@@ -5,9 +5,12 @@
     <div class="page-header-inner">
       <h1 class="page-header-title"><a href="/restaurant"><span>UNKNOWN KYOTO</span>Restaurant & Bar</a></h1>
       <p class="page-header-detail">
-        11:30 - 15:00 (L.O. 14:30)<br>
-        17:00 - 23:00 (L.O. 22:00)<br>
-        日曜定休</p>
+        月〜土<br>
+        09:00 - 15:00 (L.O. 14:30)<br>
+        17:00 - 23:00 (L.O. 22:00)</p>
+        <p class="page-header-detail">
+        日のみ<br>
+        9:00 - 15:00(L.O. 14:30)</p>
     </div>
   </div>
 </div>
@@ -25,11 +28,11 @@
   </div>
   <div class="food-contents">
     <section class="food-contents-lunch">
-      <h2 class="food-contents-title-lunch">Lunch Time</h2>
-      <p class="food-contents-hours">11:30 - 15:00 (L.O. 14:30)</p>
+      <h2 class="food-contents-title-lunch">Day Time</h2>
+      <p class="food-contents-hours">9:00 - 15:00 (L.O. 14:30)</p>
       <ul class="food-type">
         <li>
-          <p class="food-type-label">定食メニュー</p>
+          <p class="food-type-label">定食</p>
           <img src="<?php echo get_template_directory_uri(); ?>/img/food/lunch-1.jpg" alt="唐揚げランチ">
           <div class="food-type-text-sin">
             <h3 class="food-type-title">Sin -Dining＆Bar-</h3>
@@ -40,13 +43,13 @@
           </div>
         </li>
         <li>
-          <p class="food-type-label">スパイス</p>
+          <p class="food-type-label">喫茶</p>
           <img src="<?php echo get_template_directory_uri(); ?>/img/food/lunch-2.jpg" alt="スパイスカレー">
-          <div class="food-type-text-spiceordie">
-            <h3 class="food-type-title">スパイスオアダイ</h3>
+          <div class="food-type-text-kissa">
+            <h3 class="food-type-title">喫茶アンノウン</h3>
             <ul class="food-type-list">
-              <li><span>日替わりスパイスプレート</span><span class="food-type-price">1000円</span></li>
-              <li>一種・あいがけが選べます。</li>
+              <li><span>Aセット</span><span class="food-type-price">550円</span></li>
+              <li>他にも数種類セットメニューあります。</li>
             </ul>
           </div>
         </li>
@@ -70,17 +73,15 @@
             </ul>
           </div>
         </li>
-        <li>
-          <p class="food-type-label">イザカヤ</p>
-          <img src="<?php echo get_template_directory_uri(); ?>/img/food/dinner-2.jpg" alt="アンノウン食堂">
+        <li class="comming-soon">
+          <p class="food-type-label">居酒屋（お休み中）</p>
+          <div class="comming-soon-img">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/food/dinner-2.jpg" alt="アンノウン食堂">
+          </div>
           <div class="food-type-text-unknownshokudo">
             <h3 class="food-type-title">アンノウン食堂</h3>
             <ul class="food-type-list">
-              <li><span>ぽてさら</span><span class="food-type-price">350円</li>
-              <li><span>お造り盛り合せ</span><span class="food-type-price">650円</li>
-              <li><span>とろとろレバー</span><span class="food-type-price">450円</li>
-              <li><span>なっとう出汁巻き</span><span class="food-type-price">550円</li>
-              <li>他にもメニュー多数あります。</li>
+              <li class="comming-soon"><span>リニューアルオープンのため現在お休み</span></li>
             </ul>
           </div>
         </li>
@@ -97,9 +98,12 @@
   <div class="food-detail-text">
     <h3 class="food-detail-title">営業時間</h3>
     <p class="food-detail-description">
-      11:30 - 15:00 (L.O. 14:30)<br>
-      17:00 - 23:00 (L.O. 22:00)</p>
-    <p class="food-detail-description">日曜定休</p>
+      月〜土<br>
+      9:00 - 15:00(L.O. 14:30)<br>
+      17:00-23:00(L.O. 22:00)</p>
+      <p class="food-detail-description">
+      日のみ<br>
+      9:00 - 15:00(L.O. 14:30)</p>
     <h3 class="food-detail-title">店舗規模</h3>
     <p class="food-detail-description">テーブル席　8席<br>
       立ち飲み席　12席<br>
