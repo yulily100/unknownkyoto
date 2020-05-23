@@ -4,13 +4,13 @@
   <div class="page-header-food page-food">
     <div class="page-header-inner">
       <h1 class="page-header-title"><a href="/restaurant"><span>UNKNOWN KYOTO</span>Restaurant & Bar</a></h1>
-      <p class="page-header-detail">
+      <!-- <p class="page-header-detail">
         月〜土<br>
         09:00 - 15:00 (L.O. 14:30)<br>
         17:00 - 23:00 (L.O. 22:00)</p>
         <p class="page-header-detail">
         日のみ<br>
-        9:00 - 15:00(L.O. 14:30)</p>
+        9:00 - 15:00(L.O. 14:30)</p> -->
     </div>
   </div>
 </div>

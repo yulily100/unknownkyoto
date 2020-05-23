@@ -275,6 +275,90 @@
   animation: topfade 20s linear 16s infinite;
 }
 
+// 営業時間
+.top-open {
+  background: $bg;
+  padding: 12px;
+  @media #{$mq-sm} {
+    padding-top: 20px;
+  }
+}
+.top-open-contents {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+  > li {
+    flex-basis: calc(100% / 4 - 30px);
+    margin: 0 15px;
+  }
+  @media #{$mq-sm} {
+    display: block;
+    > li {
+      margin-bottom: 16px;
+    }
+  }
+}
+.top-open-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.top-open-title {
+  font-size: 1.2rem;
+  margin: 0 0 8px 0;
+}
+.top-open-note {
+  font-size: .85rem;
+  text-align: left;
+  margin: 0 12px 4px;
+  @media #{$mq-sm} {
+    margin: 0 0 4px;
+  }
+}
+
+.top-open-body {
+  @media #{$mq-sm} {
+    display: flex;
+  }
+}
+.top-open-contents-title {
+  font-family: $vollkorn;
+  font-weight: normal;
+  margin: 0 0 8px 0;
+  a {
+    display: inline-block;
+    padding: 2px 6px;
+    border-bottom: 1px solid $text;
+    font-size: 1rem;
+  }
+  @media #{$mq-sm} {
+    flex-shrink: 0;
+    flex-basis: 90px;
+    margin: 0 16px 0 0;
+    font-size: .9rem;
+  }
+}
+.top-open-contents-description {
+  font-size: .9rem;
+  line-height: 1.4;
+  .limited {
+    font-weight: bold;
+    text-decoration: underline;
+    display: inline-block;
+    position: relative;
+  }
+  @media #{$mq-sm} {
+    text-align: left;
+  }
+}
+.top-open-contents-note {
+  font-size: .85rem;
+  display: inline-block;
+  margin: 8px 0 0 0;
+}
+
 
 // about
 .top-about {

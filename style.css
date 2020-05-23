@@ -1342,6 +1342,99 @@ img {
   -webkit-animation: topfade 20s linear 16s infinite;
           animation: topfade 20s linear 16s infinite; }
 
+.top-open {
+  background: #f2eee7;
+  padding: 12px; }
+  @media (max-width: 767px) {
+    .top-open {
+      padding-top: 20px; } }
+
+.top-open-contents {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 -15px; }
+  .top-open-contents > li {
+    -ms-flex-preferred-size: calc(100% / 4 - 30px);
+        flex-basis: calc(100% / 4 - 30px);
+    margin: 0 15px; }
+  @media (max-width: 767px) {
+    .top-open-contents {
+      display: block; }
+      .top-open-contents > li {
+        margin-bottom: 16px; } }
+
+.top-open-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.top-open-title {
+  font-size: 1.2rem;
+  margin: 0 0 8px 0; }
+
+.top-open-note {
+  font-size: .85rem;
+  text-align: left;
+  margin: 0 12px 4px; }
+  @media (max-width: 767px) {
+    .top-open-note {
+      margin: 0 0 4px; } }
+
+@media (max-width: 767px) {
+  .top-open-body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; } }
+
+.top-open-contents-title {
+  font-family: "Vollkorn", serif;
+  font-weight: normal;
+  margin: 0 0 8px 0; }
+  .top-open-contents-title a {
+    display: inline-block;
+    padding: 2px 6px;
+    border-bottom: 1px solid #3a372f;
+    font-size: 1rem; }
+  @media (max-width: 767px) {
+    .top-open-contents-title {
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+      -ms-flex-preferred-size: 90px;
+          flex-basis: 90px;
+      margin: 0 16px 0 0;
+      font-size: .9rem; } }
+
+.top-open-contents-description {
+  font-size: .9rem;
+  line-height: 1.4; }
+  .top-open-contents-description .limited {
+    font-weight: bold;
+    text-decoration: underline;
+    display: inline-block;
+    position: relative; }
+  @media (max-width: 767px) {
+    .top-open-contents-description {
+      text-align: left; } }
+
+.top-open-contents-note {
+  font-size: .85rem;
+  display: inline-block;
+  margin: 8px 0 0 0; }
+
 .top-about {
   padding-top: 80px;
   text-align: center; }

@@ -85,6 +85,18 @@
     display: block;
   }
 }
+@mixin column4 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+  > li {
+    flex-basis: calc(100% / 4 - 30px);
+    margin: 0 15px 30px;
+  }
+  @media #{$mq-sm} {
+    display: block;
+  }
+}
 @mixin column5 {
   display: flex;
   flex-wrap: wrap;
