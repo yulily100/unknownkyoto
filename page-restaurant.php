@@ -4,13 +4,9 @@
   <div class="page-header-food page-food">
     <div class="page-header-inner">
       <h1 class="page-header-title"><a href="/restaurant"><span>UNKNOWN KYOTO</span>Restaurant & Bar</a></h1>
-      <!-- <p class="page-header-detail">
-        月〜土<br>
-        09:00 - 15:00 (L.O. 14:30)<br>
-        17:00 - 23:00 (L.O. 22:00)</p>
-        <p class="page-header-detail">
-        日のみ<br>
-        9:00 - 15:00(L.O. 14:30)</p> -->
+      <p class="page-header-detail">
+        11:30 - 15:00 (L.O. 14:30)<br>
+        17:00 - 23:00 (L.O. お食事22:00,ドリンク22:30)</p>
     </div>
   </div>
 </div>
@@ -18,9 +14,10 @@
 <div class="wrapper">
   <div class="coworking-about">
     <p class="coworking-about-description">
-      UNKNOWN KYOTOの飲食スペースには<br>
-      系統の違う２つのお店が入ります。<br>
-      安心してください、注文も会計も同じ場所です。</p>
+      UNKNOWN KYOTOのレストランです。<br>
+      テイクアウトも承っております。<br>
+      ご要望に応じて、飲み会のコースプランを<br>
+      用意することもできます。</p>
     <div class="coworking-about-image">
       <img src="<?php echo get_template_directory_uri(); ?>/img/food/food-main.jpg" alt="飲食店インテリア" class="for-pc">
       <img src="<?php echo get_template_directory_uri(); ?>/img/food/food-main-sp.jpg" alt="飲食店インテリア" class="for-sp">
@@ -29,7 +26,7 @@
   <div class="food-contents">
     <section class="food-contents-lunch">
       <h2 class="food-contents-title-lunch">Day Time</h2>
-      <p class="food-contents-hours">9:00 - 15:00 (L.O. 14:30)</p>
+      <p class="food-contents-hours">11:30 - 15:00 (L.O. 14:30)</p>
       <ul class="food-type">
         <li>
           <p class="food-type-label">定食</p>
@@ -43,8 +40,10 @@
           </div>
         </li>
         <li>
-          <p class="food-type-label">喫茶</p>
-          <img src="<?php echo get_template_directory_uri(); ?>/img/food/lunch-2.jpg" alt="スパイスカレー">
+          <p class="food-type-label">喫茶（おやすみ中）</p>
+          <div class="comming-soon-img">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/food/lunch-2.jpg" alt="スパイスカレー">
+          </div>
           <div class="food-type-text-kissa">
             <h3 class="food-type-title">喫茶アンノウン</h3>
             <ul class="food-type-list">
@@ -73,18 +72,6 @@
             </ul>
           </div>
         </li>
-        <li class="comming-soon">
-          <p class="food-type-label">居酒屋（お休み中）</p>
-          <div class="comming-soon-img">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/food/dinner-2.jpg" alt="アンノウン食堂">
-          </div>
-          <div class="food-type-text-unknownshokudo">
-            <h3 class="food-type-title">アンノウン食堂</h3>
-            <ul class="food-type-list">
-              <li class="comming-soon"><span>リニューアルオープンのため現在お休み</span></li>
-            </ul>
-          </div>
-        </li>
       </ul>
     </section>
   </div>
@@ -98,12 +85,9 @@
   <div class="food-detail-text">
     <h3 class="food-detail-title">営業時間</h3>
     <p class="food-detail-description">
-      月〜土<br>
-      9:00 - 15:00(L.O. 14:30)<br>
-      17:00-23:00(L.O. 22:00)</p>
-      <p class="food-detail-description">
-      日のみ<br>
-      9:00 - 15:00(L.O. 14:30)</p>
+      11:30 - 15:00 (L.O. 14:30)<br>
+      17:00 - 23:00 (L.O. お食事22:00,ドリンク22:30)</p>
+    <p class="food-detail-description">日曜定休</p>
     <h3 class="food-detail-title">店舗規模</h3>
     <p class="food-detail-description">テーブル席　8席<br>
       立ち飲み席　12席<br>
