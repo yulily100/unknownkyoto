@@ -94,14 +94,14 @@
 </section>
 
 
-<section class="top-instafeed">
+<!-- <section class="top-instafeed">
   <ul id="js-instafeed" class="top-instafeed-list">
     <h2 class="top-instafeed-title">
       <a href="https://www.instagram.com/unknownkyoto/" target="_blank" rel="noopener"><span>@unknownkyoto</span></a>
     </h2>
   </ul>
   <p class="section-link"><a href="https://www.instagram.com/unknownkyoto/" target="_blank" rel="noopener">Follow on Instagram</a></p>
-</section>
+</section> -->
 
 <section class="top-article">
   <h2 class="top-article-heading">BLOG</h2>

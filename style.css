@@ -3254,6 +3254,95 @@ img {
   text-align: center;
   margin: 0 0 60px 0; }
 
+.hostel-plan {
+  max-width: 720px;
+  margin: 0 auto 100px; }
+
+.hostel-plan-title {
+  text-align: center;
+  font-family: "Vollkorn", serif;
+  font-size: 2rem;
+  font-weight: normal;
+  margin: 0 0 8px; }
+
+.hostel-plan-descripiton {
+  text-align: center;
+  margin: 0 0 40px; }
+
+.hostel-plan-content > li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 0 32px; }
+
+@media (max-width: 767px) {
+  .hostel-plan-content > li {
+    display: block; } }
+
+.hostel-plan-content-img {
+  -ms-flex-preferred-size: 240px;
+      flex-basis: 240px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0; }
+  .hostel-plan-content-img img {
+    width: 100%; }
+
+.hostel-plan-content-text {
+  margin: 0 0 0 32px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1; }
+  @media (max-width: 767px) {
+    .hostel-plan-content-text {
+      margin: 0; } }
+
+.hostel-plan-content-title {
+  font-size: 1.1rem;
+  margin: 0 0 12px; }
+  @media (max-width: 767px) {
+    .hostel-plan-content-title {
+      margin: 12px 0; } }
+
+.hostel-plan-content-description {
+  margin: 0 0 12px;
+  line-height: 1.4;
+  font-size: .95rem; }
+
+.hostel-plan-content-note {
+  border: 1px solid #ddd;
+  padding: 12px;
+  font-size: .85rem;
+  line-height: 1.4; }
+
+.hostel-plan-content-link {
+  text-align: right;
+  margin: 12px 0 0 0; }
+  .hostel-plan-content-link a {
+    position: relative;
+    padding: 12px 48px 12px 12px;
+    border-bottom: 2px solid #7e0f09;
+    padding: 10px 48px 10px 12px;
+    font-weight: bold;
+    display: inline-block; }
+    .hostel-plan-content-link a:after {
+      content: "";
+      position: absolute;
+      background-image: url("img/btn-arrow-text.svg");
+      background-size: 34px 6px;
+      width: 34px;
+      height: 6px;
+      display: inline-block;
+      -webkit-transition: -webkit-transform .3s ease-out 0s;
+      transition: -webkit-transform .3s ease-out 0s;
+      transition: transform .3s ease-out 0s;
+      transition: transform .3s ease-out 0s, -webkit-transform .3s ease-out 0s;
+      top: 15px;
+      right: 8px; }
+    .hostel-plan-content-link a:hover:after {
+      -webkit-transform: translateX(2px);
+          -ms-transform: translateX(2px);
+              transform: translateX(2px); }
+
 .food-contents {
   margin: 0 0 80px; }
 

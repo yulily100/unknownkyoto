@@ -162,10 +162,51 @@ $(function() {
       </div>
     </section>
   </div>
-  <div class="hostel-booking">
-    <p class="btn-primary">
-      <a href="https://www.beds24.com/book-unknownkyoto" target="_blink" rel="noopener">ご予約はこちら</a>
-    </p>
+  <div class="hostel-plan">
+    <h2 class="hostel-plan-title">Plan</h2>
+    <p class="hostel-plan-descripiton">UNKNOWN KYOTOを楽しく利用できるプランを複数ご用意しています</p>
+    <ul class="hostel-plan-content">
+      <li>
+        <div class="hostel-plan-content-img">
+          <a href="https://unknown.kyoto/blog/plan-2020dormitory/"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel/plan/plan-dormitory.jpg" alt="ドミトリーの一室"></a>
+        </div>
+        <div class="hostel-plan-content-text">
+          <h3 class="hostel-plan-content-title">食事付きドミトリー貸し切りプラン</h3>
+          <p class="hostel-plan-content-description">大人のお泊り会してみませんか？ 3人以上のご利用でドミトリーを貸し切ることができます。併設レストランの食事と飲み放題付きのプランです。</p>
+          <p class="hostel-plan-content-note">食事＆飲み放題＋ドミトリー貸し切り<br>
+            3名様〜6名様ご利用、6,000円/お一人様（税・宿泊税別）</p>
+          <p class="hostel-plan-content-link"><a href="https://unknown.kyoto/blog/plan-2020dormitory/">詳細・申し込みはこちら</a></p>
+        </div>
+      </li>
+      <li>
+        <div class="hostel-plan-content-img">
+          <a href="https://unknown.kyoto/blog/%e3%83%9e%e3%83%b3%e3%82%b9%e3%83%aa%e3%83%bc%e5%85%a5%e5%b1%85%e8%80%85%e3%82%92%e8%bf%bd%e5%8a%a0%e5%8b%9f%e9%9b%86%e3%81%97%e3%81%be%e3%81%99%e3%80%82/"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel/plan/plan-monthly.jpg" alt="一番大きなお部屋です"></a>
+        </div>
+        <div class="hostel-plan-content-text">
+          <h3 class="hostel-plan-content-title">マンスリープラン</h3>
+          <p class="hostel-plan-content-description">京都の元遊郭建築に住んでみませんか。コワーキングが自由に使えるので、普通に仕事するのには困りません。レストランやキッチンもあります。</p>
+          <p class="hostel-plan-content-note">
+            ひと月以上からの長期滞在割引<br>
+            ¥52,000/月 〜
+          </p>
+          <p class="hostel-plan-content-link"><a href="https://unknown.kyoto/blog/%e3%83%9e%e3%83%b3%e3%82%b9%e3%83%aa%e3%83%bc%e5%85%a5%e5%b1%85%e8%80%85%e3%82%92%e8%bf%bd%e5%8a%a0%e5%8b%9f%e9%9b%86%e3%81%97%e3%81%be%e3%81%99%e3%80%82/">詳細・申し込みはこちら</a></p>
+        </div>
+      </li>
+      <li>
+        <div class="hostel-plan-content-img">
+          <a href="https://unknown.kyoto/blog/%e5%af%9d%e8%90%bd%e3%81%a1%e3%83%97%e3%83%a9%e3%83%b3%e3%80%81%e5%80%8b%e5%ae%a4%e4%bb%98%e3%81%8d%e3%83%97%e3%83%a9%e3%83%b3%e7%99%ba%e8%a1%a8/"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel/plan/plan-neochi.jpg" alt="タクシーと同じ値段でドミトリーの一室に泊まれます。"></a>
+        </div>
+        <div class="hostel-plan-content-text">
+          <h3 class="hostel-plan-content-title">寝落ちプラン ※予約不可</h3>
+          <p class="hostel-plan-content-description">レストランでたくさん食べて飲んだあとは、タクシーに乗るのと同じ値段でドミトリーに泊まれます。</p>
+          <p class="hostel-plan-content-note">
+            レストランでのお会計5,000円につき1名、<br>
+            1,500円（消費税・宿泊税別）でドミトリー宿泊可
+          </p>
+          <p class="hostel-plan-content-link"><a href="https://unknown.kyoto/blog/%e5%af%9d%e8%90%bd%e3%81%a1%e3%83%97%e3%83%a9%e3%83%b3%e3%80%81%e5%80%8b%e5%ae%a4%e4%bb%98%e3%81%8d%e3%83%97%e3%83%a9%e3%83%b3%e7%99%ba%e8%a1%a8/">詳細はこちら</a></p>
+        </div>
+      </li>
+    </ul>
   </div>
 </div>
 
