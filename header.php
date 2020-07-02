@@ -131,10 +131,10 @@
       </div>
       <div class="header-menu">
         <ul class="header-nav">
-            <li><a href="/hostel">Hostel</a></li>
-            <li><a href="/restaurant">Restaurant</a></li>
-            <li><a href="/coworking">Coworking</a></li>
-            <li><a href="/access">Access</a></li>
+            <li><a href="/hostel">Hostel<span>宿泊</span></a></li>
+            <li><a href="/restaurant">Restaurant<span>レストラン</span></a></li>
+            <li><a href="/coworking">Coworking<span>コワーキング</span></a></li>
+            <li><a href="/access">Access<span>アクセス</span></a></li>
             <li class="header-nav-booking"><a href="https://www.beds24.com/book-unknownkyoto" target="_blank">Booking<span>ご予約</span></a></li>
         </ul>
       </div>
@@ -151,11 +151,11 @@
 
           <ul class="nav-sp-menu">
             <li class="nav-sp-booking"><a href="https://www.beds24.com/book-unknownkyoto" target="_blank">Booking<span>ご予約</span></a></li>
-            <li><a href="/hostel">Hostel</a></li>
-            <li><a href="/restaurant">Restaurant</a></li>
-            <li><a href="/coworking">Coworking</a></li>
-            <li><a href="/access">Access</a></li>
-            <li><a href="/blog">Blog</a></li>
+            <li><a href="/hostel">Hostel<span>宿泊</span></a></li>
+            <li><a href="/restaurant">Restaurant<span>レストラン</span></a></li>
+            <li><a href="/coworking">Coworking<span>コワーキング</span></a></li>
+            <li><a href="/access">Access<span>アクセス</span></a></li>
+            <li><a href="/blog">Blog<span>ブログ</span></a></li>
           </ul>
           <ul class="nav-sp-sns">
             <li><a href="https://www.instagram.com/unknownkyoto/" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/sns-instagram.svg" alt="Instagram"></a></li>

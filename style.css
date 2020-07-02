@@ -897,9 +897,13 @@ img {
     display: inline-block;
     padding: 4px 6px;
     -webkit-transition: inherit;
-    transition: inherit; }
-    .header-nav a:hover {
-      text-decoration: underline; }
+    transition: inherit;
+    text-align: center; }
+    .header-nav a span {
+      font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", sans-serif;
+      font-weight: bold;
+      display: block;
+      font-size: .8rem; }
   @media (max-width: 767px) {
     .header-nav {
       display: none; } }
@@ -909,20 +913,13 @@ img {
       display: -ms-flexbox;
       display: flex; } }
 
-.header-nav-booking {
-  text-align: center; }
-  .header-nav-booking a {
-    color: #fff !important;
-    background: #7e0f09;
-    padding: 13px 16px; }
-    .header-nav-booking a:hover {
-      background: #96120b;
-      opacity: 1 !important; }
-  .header-nav-booking span {
-    font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", sans-serif;
-    font-weight: bold;
-    display: block;
-    font-size: .8rem; }
+.header-nav-booking a {
+  color: #fff !important;
+  background: #7e0f09;
+  padding: 13px 16px; }
+  .header-nav-booking a:hover {
+    background: #96120b;
+    opacity: 1 !important; }
 
 .header-sns {
   margin-right: auto;
@@ -1063,6 +1060,10 @@ img {
     display: inline-block;
     padding: 8px 0;
     width: 100%; }
+    .nav-sp-menu a span {
+      display: block;
+      font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", sans-serif;
+      font-size: .8rem; }
 
 .nav-sp-booking {
   padding: 0 20px;
@@ -1088,10 +1089,6 @@ img {
       border-right: 1px solid #3a372f;
       right: -5px;
       bottom: -5px; }
-  .nav-sp-booking span {
-    display: block;
-    font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", sans-serif;
-    font-size: .8rem; }
 
 .nav-sp-sns {
   display: -webkit-box;

@@ -73,8 +73,12 @@
     display: inline-block;
     padding: 4px 6px;
     transition: inherit;
-    &:hover {
-      text-decoration: underline;
+    text-align: center;
+    span {
+      font-family: $yugothic;
+      font-weight: bold;
+      display: block;
+      font-size: .8rem;
     }
   }
   @media #{$mq-sm} {
@@ -87,7 +91,6 @@
   }
 }
 .header-nav-booking {
-  text-align: center;
   a {
     color: #fff !important;
     background: $primary;
@@ -97,12 +100,7 @@
       opacity: 1 !important;
     }
   }
-  span {
-    font-family: $yugothic;
-    font-weight: bold;
-    display: block;
-    font-size: .8rem;
-  }
+
 }
 .header-sns {
   margin-right: auto;
@@ -269,6 +267,11 @@
     display: inline-block;
     padding: 8px 0;
     width: 100%;
+    span {
+      display: block;
+      font-family: $yugothic;
+      font-size: .8rem;
+    }
   }
 }
 .nav-sp-booking {
@@ -279,11 +282,6 @@
     @include btn-border($color:$text);
     font-weight: normal;
     font-size: 1.2rem;
-  }
-  span {
-    display: block;
-    font-family: $yugothic;
-    font-size: .8rem;
   }
 }
 .nav-sp-sns {
