@@ -29,7 +29,7 @@
           <a href="/coworking">Coworking</a>
         </h3>
         <p class="top-open-contents-description">DROP IN…10:00 - 17:00<br>
-        <span class="top-open-contents-note">ドロップインは平日のみ</span>
+        <span class="top-open-contents-note">ドロップインは月〜土</span>
       </p>
       </li>
     </ul>
