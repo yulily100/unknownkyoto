@@ -201,7 +201,7 @@ $(function() {
           <p class="hostel-plan-content-description">レストランでたくさん食べて飲んだあとは、タクシーに乗るのと同じ値段でドミトリーに泊まれます。</p>
           <p class="hostel-plan-content-note">
             レストランでのお会計5,000円につき1名、<br>
-            1,500円（消費税・宿泊税別）でドミトリー宿泊可
+            2,000円（消費税・宿泊税別）でドミトリー宿泊可
           </p>
           <p class="hostel-plan-content-link"><a href="https://unknown.kyoto/blog/%e5%af%9d%e8%90%bd%e3%81%a1%e3%83%97%e3%83%a9%e3%83%b3%e3%80%81%e5%80%8b%e5%ae%a4%e4%bb%98%e3%81%8d%e3%83%97%e3%83%a9%e3%83%b3%e7%99%ba%e8%a1%a8/">詳細はこちら</a></p>
         </div>
