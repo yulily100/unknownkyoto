@@ -168,6 +168,19 @@ $(function() {
     <ul class="hostel-plan-content">
       <li>
         <div class="hostel-plan-content-img">
+          <a href="https://unknown.kyoto/blog/bungo-plan/"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel/plan/plan-bungo.jpg" alt="ホステルに籠もって仕事"></a>
+        </div>
+        <div class="hostel-plan-content-text">
+          <h3 class="hostel-plan-content-title">文豪プラン</h3>
+          <p class="hostel-plan-content-description">
+            試験やレポート、仕事の資料作りなど、宿に籠もって作業を進めませんか。短期で集中したい時に。ランチ1食付きです。</p>
+          <p class="hostel-plan-content-note">ドミトリーの宿泊＋ランチ1食<br>
+            男女混合ドミトリー ¥4,000 / 女性専用ドミトリー ¥4,500</p>
+          <p class="hostel-plan-content-link"><a href="https://unknown.kyoto/blog/bungo-plan/">詳細・申し込みはこちら</a></p>
+        </div>
+      </li>
+      <li>
+        <div class="hostel-plan-content-img">
           <a href="https://unknown.kyoto/blog/plan-2020dormitory/"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel/plan/plan-dormitory.jpg" alt="ドミトリーの一室"></a>
         </div>
         <div class="hostel-plan-content-text">
