@@ -150,14 +150,8 @@
   <section class="top-footer-contents">
     <p class="top-recruit-heading">RECRUIT</p>
     <h3 class="top-footer-title">スタッフ募集</h3>
-    <p class="top-footer-description">UNKNOWN KYOTOでは<br>スタッフを募集しています。</p>
-    <ul class="top-recruit-list">
-      <li><b>朝食スタッフ</b><br>（7:00〜11:00）</li>
-      <li><b>宿夜勤スタッフ</b><br>（時間は応相談）</li>
-    </ul>
-    <p class="top-footer-description">詳細・応募は<br>
-      info@unknown.kyoto<br>
-      までご連絡ください。</p>
+    <p class="top-footer-description">UNKNOWN KYOTOでは<br>住み込みで業務を<br>手伝っていただく<br>ヘルパースタッフを<br>募集しています。</p>
+    <p class="btn-normal"><a href="https://unknown.kyoto/blog/recruit-staff-helper/">詳細はこちら</a></p>
   </section>
 </div>
 
