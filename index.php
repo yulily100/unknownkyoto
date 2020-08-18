@@ -34,8 +34,9 @@
       <p class="top-about-description">
         UNKNOWN KYOTOは<br>
         京都の元遊郭建築をリノベーション<br class="for-sp">した宿泊複合施設です。<br>
-        ベッドでくつろいで、おいしいご飯を食べて、それから仕事まで。<br>
-        自分の住む家のように過ごせます。
+        ホステルとレストランと<br class="for-sp">コワーキングペースを併設しています。<br>
+        ベッドでくつろいで、<br class="for-sp">おいしいご飯を食べて、<br class="for-sp">それから仕事まで。<br>
+        旅をしながら働く<br class="for-sp">「ワーケーション」の場としても<br class="for-sp">ご利用いただけます。
       </p>
     </div>
   </div>
@@ -52,14 +53,14 @@
 <section class="top-facilities-restaurant">
   <div class="wrapper">
     <h3 class="top-facilities-title">Restaurant & Bar<span>食べる</span></h3>
-    <p class="top-facilities-description">夜はオープンなダイニングバーで楽しいひとときを。<br>宿泊者以外も、誰でも利用することができます。</p>
+    <p class="top-facilities-description">オープンなレストランで楽しいひとときを。<br>宿泊者以外も、誰でも利用することができます。</p>
     <p class="top-facilities-readmore"><a href="/restaurant">詳しくはこちら</a></p>
   </div>
 </section>
 <section class="top-facilities-coworking">
   <div class="wrapper">
     <h3 class="top-facilities-title">Coworking<span>働く</span></h3>
-    <p class="top-facilities-description">旅先にいながらもしっかりとお仕事することができます。<br>高速wifiと電源を完備しています。</p>
+    <p class="top-facilities-description">旅先にいながらもしっかりとお仕事することができます。<br>コワーキングのみの利用も可能です。</p>
     <p class="top-facilities-readmore"><a href="/coworking">詳しくはこちら</a></p>
   </div>
 </section>
