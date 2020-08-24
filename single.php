@@ -23,6 +23,7 @@
       <div class="entry-content">
         <?php the_content(); ?>
       </div>
+      <?php if ( function_exists( 'wpsabox_author_box' ) ) echo wpsabox_author_box(); ?>
       <?php
         endwhile;
         endif;

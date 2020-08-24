@@ -3146,6 +3146,180 @@ img {
     .page-404-top a:hover {
       text-decoration: underline; }
 
+.plan {
+  margin-right: 80px;
+  margin-left: 80px; }
+  @media (min-width: 1360px) {
+    .plan {
+      max-width: 1200px;
+      margin: 0 auto; } }
+  @media (max-width: 767px) {
+    .plan {
+      margin: 0 8%; } }
+  @media (max-width: 360px) {
+    .plan {
+      margin: 0 1em; } }
+  @media (min-width: 1360px) {
+    .plan {
+      max-width: 1120px;
+      margin: 0 auto; } }
+
+.plan-header {
+  margin: 60px 0 40px; }
+
+.plan-title {
+  font-size: 2rem;
+  margin: 0 0 .6em;
+  line-height: 1.4; }
+
+.plan-tags li {
+  display: inline-block;
+  color: #7e0f09;
+  margin: 0 12px 0 0; }
+  .plan-tags li:before {
+    content: "#"; }
+
+.plan-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  margin: 0 0 80px; }
+  @media (max-width: 1035px) {
+    .plan-body {
+      display: block; } }
+
+.plan-content {
+  margin: 0 60px 0 0;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1; }
+  @media (max-width: 1035px) {
+    .plan-content {
+      margin: 0; } }
+
+.plan-sidebar {
+  -ms-flex-preferred-size: 340px;
+      flex-basis: 340px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0; }
+
+.plan-detail {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px; }
+
+.plan-detail-title {
+  font-size: 1.1rem;
+  margin: 0 0 8px 0; }
+
+.plan-detail-description {
+  margin: 0 0 20px;
+  line-height: 1.4;
+  font-size: .95rem; }
+
+.plan-detail-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.1rem;
+  line-height: 1.6; }
+
+.plan-detail-line {
+  border-top: 1px dotted #999;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 0 12px; }
+
+.plan-detail-price {
+  font-weight: bold; }
+
+.plan-detail-note {
+  margin: 12px 0 0 0;
+  font-size: .8rem;
+  text-align: right; }
+
+.plan-btn {
+  text-align: center;
+  margin: 32px 0 0; }
+  .plan-btn a {
+    display: inline-block;
+    background: #7e0f09;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.05rem;
+    padding: 16px 0;
+    width: 100%;
+    position: relative; }
+    .plan-btn a span {
+      display: block;
+      font-size: .9rem;
+      margin: 4px 0 0 0; }
+    .plan-btn a:before {
+      content: "";
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      border-bottom: 1px solid #B2ACA3;
+      border-right: 1px solid #B2ACA3;
+      right: -5px;
+      bottom: -5px; }
+    .plan-btn a:hover {
+      background: #9f130b; }
+
+.plan-content {
+  font-size: 1.1rem;
+  line-height: 2; }
+  .plan-content h2, .plan-content h3, .plan-content h4 {
+    margin: 2.2em 0 .8em 0;
+    line-height: 1.4; }
+  .plan-content h2 {
+    font-size: 1.8rem; }
+  .plan-content h3 {
+    font-size: 1.5rem; }
+  .plan-content h4 {
+    font-size: 1.2rem; }
+  .plan-content p {
+    margin: 0 0 1.5em; }
+  .plan-content a {
+    color: #7e0f09;
+    text-decoration: underline; }
+    .plan-content a:hover {
+      opacity: .8;
+      text-decoration: underline; }
+  .plan-content .wp-block-image {
+    margin: 2em 0; }
+  .plan-content .wp-block-quote {
+    background: #EFEFEF;
+    padding: 20px 32px;
+    margin: 0 0 1.5em;
+    line-height: 1.6; }
+    .plan-content .wp-block-quote p {
+      margin: 0; }
+    @media (max-width: 767px) {
+      .plan-content .wp-block-quote {
+        margin-left: 6%;
+        margin-right: 6%; } }
+  .plan-content .wp-block-image figcaption {
+    color: #555d66;
+    text-align: center;
+    font-size: 14px; }
+  @media (max-width: 767px) {
+    .plan-content h2, .plan-content h3, .plan-content h4, .plan-content p {
+      margin-left: 6%;
+      margin-right: 6%; } }
+
 .hostel-room {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -1,0 +1,173 @@
+// plan
+.plan {
+  @include wrapper();
+  @media #{$mq-lg} {
+    max-width: 1120px;
+    margin: 0 auto;
+  }
+}
+.plan-header {
+  margin: 60px 0 40px;
+}
+.plan-title {
+  font-size: 2rem;
+  margin: 0 0 .6em;
+  line-height: 1.4;
+}
+.plan-tags {
+  li {
+    display: inline-block;
+    color: $primary;
+    margin: 0 12px 0 0;
+    &:before {
+      content: "#";
+    }
+  }
+}
+.plan-body {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 0 0 80px;
+  @media #{$mq-md} {
+    display: block;
+  }
+}
+.plan-content {
+  margin: 0 60px 0 0;
+  flex-grow: 1;
+  @media #{$mq-md} {
+    margin: 0;
+  }
+}
+.plan-sidebar {
+  flex-basis: 340px;
+  flex-shrink: 0;
+}
+.plan-detail {
+  border: 1px solid $border;
+  border-radius: 5px;
+  padding: 20px;
+}
+.plan-detail-title {
+  font-size: 1.1rem;
+  margin: 0 0 8px 0;
+}
+.plan-detail-description {
+  margin: 0 0 20px;
+  line-height: 1.4;
+  font-size: .95rem;
+}
+.plan-detail-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+.plan-detail-name {
+
+}
+.plan-detail-line {
+  border-top: 1px dotted #999;
+  flex-grow: 1;
+  margin: 0 12px;
+}
+.plan-detail-price {
+  font-weight: bold;
+}
+.plan-detail-note {
+  margin: 12px 0 0 0;
+  font-size: .8rem;
+  text-align: right;
+}
+.plan-btn {
+  text-align: center;
+  margin: 32px 0 0;
+  a {
+    display: inline-block;
+    background: $primary;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.05rem;
+    padding: 16px 0;
+    width: 100%;
+    position: relative;
+    span {
+      display: block;
+      font-size: .9rem;
+      margin: 4px 0 0 0;
+    }
+    &:before {
+      content: "";
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      border-bottom: 1px solid $border-brown;
+      border-right: 1px solid $border-brown;
+      right: -5px;
+      bottom: -5px;
+    }
+    &:hover {
+      background: lighten($primary, 7%);
+    }
+  }
+}
+.plan-content {
+  font-size: 1.1rem;
+  line-height: 2;
+  h2, h3, h4 {
+    margin: 2.2em 0 .8em 0;
+    line-height: 1.4;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  h4 {
+    font-size: 1.2rem;
+  }
+  p {
+    margin: 0 0 1.5em;
+  }
+  a {
+    color: $primary;
+    text-decoration: underline;
+    &:hover {
+      opacity: .8;
+      text-decoration: underline;
+    }
+  }
+  // 画像
+  .wp-block-image {
+    margin: 2em 0;
+  }
+  // 引用
+  .wp-block-quote {
+    background: $bg-gray;
+    padding: 20px 32px;
+    margin: 0 0 1.5em;
+    line-height: 1.6;
+    p {
+      margin: 0;
+    }
+    @media #{$mq-sm} {
+      margin-left: 6%;
+      margin-right: 6%;
+    }
+  }
+  .wp-block-image figcaption {
+    color: #555d66;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  @media #{$mq-sm} {
+    h2, h3, h4, p {
+      margin-left: 6%;
+      margin-right: 6%;
+    }
+  }
+}
