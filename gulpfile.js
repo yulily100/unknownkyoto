@@ -26,7 +26,7 @@ gulp.task('sass-watch', function() {
 //ブラウザの設定
 gulp.task('browser-init', function (done) {
     browserSync.init({
-        proxy: 'http://unknownblog.wp/',  // Local by Flywheelのドメイン
+        proxy: 'http://unknownkyoto.wp/',  // Local by Flywheelのドメイン
         open: true,
         watchOptions: {
             debounceDelay: 1000  //1秒間、タスクの再実行を抑制
