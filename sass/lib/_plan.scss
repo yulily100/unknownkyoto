@@ -32,20 +32,13 @@
     display: block;
   }
 }
-.plan-content {
-  margin: 0 60px 0 0;
-  flex-grow: 1;
-  @media #{$mq-md} {
-    margin: 0;
-  }
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-}
+
 .plan-sidebar {
   flex-basis: 340px;
   flex-shrink: 0;
+  @media #{$mq-md} {
+    margin: 0 0 60px 0;
+  }
 }
 .plan-detail {
   border: 1px solid $border;
@@ -90,11 +83,13 @@
   a {
     display: inline-block;
     background: $primary;
-    color: #fff;
+    color: #fff !important;
+    text-decoration: none !important;
     font-weight: bold;
     font-size: 1.05rem;
     padding: 16px 0;
     width: 100%;
+    max-width: 460px;
     position: relative;
     span {
       display: block;
@@ -120,6 +115,16 @@
 .plan-content {
   font-size: 1.1rem;
   line-height: 2;
+  margin: 0 60px 0 0;
+  flex-grow: 1;
+  @media #{$mq-md} {
+    margin: 0;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 0 1em 0;
+  }
   h2, h3, h4 {
     margin: 2.2em 0 .8em 0;
     line-height: 1.4;

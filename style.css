@@ -3192,23 +3192,14 @@ img {
     .plan-body {
       display: block; } }
 
-.plan-content {
-  margin: 0 60px 0 0;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1; }
-  @media (max-width: 1035px) {
-    .plan-content {
-      margin: 0; } }
-  .plan-content img {
-    max-width: 100%;
-    height: auto; }
-
 .plan-sidebar {
   -ms-flex-preferred-size: 340px;
       flex-basis: 340px;
   -ms-flex-negative: 0;
       flex-shrink: 0; }
+  @media (max-width: 1035px) {
+    .plan-sidebar {
+      margin: 0 0 60px 0; } }
 
 .plan-detail {
   border: 1px solid #ddd;
@@ -3258,11 +3249,13 @@ img {
   .plan-btn a {
     display: inline-block;
     background: #7e0f09;
-    color: #fff;
+    color: #fff !important;
+    text-decoration: none !important;
     font-weight: bold;
     font-size: 1.05rem;
     padding: 16px 0;
     width: 100%;
+    max-width: 460px;
     position: relative; }
     .plan-btn a span {
       display: block;
@@ -3283,7 +3276,18 @@ img {
 
 .plan-content {
   font-size: 1.1rem;
-  line-height: 2; }
+  line-height: 2;
+  margin: 0 60px 0 0;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1; }
+  @media (max-width: 1035px) {
+    .plan-content {
+      margin: 0; } }
+  .plan-content img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 0 1em 0; }
   .plan-content h2, .plan-content h3, .plan-content h4 {
     margin: 2.2em 0 .8em 0;
     line-height: 1.4; }
