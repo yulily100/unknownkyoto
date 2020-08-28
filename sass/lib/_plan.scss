@@ -38,6 +38,10 @@
   @media #{$mq-md} {
     margin: 0;
   }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 }
 .plan-sidebar {
   flex-basis: 340px;

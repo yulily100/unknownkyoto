@@ -3200,6 +3200,9 @@ img {
   @media (max-width: 1035px) {
     .plan-content {
       margin: 0; } }
+  .plan-content img {
+    max-width: 100%;
+    height: auto; }
 
 .plan-sidebar {
   -ms-flex-preferred-size: 340px;
