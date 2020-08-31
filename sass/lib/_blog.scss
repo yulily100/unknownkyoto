@@ -346,35 +346,39 @@
       text-decoration: underline;
     }
   }
-  // 画像
-  .wp-block-image {
-    margin: 2em 0;
-  }
-  // 引用
-  .wp-block-quote {
-    background: $bg-gray;
-    padding: 20px 32px;
-    margin: 0 40px 1.5em;
-    line-height: 1.6;
-    p {
-      margin: 0;
-    }
-    @media #{$mq-sm} {
-      margin-left: 6%;
-      margin-right: 6%;
-    }
-  }
-  .wp-block-image figcaption {
-    color: #555d66;
-    text-align: center;
-    font-size: 14px;
-  }
 
   @media #{$mq-sm} {
     h2, h3, h4, p {
       margin-left: 6%;
       margin-right: 6%;
     }
+  }
+}
+// 画像
+.wp-block-image {
+  margin: 2em 0;
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  figcaption {
+    color: #555d66;
+    text-align: center;
+    font-size: 14px;
+  }
+}
+// 引用
+.wp-block-quote {
+  background: $bg-gray;
+  padding: 20px 32px;
+  margin: 0 0 1.5em;
+  line-height: 1.6;
+  p {
+    margin: 0;
+  }
+  @media #{$mq-sm} {
+    margin-left: 6%;
+    margin-right: 6%;
   }
 }
 .entry-share {
