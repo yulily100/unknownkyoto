@@ -15,6 +15,7 @@
   line-height: 1.4;
 }
 .plan-tags {
+  line-height: 1.6;
   li {
     display: inline-block;
     color: $primary;
@@ -51,7 +52,7 @@
 }
 .plan-detail-description {
   margin: 0 0 20px;
-  line-height: 1.4;
+  line-height: 1.5;
   font-size: .95rem;
 }
 .plan-detail-item {
@@ -71,6 +72,7 @@
 }
 .plan-detail-price {
   font-weight: bold;
+  flex-shrink: 0;
 }
 .plan-detail-note {
   margin: 12px 0 0 0;
@@ -151,8 +153,9 @@
   }
   @media #{$mq-sm} {
     h2, h3, h4, p {
-      margin-left: 6%;
-      margin-right: 6%;
+      margin-left: 0;
+      margin-right: 0;
     }
   }
+
 }

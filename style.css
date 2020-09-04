@@ -3177,12 +3177,14 @@ img {
   margin: 0 0 .6em;
   line-height: 1.4; }
 
-.plan-tags li {
-  display: inline-block;
-  color: #7e0f09;
-  margin: 0 12px 0 0; }
-  .plan-tags li:before {
-    content: "#"; }
+.plan-tags {
+  line-height: 1.6; }
+  .plan-tags li {
+    display: inline-block;
+    color: #7e0f09;
+    margin: 0 12px 0 0; }
+    .plan-tags li:before {
+      content: "#"; }
 
 .plan-body {
   display: -webkit-box;
@@ -3217,7 +3219,7 @@ img {
 
 .plan-detail-description {
   margin: 0 0 20px;
-  line-height: 1.4;
+  line-height: 1.5;
   font-size: .95rem; }
 
 .plan-detail-item {
@@ -3241,7 +3243,9 @@ img {
   margin: 0 12px; }
 
 .plan-detail-price {
-  font-weight: bold; }
+  font-weight: bold;
+  -ms-flex-negative: 0;
+      flex-shrink: 0; }
 
 .plan-detail-note {
   margin: 12px 0 0 0;
@@ -3312,8 +3316,8 @@ img {
       text-decoration: underline; }
   @media (max-width: 767px) {
     .plan-content h2, .plan-content h3, .plan-content h4, .plan-content p {
-      margin-left: 6%;
-      margin-right: 6%; } }
+      margin-left: 0;
+      margin-right: 0; } }
 
 .hostel-room {
   display: -webkit-box;
