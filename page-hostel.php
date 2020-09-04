@@ -73,7 +73,7 @@ $(function() {
           <li>タオル</li>
           <li>電源コンセント</li>
         </ul>
-        <p class="hostel-room-price">6,000円〜</p>
+        <p class="hostel-room-price">7,500円〜</p>
       </div>
     </section>
 
@@ -91,7 +91,7 @@ $(function() {
           <li>タオル</li>
           <li>電源コンセント</li>
         </ul>
-        <p class="hostel-room-price">7,000円〜</p>
+        <p class="hostel-room-price">8,500円〜</p>
       </div>
     </section>
     <section class="hostel-room-inner">
@@ -108,7 +108,7 @@ $(function() {
           <li>タオル</li>
           <li>電源コンセント</li>
         </ul>
-        <p class="hostel-room-price">8,000円〜</p>
+        <p class="hostel-room-price">9,000円〜</p>
       </div>
     </section>
     <section class="hostel-room-inner">
@@ -126,7 +126,7 @@ $(function() {
           <li>タオル</li>
           <li>電源コンセント</li>
         </ul>
-        <p class="hostel-room-price">9,000円〜</p>
+        <p class="hostel-room-price">9,800円〜</p>
       </div>
     </section>
     <section class="hostel-room-inner">
