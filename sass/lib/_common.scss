@@ -54,11 +54,21 @@ img {
     display: none !important;
   }
 }
+.for-tab {
+  display: none !important;
+  @media #{$mq-md} {
+    display: block !important;
+  }
+  @media #{$mq-sm} {
+    display: none !important;
+  }
+}
 .for-sp {
   display: none !important;
   @media #{$mq-sm} {
     display: block !important;
   }
+
 }
 
 
@@ -83,8 +93,9 @@ img {
 .footer-feed-title {
   font-family: $vollkorn;
   margin: 0 0 .8em;
-  letter-spacing: .8px;
+  letter-spacing: .7px;
   font-size: 1.3rem;
+  font-weight: normal;
 }
 .footer-feed-inner {
   max-height: 500px;

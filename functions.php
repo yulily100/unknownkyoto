@@ -38,7 +38,7 @@
 				'add_new_item' => '新しいプランを追加',
 			),
 			'public' => true,
-			'supports' => array( 'title', 'editor', 'thumbnail'),
+			'supports' => array( 'title', 'editor', 'thumbnail', 'custom-fields'),
 			'menu_position' => 5,
 			'menu_icon'   => 'dashicons-welcome-edit-page',
 			'has_archive' => 'true',

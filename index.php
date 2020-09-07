@@ -66,6 +66,36 @@
 </section>
 
 <div class="wrapper">
+
+<section class="top-plan">
+  <div class="top-plan-head">
+    <h2 class="top-plan-title">Plan</h2>
+    <p class="top-plan-description">
+      「泊まって、食べて、働く」をわかりやすく体験していただくために、<br class="for-tab">UNKNOWN KYOTOをより楽しめるプランをご用意しました。
+    </p>
+  </div>
+  <ul class="top-plan-list">
+    <?php
+      $args = array(
+        'posts_per_page' => 3,
+        'post_type' => 'plan',
+        'order' => 'ASC',
+      );
+      $planList = new WP_Query($args);
+      if ( $planList->have_posts() ) :
+        while($planList->have_posts()): $planList->the_post();
+    ?>
+    <li>
+      <p class="top-plan-intro"><?php echo get_post_meta($post->ID,'intro',true); ?></p>
+      <p class="top-plan-thumb"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('thumbnail');?></a></p>
+      
+      <h3 class="top-plan-name"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+
+    </li>
+    <?php endwhile;endif; ?>
+  </ul>
+</section>
+
 <section class="top-location">
   <div class="js-fadein">
     <p class="top-location-heading">LOCATION</p>
