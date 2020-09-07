@@ -169,7 +169,7 @@
                 5時間 1,000円<br>
                 1日利用 1,500円<br>
                 <span class="price-notice">※すべて1ドリンク付き</span></td>
-              <td>月〜土の10:00〜17:00</td>
+              <td>月〜土の10:00〜19:00</td>
             </tr>
           </tbody>
         </table>
