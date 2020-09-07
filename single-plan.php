@@ -19,11 +19,21 @@
         <!-- <p class="plan-tags"><?php echo get_the_term_list( $post->ID, 'plan_tags'); ?></p> -->
         <!-- <p><?php echo get_the_term_list( $post->ID, 'plan_categories'); ?></p> -->
       </header>
-      <?php the_content(); ?>
+      <div class="plan-body">
+        <div class="plan-sidebar">
+          <div class="plan-sidebar-inner">
+            <?php echo get_post_meta($post->ID,'sidebar',true); ?>
+          </div>
+        </div>
+
+        <div class="plan-content">
+          <?php the_content(); ?>
+        </div>
+      </div>
       <ul class="entry-share">
-            <li><a href="http://twitter.com/share?url=<?php the_permalink(); ?>&text=<?php echo get_the_title(); ?>" class="share-twitter" target="_blank" rel="noopener">ツイートする</a></li>
-            <li><a href="http://www.facebook.com/share.php?u=<?php the_permalink(); ?>&t=<?php echo get_the_title(); ?>" class="share-facebook" target="_blank" rel="noopener">シェアする</a></li>
-          </ul>
+        <li><a href="http://twitter.com/share?url=<?php the_permalink(); ?>&text=<?php echo get_the_title(); ?>" class="share-twitter" target="_blank" rel="noopener">ツイートする</a></li>
+        <li><a href="http://www.facebook.com/share.php?u=<?php the_permalink(); ?>&t=<?php echo get_the_title(); ?>" class="share-facebook" target="_blank" rel="noopener">シェアする</a></li>
+      </ul>
       <?php
         endwhile;
         endif;

@@ -1778,7 +1778,7 @@ img {
       flex-shrink: 0;
   -ms-flex-preferred-size: 25%;
       flex-basis: 25%;
-  margin: 20px 0 0 0;
+  margin: 24px 0 0 0;
   padding: 0 40px 0 0; }
   @media (max-width: 1035px) {
     .top-plan-head {
@@ -1827,7 +1827,8 @@ img {
 
 .top-plan-name {
   margin: 14px 0 0 0;
-  font-size: 1.1rem; }
+  font-size: 1.1rem;
+  line-height: 1.4; }
 
 .top-location {
   margin: 0 0 120px;
@@ -3246,11 +3247,18 @@ img {
 
 .plan-header {
   margin: 60px 0 40px; }
+  @media (max-width: 1035px) {
+    .plan-header {
+      margin: 40px 0 20px; } }
 
 .plan-title {
   font-size: 2rem;
   margin: 0 0 .6em;
   line-height: 1.4; }
+  @media (max-width: 1035px) {
+    .plan-title {
+      font-size: 1.6rem;
+      margin: 0 0 .4em; } }
 
 .plan-tags {
   line-height: 1.6; }
@@ -3283,6 +3291,11 @@ img {
     .plan-sidebar {
       margin: 0 0 60px 0; } }
 
+.plan-sidebar-inner {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 140px; }
+
 .plan-detail {
   border: 1px solid #ddd;
   border-radius: 5px;
@@ -3291,6 +3304,9 @@ img {
 .plan-detail-title {
   font-size: 1.1rem;
   margin: 0 0 8px 0; }
+  @media (max-width: 1035px) {
+    .plan-detail-title {
+      display: none; } }
 
 .plan-detail-description {
   margin: 0 0 20px;
@@ -3390,7 +3406,7 @@ img {
       opacity: .8;
       text-decoration: underline; }
   @media (max-width: 767px) {
-    .plan-content h2, .plan-content h3, .plan-content h4, .plan-content p {
+    .plan-content h2, .plan-content h3, .plan-content h4, .plan-content p, .plan-content .wp-block-quote {
       margin-left: 0;
       margin-right: 0; } }
 

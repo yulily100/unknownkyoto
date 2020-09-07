@@ -573,7 +573,7 @@
 .top-plan-head {
   flex-shrink: 0;
   flex-basis: 25%;
-  margin: 20px 0 0 0;
+  margin: 24px 0 0 0;
   padding: 0 40px 0 0;
   @media #{$mq-md} {
     text-align: center;
@@ -624,6 +624,7 @@
 .top-plan-name {
   margin: 14px 0 0 0;
   font-size: 1.1rem;
+  line-height: 1.4;
 }
 
 
