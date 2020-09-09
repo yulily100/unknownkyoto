@@ -3019,6 +3019,9 @@ img {
     .entry-content a:hover {
       opacity: .8;
       text-decoration: underline; }
+  .entry-content img {
+    max-width: 100%;
+    height: auto; }
   @media (max-width: 767px) {
     .entry-content h2, .entry-content h3, .entry-content h4, .entry-content p {
       margin-left: 6%;
