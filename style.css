@@ -2355,6 +2355,8 @@ img {
     background: #fff; }
     .header.is-active a {
       color: #3a372f; }
+      .header.is-active a .header-nav-jp {
+        color: #808080; }
 
 .header-n-logo {
   position: inherit; }
