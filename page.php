@@ -4,7 +4,7 @@
 		<div class="wrapper">
 			<article class="page-basic">
 				<h1 class="page-basic-title"><?php echo get_the_title(); ?></h1>
-				<div class="page-basic-contents">
+				<div class="editable-content">
 					<?php the_content(); ?>
 				</div>
 			</article>

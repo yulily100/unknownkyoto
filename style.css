@@ -1237,7 +1237,7 @@ img {
   @media (max-width: 767px) {
     .top-main-share {
       left: inherit;
-      bottom: 100px; } }
+      bottom: 120px; } }
 
 .top-main-share-text {
   font-family: "Vollkorn", serif;
@@ -2676,13 +2676,63 @@ img {
 .page-basic-contents {
   line-height: 1.6; }
   .page-basic-contents h2 {
-    margin: 3rem 0 0 0;
-    font-size: 1.8rem; }
+    font-size: 1.8rem;
+    margin: 3rem 0 0 0; }
   .page-basic-contents h3 {
     margin: 1.5em 0 0 0;
     font-size: 1.3rem; }
   .page-basic-contents h4 {
     margin: 1.5em 0 0 0; }
+
+.editable-content {
+  font-size: 1.1rem;
+  line-height: 2; }
+  .editable-content h2, .editable-content h3, .editable-content h4 {
+    margin: 2.2em 40px .8em 40px;
+    line-height: 1.4; }
+  .editable-content h2 {
+    font-size: 1.8rem; }
+  .editable-content h3 {
+    font-size: 1.5rem; }
+  .editable-content h4 {
+    font-size: 1.2rem; }
+  .editable-content p {
+    margin: 0 40px 1.5em; }
+  .editable-content a {
+    color: #7e0f09;
+    text-decoration: underline; }
+    .editable-content a:hover {
+      opacity: .8;
+      text-decoration: underline; }
+  .editable-content img {
+    max-width: 100%;
+    height: auto; }
+  @media (max-width: 767px) {
+    .editable-content h2, .editable-content h3, .editable-content h4, .editable-content p {
+      margin-left: 6%;
+      margin-right: 6%; } }
+
+.wp-block-image {
+  margin: 2em 0; }
+  .wp-block-image img {
+    max-width: 100%;
+    height: auto; }
+  .wp-block-image figcaption {
+    color: #555d66;
+    text-align: center;
+    font-size: 14px; }
+
+.wp-block-quote {
+  background: #EFEFEF;
+  padding: 20px 32px;
+  margin: 0 0 1.5em;
+  line-height: 1.6; }
+  .wp-block-quote p {
+    margin: 0; }
+  @media (max-width: 767px) {
+    .wp-block-quote {
+      margin-left: 6%;
+      margin-right: 6%; } }
 
 .article-list {
   display: -webkit-box;
