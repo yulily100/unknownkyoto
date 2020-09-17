@@ -2684,33 +2684,34 @@ img {
   .page-basic-contents h4 {
     margin: 1.5em 0 0 0; }
 
-.editable-content {
+.editable-content, .plan-content {
   font-size: 1.1rem;
   line-height: 2; }
-  .editable-content h2, .editable-content h3, .editable-content h4 {
-    margin: 2.2em 40px .8em 40px;
+  .editable-content h2, .plan-content h2, .editable-content h3, .plan-content h3, .editable-content h4, .plan-content h4 {
+    margin: 2.2em 0 .8em 0;
     line-height: 1.4; }
-  .editable-content h2 {
+  .editable-content h2, .plan-content h2 {
     font-size: 1.8rem; }
-  .editable-content h3 {
+  .editable-content h3, .plan-content h3 {
     font-size: 1.5rem; }
-  .editable-content h4 {
+  .editable-content h4, .plan-content h4 {
     font-size: 1.2rem; }
-  .editable-content p {
-    margin: 0 40px 1.5em; }
-  .editable-content a {
+  .editable-content p, .plan-content p {
+    margin: 0 0 1.5em; }
+  .editable-content a, .plan-content a {
     color: #7e0f09;
     text-decoration: underline; }
-    .editable-content a:hover {
+    .editable-content a:hover, .plan-content a:hover {
       opacity: .8;
       text-decoration: underline; }
-  .editable-content img {
+  .editable-content img, .plan-content img {
     max-width: 100%;
-    height: auto; }
+    height: auto;
+    margin: 0 0 1em 0; }
   @media (max-width: 767px) {
-    .editable-content h2, .editable-content h3, .editable-content h4, .editable-content p {
-      margin-left: 6%;
-      margin-right: 6%; } }
+    .editable-content h2, .plan-content h2, .editable-content h3, .plan-content h3, .editable-content h4, .plan-content h4, .editable-content p, .plan-content p, .editable-content .wp-block-quote, .plan-content .wp-block-quote {
+      margin-left: 0;
+      margin-right: 0; } }
 
 .wp-block-image {
   margin: 2em 0; }
@@ -3430,8 +3431,6 @@ img {
       background: #9f130b; }
 
 .plan-content {
-  font-size: 1.1rem;
-  line-height: 2;
   margin: 0 60px 0 0;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
@@ -3439,31 +3438,6 @@ img {
   @media (max-width: 1035px) {
     .plan-content {
       margin: 0; } }
-  .plan-content img {
-    max-width: 100%;
-    height: auto;
-    margin: 0 0 1em 0; }
-  .plan-content h2, .plan-content h3, .plan-content h4 {
-    margin: 2.2em 0 .8em 0;
-    line-height: 1.4; }
-  .plan-content h2 {
-    font-size: 1.8rem; }
-  .plan-content h3 {
-    font-size: 1.5rem; }
-  .plan-content h4 {
-    font-size: 1.2rem; }
-  .plan-content p {
-    margin: 0 0 1.5em; }
-  .plan-content a {
-    color: #7e0f09;
-    text-decoration: underline; }
-    .plan-content a:hover {
-      opacity: .8;
-      text-decoration: underline; }
-  @media (max-width: 767px) {
-    .plan-content h2, .plan-content h3, .plan-content h4, .plan-content p, .plan-content .wp-block-quote {
-      margin-left: 0;
-      margin-right: 0; } }
 
 .hostel-room {
   display: -webkit-box;
