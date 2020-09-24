@@ -51,7 +51,8 @@ $(function() {
     <p class="page-about-description">
       長期割引も実施しております。<br>
       <span class="page-about-bold">3泊以上ご宿泊、宿泊料金の20%オフ<br>
-      6泊以上ご宿泊、宿泊料金の40%オフ</span><br>
+      6泊以上はウィークリープラン、13泊以上は2週間プラン<br>
+      27泊以上はマンスリープランをご利用いただけます。</span><br>
       暮らしているかのように京都に滞在してみませんか。<br>
     </p>
     <p class="btn-primary">
