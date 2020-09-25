@@ -74,7 +74,8 @@ $(function() {
           <li>タオル</li>
           <li>電源コンセント</li>
         </ul>
-        <p class="hostel-room-price">7,500円〜</p>
+        <p class="hostel-room-price">7,500円</p>
+        <p class="hostel-room-price">GoToトラベル適応時：4,880円</p>
       </div>
     </section>
 
@@ -92,7 +93,8 @@ $(function() {
           <li>タオル</li>
           <li>電源コンセント</li>
         </ul>
-        <p class="hostel-room-price">8,500円〜</p>
+        <p class="hostel-room-price">8,500円</p>
+        <p class="hostel-room-price">GoToトラベル適応時：5,530円</p>
       </div>
     </section>
     <section class="hostel-room-inner">
@@ -109,7 +111,8 @@ $(function() {
           <li>タオル</li>
           <li>電源コンセント</li>
         </ul>
-        <p class="hostel-room-price">9,000円〜</p>
+        <p class="hostel-room-price">9,000円</p>
+        <p class="hostel-room-price">GoToトラベル適応時：5,850円</p>
       </div>
     </section>
     <section class="hostel-room-inner">
@@ -127,7 +130,8 @@ $(function() {
           <li>タオル</li>
           <li>電源コンセント</li>
         </ul>
-        <p class="hostel-room-price">9,800円〜</p>
+        <p class="hostel-room-price">9,800円</p>
+        <p class="hostel-room-price">GoToトラベル適応時：6,370円</p>
       </div>
     </section>
     <section class="hostel-room-inner">
@@ -143,7 +147,8 @@ $(function() {
           <li>Free wifi</li>
           <li>電源コンセント</li>
         </ul>
-        <p class="hostel-room-price">3,500円〜</p>
+        <p class="hostel-room-price">3,500円</p>
+        <p class="hostel-room-price">GoToトラベル適応時：2,280円</p>
       </div>
     </section>
     <section class="hostel-room-inner">
@@ -159,7 +164,8 @@ $(function() {
           <li>Free wifi</li>
           <li>電源コンセント</li>
         </ul>
-        <p class="hostel-room-price">4,000円〜</p>
+        <p class="hostel-room-price">4,000円</p>
+        <p class="hostel-room-price">GoToトラベル適応時：2,600円</p>
       </div>
     </section>
   </div>

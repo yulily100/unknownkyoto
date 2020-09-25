@@ -3503,6 +3503,9 @@ img {
       .hostel-room-equipment li:last-child:after {
         display: none; }
 
+.hostel-room-price {
+  line-height: 1.6; }
+
 .hostel-room-btn {
   margin: 20px 0 0 0; }
   .hostel-room-btn a {
@@ -3905,6 +3908,180 @@ img {
       -ms-flex-preferred-size: calc(100% / 2 - 20px);
           flex-basis: calc(100% / 2 - 20px);
       padding-top: calc(50% - 20px); } }
+
+.restaurant-wrapper {
+  max-width: 1000px;
+  margin: 0 auto; }
+
+.restaurant-header {
+  background-image: url(img/food/food-main.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.restaurant-intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 80px 0; }
+
+.restaurant-intro-wrapper {
+  margin: 32px 0 0 0; }
+
+.restaurant-intro-img {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%; }
+  .restaurant-intro-img img {
+    max-width: 100%; }
+
+.restaurant-intro-text {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding: 0 0 0 60px; }
+
+.restaurant-intro-title {
+  font-size: 1.8rem;
+  margin: 40px 0 32px;
+  line-height: 1.4; }
+
+.restaurant-intro-description {
+  line-height: 1.6;
+  margin: 0 0 .5rem; }
+
+.restaurant-intro-open {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 0 12px; }
+
+.restaurant-intro-open-title {
+  font-family: "Vollkorn", serif;
+  font-weight: normal;
+  -ms-flex-preferred-size: 80px;
+      flex-basis: 80px;
+  font-size: 1.05rem; }
+
+.restaurant-intro-open-time {
+  line-height: 1.6;
+  font-size: 1.05rem; }
+
+.restaurant-contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.restaurant-contents-img {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  -ms-flex-negative: 0;
+      flex-shrink: 0; }
+  .restaurant-contents-img img {
+    max-width: 100%; }
+
+.restaurant-contents-text {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%; }
+
+.restaurant-contents-right {
+  max-width: 500px;
+  margin: 0 auto 0 60px;
+  padding: 40px 60px 0; }
+
+.restaurant-contents-left {
+  max-width: 500px;
+  margin: 0 60px 0 auto;
+  padding: 40px 60px 0; }
+
+.restaurant-contents-title-lunch {
+  font-family: "Vollkorn", serif;
+  text-align: center;
+  font-weight: normal;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  background-position: center 12px;
+  padding: 60px 0 0 0;
+  font-size: 1.8rem;
+  margin: 0 0 12px;
+  background-image: url("img/food/food-lunch.svg"); }
+
+.restaurant-contents-title-dinner {
+  font-family: "Vollkorn", serif;
+  text-align: center;
+  font-weight: normal;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  background-position: center 12px;
+  padding: 60px 0 0 0;
+  font-size: 1.8rem;
+  margin: 0 0 12px;
+  background-image: url("img/food/food-dinner.svg"); }
+
+.restaurant-contents-open {
+  text-align: center;
+  color: #666054;
+  font-weight: bold;
+  margin: 0 0 20px; }
+
+.restaurant-contents-description {
+  line-height: 1.6; }
+
+.restaurant-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 40px -30px; }
+
+.restaurant-menu-contents {
+  -ms-flex-preferred-size: 33%;
+      flex-basis: 33%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 0 30px; }
+
+.restaurant-menu-title {
+  text-align: center;
+  font-family: "Vollkorn", serif;
+  font-weight: normal;
+  font-size: 1.3rem;
+  padding: 8px 0; }
+
+.restaurant-menu-list li {
+  border-top: 1px solid #e5d5c1;
+  padding: 6px 0;
+  font-size: .95rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  line-height: 1.4; }
+  .restaurant-menu-list li:last-child {
+    text-align: right;
+    font-size: .9rem;
+    padding: 8px 0;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+
+@media (max-width: 767px) {
+  .restaurant-menu-list li {
+    font-size: .9rem; } }
+
+.restaurant-menu-price {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin-left: 8px; }
 
 .page-office .header {
   display: none; }
