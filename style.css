@@ -515,7 +515,8 @@ ul, li {
   list-style: none; }
 
 img {
-  vertical-align: middle; }
+  vertical-align: middle;
+  max-width: 100%; }
 
 .container {
   padding: 60px 0 0 0; }
@@ -3365,9 +3366,12 @@ img {
       display: none; } }
 
 .plan-detail-description {
-  margin: 0 0 20px;
+  margin: 0 0 8px;
   line-height: 1.5;
   font-size: .95rem; }
+
+.plan-detail-list {
+  margin: 20px 0 0 0; }
 
 .plan-detail-item {
   display: -webkit-box;
@@ -3910,14 +3914,14 @@ img {
       padding-top: calc(50% - 20px); } }
 
 .restaurant-wrapper {
-  max-width: 1000px;
+  max-width: 960px;
   margin: 0 auto; }
 
 .restaurant-header {
-  background-image: url(img/food/food-main.jpg);
+  background-image: url("img/restaurant/top-image.jpg");
   background-size: cover;
   background-position: center;
-  height: 500px;
+  height: 520px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3950,7 +3954,7 @@ img {
 
 .restaurant-intro-title {
   font-size: 1.8rem;
-  margin: 40px 0 32px;
+  margin: 32px 0;
   line-height: 1.4; }
 
 .restaurant-intro-description {
@@ -3973,6 +3977,18 @@ img {
 .restaurant-intro-open-time {
   line-height: 1.6;
   font-size: 1.05rem; }
+
+.restaurant-photo > img {
+  margin: 0 0 10px; }
+
+.restaurant-photo-h {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 0 10px; }
 
 .restaurant-contents {
   display: -webkit-box;
@@ -4032,7 +4048,8 @@ img {
   margin: 0 0 20px; }
 
 .restaurant-contents-description {
-  line-height: 1.6; }
+  line-height: 1.6;
+  margin: 0 0 20px 0; }
 
 .restaurant-menu {
   display: -webkit-box;

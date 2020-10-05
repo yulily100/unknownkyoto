@@ -65,9 +65,12 @@
   }
 }
 .plan-detail-description {
-  margin: 0 0 20px;
+  margin: 0 0 8px;
   line-height: 1.5;
   font-size: .95rem;
+}
+.plan-detail-list {
+  margin: 20px 0 0 0;
 }
 .plan-detail-item {
   display: flex;

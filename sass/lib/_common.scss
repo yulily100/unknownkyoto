@@ -26,6 +26,7 @@ ul, li {
 }
 img {
   vertical-align: middle;
+  max-width: 100%;
 }
 @mixin wrapper {
   margin-right: 80px;

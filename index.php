@@ -79,7 +79,7 @@
       $args = array(
         'posts_per_page' => 3,
         'post_type' => 'plan',
-        'order' => 'ASC',
+        'order' => 'DESC',
       );
       $planList = new WP_Query($args);
       if ( $planList->have_posts() ) :
