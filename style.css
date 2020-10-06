@@ -4894,13 +4894,10 @@ img {
     width: 30%; }
   .coworking-plan-tabel .price-notice {
     font-size: .8rem; }
-  .coworking-plan-tabel .is-full:after {
-    content: "満室";
-    position: relative;
-    right: 40px;
-    top: 7px;
+  .coworking-plan-tabel .status {
+    color: #ff3645;
     font-weight: bold;
-    color: #ff3645; }
+    margin: 0 0 0 28px; }
   @media (max-width: 767px) {
     .coworking-plan-tabel tr, .coworking-plan-tabel th, .coworking-plan-tabel td {
       display: block; }

@@ -35,11 +35,6 @@
         <p class="office-facilities-description">自由に使っていただける空間です。場所を固定しないフリーアドレス制となっています。</p>
       </li>
       <li>
-        <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/facilities-privateroom.jpg" alt="個室" class="office-facilities-img">
-        <h3 class="office-facilities-title">個室</h3>
-        <p class="office-facilities-description">大個室と小個室があります。個室会員はフリースペースもご利用いただけます。</p>
-      </li>
-      <li>
         <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/facilities-living.jpg" alt="リビング" class="office-facilities-img">
         <h3 class="office-facilities-title">リビング</h3>
         <p class="office-facilities-description">くつろげるソファがあります。他の会員との交流や、簡単な打ち合わせにも使えます。</p>
@@ -48,6 +43,11 @@
         <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/facilities-kitchen.jpg" alt="キッチン" class="office-facilities-img">
         <h3 class="office-facilities-title">キッチン</h3>
         <p class="office-facilities-description">簡単な料理のほか、買ってきた食べ物を温めたり飲み物を冷やしておけます。</p>
+      </li>
+      <li>
+        <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/facilities-privateroom.jpg" alt="個室" class="office-facilities-img">
+        <h3 class="office-facilities-title">個室</h3>
+        <p class="office-facilities-description">大個室と小個室があります。個室会員はフリースペースもご利用いただけます。</p>
       </li>
       <li>
         <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/facilities-meetingroom.jpg" alt="会議室" class="office-facilities-img">
@@ -121,7 +121,7 @@
             <tr>
               <th><span class="title">週末会員</span></th>
               <td class="price">4,000円＋税/月</td>
-              <td>土・日・祝の0:00〜24:00</td>
+              <td>土・日・祝 24時間</td>
             </tr>
           </tbody>
         </table>
@@ -138,15 +138,15 @@
       <div class="cowoking-plan-block">
         <table class="coworking-plan-tabel">
           <tbody>
-            <tr class="is-full">
+            <tr>
               <th><span class="title"><span class="name">大個室</span><span class="member">6人まで会員登録可</span></span></th>
               <td class="price">85,000円＋税/月</td>
-              <td>24時間</td>
+              <td>24時間<span class="status">満室</span></td>
             </tr>
-            <tr class="is-full">
+            <tr>
               <th><span class="title"><span class="name">小個室</span><span class="member">4人まで会員登録可</span></span></th>
               <td class="price">50,000円＋税/月</td>
-              <td>24時間</td>
+              <td>24時間<span class="status">2021年1月〜空室あり</span></td>
             </tr>
           </tbody>
         </table>
