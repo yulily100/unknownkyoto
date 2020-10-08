@@ -68,7 +68,10 @@
     </div>
   </div>
 
-  <div class="restaurant-contents">
+  <div class="restaurant-contents reverse">
+  <div class="restaurant-contents-img">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/restaurant/dinner.jpg" alt="ディナーではパスタ、ピザ、お肉料理など、本格イタリアンが楽しめます。">
+    </div>
     <div class="restaurant-contents-text">
       <div class="restaurant-contents-left">
         <h2 class="restaurant-contents-title-dinner">Dinner Time</h2>
@@ -79,9 +82,7 @@
         </p>
       </div>
     </div>
-    <div class="restaurant-contents-img">
-      <img src="<?php echo get_template_directory_uri(); ?>/img/restaurant/dinner.jpg" alt="ディナーではパスタ、ピザ、お肉料理など、本格イタリアンが楽しめます。">
-    </div>
+
   </div>
   <div class="restaurant-menuphoto-wrapper">
     <ul class="restaurant-menuphoto">
@@ -147,33 +148,55 @@
         </ul>
       </div>
     </div>
-  </div>
-  <section class="food-detail">
-  <div class="food-detail-img">
-    <img src="<?php echo get_template_directory_uri(); ?>/img/food/interior-1.jpg" alt="立ち飲み席">
-    <img src="<?php echo get_template_directory_uri(); ?>/img/food/interior-2.jpg" alt="テーブル席">
-  </div>
-  <div class="food-detail-text">
-    <h3 class="food-detail-title">営業時間</h3>
-    <p class="food-detail-description">
-      11:30 - 15:00 (L.O. 14:30)<br>
-      17:00 - 23:00 (L.O. お食事22:00,ドリンク22:30)</p>
-    <p class="food-detail-description">日曜定休</p>
-    <h3 class="food-detail-title">店舗規模</h3>
-    <p class="food-detail-description">テーブル席　8席<br>
-      立ち飲み席　12席<br>
-      カウンター席　8席<br>
-      おひとりでも利用しやすいカウンター席、最大8人ほどでご利用いただけるテーブル席、大人数でも対応可能な立ち飲み席がございます。</p>
-    <p class="food-detail-description">立ち飲み席には椅子を出すこともできます。</p>
-    <h3 class="food-detail-title">ご連絡</h3>
-    <p class="food-detail-description">075-746-4665</p>
-    <p class="food-detail-description">お問い合わせ・ご予約はこちらまで。</p>
-    <div class="food-detail-access">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.4799155063033!2d135.76624239999998!3d34.994689799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x79557a17e1c2815d!2sUNKNOWN%20KYOTO!5e0!3m2!1sja!2sjp!4v1578797119229!5m2!1sja!2sjp" width="auto" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-      <p class="food-detail-access-btn"><a href="https://goo.gl/maps/9aVuTd8iJGMXpK9f7">google mapで表示する</a></p>
+    <div class="restaurant-party">
+      <div class="restaurant-party-img">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/restaurant/party.jpg" alt="コース料理承ります">
+      </div>
+      <div class="restaurant-party-text">
+        <h2 class="restaurant-party-title">Party Plan</h2>
+        <p class="restaurant-party-description">歓送迎会、懇親会等、コース料理のプランがございます。<br>
+          2名様より承っております。気軽にご相談ください。</p>
+        <h3 class="restaurant-party-item">シェフのお任せカジュアルプラン</h3>
+        <p class="restaurant-party-detail">前菜、アラカルト3〜4種、<br>パスタ、ピザ、メイン、デザート</p>
+        <h3 class="restaurant-party-item">シェフのお任せイタリアンプラン</h3>
+        <p class="restaurant-party-detail">前菜、アラカルト5〜6種、<br>パスタ、ピザ、メイン、デザート</p>
+        <h3 class="restaurant-party-item">オリジナルプラン</h3>
+        <p class="restaurant-party-detail">ご利用のシーンに合わせて、予算・お食事内容を自由にカスタマイズすることができます。</p>
+        <h3 class="restaurant-party-item">飲み放題</h3>
+        <p class="restaurant-party-detail">生ビール（ハートランド）、ハイボール、各種サワー<br>ワイン（白/赤）、梅酒、焼酎</p>
+        <p class="restaurant-party-detail">プランと一緒に注文いただけます。<br>女性限定グループは2時間1500円にてご用意可能です。</p>
+      </div>
     </div>
   </div>
-</section>
+
+  <section class="restaurant-detail">
+    <div class="restaurant-detail-inner">
+      <div class="restaurant-detail-text">
+        <h3 class="restaurant-detail-title">営業時間</h3>
+        <p class="restaurant-detail-description">
+          11:30 - 15:00 (L.O. 14:30)<br>
+          17:00 - 23:00 (L.O. お食事22:00,ドリンク22:30)</p>
+        <p class="restaurant-detail-description">日曜定休</p>
+        <h3 class="restaurant-detail-title">店舗規模</h3>
+        <p class="restaurant-detail-description">
+          おひとりでも利用しやすいカウンター席が8席、<br>グループでご利用いただけるテーブル席が8席、<br>大人数でも対応可能な立ち飲み席が3テーブルございます。</p>
+        <p class="restaurant-detail-description">立ち飲み席には椅子を出すこともできます。</p>
+        <h3 class="restaurant-detail-title">ご連絡</h3>
+        <p class="restaurant-detail-description">お問い合わせ・ご予約はこちらまで。</p>
+        <p class="restaurant-detail-tell-pc">075-746-4665</p>
+        <p class="restaurant-detail-tell-sp"><a href="tel:075-746-4665">075-746-4665</a><br><span>タップで電話アプリに移動します</span></p>
+        <div class="restaurant-detail-access">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.4799155063033!2d135.76624239999998!3d34.994689799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x79557a17e1c2815d!2sUNKNOWN%20KYOTO!5e0!3m2!1sja!2sjp!4v1578797119229!5m2!1sja!2sjp" width="auto" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+          <p class="restaurant-detail-access-btn"><a href="https://goo.gl/maps/9aVuTd8iJGMXpK9f7">google mapで表示する</a></p>
+        </div>
+      </div>
+      <div class="restaurant-detail-img">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/restaurant/interior1.jpg" alt="立ち飲み席">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/restaurant/interior2.jpg" alt="テーブル席">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/restaurant/interior3.jpg" alt="カウンター席">
+      </div>
+    </div>
+  </section>
 
   
 

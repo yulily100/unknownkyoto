@@ -46,21 +46,23 @@
     <h3 class="top-facilities-title">Hostel<span>泊まる</span></h3>
     <p class="top-facilities-description">
       築100年以上の元遊郭建築をベッドのお部屋に。<br>
-      もっと気軽に泊まれるドミトリーも用意しています。</p>
+      もっと気軽に泊まれるドミトリーも用意しています。<br>
+      宿泊者はコワーキングスペースが自由に使えます。
+      </p>
     <p class="top-facilities-readmore"><a href="/hostel">詳しくはこちら</a></p>
   </div>
 </section>
 <section class="top-facilities-restaurant">
   <div class="wrapper">
     <h3 class="top-facilities-title">Restaurant & Bar<span>食べる</span></h3>
-    <p class="top-facilities-description">オープンなレストランで楽しいひとときを。<br>宿泊者以外も、誰でも利用することができます。</p>
+    <p class="top-facilities-description">昼は定食、夜は本格的なイタリアンが楽しめます。<br>宿泊者以外も、誰でも利用することができます。</p>
     <p class="top-facilities-readmore"><a href="/restaurant">詳しくはこちら</a></p>
   </div>
 </section>
 <section class="top-facilities-coworking">
   <div class="wrapper">
     <h3 class="top-facilities-title">Coworking<span>働く</span></h3>
-    <p class="top-facilities-description">旅先にいながらもしっかりとお仕事することができます。<br>コワーキングのみの利用も可能です。</p>
+    <p class="top-facilities-description">旅先にいながらもしっかりとお仕事することができます。<br>コワーキングのみの月額利用も可能です。</p>
     <p class="top-facilities-readmore"><a href="/coworking">詳しくはこちら</a></p>
   </div>
 </section>
