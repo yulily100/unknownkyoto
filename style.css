@@ -1116,9 +1116,9 @@ img {
 
 .js-fadein {
   opacity: 0;
-  -webkit-transform: translateY(10px);
-      -ms-transform: translateY(10px);
-          transform: translateY(10px);
+  -webkit-transform: translateY(5px);
+      -ms-transform: translateY(5px);
+          transform: translateY(5px);
   -webkit-transition: all .5s;
   transition: all .5s; }
 
@@ -3906,6 +3906,9 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
+  .restaurant-header h1 {
+    -webkit-animation: fadein 1s ease-in 0s;
+            animation: fadein 1s ease-in 0s; }
   @media (max-width: 480px) {
     .restaurant-header {
       height: 300px; }
@@ -4000,9 +4003,11 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 0 0 10px; }
+  margin: 0 0 10px;
+  height: 100%; }
   .restaurant-photo-h img {
-    width: calc(50% - 5px); }
+    width: calc(50% - 5px);
+    height: 100%; }
 
 .restaurant-contents {
   display: -webkit-box;
@@ -4032,7 +4037,7 @@ img {
 .restaurant-contents-right {
   max-width: 480px;
   margin: 0 auto 0 0;
-  padding: 20px 0 0 100px; }
+  padding: 0 0 0 100px; }
   @media (max-width: 1035px) {
     .restaurant-contents-right {
       margin-right: 16%;
@@ -4048,7 +4053,7 @@ img {
 .restaurant-contents-left {
   max-width: 480px;
   margin: 0 0 0 auto;
-  padding: 60px 100px 0 0; }
+  padding: 40px 100px 0 0; }
   @media (max-width: 1035px) {
     .restaurant-contents-left {
       margin-left: 16%;
@@ -4071,15 +4076,14 @@ img {
   font-weight: normal;
   background-size: 36px 36px;
   background-repeat: no-repeat;
-  background-position: center 12px;
-  padding: 60px 0 0 0;
+  background-position: center 8px;
+  padding: 50px 0 0 0;
   font-size: 1.8rem;
-  margin: 0 0 12px;
+  margin: 0 0 8px;
   background-image: url("img/food/food-lunch.svg"); }
   @media (max-width: 480px) {
     .restaurant-contents-title-lunch {
       background-size: 30px 30px;
-      padding: 50px 0 0 0;
       font-size: 1.6rem; } }
 
 .restaurant-contents-title-dinner {
@@ -4088,26 +4092,25 @@ img {
   font-weight: normal;
   background-size: 36px 36px;
   background-repeat: no-repeat;
-  background-position: center 12px;
-  padding: 60px 0 0 0;
+  background-position: center 8px;
+  padding: 50px 0 0 0;
   font-size: 1.8rem;
-  margin: 0 0 12px;
+  margin: 0 0 8px;
   background-image: url("img/food/food-dinner.svg"); }
   @media (max-width: 480px) {
     .restaurant-contents-title-dinner {
       background-size: 30px 30px;
-      padding: 50px 0 0 0;
       font-size: 1.6rem; } }
 
 .restaurant-contents-open {
   text-align: center;
   color: #666054;
   font-weight: bold;
-  margin: 0 0 20px; }
+  margin: 0 0 16px; }
 
 .restaurant-contents-description {
   line-height: 1.6;
-  margin: 0 0 20px 0; }
+  margin: 0 0 16px 0; }
 
 .restaurant-contents-menu {
   display: -webkit-box;
@@ -4129,6 +4132,8 @@ img {
   font-size: .9rem;
   color: #666054;
   line-height: 1.4; }
+  .restaurant-contents-menu-item span {
+    display: inline-block; }
 
 .restaurant-menuphoto-wrapper {
   display: -webkit-box;
@@ -4200,8 +4205,10 @@ img {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  padding: 0 30px;
-  margin: 40px 0 0 0; }
+  padding: 0 30px; }
+  @media (max-width: 767px) {
+    .restaurant-menu-contents {
+      margin: 40px 0 0 0; } }
 
 .restaurant-menu-title {
   text-align: center;
@@ -4345,7 +4352,10 @@ img {
         margin: 0 0 12px; } }
 
 .restaurant-detail-text {
-  margin: 0 0 40px 40px; }
+  margin: 0 0 40px 40px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1; }
   @media (max-width: 767px) {
     .restaurant-detail-text {
       margin: 20px 0 40px 0; } }
@@ -4358,29 +4368,29 @@ img {
   margin: 0 0 4px;
   line-height: 1.6; }
 
-.restaurant-detail-tell-pc {
+.restaurant-detail-tel-pc {
   font-size: 1.4rem;
   margin: 0 0 4px;
   line-height: 1.6;
   color: #7e0f09; }
   @media (max-width: 767px) {
-    .restaurant-detail-tell-pc {
+    .restaurant-detail-tel-pc {
       display: none; } }
 
-.restaurant-detail-tell-sp {
+.restaurant-detail-tel-sp {
   display: none;
   font-size: 1.4rem;
   margin: 0 0 4px;
   line-height: 1.5; }
-  .restaurant-detail-tell-sp a {
+  .restaurant-detail-tel-sp a {
     color: #7e0f09;
     text-decoration: underline; }
-  .restaurant-detail-tell-sp span {
+  .restaurant-detail-tel-sp span {
     font-size: .9rem;
     color: #3a372f;
     text-decoration: none; }
   @media (max-width: 767px) {
-    .restaurant-detail-tell-sp {
+    .restaurant-detail-tel-sp {
       display: inline-block; } }
 
 .restaurant-detail-access {

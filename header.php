@@ -55,7 +55,7 @@
       // .js-fadein が付けられた要素をふわっと表示
       $fadeIn.each(function() {
         var targetElement = $(this).offset().top;
-        if (scroll > targetElement - wh + 200){
+        if (scroll > targetElement - wh + 100){
           $(this).css('opacity','1');
           $(this).css('transform','translateY(0)');
         }

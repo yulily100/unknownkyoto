@@ -204,6 +204,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  h1 {
+    animation: fadein 1s ease-in 0s;
+  }
   @media #{$mq-xs} {
     height: 300px;
     img {
@@ -298,8 +301,10 @@
   display: flex;
   justify-content: space-between;
   margin: 0 0 10px;
+  height: 100%;
   img {
     width: calc(50% - 5px);
+    height: 100%;
   }
 }
 
@@ -325,7 +330,7 @@
 .restaurant-contents-right {
   max-width: 480px;
   margin: 0 auto 0 0;
-  padding: 20px 0 0 100px;
+  padding: 0 0 0 100px;
   @media #{$mq-md} {
     margin-right: 16%;
     padding: 0 0 40px 60px;
@@ -341,7 +346,7 @@
 .restaurant-contents-left {
   max-width: 480px;
   margin: 0 0 0 auto;
-  padding: 60px 100px 0 0;
+  padding: 40px 100px 0 0;
   @media #{$mq-md} {
     margin-left: 16%;
     padding: 20px 60px 0 0;
@@ -364,13 +369,12 @@
   font-weight: normal;
   background-size: 36px 36px;
   background-repeat: no-repeat;
-  background-position: center 12px;
-  padding: 60px 0 0 0;
+  background-position: center 8px;
+  padding: 50px 0 0 0;
   font-size: 1.8rem;
-  margin: 0 0 12px;
+  margin: 0 0 8px;
   @media #{$mq-xs} {
     background-size: 30px 30px;
-    padding: 50px 0 0 0;
     font-size: 1.6rem;
   }
 }
@@ -386,11 +390,11 @@
   text-align: center;
   color: $text-light;
   font-weight: bold;
-  margin: 0 0 20px;
+  margin: 0 0 16px;
 }
 .restaurant-contents-description {
   line-height: 1.6;
-  margin: 0 0 20px 0;
+  margin: 0 0 16px 0;
 }
 .restaurant-contents-menu {
   display: flex;
@@ -410,6 +414,9 @@
   font-size: .9rem;
   color: $text-light;
   line-height: 1.4;
+  span {
+    display: inline-block;
+  }
 }
 .restaurant-menuphoto-wrapper {
   display: flex;
@@ -470,7 +477,9 @@
   flex-basis: 33%;
   flex-grow: 1;
   padding: 0 30px;
-  margin: 40px 0 0 0;
+  @media #{$mq-sm} {
+    margin: 40px 0 0 0;
+  }
 }
 .restaurant-menu-title {
   text-align: center;
@@ -602,6 +611,7 @@
 }
 .restaurant-detail-text {
   margin: 0 0 40px 40px;
+  flex-grow: 1;
   @media #{$mq-sm} {
     margin: 20px 0 40px 0;
   }
@@ -614,7 +624,7 @@
   margin: 0 0 4px;
   line-height: 1.6;
 }
-.restaurant-detail-tell-pc {
+.restaurant-detail-tel-pc {
   font-size: 1.4rem;
   margin: 0 0 4px;
   line-height: 1.6;
@@ -623,7 +633,7 @@
     display: none;
   }
 }
-.restaurant-detail-tell-sp {
+.restaurant-detail-tel-sp {
   display: none;
   font-size: 1.4rem;
   margin: 0 0 4px;

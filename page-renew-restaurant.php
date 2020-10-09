@@ -10,7 +10,7 @@
       <div class="restaurant-intro-img">
         <img src="<?php echo get_template_directory_uri(); ?>/img/restaurant/intro.jpg" alt="ディナーではパスタ、ピザ、お肉料理など、本格イタリアンが楽しめます。">
       </div>
-      <div class="restaurant-intro-text js-fadein">
+      <div class="restaurant-intro-text">
         <h2 class="restaurant-intro-title">昼は定食でお腹いっぱいに<br>
           夜は本格的なイタリアンで乾杯</h2>
         <p class="restaurant-intro-description">京都清水五条のレストラン<strong>「Sin -Dining＆Bar-」</strong>です。<br>UNKNOWN KYOTOの1階にあります。</p>
@@ -27,10 +27,6 @@
             <p class="restaurant-intro-open-time">17:00 - 23:00</br>
               L.O. お食事22:00,ドリンク22:30</p>
           </div>
-          <div class="restaurant-intro-open">
-            <h3 class="restaurant-intro-open-title">TEL</h3>
-            <p class="restaurant-intro-open-time">075-746-4665</p>
-          </div>
         </div>
       </div>
     </div>
@@ -38,17 +34,17 @@
 
   <div class="restaurant-wrapper">
     <div class="restaurant-photo">
-      <img src="<?php echo get_template_directory_uri(); ?>/img/restaurant/photo1.jpg" alt="" class="js-fadein">
-      <div class="restaurant-photo-h js-fadein">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/restaurant/photo1.jpg" alt="">
+      <div class="restaurant-photo-h">
         <img src="<?php echo get_template_directory_uri(); ?>/img/restaurant/photo-h-1.jpg" alt="">
         <img src="<?php echo get_template_directory_uri(); ?>/img/restaurant/photo-h-2.jpg" alt="">
       </div>
-      <img src="<?php echo get_template_directory_uri(); ?>/img/restaurant/photo2.jpg" alt="" class="js-fadein">
-      <div class="restaurant-photo-h js-fadein">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/restaurant/photo2.jpg" alt="">
+      <div class="restaurant-photo-h">
         <img src="<?php echo get_template_directory_uri(); ?>/img/restaurant/photo-h-3.jpg" alt="">
         <img src="<?php echo get_template_directory_uri(); ?>/img/restaurant/photo-h-4.jpg" alt="">
       </div>
-      <img src="<?php echo get_template_directory_uri(); ?>/img/restaurant/photo3.jpg" alt="" class="js-fadein">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/restaurant/photo3.jpg" alt="">
     </div>
   </div>
 
@@ -65,8 +61,8 @@
         <p class="restaurant-contents-description">お腹いっぱい味わえる定食や丼ものをご用意しております。お仕事の合間やおひとりでのランチにも気軽にご利用ください。一番人気は唐揚げ定食。唐揚げ専門店で7年間腕を磨いたシェフの逸品をお楽しみください。</p>
         <div class="restaurant-contents-menu">
           <h3 class="restaurant-contents-menu-title">Menu</h3>
-          <p class="restaurant-contents-menu-item"><span>唐揚げ定食</span> / <span>ハンバーグ定食</span> / <span>アジフライ定食</span> /<br class="for-pc">
-          <span>生姜焼き定食</span> / <span>牛ステーキ丼</span> / <span>ロコモコ風丼</span>　<span>など</span></p>
+          <p class="restaurant-contents-menu-item">唐揚げ定食 / ハンバーグ定食 / アジフライ定食<br>
+            生姜焼き定食 / 牛ステーキ丼 / ロコモコ風丼　など</p>
         </div>
       </div>
     </div>
@@ -167,7 +163,7 @@
         <h3 class="restaurant-party-item">オリジナルプラン</h3>
         <p class="restaurant-party-detail">ご利用のシーンに合わせて、予算・お食事内容を自由にカスタマイズすることができます。</p>
         <h3 class="restaurant-party-item">飲み放題</h3>
-        <p class="restaurant-party-detail">生ビール（ハートランド）、ハイボール、各種サワー<br>ワイン、梅酒、焼酎、各種ソフトドリンク</p>
+        <p class="restaurant-party-detail">生ビール（ハートランド）、ハイボール、各種サワー<br>ワイン（白/赤）、梅酒、焼酎</p>
         <p class="restaurant-party-detail">プランと一緒に注文いただけます。<br>女性限定グループは2時間1500円にてご用意可能です。</p>
       </div>
     </div>
@@ -187,11 +183,11 @@
         <p class="restaurant-detail-description">立ち飲み席には椅子を出すこともできます。</p>
         <h3 class="restaurant-detail-title">ご連絡</h3>
         <p class="restaurant-detail-description">お問い合わせ・ご予約はこちらまで。</p>
-        <p class="restaurant-detail-tel-pc">075-746-4665</p>
-        <p class="restaurant-detail-tel-sp"><a href="tel:075-746-4665">075-746-4665</a><br><span>タップで電話アプリに移動します</span></p>
+        <p class="restaurant-detail-tell-pc">075-746-4665</p>
+        <p class="restaurant-detail-tell-sp"><a href="tel:075-746-4665">075-746-4665</a><br><span>タップで電話アプリに移動します</span></p>
         <div class="restaurant-detail-access">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1473.2485986550075!2d135.76626007865065!3d34.994540147960905!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1b71b7865ff3b755!2sSin%20-Dining%EF%BC%86Bar-!5e0!3m2!1sja!2sjp!4v1602139890455!5m2!1sja!2sjp" width="auto" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-          <p class="restaurant-detail-access-btn"><a href="https://g.page/sin-diningbar?share">google mapで表示する</a></p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.4799155063033!2d135.76624239999998!3d34.994689799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x79557a17e1c2815d!2sUNKNOWN%20KYOTO!5e0!3m2!1sja!2sjp!4v1578797119229!5m2!1sja!2sjp" width="auto" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+          <p class="restaurant-detail-access-btn"><a href="https://goo.gl/maps/9aVuTd8iJGMXpK9f7">google mapで表示する</a></p>
         </div>
       </div>
       <div class="restaurant-detail-img">
