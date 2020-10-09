@@ -567,8 +567,22 @@
 }
 .restaurant-party-item {
   margin: 24px 0 8px;
-  font-size: 1.05rem;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+.restaurant-party-border {
+  display: inline-block;
+  flex-grow: 1;
+  border-top: 1px dotted #999;
+  margin: 0 8px;
+}
+.restaurant-party-price {
+  flex-shrink: 0;
+}
+
+
 .restaurant-party-detail {
   border-left: 4px solid $bg;
   padding: 0 0 0 12px;

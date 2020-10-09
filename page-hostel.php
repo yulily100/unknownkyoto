@@ -221,7 +221,7 @@ $(function() {
         </div>
         <div class="hostel-plan-content-text">
           <h3 class="hostel-plan-content-title">寝落ちプラン ※予約不可</h3>
-          <p class="hostel-plan-content-description">レストランでたくさん食べて飲んだあとは、タクシーに乗るのと同じ値段でドミトリーに泊まれます。</p>
+          <p class="hostel-plan-content-description">レストランでたくさん食べて飲んだあとは、タクシーに乗るのと同じ値段でドミトリーに泊まれます。</p>
           <p class="hostel-plan-content-note">
             レストランでのお会計5,000円につき1名、<br>
             2,000円（消費税・宿泊税別）でドミトリー宿泊可
