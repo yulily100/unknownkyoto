@@ -2,8 +2,11 @@
 
 <div class="top-main">
   <div class="top-main-inner">
-    <h1 class="top-main-logo"><img src="<?php echo get_template_directory_uri(); ?>/img/top-logo.svg" alt="UNKNOWN KYOTO"></h1>
-    <p class="top-main-description">Hostel, Dining, Coworking</p>
+    <h1 class="top-main-logo">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/top-logo.svg" alt="UNKNOWN KYOTO" class="logo-pc">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/top-logo-sp.svg" alt="UNKNOWN KYOTO" class="logo-sp">
+    </h1>
+    <p class="top-main-description">京都清水五条駅すぐ、元遊郭建築をリノベーションした宿泊複合施設<br>宿泊者はコワーキングスペースが使えます</p>
   </div>
 
   <div class="top-main-share">

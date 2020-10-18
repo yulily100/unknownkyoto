@@ -48,9 +48,15 @@
   }
 }
 .header-description {
-  font-size: .8rem;
-  margin: 0 0 0 16px;
-  color: $text-light;
+  font-size: .9rem;
+  margin: 0 0 0 24px;
+  a {
+    color: $primary;
+    text-decoration: underline;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
   @media #{$mq-md} {
     display: none;
   }

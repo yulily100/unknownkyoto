@@ -2,11 +2,14 @@
 
 <div class="container">
   <div class="restaurant-header">
-    <h1><img src="<?php echo get_template_directory_uri(); ?>/img/restaurant-logo.svg" alt="Sin -Dinging & Bar-" width="150" height="150"></h1>
+    <div class="restaurant-header-inner">
+      <h1><img src="<?php echo get_template_directory_uri(); ?>/img/restaurant-logo.svg" alt="Sin -Dinging & Bar-" width="150" height="150"></h1>
+      <p class="restaurant-header-note">地域共通クーポン<br class="for-sp"><span class="for-pc">、</span>京都Go To Eatが利用可能です</p>
+    </div>
   </div>
 
   <div class="restaurant-wrapper">
-    <div class="restaurant-intro js-fadein">
+    <div class="restaurant-intro">
       <div class="restaurant-intro-img">
         <img src="<?php echo get_template_directory_uri(); ?>/img/restaurant/intro.jpg" alt="ディナーではパスタ、ピザ、お肉料理など、本格イタリアンが楽しめます。">
       </div>

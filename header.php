@@ -126,7 +126,7 @@
               <img src="<?php echo get_template_directory_uri(); ?>/img/header-logo.svg" alt="UNKNWON KYOTO">
             </a>
           </h1>
-          <p class="header-description">京都五條楽園の食事ができて働ける宿泊施設<br>元遊郭建築をリノベーション</p>
+          <p class="header-description"><a href="/campaign-goto">Go Toキャンペーンご利用方法</a></p>
         <?php endif; ?>
       </div>
       <div class="header-menu">

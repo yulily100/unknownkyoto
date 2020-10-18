@@ -12,15 +12,13 @@
           <a href="/hostel">Hostel</a>
         </h3>
         <p class="top-open-contents-description">CHECK IN…16:00 - 22:00<br>
-        CHECK OUT…11:00</p>
+        CHECK OUT　11:00</p>
       </li>
       <li class="top-open-body">
         <h3 class="top-open-contents-title">
           <a href="/restaurant">Restaurant</a>
         </h3>
-        <p class="top-open-contents-description">11:30 - 15:00 (L.O. 14:30)<br>
-         17:00 -23:00 <br>
-			(L.O. お食事22:00,ドリンク22:30)<br>
+        <p class="top-open-contents-description">11:30 - 15:00 (L.O. 14:30)<br>17:00 - 23:00 (L.O. 22:00)<br>
       <span class="top-open-contents-note">日曜定休,テイクアウトも承っております</span>
         </p>
       </li>
