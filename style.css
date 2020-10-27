@@ -491,7 +491,6 @@ textarea,
 
 body {
   font-family: Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
-  -webkit-font-smoothing: antialiased;
   background: #fff;
   color: #3a372f; }
 
@@ -3032,13 +3031,42 @@ img {
 .entry-breadcrumbs-arrow {
   margin: 0 6px; }
 
-.entry {
-  max-width: 720px;
+.entry-wrapper {
+  max-width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin: 0 auto;
-  padding: 40px 0 0; }
-  @media (max-width: 767px) {
-    .entry {
-      padding: 0; } }
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 60px 0 0; }
+  @media (max-width: 1035px) {
+    .entry-wrapper {
+      padding: 40px 0 0 0;
+      display: block;
+      margin-right: 6%;
+      margin-left: 6%; } }
+
+.entry {
+  -ms-flex-preferred-size: 640px;
+      flex-basis: 640px;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0; }
+
+.entry-side {
+  -ms-flex-preferred-size: 300px;
+      flex-basis: 300px;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin: 0 0 0 60px; }
+  @media (max-width: 1035px) {
+    .entry-side {
+      margin: 60px 0 0 0; } }
 
 .entry-thumb {
   margin: 0 0 40px 0; }
@@ -3047,11 +3075,7 @@ img {
     height: auto; }
 
 .entry-header {
-  margin: 0 40px 40px; }
-  @media (max-width: 767px) {
-    .entry-header {
-      margin-left: 6%;
-      margin-right: 6%; } }
+  margin: 0 0 40px; }
 
 .entry-title {
   margin: 0 0 12px 0;
@@ -3062,10 +3086,10 @@ img {
       font-size: 1.4rem; } }
 
 .entry-content {
-  font-size: 1.1rem;
-  line-height: 2; }
+  line-height: 1.6;
+  font-size: 1.05rem; }
   .entry-content h2, .entry-content h3, .entry-content h4 {
-    margin: 2.2em 40px .8em 40px;
+    margin: 2.2em 0 .8em 0;
     line-height: 1.4; }
   .entry-content h2 {
     font-size: 1.8rem; }
@@ -3074,7 +3098,7 @@ img {
   .entry-content h4 {
     font-size: 1.2rem; }
   .entry-content p {
-    margin: 0 40px 1.5em; }
+    margin: 0 0 1.5em; }
   .entry-content a {
     color: #7e0f09;
     text-decoration: underline; }
@@ -3084,10 +3108,6 @@ img {
   .entry-content img {
     max-width: 100%;
     height: auto; }
-  @media (max-width: 767px) {
-    .entry-content h2, .entry-content h3, .entry-content h4, .entry-content p {
-      margin-left: 6%;
-      margin-right: 6%; } }
 
 .wp-block-image {
   margin: 2em 0; }
@@ -3106,10 +3126,6 @@ img {
   line-height: 1.6; }
   .wp-block-quote p {
     margin: 0; }
-  @media (max-width: 767px) {
-    .wp-block-quote {
-      margin-left: 6%;
-      margin-right: 6%; } }
 
 .entry-share {
   text-align: center;
@@ -3227,6 +3243,70 @@ img {
     .saboxplugin-authorname a:hover {
       opacity: 1;
       text-decoration: none; }
+
+.entry-about {
+  background: #7e0f09;
+  color: #fff;
+  border: 8px solid #7e0f09;
+  box-shadow: 0 0 0 1px white inset;
+  padding: 32px;
+  margin: 0 0 40px;
+  font-size: .95rem; }
+
+.entry-about-title {
+  text-align: center;
+  margin: 0 0 16px; }
+  .entry-about-title img {
+    width: 180px; }
+  .entry-about-title span {
+    font-size: 1rem;
+    font-family: "Vollkorn", serif;
+    font-weight: normal;
+    letter-spacing: 2px;
+    display: block;
+    margin: 0 0 2px; }
+
+.entry-about-description {
+  line-height: 1.6; }
+
+.entry-about-link {
+  text-align: center;
+  font-weight: bold;
+  margin: 12px 0 0 0; }
+  .entry-about-link a {
+    color: #fff;
+    display: inline-block;
+    padding: 4px 10px;
+    border-bottom: 1px solid #fff; }
+
+.entry-side-articles {
+  margin: 0 0 40px; }
+
+.entry-side-articles-title {
+  font-size: 1.05rem;
+  border-bottom: 1px solid #3a372f;
+  padding: 4px 0;
+  margin: 0 0 16px; }
+
+.entry-side-articles-contents li {
+  margin: 0 0 12px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.entry-side-articles-name {
+  font-size: 1rem;
+  line-height: 1.2; }
+
+.entry-side-articles-thumb {
+  margin: 0 16px 0 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0; }
+  .entry-side-articles-thumb img {
+    width: 80px;
+    height: 80px;
+    -o-object-fit: cover;
+       object-fit: cover; }
 
 .category {
   margin: 0 0 60px; }
