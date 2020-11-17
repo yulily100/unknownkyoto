@@ -76,7 +76,7 @@
   </div>
 
   <div class="restaurant-contents reverse">
-  <div class="restaurant-contents-img">
+    <div class="restaurant-contents-img">
       <img src="<?php echo get_template_directory_uri(); ?>/img/restaurant/dinner.jpg" alt="ディナーではパスタ、ピザ、お肉料理など、本格イタリアンが楽しめます。">
     </div>
     <div class="restaurant-contents-text">

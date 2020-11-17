@@ -27,6 +27,12 @@ ul, li {
 img {
   vertical-align: middle;
   max-width: 100%;
+  height: auto;
+}
+
+
+.container {
+  padding: 60px 0 0 0;
 }
 @mixin wrapper {
   margin-right: 80px;
@@ -42,12 +48,13 @@ img {
     margin: 0 1em;
   }
 }
-
-.container {
-  padding: 60px 0 0 0;
-}
 .wrapper {
   @include wrapper;
+}
+.wrapper-middle {
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .for-pc {
@@ -69,7 +76,9 @@ img {
   @media #{$mq-sm} {
     display: block !important;
   }
-
+}
+.line-through {
+  text-decoration: line-through;
 }
 
 

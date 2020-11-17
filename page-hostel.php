@@ -31,7 +31,7 @@ $(function() {
 <div class="container">
   <div class="page-header-hostel">
     <div class="page-header-inner">
-      <h1 class="page-header-title"><a href="/restaurant"><span>UNKNOWN KYOTO</span>Hostel</a></h1>
+      <h1 class="page-header-title"><a href="/hostel"><span>UNKNOWN KYOTO</span>Hostel</a></h1>
       <p class="page-header-detail">
         CHECK IN 16:00 - 22:00 <br>
         CHECK OUT 11:00</p>

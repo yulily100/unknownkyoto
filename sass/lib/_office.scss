@@ -1,27 +1,6 @@
 // share office 本池中
 // コワーキングスペース
 
-@mixin border-style {
-  border-top: 1px solid $border-brown;
-  border-bottom: 1px solid $border-brown;
-  position: relative;
-  &:before, &:after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 0;
-    border-top: 1px solid $border-brown;
-    position: absolute;
-    left: 0;
-  }
-  &:before {
-    top: 2px;
-  }
-  &:after {
-    bottom: 2px;
-  }
-}
-
 .page-office {
   .header {
     display: none;

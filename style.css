@@ -4,7 +4,7 @@ Theme Name: unknown kyoto blog
 Description: unknown kyoto blog
 Author: Saori Yuri
 */
-@import url("https://fonts.googleapis.com/css?family=Vollkorn");
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
 /*! sanitize.css v7.0.3 | CC0 License | github.com/csstools/sanitize.css */
 /* Document
  * ========================================================================== */
@@ -515,7 +515,8 @@ ul, li {
 
 img {
   vertical-align: middle;
-  max-width: 100%; }
+  max-width: 100%;
+  height: auto; }
 
 .container {
   padding: 60px 0 0 0; }
@@ -533,6 +534,11 @@ img {
   @media (max-width: 360px) {
     .wrapper {
       margin: 0 1em; } }
+
+.wrapper-middle {
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto; }
 
 @media (max-width: 767px) {
   .for-pc {
@@ -552,6 +558,9 @@ img {
   @media (max-width: 767px) {
     .for-sp {
       display: block !important; } }
+
+.line-through {
+  text-decoration: line-through; }
 
 .footer {
   background: #e2d9cf; }
@@ -3530,6 +3539,445 @@ img {
   @media (max-width: 1035px) {
     .plan-content {
       margin: 0; } }
+
+.hostel2-header {
+  background-image: url("img/hostel2/header.jpg");
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 450px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.hostel2-header-title {
+  font-family: "Vollkorn", serif;
+  text-align: center;
+  font-weight: normal;
+  letter-spacing: 2px;
+  font-size: 2.2rem; }
+  .hostel2-header-title a {
+    color: #fff; }
+
+.hostel2-header-note {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 12px 0 0 0;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 4px 8px 0;
+  font-family: 'Vollkorn', "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+  line-height: 22px; }
+  @media (max-width: 480px) {
+    .hostel2-header-note {
+      font-size: .9rem; } }
+
+.hostel2-intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 60px auto;
+  max-width: 960px; }
+
+.hostel2-intro-img {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0; }
+
+.hostel2-intro-text {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  margin: 0 0 0 40px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0; }
+
+.hostel2-intro-title {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  margin: 0 0 12px 0; }
+
+.hostel2-intro-description {
+  line-height: 1.6;
+  margin: 0 0 12px 0; }
+
+.hostel2-intro-footer {
+  margin: 28px 0 0 0; }
+
+.hostel2-intro-open {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 0 8px; }
+
+.hostel2-intro-open-title {
+  font-weight: normal;
+  -ms-flex-preferred-size: 130px;
+      flex-basis: 130px;
+  font-size: 1rem;
+  color: #7e0f09;
+  font-weight: bold; }
+
+.hostel2-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px 0; }
+  .hostel2-menu li {
+    margin: 0 8px; }
+  .hostel2-menu a {
+    text-decoration: underline; }
+
+.hostel2-room {
+  margin: 0 0 80px; }
+
+.hostel2-room-private {
+  background: #f2eee7;
+  margin: 0 0 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.hostel2-room-title {
+  font-family: "Vollkorn", serif;
+  font-weight: normal;
+  font-size: 1.8rem;
+  margin: 20px 0; }
+  .hostel2-room-title span {
+    display: block;
+    font-size: .8rem;
+    margin: 0 0 4px;
+    font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", sans-serif;
+    color: #666054;
+    font-weight: bold; }
+
+.hostel2-room-description {
+  line-height: 1.8;
+  margin: 0 0 24px; }
+
+.hostel2-room-equipment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  line-height: 1.5; }
+  .hostel2-room-equipment li:after {
+    content: "/";
+    padding: 0 10px;
+    color: #999; }
+  .hostel2-room-equipment li:last-child:after {
+    display: none; }
+
+.hostel2-room-price {
+  margin: 28px 0 0 0;
+  color: #666054;
+  font-weight: bold;
+  line-height: 1.4; }
+
+.hostel2-room-private-text {
+  padding: 60px;
+  -ms-flex-preferred-size: calc(100% / 2);
+      flex-basis: calc(100% / 2);
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0; }
+
+.hostel2-room-private-img {
+  -ms-flex-preferred-size: calc(100% / 2);
+      flex-basis: calc(100% / 2);
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0; }
+
+.hostel2-room-dormitory {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 80px 0 0; }
+
+.hostel2-room-dormitory-contents {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding: 0 40px; }
+
+.hostel2-room-note {
+  font-size: .85rem;
+  margin: 8px 0 0 0;
+  line-height: 1.2; }
+
+.hostel2-longterm {
+  background: url("img/hostel2/longterm.svg") no-repeat 40px center;
+  background-size: 82px 82px;
+  max-width: 700px;
+  margin: 60px auto 80px;
+  padding: 20px 20px 20px 150px;
+  background-color: #f2eee7; }
+
+.hostel2-longterm-title {
+  margin: 0 0 8px; }
+
+.hostel2-gallery {
+  position: relative; }
+  .hostel2-gallery:before {
+    content: "";
+    display: block;
+    padding-top: calc(100% / 3*2); }
+  .hostel2-gallery li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    text-align: center;
+    background: #ddd;
+    -webkit-transition: all 1s;
+    transition: all 1s; }
+    .hostel2-gallery li.is-active {
+      opacity: 1; }
+  .hostel2-gallery img {
+    max-width: 100%;
+    max-height: 100%; }
+
+.hostel2-gallery-thumb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 3px 0 0 0; }
+  .hostel2-gallery-thumb li {
+    margin: 0 3px 0 0; }
+  .hostel2-gallery-thumb button {
+    cursor: pointer;
+    padding: 0;
+    border: 0;
+    -webkit-transition: all .6s;
+    transition: all .6s; }
+    .hostel2-gallery-thumb button:hover, .hostel2-gallery-thumb button:focus {
+      opacity: .5;
+      border: none;
+      outline: none; }
+  .hostel2-gallery-thumb img {
+    width: 85px;
+    height: 85px; }
+
+.hostel2-section-title {
+  font-family: "Vollkorn", serif;
+  font-weight: normal;
+  font-size: 2rem;
+  text-align: center;
+  margin: 0 0 40px; }
+  .hostel2-section-title span {
+    display: block;
+    font-size: .8rem;
+    margin: 0 0 4px;
+    font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", sans-serif;
+    color: #666054;
+    font-weight: bold; }
+
+.hostel2-facilities-title {
+  font-family: "Vollkorn", serif;
+  font-weight: normal;
+  font-size: 1.7rem;
+  margin: 0 0 12px; }
+  .hostel2-facilities-title span {
+    display: block;
+    font-size: .8rem;
+    margin: 0 0 4px;
+    font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", sans-serif;
+    color: #666054;
+    font-weight: bold; }
+
+.hostel2-facilities-contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .hostel2-facilities-contents.reverse {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse; }
+  @media (max-width: 767px) {
+    .hostel2-facilities-contents {
+      display: block; } }
+
+.hostel2-facilities-contents-img {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  -ms-flex-negative: 0;
+      flex-shrink: 0; }
+  .hostel2-facilities-contents-img img {
+    max-width: 100%; }
+
+.hostel2-facilities-contents-text {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%; }
+
+.hostel2-facilities-contents-description {
+  line-height: 1.6; }
+
+.hostel2-facilities-contents-link {
+  margin: 20px 0 0 0; }
+  .hostel2-facilities-contents-link a {
+    position: relative;
+    padding: 12px 48px 12px 12px;
+    border-bottom: 2px solid #7e0f09;
+    display: inline-block;
+    padding: 8px 48px 8px 8px; }
+    .hostel2-facilities-contents-link a:after {
+      content: "";
+      position: absolute;
+      background-image: url("img/btn-arrow-text.svg");
+      background-size: 34px 6px;
+      width: 34px;
+      height: 6px;
+      display: inline-block;
+      -webkit-transition: -webkit-transform .3s ease-out 0s;
+      transition: -webkit-transform .3s ease-out 0s;
+      transition: transform .3s ease-out 0s;
+      transition: transform .3s ease-out 0s, -webkit-transform .3s ease-out 0s;
+      top: 15px;
+      right: 8px; }
+    .hostel2-facilities-contents-link a:hover:after {
+      -webkit-transform: translateX(2px);
+          -ms-transform: translateX(2px);
+              transform: translateX(2px); }
+    .hostel2-facilities-contents-link a:after {
+      top: 12px; }
+
+.hostel2-facilities-contents-right {
+  max-width: 480px;
+  margin: 0 auto 0 0;
+  padding: 40px 0 0 100px; }
+  @media (max-width: 1035px) {
+    .hostel2-facilities-contents-right {
+      margin-right: 16%;
+      padding: 0 0 40px 60px; } }
+  @media (max-width: 767px) {
+    .hostel2-facilities-contents-right {
+      margin: 0 auto;
+      padding: 20px 0 40px; } }
+  @media (max-width: 480px) {
+    .hostel2-facilities-contents-right {
+      margin: 0 1em; } }
+
+.hostel2-facilities-contents-left {
+  max-width: 480px;
+  margin: 0 0 0 auto;
+  padding: 60px 100px 0 0; }
+  @media (max-width: 1035px) {
+    .hostel2-facilities-contents-left {
+      margin-left: 16%;
+      padding: 20px 60px 0 0; } }
+  @media (max-width: 767px) {
+    .hostel2-facilities-contents-left {
+      margin: 0 auto;
+      padding: 0 0 40px; } }
+  @media (max-width: 767px) {
+    .hostel2-facilities-contents-left {
+      margin: 0 auto;
+      padding: 20px 0 0; } }
+  @media (max-width: 480px) {
+    .hostel2-facilities-contents-left {
+      margin: 0 1em; } }
+
+.hostel2-facilities-secondary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 80px 0 60px 0; }
+
+.hostel2-facilities-secondary-contents {
+  -ms-flex-preferred-size: calc((100% - 80px) / 3);
+      flex-basis: calc((100% - 80px) / 3); }
+
+.hostel2-facilities-secondary-contents-title {
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 16px 0 12px; }
+
+.hostel2-facilities-secondary-contents-description {
+  line-height: 1.4;
+  margin: 0 0 8px; }
+
+.hostel2-facirities-amenities {
+  max-width: 960px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.hostel2-facirities-amenities-title {
+  font-family: "Vollkorn", serif;
+  font-weight: normal;
+  font-size: 1.7rem;
+  -ms-flex-preferred-size: 200px;
+      flex-basis: 200px; }
+  .hostel2-facirities-amenities-title span {
+    display: block;
+    font-size: .8rem;
+    margin: 0 0 4px;
+    font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", sans-serif;
+    color: #666054;
+    font-weight: bold; }
+
+.hostel2-facirities-amenities-contents {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  line-height: 1.8; }
+  .hostel2-facirities-amenities-contents li span {
+    color: #666054;
+    margin: 0 0 0 8px; }
+  .hostel2-facirities-amenities-contents li:after {
+    content: "/";
+    padding: 0 10px;
+    color: #999; }
+  .hostel2-facirities-amenities-contents li:last-child:after {
+    display: none; }
+
+.hostel2-plan {
+  margin: 80px 0; }
+
+.hostel2-plan-contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .hostel2-plan-contents li {
+    -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
+    padding: 0 20px; }
 
 .hostel-room {
   display: -webkit-box;
