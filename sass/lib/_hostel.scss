@@ -24,6 +24,9 @@
   height: 450px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  @media #{$mq-xs} {
+    height: 300px;
+  }
 }
 .hostel2-header-title {
   font-family: $vollkorn;
@@ -53,6 +56,9 @@
   display: flex;
   margin: 60px auto;
   max-width: 960px;
+  @media #{$mq-sm} {
+    display: block;
+  }
 }
 .hostel2-intro-img {
   flex-basis: 50%;
@@ -64,11 +70,20 @@
   margin: 0 0 0 40px;
   flex-shrink: 0;
   flex-grow: 0;
+  @media #{$mq-sm} {
+    margin: 0;
+  }
 }
 .hostel2-intro-title {
   font-size: 1.4rem;
   line-height: 1.5;
   margin: 0 0 12px 0;
+  @media #{$mq-sm} {
+    margin: 16px 0 12px;
+  }
+  @media #{$mq-xs} {
+    font-size: 1.3rem;
+  }
 }
 .hostel2-intro-description {
   line-height: 1.6;
@@ -105,21 +120,33 @@
 
 // room
 .hostel2-room {
+  @include page-link-margin();
   margin: 0 0 80px;
 }
 .hostel2-room-private {
   background: $bg;
   margin: 0 0 20px 0;
   display: flex;
+  @media #{$mq-sm} {
+    flex-direction: column-reverse;
+  }
 }
 .hostel2-room-title {
   @include hostel2-heading-title();
   font-size: 1.8rem;
-  margin: 20px 0;
+  @media #{$mq-lg} {
+    margin: 20px 0;
+  }
+  @media #{$mq-sm} {
+    margin: 0 0 20px;
+  }
 }
 .hostel2-room-description {
   line-height: 1.8;
   margin: 0 0 24px;
+  @media #{$mq-sm} {
+    margin: 0 0 12px;
+  }
 }
 .hostel2-room-equipment {
   display: flex;
@@ -146,6 +173,12 @@
   padding: 60px;
   flex-basis: calc(100% / 2);
   flex-grow: 0;
+  @media #{$mq-md} {
+    padding: 40px;
+  }
+  @media #{$mq-sm} {
+    padding: 24px;
+  }
 }
 .hostel2-room-private-img {
   flex-basis: calc(100% / 2);
@@ -155,10 +188,20 @@
   display: flex;
   justify-content: space-between;
   margin: 80px 0 0;
+  @media #{$mq-sm} {
+    display: block;
+  }
 }
 .hostel2-room-dormitory-contents {
   flex-basis: 50%;
   padding: 0 40px;
+  @media #{$mq-sm} {
+    margin: 0 0 40px;
+    padding: 0 20px;
+    img {
+      margin: 0 0 20px;
+    }
+  }
 }
 .hostel2-room-note {
   font-size: .85rem;
@@ -166,17 +209,60 @@
   line-height: 1.2;
 }
 .hostel2-longterm {
-  background: url("img/hostel2/longterm.svg") no-repeat 40px center;;
-  background-size: 82px 82px;
+  background: url("img/hostel2/longterm.svg") no-repeat 50px center;;
+  background-size: 82px 100px;
   max-width: 700px;
-  margin: 60px auto 80px;
-  padding: 20px 20px 20px 150px;
-  background-color: $bg;
+  margin: 80px auto 120px;
+  padding: 20px 20px 20px 180px;
+  position: relative;
+  &:before {
+    content: "";
+    background: url("img/hostel2/hostel-border.svg") no-repeat left center;
+    position: absolute;
+    height: 100%;
+    width: 12px;
+    left: 0;
+    top: 0;
+  }
+  &:after {
+    content: "";
+    background: url("img/hostel2/hostel-border.svg") no-repeat right center;
+    position: absolute;
+    height: 100%;
+    width: 12px;
+    right: 0;
+    top: 0;
+  }
+  @media #{$mq-xs} {
+    margin-top: 50px;
+    background-position: center 20px;
+    padding: 140px 20px 20px;
+    border: 1px solid $bg;
+    &:before, &:after {
+      display: none;
+    }
+  }
 }
 .hostel2-longterm-title {
   margin: 0 0 8px;
+  font-size: 1rem;
+  @media #{$mq-xs} {
+    text-align: center;
+  }
 }
-
+.hostel2-longterm-description {
+  line-height: 1.5;
+}
+.hostel2-longterm-link {
+  margin: 8px 0 0 0;
+  a {
+    text-decoration: underline;
+    &:hover {
+      text-decoration: underline;
+      opacity: .7;
+    }
+  }
+}
 // 部屋写真gallery
 .hostel2-gallery {
   position: relative;
@@ -226,6 +312,21 @@
     width: 85px;
     height: 85px;
   }
+  @media #{$mq-xs} {
+    li {
+      flex-basis: 25%;
+      &:nth-child(4) {
+        margin: 0;
+      }
+      &:nth-child(5n) {
+        display: none;
+      }
+    }
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
 }
 
 // facilities
@@ -237,7 +338,10 @@
 
 }
 
-
+.hostel2-facilities {
+  @include page-link-margin();
+  margin: 0 0 120px 0;
+}
 .hostel2-facilities-title {
   @include hostel2-heading-title();
   font-size: 1.7rem;
@@ -321,10 +425,16 @@
   display: flex;
   justify-content: space-between;
   margin: 80px 0 60px 0;
+  @media #{$mq-sm} {
+    display: block;
+  }
 }
 
 .hostel2-facilities-secondary-contents {
   flex-basis: calc((100% - 80px) / 3);
+  @media #{$mq-sm} {
+    margin: 0 0 40px;
+  }
 }
 .hostel2-facilities-secondary-contents-title {
   text-align: center;
@@ -333,21 +443,23 @@
 }
 .hostel2-facilities-secondary-contents-description {
   line-height: 1.4;
-  margin: 0 0 8px;
 }
 
 // amenities
-.hostel2-facirities-amenities {
+.hostel2-amenities {
   max-width: 960px;
   margin: 0 auto;
   display: flex;
+  @media #{$mq-sm} {
+    display: block;
+  }
 }
-.hostel2-facirities-amenities-title {
+.hostel2-amenities-title {
   @include hostel2-heading-title();
   font-size: 1.7rem;
   flex-basis: 200px;
 }
-.hostel2-facirities-amenities-contents {
+.hostel2-amenities-contents {
   flex-grow: 1;
   display: flex;
   flex-wrap: wrap;
@@ -369,7 +481,8 @@
 }
 
 .hostel2-plan {
-  margin: 80px 0;
+  @include page-link-margin();
+  margin: 0 0 120px 0;
 }
 .hostel2-plan-contents {
   display: flex;
@@ -377,7 +490,20 @@
     flex-basis: 25%;
     padding: 0 20px;
   }
+  @media #{$mq-sm} {
+    display: block;
+    li {
+      padding: 0;
+      margin: 0 0 28px;
+    }
+  }
 }
+
+
+
+
+
+
 
 
 

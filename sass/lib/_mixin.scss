@@ -180,3 +180,13 @@
     bottom: 2px;
   }
 }
+
+// ページ内リンクするときにヘッダがfixedのとき
+@mixin page-link-margin() {
+  &:before {
+    content: "";
+    display: block;
+    height: 6rem;
+    margin-top: -6rem;
+  }
+}
