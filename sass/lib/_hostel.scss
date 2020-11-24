@@ -134,11 +134,9 @@
 .hostel2-room-title {
   @include hostel2-heading-title();
   font-size: 1.8rem;
+  margin: 0 0 12px 0;
   @media #{$mq-lg} {
     margin: 20px 0;
-  }
-  @media #{$mq-sm} {
-    margin: 0 0 20px;
   }
 }
 .hostel2-room-description {
@@ -195,12 +193,13 @@
 .hostel2-room-dormitory-contents {
   flex-basis: 50%;
   padding: 0 40px;
+  img {
+    margin: 0 0 20px;
+  }
   @media #{$mq-sm} {
     margin: 0 0 40px;
     padding: 0 20px;
-    img {
-      margin: 0 0 20px;
-    }
+
   }
 }
 .hostel2-room-note {

@@ -46,7 +46,7 @@ $(function() {
     <div class="hostel2-intro-footer">
       <div class="hostel2-intro-open">
         <h3 class="hostel2-intro-open-title">チェックイン</h3>
-        <p class="hostel2-intro-open-time">16:00 〜 20:00</p>
+        <p class="hostel2-intro-open-time">16:00 〜 22:00</p>
       </div>
       <div class="hostel2-intro-open">
         <h3 class="hostel2-intro-open-title">チェックアウト</h3>
