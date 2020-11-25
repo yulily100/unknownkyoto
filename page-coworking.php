@@ -134,30 +134,6 @@
         <li>駐輪場は、フルタイム会員：1,500円＋税/月・週末会員：1,000円＋税/月  で1台ご利用いただけます。</li>
         <li>ロッカーの利用が可能です。（大2,500円＋税/月, 中2,000円＋税/月, 小1,500円+税/月）</li>
       </ul>
-      <h3 class="coworking-plan-title">個室利用</h3>
-      <div class="cowoking-plan-block">
-        <table class="coworking-plan-tabel">
-          <tbody>
-            <tr>
-              <th><span class="title"><span class="name">大個室</span><span class="member">6人まで会員登録可</span></span></th>
-              <td class="price">85,000円＋税/月</td>
-              <td>24時間<span class="status">満室</span></td>
-            </tr>
-            <tr>
-              <th><span class="title"><span class="name">小個室</span><span class="member">4人まで会員登録可</span></span></th>
-              <td class="price">50,000円＋税/月</td>
-              <td>24時間<span class="status">2021年1月〜空室あり</span></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <ul class="coworking-plan-notice">
-        <li>入会金 5,000円＋税 が必要です。</li>
-        <li>登記利用が無料です。</li>
-        <li>ゲストを個室や会議室に呼ぶ場合は無料ですが、フリースペース利用時は1ドリンク/2時間が必要です。</li>
-        <li>駐輪場１台分は無料ですが、二台目からは１台 1,500円＋税/月 が必要です。</li>
-        <li>備え付けの机の利用が可能です。椅子は各自お好きなものをご用意ください。</li>
-      </ul>
       <h3 class="coworking-plan-title">時間利用</h3>
       <div class="cowoking-plan-block">
         <table class="coworking-plan-tabel">
@@ -177,6 +153,30 @@
       <ul class="coworking-plan-notice">
         <li>支払いは利用時に都度お願いします。</li>
         <li>ロッカーの利用はできません。</li>
+      </ul>
+      <h3 class="coworking-plan-title">個室利用</h3>
+      <div class="cowoking-plan-block">
+        <table class="coworking-plan-tabel">
+          <tbody>
+            <tr>
+              <th><span class="title"><span class="name">大個室</span><span class="member">6人まで会員登録可</span></span></th>
+              <td class="price">85,000円＋税/月</td>
+              <td>24時間<span class="status">満室</span></td>
+            </tr>
+            <tr>
+              <th><span class="title"><span class="name">小個室</span><span class="member">4人まで会員登録可</span></span></th>
+              <td class="price">50,000円＋税/月</td>
+              <td>24時間<span class="status">満室</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <ul class="coworking-plan-notice">
+        <li>入会金 5,000円＋税 が必要です。</li>
+        <li>登記利用が無料です。</li>
+        <li>ゲストを個室や会議室に呼ぶ場合は無料ですが、フリースペース利用時は1ドリンク/2時間が必要です。</li>
+        <li>駐輪場１台分は無料ですが、二台目からは１台 1,500円＋税/月 が必要です。</li>
+        <li>備え付けの机の利用が可能です。椅子は各自お好きなものをご用意ください。</li>
       </ul>
     </div>
   </div>
