@@ -15,10 +15,7 @@ get_header(); ?>
       <li class="office-nav-contact"><a href="https://forms.gle/8eJNPyMZ8Gfz12NC7">お問い合わせ</a></li>
     </ul>
   </nav>
-<!--
-  <h1 class="office-title"><img src="https://unknown.kyoto/wp-content/themes/unknownkyoto/img/office/office-title.svg" alt="UNKNOWN KYOTO 本池中"></h1>
--->
-  <h1 class="office-title"><img src="https://www.hachise.jp/project/unknownkyoto/office/office-title.svg" alt="UNKNOWN KYOTO 本池中"></h1>
+  <h1 class="office-title"><img src="<?php echo get_template_directory_uri(); ?>/img/office/office-title.svg" alt="UNKNOWN KYOTO 本池中"></h1>
   <p class="btn-main-area"><a href="https://unknown.kyoto/"><span>UNKNOWN KYOTO</span>本館はこちら</a></p>
 </section>
 <section class="office-about">

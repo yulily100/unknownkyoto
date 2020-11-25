@@ -4715,8 +4715,7 @@ img {
   color: #fff;
   margin: 12px 0 0 0; }
   .office-title img {
-    width: 440px;
-    height: 170px; }
+    width: 440px; }
   @media (max-width: 767px) {
     .office-title {
       width: 400px;
