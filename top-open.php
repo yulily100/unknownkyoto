@@ -3,8 +3,6 @@
     <ul class="top-open-contents">
       <li class="top-open-heading">
         <h2 class="top-open-title">営業時間</h2>
-        <p class="top-open-note">
-        コロナウイルスの影響により営業時間を一部変更しています。</p>
 		  <p class="top-open-note">37度以上の熱がある方のご来店をお断りしております。</p>
       </li>
       <li class="top-open-body">
@@ -19,7 +17,7 @@
           <a href="/restaurant">Restaurant</a>
         </h3>
         <p class="top-open-contents-description">11:30 - 15:00 (L.O. 14:30)<br>17:00 - 23:00 (L.O. 22:00)<br>
-      <span class="top-open-contents-note">日曜定休,テイクアウトも承っております</span>
+      <span class="top-open-contents-note">日曜定休</span>
         </p>
       </li>
       <li class="top-open-body">

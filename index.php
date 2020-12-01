@@ -7,6 +7,7 @@
       <img src="<?php echo get_template_directory_uri(); ?>/img/top-logo-sp.svg" alt="UNKNOWN KYOTO" class="logo-sp">
     </h1>
     <p class="top-main-description">京都清水五条駅すぐ、元遊郭建築をリノベーションした宿泊複合施設<br>宿泊者はコワーキングスペースが使えます</p>
+    <p class="top-main-info"><span>Recruit</span><a href="https://unknown.kyoto/blog/recruit-staff-helper/">住み込みで業務を行うヘルパースタッフを募集中です</a></p>
   </div>
 
   <div class="top-main-share">
