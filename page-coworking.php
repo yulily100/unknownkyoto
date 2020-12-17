@@ -1,9 +1,10 @@
 <?php get_header(); ?>
 
 <div class="container">
-  <div class="page-header-coworking page-coworking">
-    <div class="page-header-inner">
-      <h1 class="page-header-title"><a href="/coworking"><span>UNKNOWN KYOTO</span>Coworking</a></h1>
+  <div class="coworking-header">
+    <div class="coworking-header-inner">
+      <h1 class="coworking-header-title"><a href="/coworking">Coworking Space</a></h1>
+      <p class="coworking-header-link"><a href="/office">すぐ近くの別館にも<br>個室のシェアオフィスが<br class="for-sp">ございます</a></p>
     </div>
   </div>
 </div>
@@ -88,13 +89,16 @@
         <p class="coworking-options-description">イベント使用時のみ</p>
       </li>
     </ul>
-    <div class="coworking-shareoffice">
-      <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/honikenaka.jpg" alt="UNKNOWN KYOTO本池中" class="coworking-shareoffice-img">
-      <h3 class="coworking-shareoffice-title">シェアオフィス <br class="for-sp">UNKNOWN KYOTO 本池中</h3>
-      <p class="coworking-shareoffice-description">UNKNOWN KYOTOには別館【UNKNOWN KYOTO 本池中】がございます。こちらには4.5帖と6帖の個室があるので併せてご覧ください。<br>
-      別館の会員も本館のフリースペースを利用することができます。</p>
-      <p class="coworking-shareoffice-btn"><a href="/office">UNKNOWN KYOTO本池中はこちら</a></p>
-    </div>
+    <a href="/office">
+      <span class="coworking-shareoffice">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/honikenaka.jpg" alt="UNKNOWN KYOTO本池中" class="coworking-shareoffice-img">
+        <div class="coworking-shareoffice-text">
+          <h3 class="coworking-shareoffice-title">シェアオフィス <br class="for-sp">UNKNOWN KYOTO 本池中</h3>
+          <p class="coworking-shareoffice-description">UNKNOWN KYOTOには別館【UNKNOWN KYOTO 本池中】がございます。こちらには4.5帖と6帖の個室があるので併せてご覧ください。<br>
+        別館の会員も本館のフリースペースを利用することができます。</p>
+        </div>
+      </span>
+    </a>
   </div>
 </section>
 
