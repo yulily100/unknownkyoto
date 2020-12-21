@@ -3,7 +3,8 @@
     <ul class="top-open-contents">
       <li class="top-open-heading">
         <h2 class="top-open-title">営業時間</h2>
-		  <p class="top-open-note">37度以上の熱がある方のご来店をお断りしております。</p>
+        <p class="top-open-note">京都府の要請によりレストランの営業時間を短縮しています。</p>
+        <p class="top-open-note">37度以上の熱がある方のご来店をお断りしております。</p>
       </li>
       <li class="top-open-body">
         <h3 class="top-open-contents-title">
@@ -16,7 +17,7 @@
         <h3 class="top-open-contents-title">
           <a href="/restaurant">Restaurant</a>
         </h3>
-        <p class="top-open-contents-description">11:30 - 15:00 (L.O. 14:30)<br>17:00 - 23:00 (L.O. 22:00)<br>
+        <p class="top-open-contents-description">11:30 - 15:00 (L.O. 14:30)<br>17:00 - <span class="limited">21:00</span><br>
       <span class="top-open-contents-note">日曜定休</span>
         </p>
       </li>

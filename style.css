@@ -1444,6 +1444,8 @@ img {
     text-decoration: underline;
     display: inline-block;
     position: relative; }
+  .top-open-contents-description .negative {
+    text-decoration: line-through; }
   @media (max-width: 767px) {
     .top-open-contents-description {
       text-align: left; } }

@@ -352,6 +352,10 @@
     display: inline-block;
     position: relative;
   }
+  .negative {
+    text-decoration: line-through;
+  }
+
   @media #{$mq-sm} {
     text-align: left;
   }
