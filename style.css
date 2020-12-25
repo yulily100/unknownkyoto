@@ -5080,6 +5080,8 @@ img {
   .coworking-plan-notice li {
     list-style-type: square;
     margin: 0 0 6px 0; }
+  .coworking-plan-notice a {
+    text-decoration: underline; }
   @media (max-width: 767px) {
     .coworking-plan-notice {
       padding: 0 0 0 20px; } }

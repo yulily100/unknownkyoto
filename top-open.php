@@ -18,7 +18,7 @@
           <a href="/restaurant">Restaurant</a>
         </h3>
         <p class="top-open-contents-description">11:30 - 15:00 (L.O. 14:30)<br>17:00 - <span class="limited">21:00</span><br>
-      <span class="top-open-contents-note">日曜定休</span>
+      <span class="top-open-contents-note">日曜定休<br>1/1〜1/3 お休み</span>
         </p>
       </li>
       <li class="top-open-body">
@@ -26,7 +26,7 @@
           <a href="/coworking">Coworking</a>
         </h3>
         <p class="top-open-contents-description">DROP IN…10:00 - 19:00<br>
-        <span class="top-open-contents-note">ドロップインは月〜土</span>
+        <span class="top-open-contents-note">ドロップインは日曜定休<br>12/30〜1/3 お休み</span>
       </p>
       </li>
     </ul>

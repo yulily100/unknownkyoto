@@ -163,14 +163,19 @@
         <table class="coworking-plan-tabel">
           <tbody>
             <tr>
-              <th><span class="title"><span class="name">大個室</span><span class="member">6人まで会員登録可</span></span></th>
+              <th><span class="title"><span class="name">本館・大個室</span><span class="member">6人まで会員登録可</span></span></th>
               <td class="price">85,000円＋税/月</td>
               <td>24時間<span class="status">満室</span></td>
             </tr>
             <tr>
-              <th><span class="title"><span class="name">小個室</span><span class="member">4人まで会員登録可</span></span></th>
+              <th><span class="title"><span class="name">本館・小個室</span><span class="member">4人まで会員登録可</span></span></th>
               <td class="price">50,000円＋税/月</td>
               <td>24時間<span class="status">満室</span></td>
+            </tr>
+            <tr>
+              <th><span class="title"><span class="name">別館・小個室</span><span class="member">4人まで会員登録可</span></span></th>
+              <td class="price">60,000円＋税/月</td>
+              <td>8:00～22:00<span class="status">空室あり</span></td>
             </tr>
           </tbody>
         </table>
@@ -181,6 +186,7 @@
         <li>ゲストを個室や会議室に呼ぶ場合は無料ですが、フリースペース利用時は1ドリンク/2時間が必要です。</li>
         <li>駐輪場１台分は無料ですが、二台目からは１台 1,500円＋税/月 が必要です。</li>
         <li>備え付けの机の利用が可能です。椅子は各自お好きなものをご用意ください。</li>
+        <li><a href="/office">別館・本池中の詳細はこちらから。</a></li>
       </ul>
     </div>
   </div>
