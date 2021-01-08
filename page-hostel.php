@@ -25,7 +25,7 @@ $(function() {
 <div class="container">
   <div class="hostel2-header">
     <h1 class="hostel2-header-title"><a href="/hostel">Hostel</a></h1>
-    <p class="hostel2-header-note">Go Toトラベルキャンペーン対応施設です</p>
+    <!-- <p class="hostel2-header-note">Go Toトラベルキャンペーン対応施設です</p> -->
   </div>
 </div>
 
@@ -79,7 +79,11 @@ $(function() {
         <li>共同シャワー</li>
         <li>共同トイレ</li>
       </ul>
-      <p class="hostel2-room-price"><span class="line-through">7,500円</span><br>GO TOトラベル価格で<br>4,880円 + 地域共通クーポン1000円分配布</p>
+      <p class="hostel2-room-price">
+        7,500円
+        <!-- <span class="line-through">7,500円</span>
+        <br>GO TOトラベル価格で<br>4,880円 + 地域共通クーポン1000円分配布 -->
+      </p>
     </div>
     <div class="hostel2-room-private-img">
       <ul class="hostel2-gallery">
@@ -114,7 +118,11 @@ $(function() {
         <li>共同シャワー</li>
         <li>共同トイレ</li>
       </ul>
-      <p class="hostel2-room-price"><span class="line-through">8,500円</span><br>GO TOトラベル価格で<br>5,530円 + 地域共通クーポン1000円分配布</p>
+      <p class="hostel2-room-price">
+        8,500円
+        <!-- <span class="line-through">8,500円</span>
+        <br>GO TOトラベル価格で<br>5,530円 + 地域共通クーポン1000円分配布 -->
+      </p>
     </div>
     <div class="hostel2-room-private-img">
       <ul class="hostel2-gallery">
@@ -145,7 +153,11 @@ $(function() {
         <li>共同シャワー</li>
         <li>共同トイレ</li>
       </ul>
-      <p class="hostel2-room-price"><span class="line-through">9,000円</span><br>GO TOトラベル価格で<br>5,850円 + 地域共通クーポン1000円分配布</p>
+      <p class="hostel2-room-price">
+        9,000円
+        <!-- <span class="line-through">9,000円</span>
+        <br>GO TOトラベル価格で<br>5,850円 + 地域共通クーポン1000円分配布 -->
+      </p>
     </div>
     <div class="hostel2-room-private-img">
       <ul class="hostel2-gallery">
@@ -182,7 +194,11 @@ $(function() {
         <li>共同シャワー</li>
         <li>共同トイレ</li>
       </ul>
-      <p class="hostel2-room-price"><span class="line-through">10,500円</span><br>GO TOトラベル価格で<br>6,830円 + 地域共通クーポン2000円分配布</p>
+      <p class="hostel2-room-price">
+        10,500円
+        <!-- <span class="line-through">10,500円</span>
+        <br>GO TOトラベル価格で<br>6,830円 + 地域共通クーポン2000円分配布 -->
+      </p>
     </div>
     <div class="hostel2-room-private-img">
       <ul class="hostel2-gallery">
@@ -213,7 +229,11 @@ $(function() {
         <li>共同トイレ</li>
       </ul>
       <p class="hostel2-room-note">タオルはこちらのお部屋にはついておりません。ご持参いただくか、レンタルをご用意しておりますのでご利用ください。</p>
-      <p class="hostel2-room-price"><span class="line-through">3,500円</span><br>GO TOトラベル価格で<br>2,280円 + 地域共通クーポン1000円分配布</p>
+      <p class="hostel2-room-price">
+        3,500円
+        <!-- <span class="line-through">3,500円</span>
+        <br>GO TOトラベル価格で<br>2,280円 + 地域共通クーポン1000円分配布 -->
+      </p>
     </div>
     <div class="hostel2-room-dormitory-contents">
       <img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/dormitory2.jpg" alt="女性専用ドミトリー">
@@ -227,7 +247,11 @@ $(function() {
         <li>共同トイレ</li>
       </ul>
       <p class="hostel2-room-note">タオルはこちらのお部屋にはついておりません。ご持参いただくか、レンタルをご用意しておりますのでご利用ください。</p>
-      <p class="hostel2-room-price"><span class="line-through">4,000円</span><br>GO TOトラベル価格で<br>2,600円 + 地域共通クーポン1000円分配布</p>
+      <p class="hostel2-room-price">
+        4,000円
+        <!-- <span class="line-through">4,000円</span>
+        <br>GO TOトラベル価格で<br>2,600円 + 地域共通クーポン1000円分配布 -->
+      </p>
     </div>
   </div>
   <div class="hostel2-longterm">
