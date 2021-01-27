@@ -6,10 +6,6 @@
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width">
 
-    <title>
-
-    </title>
-
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" media="screen">
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/img/favicon.png">
     <script src="<?php echo get_template_directory_uri(); ?>/script.js" async></script>
