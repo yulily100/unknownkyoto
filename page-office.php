@@ -16,6 +16,7 @@ get_header(); ?>
     </ul>
   </nav>
   <h1 class="office-title"><img src="<?php echo get_template_directory_uri(); ?>/img/office/office-title.svg" alt="UNKNOWN KYOTO 本池中"></h1>
+  <p class="office-description">現在2室募集中です</p>
   <p class="btn-main-area"><a href="https://unknown.kyoto/"><span>UNKNOWN KYOTO</span>本館はこちら</a></p>
 </section>
 <section class="office-about">
@@ -96,7 +97,7 @@ get_header(); ?>
 <section id="office-plan" class="office-section bg">
   <div class="office-section-inner">
     <h2 class="office-section-title">Price / Plan<span>利⽤料金 / プラン</span></h2>
-    <p class="office-plan-price">4.5畳 60,000円＋税/月　8:00~22:00（1室募集中）<br>
+    <p class="office-plan-price">4.5畳 60,000円＋税/月　8:00~22:00（2室募集中）<br>
 　 &nbsp;6畳 80,000円＋税/月　8:00~22:00（満室）　　　&nbsp;</p>
 	<table class="table-comparison">
 		<thead>
@@ -106,15 +107,15 @@ get_header(); ?>
 			</tr>
 			<tr class="even">
 				<th class="w30">6畳<br>（満室）</th>
-				<th class="w30">4.5畳<br>（1室募集中）</th>
+				<th class="w30">4.5畳<br>（2室募集中）</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr class="even">
 				<th>部屋名</th>
 				<td>【入居中】壱の間</td>
-				<td>【募集中】会議室ブース<br>
-【入居中】弐の間、参の間、四の間</td>
+				<td>【募集中】会議室ブース、弐の間<br>
+【入居中】参の間、四の間</td>
 			</tr>
 			<tr class="odd">
 				<th>利用可能時間</th>
