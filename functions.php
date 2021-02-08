@@ -8,6 +8,8 @@
 	// member page
 	add_image_size( 'member-thumb', 400, 400, true );
 
+	// title
+	add_theme_support( 'title-tag' );
 
 	// カスタム投稿タイプ
 	function register_member () {
