@@ -145,9 +145,9 @@
             <tr>
               <th><span class="title">ドロップイン</span></th>
               <td class="price">
-                2時間 500円<br>
-                5時間 1,000円<br>
-                1日利用 1,500円<br>
+                2時間 500円＋税<br>
+                5時間 1,000円＋税<br>
+                1日利用 1,500円＋税<br>
                 <span class="price-notice">※すべて1ドリンク付き</span></td>
               <td>月〜土の10:00〜19:00</td>
             </tr>
@@ -214,16 +214,16 @@
         <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/facilities-meetingroom.jpg" alt="会議室" class="office-facilities-img">
         <h3 class="office-facilities-title">会議室</h3>
         <p class="coworking-rental-description">4人ほどで使える小さな会議室です。落ち着いて打ち合わせすることができます。</p>
-        <p class="coworking-rental-plan">1,000円＋税/1時間<br>
-        毎日:10:00~18:00</p>
+        <p class="coworking-rental-plan">500円＋税/1時間<br>
+        毎日:10:00~19:00</p>
         <p class="coworking-rental-btn"><a href="https://calendar.google.com/calendar/embed?src=unknown.kyoto_1888eqjoh1j6chk9h6ehd9b1ve3co6gb6sp3acpj6os36chk6k%40resource.calendar.google.com&ctz=Asia%2FTokyo" target="_blank" rel="noopener">カレンダーで空きを確認</a></p>
       </li>
       <li>
         <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/facilities-meetingroom2.jpg" alt="本池中会議室" class="office-facilities-img">
         <h3 class="office-facilities-title">本池中会議室</h3>
         <p class="coworking-rental-description">別館であるUNKNOWN KYOTO本池中の会議室です。畳敷きの和室です。</p>
-        <p class="coworking-rental-plan">1,000円＋税/1時間<br>
-          毎日:10:00~18:00</p>
+        <p class="coworking-rental-plan">500円＋税/1時間<br>
+          毎日:10:00~19:00</p>
         <p class="coworking-rental-btn"><a href="https://calendar.google.com/calendar/embed?src=unknown.kyoto_1888b9a18gqv4ggtnk34evr8m1btq6gb68p3gd9n6ko3ad9o6k%40resource.calendar.google.com&ctz=Asia%2FTokyo" target="_blank" rel="noopener">カレンダーで空きを確認</a></p>
       </li>
     </ul>
