@@ -1778,12 +1778,14 @@ img {
               transform: translateX(2px); } }
 
 .top-plan {
+  margin: 60px 0 80px; }
+
+.top-plan-inner {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  margin: 60px 0 80px; }
+  display: flex; }
   @media (max-width: 1035px) {
-    .top-plan {
+    .top-plan-inner {
       display: block; } }
 
 .top-plan-head {
@@ -3556,6 +3558,15 @@ img {
     .plan-content {
       margin: 0; } }
 
+.plan-list-title {
+  padding: 120px 0 0 0;
+  text-align: center;
+  font-size: 1.8rem; }
+  @media (max-width: 767px) {
+    .plan-list-title {
+      padding: 100px 0 0 0;
+      font-size: 1.4rem; } }
+
 .hostel2-header {
   background-image: url("img/hostel2/header.jpg");
   background-size: cover;
@@ -5157,7 +5168,11 @@ img {
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
   @media (max-width: 767px) {
     .office-main {
       height: 360px; } }
@@ -5175,6 +5190,11 @@ img {
       .office-title img {
         width: 100%;
         height: auto; } }
+
+.office-description {
+  color: #fff;
+  margin: 20px 0 0 0;
+  font-weight: bold; }
 
 .office-nav {
   position: absolute;
@@ -5597,20 +5617,62 @@ img {
   font-size: 1.0rem;
   text-decoration: underline; }
 
+.neighbors {
+  max-width: 840px;
+  margin: 80px auto;
+  line-height: 1.4; }
+
 .neighbors-title {
   text-align: center;
   margin: 0 0 20px; }
 
 .neighbors-description {
-  max-width: 700px;
-  margin: 0 auto; }
+  max-width: 600px;
+  margin: 0 auto 60px; }
 
 .neighbors-main {
-  margin: 0 0 40px; }
+  margin: 0 auto 40px; }
+  .neighbors-main > li {
+    margin: 0 -20px 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+
+.neighbors-main-img {
+  width: 50%;
+  margin: 0 20px; }
+
+.neighbors-main-text {
+  margin: 0 20px; }
+
+.neighbors-main-name {
+  margin: 20px 0; }
+
+.neighbors-main-footer {
+  margin: 20px 0 0 0;
+  font-size: .9rem; }
 
 .neighbors-sub {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  margin: 80px -20px; }
   .neighbors-sub > li {
-    width: calc(100% / 3); }
+    width: calc(100% / 3 - 40px);
+    margin: 0 20px; }
+
+.neighbors-sub-title {
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 4px 0;
+  margin: 0 0 20px; }
+
+.neighbors-sub-store {
+  margin: 0 0 20px; }
+
+.neighbors-sub-name {
+  font-size: 1.05rem; }
+
+.neighbors-sub-footer {
+  margin: 10px 0 0 0; }

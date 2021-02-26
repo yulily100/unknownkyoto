@@ -348,7 +348,8 @@ $(function() {
       <h3 class="top-plan-name"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
     </li>
     <?php endwhile;endif; ?>
-
+  </ul>
+  <p class="section-link"><a href="/plan">Read more</a></p>
 </div>
 
 

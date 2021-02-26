@@ -1,29 +1,29 @@
 <?php
 /*
-Template Name: member
+Template Name: plan
 */
 get_header(); ?>
 
-<div class="page-header page-member">
-  <h1 class="page-title"><a href="/blog"><span>UNKNOWN KYOTO</span>MEMBER</a></h1>
-</div>
+
+<h1 class="plan-list-title"><a href="/plan">プラン一覧</a></h1>
 <div class="page-contents">
   <div class="wrapper">
     <ul class="member-list">
       <?php
         $args = array(
-          'post_type' => 'member',
-          'order' => 'ASC',
+          'post_type' => 'plan',
+          'order' => 'DESC',
         );
-        $memberList = new WP_Query($args);
-        if ( $memberList->have_posts() ) :
-          while($memberList->have_posts()): $memberList->the_post();
+        $planList = new WP_Query($args);
+
+
+        if ( $planList->have_posts() ) :
+          while($planList->have_posts()): $planList->the_post();
       ?>
       <li>
-        <p class="member-thumb"><?php the_post_thumbnail('member-thumb');?></p>
-        <p class="member-position"><?php echo get_post_meta($post->ID,'肩書',true); ?></p>
-        <h3 class="member-name"><?php the_title(); ?></h3>
-        <div class="member-description"><?php the_content(); ?></div>
+        <p class="top-plan-intro"><?php echo get_post_meta($post->ID,'intro',true); ?></p>
+        <p class="top-plan-thumb"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('thumbnail');?></a></p>
+        <h3 class="top-plan-name"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 
       </li>
       <?php endwhile;endif; ?>

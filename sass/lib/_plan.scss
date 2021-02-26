@@ -139,3 +139,14 @@
     margin: 0;
   }
 }
+
+// プラン一覧ページ
+.plan-list-title {
+  padding: 120px 0 0 0;
+  text-align: center;
+  font-size: 1.8rem;
+  @media #{$mq-sm} {
+    padding: 100px 0 0 0;
+    font-size: 1.4rem;
+  }
+}

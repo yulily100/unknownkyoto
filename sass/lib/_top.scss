@@ -571,8 +571,10 @@
 }
 
 .top-plan {
-  display: flex;
   margin: 60px 0 80px;
+}
+.top-plan-inner {
+  display: flex;
   @media #{$mq-md} {
     display: block;    
   }
