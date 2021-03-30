@@ -1,0 +1,62 @@
+// neighbors
+.neighbors {
+  max-width: 840px;
+  margin: 80px auto;
+  line-height: 1.4;
+}
+.neighbors-title {
+  text-align: center;
+  margin: 0 0 20px;
+}
+.neighbors-description {
+  max-width: 600px;
+  margin: 0 auto 60px;
+}
+
+.neighbors-main {
+  margin: 0 auto 40px;
+  > li {
+    margin: 0 -20px 40px;
+    display: flex;
+  }
+}
+.neighbors-main-img {
+  width: 50%;
+  margin: 0 20px;
+}
+.neighbors-main-text {
+  margin: 0 20px;
+}
+.neighbors-main-name {
+  margin: 20px 0;
+}
+.neighbors-main-footer {
+  margin: 20px 0 0 0;
+  font-size: .9rem;
+}
+
+.neighbors-sub {
+  display: flex;
+  margin: 80px -20px;
+  > li {
+    width: calc(100% / 3 - 40px);
+    margin: 0 20px;
+  }
+}
+.neighbors-sub-title {
+  border-bottom: 1px solid $border;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 4px 0;
+  margin: 0 0 20px;
+}
+
+.neighbors-sub-store {
+  margin: 0 0 20px;
+}
+.neighbors-sub-name {
+  font-size: 1.05rem;
+}
+.neighbors-sub-footer {
+  margin: 10px 0 0 0;
+}
