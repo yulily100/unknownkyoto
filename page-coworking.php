@@ -119,12 +119,12 @@
           <tbody>
             <tr>
               <th><span class="title">フルタイム会員</span></th>
-              <td class="price">10,000円＋税/月</td>
+              <td class="price">11,000円/月</td>
               <td>24時間</td>
       			</tr>
             <tr>
               <th><span class="title">週末会員</span></th>
-              <td class="price">4,000円＋税/月</td>
+              <td class="price">4,400円/月</td>
               <td>土・日・祝 24時間</td>
             </tr>
           </tbody>
@@ -145,9 +145,9 @@
             <tr>
               <th><span class="title">ドロップイン</span></th>
               <td class="price">
-                2時間 500円＋税<br>
-                5時間 1,000円＋税<br>
-                1日利用 1,500円＋税<br>
+                2時間 550円<br>
+                5時間 1,100円<br>
+                1日利用 1,650円<br>
                 <span class="price-notice">※すべて1ドリンク付き</span></td>
               <td>月〜土の10:00〜19:00</td>
             </tr>
@@ -164,24 +164,24 @@
           <tbody>
             <tr>
               <th><span class="title"><span class="name">本館・大個室</span><span class="member">6人まで会員登録可</span></span></th>
-              <td class="price">85,000円＋税/月</td>
+              <td class="price">93,500円/月</td>
               <td>24時間<span class="status">満室</span></td>
             </tr>
             <tr>
               <th><span class="title"><span class="name">本館・小個室</span><span class="member">4人まで会員登録可</span></span></th>
-              <td class="price">50,000円＋税/月</td>
+              <td class="price">55,000円/月</td>
               <td>24時間<span class="status">満室</span></td>
             </tr>
             <tr>
               <th><span class="title"><span class="name">別館・小個室</span><span class="member">4人まで会員登録可</span></span></th>
-              <td class="price">60,000円＋税/月</td>
+              <td class="price">66,000円/月</td>
               <td>8:00～22:00<span class="status">空室あり</span></td>
             </tr>
           </tbody>
         </table>
       </div>
       <ul class="coworking-plan-notice">
-        <li>入会金 5,000円＋税 が必要です。</li>
+        <li>入会金 5,500円 が必要です。</li>
         <li>登記利用が無料です。</li>
         <li>ゲストを個室や会議室に呼ぶ場合は無料ですが、フリースペース利用時は1ドリンク/2時間が必要です。</li>
         <li>駐輪場１台分は無料ですが、二台目からは１台 1,500円＋税/月 が必要です。</li>
@@ -204,7 +204,7 @@
         <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/event.jpg" alt="イベント利用" class="office-facilities-img">
         <h3 class="office-facilities-title">イベント利用</h3>
         <p class="coworking-rental-description">フリースペースでイベントが行えます。スピーカーとモニターが利用可能。３時間以上からご利用いただけます。</p>
-        <p class="coworking-rental-plan">7,000円＋税/1時間<br>
+        <p class="coworking-rental-plan">7,700円/1時間<br>
         水金:18:00~22:00<br>
         土:10:00~22:00</p>
 
@@ -214,7 +214,7 @@
         <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/facilities-meetingroom.jpg" alt="会議室" class="office-facilities-img">
         <h3 class="office-facilities-title">会議室</h3>
         <p class="coworking-rental-description">4人ほどで使える小さな会議室です。落ち着いて打ち合わせすることができます。</p>
-        <p class="coworking-rental-plan">500円＋税/1時間<br>
+        <p class="coworking-rental-plan">550円/1時間<br>
         毎日:10:00~19:00</p>
         <p class="coworking-rental-btn"><a href="https://calendar.google.com/calendar/embed?src=unknown.kyoto_1888eqjoh1j6chk9h6ehd9b1ve3co6gb6sp3acpj6os36chk6k%40resource.calendar.google.com&ctz=Asia%2FTokyo" target="_blank" rel="noopener">カレンダーで空きを確認</a></p>
       </li>
@@ -222,7 +222,7 @@
         <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/facilities-meetingroom2.jpg" alt="本池中会議室" class="office-facilities-img">
         <h3 class="office-facilities-title">本池中会議室</h3>
         <p class="coworking-rental-description">別館であるUNKNOWN KYOTO本池中の会議室です。畳敷きの和室です。</p>
-        <p class="coworking-rental-plan">1,000円＋税/1時間<br>
+        <p class="coworking-rental-plan">1,100円/1時間<br>
           毎日:10:00~19:00</p>
         <p class="coworking-rental-btn"><a href="https://calendar.google.com/calendar/embed?src=unknown.kyoto_1888b9a18gqv4ggtnk34evr8m1btq6gb68p3gd9n6ko3ad9o6k%40resource.calendar.google.com&ctz=Asia%2FTokyo" target="_blank" rel="noopener">カレンダーで空きを確認</a></p>
       </li>
