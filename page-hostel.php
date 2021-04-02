@@ -80,7 +80,7 @@ $(function() {
         <li>共同トイレ</li>
       </ul>
       <p class="hostel2-room-price">
-        8,250円 ＋ 宿泊税一人200円/一泊
+        消費税込み8,250円 ＋ 宿泊税一人200円/一泊
         <!-- <span class="line-through">7,500円</span>
         <br>GO TOトラベル価格で<br>4,880円 + 地域共通クーポン1000円分配布 -->
       </p>
@@ -119,7 +119,7 @@ $(function() {
         <li>共同トイレ</li>
       </ul>
       <p class="hostel2-room-price">
-        9,350円 ＋ 宿泊税一人200円/一泊
+        消費税込み9,350円 ＋ 宿泊税一人200円/一泊
         <!-- <span class="line-through">8,500円</span>
         <br>GO TOトラベル価格で<br>5,530円 + 地域共通クーポン1000円分配布 -->
       </p>
@@ -154,7 +154,7 @@ $(function() {
         <li>共同トイレ</li>
       </ul>
       <p class="hostel2-room-price">
-        9,900円 ＋ 宿泊税一人200円/一泊
+        消費税込み9,900円 ＋ 宿泊税一人200円/一泊
         <!-- <span class="line-through">9,000円</span>
         <br>GO TOトラベル価格で<br>5,850円 + 地域共通クーポン1000円分配布 -->
       </p>
@@ -195,7 +195,7 @@ $(function() {
         <li>共同トイレ</li>
       </ul>
       <p class="hostel2-room-price">
-        11,550円 ＋ 宿泊税一人200円/一泊
+        消費税込み11,550円 ＋ 宿泊税一人200円/一泊
         <!-- <span class="line-through">10,500円</span>
         <br>GO TOトラベル価格で<br>6,830円 + 地域共通クーポン2000円分配布 -->
       </p>
@@ -230,7 +230,7 @@ $(function() {
       </ul>
       <p class="hostel2-room-note">タオルはこちらのお部屋にはついておりません。ご持参いただくか、レンタルをご用意しておりますのでご利用ください。</p>
       <p class="hostel2-room-price">
-        3,850円 ＋ 宿泊税一人200円/一泊
+        消費税込み3,850円 ＋ 宿泊税一人200円/一泊
         <!-- <span class="line-through">3,500円</span>
         <br>GO TOトラベル価格で<br>2,280円 + 地域共通クーポン1000円分配布 -->
       </p>
@@ -248,7 +248,7 @@ $(function() {
       </ul>
       <p class="hostel2-room-note">タオルはこちらのお部屋にはついておりません。ご持参いただくか、レンタルをご用意しておりますのでご利用ください。</p>
       <p class="hostel2-room-price">
-        4,400円 ＋ 宿泊税一人200円/一泊
+        消費税込み4,400円 ＋ 宿泊税一人200円/一泊
         <!-- <span class="line-through">4,000円</span>
         <br>GO TOトラベル価格で<br>2,600円 + 地域共通クーポン1000円分配布 -->
       </p>
@@ -317,12 +317,12 @@ $(function() {
     <div class="hostel2-amenities">
       <h3 class="hostel2-amenities-title"><span>アメニティ</span>Amenity</h3>
       <ul class="hostel2-amenities-contents">
-        <li>スリッパ<span>100円</span></li>
-        <li>耳栓<span>100円</span></li>
-        <li>カミソリ<span>50円</span></li>
-        <li>歯ブラシ<span>50円</span></li>
-        <li>レンタルバスタオル<span>200円</span></li>
-        <li>レンタルフェイスタオル<span>150円</span></li>
+        <li>スリッパ<span>110円</span></li>
+        <li>耳栓<span>110円</span></li>
+        <li>カミソリ<span>55円</span></li>
+        <li>歯ブラシ<span>55円</span></li>
+        <li>レンタルバスタオル<span>220円</span></li>
+        <li>レンタルフェイスタオル<span>165円</span></li>
       </ul>
     </div>
   </div>
