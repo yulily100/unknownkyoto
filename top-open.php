@@ -17,7 +17,7 @@
         <h3 class="top-open-contents-title">
           <a href="/restaurant">Restaurant</a>
         </h3>
-        <p class="top-open-contents-description">11:30 - 15:00 (L.O. 14:30)<br>17:00 - <span class="limited">21:00</span><br>
+        <p class="top-open-contents-description">11:30 - 15:00 (L.O. 14:30)<br>17:00 - <span class="limited">20:00</span><br>
       <span class="top-open-contents-note">日曜定休</span>
         </p>
       </li>
