@@ -1,6 +1,6 @@
 // header
 .header {
-  padding: 0 20px;
+  padding: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -9,6 +9,8 @@
   width: 100%;
   background: #fff;
   z-index: 100;
+  height: 60px;
+  position: fixed;
   @media #{$mq-sm} {
     display: block;
     text-align: center;
@@ -21,9 +23,21 @@
     z-index: $z-higher;
     border: none;
     background: none;
-    a {
+    padding: 0;
+    a,
+    .header-nav-jp {
       color: #fff;
     }
+    &.is-active {
+      background: #fff;
+      a {
+        color: $text;
+        .header-nav-jp {
+          color: #808080;
+        }
+      }
+    }
+
     @media #{$mq-sm} {
       display: flex;
       height: auto;
@@ -80,6 +94,9 @@
     padding: 4px 6px;
     transition: inherit;
     text-align: center;
+    .header-nav-jp {
+      color: #808080;
+    }
     span {
       font-family: $yugothic;
       font-weight: bold;
@@ -91,6 +108,7 @@
     display: none;
   }
   .page-index & {
+    
     @media #{$mq-sm} {
       display: flex;
     }

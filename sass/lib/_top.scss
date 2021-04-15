@@ -1079,20 +1079,6 @@
 }
 
 
-.header {
-  padding: 0;
-  height: 60px;
-  position: fixed;
-  &.is-active {
-    background: #fff;
-    a {
-      color: $text;
-      .header-nav-jp {
-        color: #808080;
-      }
-    }
-  }
-}
 .header-n-logo {
   position: inherit;
   img {

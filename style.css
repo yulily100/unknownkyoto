@@ -828,7 +828,7 @@ img {
     background: #f2eee7; }
 
 .header {
-  padding: 0 20px;
+  padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -842,7 +842,9 @@ img {
   border-bottom: 1px solid #ddd;
   width: 100%;
   background: #fff;
-  z-index: 100; }
+  z-index: 100;
+  height: 60px;
+  position: fixed; }
   @media (max-width: 767px) {
     .header {
       display: block;
@@ -852,9 +854,17 @@ img {
   .page-index .header {
     z-index: 100;
     border: none;
-    background: none; }
-    .page-index .header a {
+    background: none;
+    padding: 0; }
+    .page-index .header a,
+    .page-index .header .header-nav-jp {
       color: #fff; }
+    .page-index .header.is-active {
+      background: #fff; }
+      .page-index .header.is-active a {
+        color: #3a372f; }
+        .page-index .header.is-active a .header-nav-jp {
+          color: #808080; }
     @media (max-width: 767px) {
       .page-index .header {
         display: -webkit-box;
@@ -922,6 +932,8 @@ img {
     -webkit-transition: inherit;
     transition: inherit;
     text-align: center; }
+    .header-nav a .header-nav-jp {
+      color: #808080; }
     .header-nav a span {
       font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", sans-serif;
       font-weight: bold;
@@ -2361,17 +2373,6 @@ img {
 .lang-en .top-main-funding a {
   font-size: .95rem;
   padding-top: 72px; }
-
-.header {
-  padding: 0;
-  height: 60px;
-  position: fixed; }
-  .header.is-active {
-    background: #fff; }
-    .header.is-active a {
-      color: #3a372f; }
-      .header.is-active a .header-nav-jp {
-        color: #808080; }
 
 .header-n-logo {
   position: inherit; }

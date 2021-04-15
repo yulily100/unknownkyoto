@@ -144,6 +144,7 @@
             <li><a href="/hostel">Hostel<span class="header-nav-jp">宿泊</span></a></li>
             <li><a href="/restaurant">Restaurant<span class="header-nav-jp">レストラン</span></a></li>
             <li><a href="/coworking">Coworking<span class="header-nav-jp">コワーキング</span></a></li>
+            <li><a href="/plan">Plan<span class="header-nav-jp">プラン</span></a></li>
             <li><a href="/access">Access<span class="header-nav-jp">アクセス</span></a></li>
             <li class="header-nav-booking"><a href="https://www.beds24.com/book-unknownkyoto" target="_blank">Booking<span>ご予約</span></a></li>
         </ul>
@@ -164,6 +165,7 @@
             <li><a href="/hostel">Hostel<span>宿泊</span></a></li>
             <li><a href="/restaurant">Restaurant<span>レストラン</span></a></li>
             <li><a href="/coworking">Coworking<span>コワーキング</span></a></li>
+            <li><a href="/plan">Plan<span>プラン</span></a></li>
             <li><a href="/access">Access<span>アクセス</span></a></li>
             <li><a href="/blog">Blog<span>ブログ</span></a></li>
           </ul>
