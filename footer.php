@@ -18,6 +18,7 @@
       <p class="footer-text">075-746-4635（代表）<br>
         075-746-4665（飲食）
       </p>
+      <p class="footer-text">info@unknown.kyoto</p>
     </div>
 
     <ul class="footer-company">
