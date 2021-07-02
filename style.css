@@ -521,18 +521,18 @@ img {
 .container {
   padding: 60px 0 0 0; }
 
-.wrapper {
+.wrapper, .workation-area-inner {
   margin-right: 80px;
   margin-left: 80px; }
   @media (min-width: 1360px) {
-    .wrapper {
+    .wrapper, .workation-area-inner {
       max-width: 1200px;
       margin: 0 auto; } }
   @media (max-width: 767px) {
-    .wrapper {
+    .wrapper, .workation-area-inner {
       margin: 0 8%; } }
   @media (max-width: 360px) {
-    .wrapper {
+    .wrapper, .workation-area-inner {
       margin: 0 1em; } }
 
 .wrapper-middle {
@@ -849,7 +849,6 @@ img {
     .header {
       display: block;
       text-align: center;
-      padding: 12px 0;
       height: auto; } }
   .page-index .header {
     z-index: 100;
@@ -5176,7 +5175,7 @@ img {
           flex-direction: column; }
   @media (max-width: 767px) {
     .office-main {
-      height: 360px; } }
+      height: 460px; } }
 
 .office-title {
   color: #fff;
@@ -5195,7 +5194,10 @@ img {
 .office-description {
   color: #fff;
   margin: 20px 0 0 0;
-  font-weight: bold; }
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.6;
+  font-size: 1.2rem; }
 
 .office-nav {
   position: absolute;
@@ -5309,7 +5311,7 @@ img {
     margin: 0 0 4px 0; }
 
 .office-section {
-  padding: 40px 0;
+  padding: 60px 0;
   text-align: center; }
   .office-section.bg {
     background: #f2eee7; }
@@ -5617,6 +5619,166 @@ img {
 #office-floor p.onlySP a {
   font-size: 1.0rem;
   text-decoration: underline; }
+
+.workation-header {
+  height: 300px;
+  text-align: center;
+  background: #ddd;
+  margin: 0 0 40px; }
+
+.workation-intro-description {
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.6; }
+
+.workation-intro-img {
+  width: 100%;
+  background: #ddd;
+  margin: 32px 0; }
+
+.workation-facilities {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 -15px;
+  margin-top: 60px;
+  margin-bottom: 100px; }
+  .workation-facilities > li {
+    -ms-flex-preferred-size: calc(100% / 3 - 30px);
+        flex-basis: calc(100% / 3 - 30px);
+    margin: 0 15px 30px; }
+  @media (max-width: 767px) {
+    .workation-facilities {
+      display: block; } }
+  .workation-facilities li img {
+    width: 100%;
+    height: 180px;
+    background: #ddd;
+    margin: 0 0 12px; }
+  .workation-facilities li p {
+    font-size: .9rem;
+    line-height: 1.4; }
+
+.workation-price {
+  max-width: 740px;
+  margin: 0 auto; }
+
+.workation-price-basic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+  margin: 0 0 60px; }
+  .workation-price-basic > li {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    text-align: center;
+    padding: 0 20px; }
+
+.workation-price-title {
+  font-size: 1.4rem;
+  margin: 0 0 1em; }
+
+.workation-price-description {
+  text-align: left; }
+
+.workation-plan {
+  margin: 0 0 100px 0; }
+  .workation-plan li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 0 40px 0; }
+    .workation-plan li img {
+      width: 40%;
+      height: 200px;
+      margin: 0 40px 0 0;
+      background: #ddd; }
+
+.workation-section-title {
+  font-family: "Vollkorn", serif;
+  font-weight: normal;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 0 0 40px; }
+  .workation-section-title span {
+    display: block;
+    font-size: .8rem;
+    margin: 0 0 4px;
+    font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", sans-serif;
+    color: #666054;
+    font-weight: bold;
+    letter-spacing: .5px; }
+
+.workation-area {
+  margin: 0 0 100px; }
+
+.workation-area-inner {
+  max-width: 740px;
+  margin: 0 auto; }
+
+.workation-area-acsess {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 0 40px 0; }
+
+.workation-area-acsess-img {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  height: 300px;
+  background: #ddd; }
+
+.workation-area-acsess-text {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  padding: 0 0 0 40px; }
+
+.workation-area-sightseeing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 0 40px 0;
+  padding: 0 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-size: .8rem; }
+  .workation-area-sightseeing li {
+    margin: 0 10px;
+    border: 1px solid #ddd;
+    -ms-flex-preferred-size: 20%;
+        flex-basis: 20%; }
+
+.workation-area-local {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.workation-area-local-text {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-negative: 0;
+      flex-shrink: 0; }
+
+.workation-area-local-img {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  height: 300px;
+  background: #ddd; }
 
 .neighbors {
   max-width: 840px;
