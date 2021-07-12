@@ -90,7 +90,7 @@ get_header(); ?>
   <div class="office-section-inner">
     <h2 class="office-section-title">Floor<span>フロア</span></h2>
 <img src="/wp-content/themes/unknownkyoto/img/office/plan2107.jpg" alt="UNKNOWN KYOTO 本池中　間取り図" style="width:100%">
-<p class="onlySP"><a href="/wp-content/themes/unknownkyoto/img/office/plan.png" target="honikenaka" rel="noopener noreferrer">新規ウインドウで拡大して表示する</a></p>
+<p class="onlySP"><a href="/wp-content/themes/unknownkyoto/img/office/plan2107.jpg" target="honikenaka" rel="noopener noreferrer">新規ウインドウで拡大して表示する</a></p>
 </div></section>
 
 <section id="office-plan" class="office-section bg">
