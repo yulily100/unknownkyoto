@@ -1,5 +1,7 @@
 node_modules/
 .DS_Store
+yarn.lock
+package-lock.json
 
 # built theme files
 delta-yokoito/
