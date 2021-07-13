@@ -1,0 +1,244 @@
+// workation
+.workation-header {
+  height: 400px;
+  text-align: center;
+  background-image: url("img/workation/header.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0 0 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  &:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(#000000, 0.4);
+    display: block;
+  }
+}
+.workation-header-text {
+  color: #fff;
+  z-index: 1;
+  text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+.workation-header-title {
+  font-family: $vollkorn;
+  font-weight: normal;
+  letter-spacing: .6px;
+}
+.workation-header-desc {
+  font-weight: bold;
+  margin: 8px 0 0 0;
+}
+
+
+.workation-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.workation-intro-desc {
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 0 0 12px;
+}
+.workation-intro-img {
+
+  margin: 32px 0;
+  img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+  }
+}
+
+.workation-intro-img-bottom {
+  margin: 32px 0;
+  display: flex;
+  img {
+    max-width: 100%;
+  }
+}
+.workation-intro-img-left {
+  margin: 0 20px 0 0;
+  flex: 0 0 30%;
+  .top {
+    margin: 0 0 20px;
+  }
+}
+.workation-intro-img-right {
+  flex: 0 0;
+  flex-basis: calc(70% - 20px);
+  img {
+    height: 380px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.workation-facilities {
+  @include column3();
+  margin: 100px -10px;
+  li {
+    flex-basis: calc(100% / 3 - 30px);
+    margin: 0 15px 30px;
+    img {
+      max-width: 100%;
+      background: #ddd;
+      margin: 0 0 12px;
+    }
+    p {
+      font-size: .9rem;
+      line-height: 1.4;
+      margin: 0 0 8px;
+    }
+  }
+  a {
+    text-decoration: underline;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.workation-section-title {
+  @include section-title();
+  text-align: center;
+  margin: 0 0 40px;
+}
+
+// area
+.workation-area {
+  margin: 0 0 100px;
+}
+
+.workation-area-acsess {
+  display: flex;
+  margin: 0 0 40px 0;
+}
+.workation-area-img {
+  height: 280px;
+  background-image: url("img/workation/area.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.workation-area-text {
+  text-align: center;
+  padding: 40px 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  p {
+    margin: 0 0 12px;
+  }
+}
+.workation-area-sightseeing {
+  display: flex;
+  max-width: 900px;
+  margin: 0 auto 40px;
+  justify-content: center;
+  text-align: center;
+  font-size: .8rem;
+  li {
+    margin: 0 10px;
+    border: 1px solid #ddd;
+    flex-basis: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+}
+
+.workation-price {
+
+}
+.workation-price-img {
+  height: 280px;
+  background-image: url("img/workation/price.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.workation-price-contents {
+  max-width: $width-middle;
+  margin: 0 auto;
+}
+.workation-price-basic {
+  @include border-style;
+  display: flex;
+  padding: 40px 0;
+  margin: 60px 0;
+  > li {
+    flex-basis: 50%;
+    flex-grow: 1;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+}
+.workation-price-title {
+  font-size: 1.4rem;
+  margin: 0 0 1em;
+}
+.workation-price-desc {
+  text-align: left;
+  line-height: 1.6;
+  margin: 0 0 10px;
+}
+.workation-price-list {
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1.6;
+  }
+  li.note {
+    display: block;
+    text-align: right;
+    font-size: 0.85rem;
+    margin: 8px 0 0;
+  }
+  .border {
+    flex-grow: 1;
+    border-top: 1px dotted #999;
+    margin: 0 12px;
+  }
+}
+.workation-plan {
+  margin: 0 0 100px 0;
+  li {
+    display: flex;
+    margin: 0 0 40px 0;
+  }
+}
+.workation-plan-img {
+  flex: 50% 0 0;
+  margin: 0 40px 0 0;
+  img {
+    max-width: 100%;
+    background: #ddd;
+  }
+}
+.workation-plan-text {
+  flex-basis: calc(50% - 40px);
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.workation-plan-note {
+  background: #e85d5d;
+  color: #fff;
+  display: inline-block;
+  border-radius: 13px;
+  padding: 4px 8px;
+  margin: 0 0 12px 0;
+  font-weight: bold;
+  font-size: .95rem;
+}

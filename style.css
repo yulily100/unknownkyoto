@@ -521,18 +521,18 @@ img {
 .container {
   padding: 60px 0 0 0; }
 
-.wrapper, .workation-area-inner {
+.wrapper {
   margin-right: 80px;
   margin-left: 80px; }
   @media (min-width: 1360px) {
-    .wrapper, .workation-area-inner {
+    .wrapper {
       max-width: 1200px;
       margin: 0 auto; } }
   @media (max-width: 767px) {
-    .wrapper, .workation-area-inner {
+    .wrapper {
       margin: 0 8%; } }
   @media (max-width: 360px) {
-    .wrapper, .workation-area-inner {
+    .wrapper {
       margin: 0 1em; } }
 
 .wrapper-middle {
@@ -5621,20 +5621,89 @@ img {
   text-decoration: underline; }
 
 .workation-header {
-  height: 300px;
+  height: 400px;
   text-align: center;
-  background: #ddd;
-  margin: 0 0 40px; }
+  background-image: url("img/workation/header.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0 0 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative; }
+  .workation-header:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: block; }
 
-.workation-intro-description {
+.workation-header-text {
+  color: #fff;
+  z-index: 1;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); }
+
+.workation-header-title {
+  font-family: "Vollkorn", serif;
+  font-weight: normal;
+  letter-spacing: .6px; }
+
+.workation-header-desc {
+  font-weight: bold;
+  margin: 8px 0 0 0; }
+
+.workation-wrapper {
+  max-width: 900px;
+  margin: 0 auto; }
+
+.workation-intro-desc {
   text-align: center;
   font-size: 1.1rem;
-  line-height: 1.6; }
+  line-height: 1.6;
+  margin: 0 0 12px; }
 
 .workation-intro-img {
-  width: 100%;
-  background: #ddd;
   margin: 32px 0; }
+  .workation-intro-img img {
+    width: 100%;
+    height: 380px;
+    -o-object-fit: cover;
+       object-fit: cover; }
+
+.workation-intro-img-bottom {
+  margin: 32px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .workation-intro-img-bottom img {
+    max-width: 100%; }
+
+.workation-intro-img-left {
+  margin: 0 20px 0 0;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 30%;
+          flex: 0 0 30%; }
+  .workation-intro-img-left .top {
+    margin: 0 0 20px; }
+
+.workation-intro-img-right {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0;
+          flex: 0 0;
+  -ms-flex-preferred-size: calc(70% - 20px);
+      flex-basis: calc(70% - 20px); }
+  .workation-intro-img-right img {
+    height: 380px;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover; }
 
 .workation-facilities {
   display: -webkit-box;
@@ -5643,8 +5712,7 @@ img {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: 0 -15px;
-  margin-top: 60px;
-  margin-bottom: 100px; }
+  margin: 100px -10px; }
   .workation-facilities > li {
     -ms-flex-preferred-size: calc(100% / 3 - 30px);
         flex-basis: calc(100% / 3 - 30px);
@@ -5652,55 +5720,22 @@ img {
   @media (max-width: 767px) {
     .workation-facilities {
       display: block; } }
-  .workation-facilities li img {
-    width: 100%;
-    height: 180px;
-    background: #ddd;
-    margin: 0 0 12px; }
-  .workation-facilities li p {
-    font-size: .9rem;
-    line-height: 1.4; }
-
-.workation-price {
-  max-width: 740px;
-  margin: 0 auto; }
-
-.workation-price-basic {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  padding: 20px 0;
-  margin: 0 0 60px; }
-  .workation-price-basic > li {
-    -ms-flex-preferred-size: 50%;
-        flex-basis: 50%;
-    -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
-    text-align: center;
-    padding: 0 20px; }
-
-.workation-price-title {
-  font-size: 1.4rem;
-  margin: 0 0 1em; }
-
-.workation-price-description {
-  text-align: left; }
-
-.workation-plan {
-  margin: 0 0 100px 0; }
-  .workation-plan li {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin: 0 0 40px 0; }
-    .workation-plan li img {
-      width: 40%;
-      height: 200px;
-      margin: 0 40px 0 0;
-      background: #ddd; }
+  .workation-facilities li {
+    -ms-flex-preferred-size: calc(100% / 3 - 30px);
+        flex-basis: calc(100% / 3 - 30px);
+    margin: 0 15px 30px; }
+    .workation-facilities li img {
+      max-width: 100%;
+      background: #ddd;
+      margin: 0 0 12px; }
+    .workation-facilities li p {
+      font-size: .9rem;
+      line-height: 1.4;
+      margin: 0 0 8px; }
+  .workation-facilities a {
+    text-decoration: underline; }
+    .workation-facilities a:hover {
+      text-decoration: underline; }
 
 .workation-section-title {
   font-family: "Vollkorn", serif;
@@ -5721,36 +5756,34 @@ img {
 .workation-area {
   margin: 0 0 100px; }
 
-.workation-area-inner {
-  max-width: 740px;
-  margin: 0 auto; }
-
 .workation-area-acsess {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 0 0 40px 0; }
 
-.workation-area-acsess-img {
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
-  height: 300px;
-  background: #ddd; }
+.workation-area-img {
+  height: 280px;
+  background-image: url("img/workation/area.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
 
-.workation-area-acsess-text {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  padding: 0 0 0 40px; }
+.workation-area-text {
+  text-align: center;
+  padding: 40px 0;
+  font-size: 1.1rem;
+  line-height: 1.6; }
+  .workation-area-text p {
+    margin: 0 0 12px; }
 
 .workation-area-sightseeing {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 0 40px 0;
-  padding: 0 40px;
+  max-width: 900px;
+  margin: 0 auto 40px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -5759,26 +5792,131 @@ img {
   .workation-area-sightseeing li {
     margin: 0 10px;
     border: 1px solid #ddd;
-    -ms-flex-preferred-size: 20%;
-        flex-basis: 20%; }
+    -ms-flex-preferred-size: 120px;
+        flex-basis: 120px;
+    height: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-radius: 50%; }
 
-.workation-area-local {
+.workation-price-img {
+  height: 280px;
+  background-image: url("img/workation/price.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.workation-price-contents {
+  max-width: 740px;
+  margin: 0 auto; }
+
+.workation-price-basic {
+  border-top: 1px solid #B2ACA3;
+  border-bottom: 1px solid #B2ACA3;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  padding: 40px 0;
+  margin: 60px 0; }
+  .workation-price-basic:before, .workation-price-basic:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0;
+    border-top: 1px solid #B2ACA3;
+    position: absolute;
+    left: 0; }
+  .workation-price-basic:before {
+    top: 2px; }
+  .workation-price-basic:after {
+    bottom: 2px; }
+  .workation-price-basic > li {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    text-align: center;
+    padding: 0 20px; }
 
-.workation-area-local-text {
+.workation-price-title {
+  font-size: 1.4rem;
+  margin: 0 0 1em; }
+
+.workation-price-desc {
+  text-align: left;
+  line-height: 1.6;
+  margin: 0 0 10px; }
+
+.workation-price-list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 1.6; }
+
+.workation-price-list li.note {
+  display: block;
+  text-align: right;
+  font-size: 0.85rem;
+  margin: 8px 0 0; }
+
+.workation-price-list .border {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+  border-top: 1px dotted #999;
+  margin: 0 12px; }
+
+.workation-plan {
+  margin: 0 0 100px 0; }
+  .workation-plan li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 0 40px 0; }
+
+.workation-plan-img {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50% 0 0px;
+          flex: 50% 0 0;
+  margin: 0 40px 0 0; }
+  .workation-plan-img img {
+    max-width: 100%;
+    background: #ddd; }
+
+.workation-plan-text {
+  -ms-flex-preferred-size: calc(50% - 40px);
+      flex-basis: calc(50% - 40px);
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
   -ms-flex-negative: 0;
       flex-shrink: 0; }
 
-.workation-area-local-img {
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
-  height: 300px;
-  background: #ddd; }
+.workation-plan-note {
+  background: #e85d5d;
+  color: #fff;
+  display: inline-block;
+  border-radius: 13px;
+  padding: 4px 8px;
+  margin: 0 0 12px 0;
+  font-weight: bold;
+  font-size: .95rem; }
 
 .neighbors {
   max-width: 840px;

@@ -21,7 +21,9 @@ $yugothic: "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic", 
 
 
 // dimen
-$width-middle: 400px;
+$width-middle: 740px;
+$width-base: 1020px;
+$width-text: 520px;
 
 // Media Queries - Breakpoints
 
@@ -32,10 +34,6 @@ $mq-sm: "(max-width: 767px)"; // Media Queries - Small tablet & smartphone
 $mq-xs: "(max-width: 480px)"; // Media Queries - Smartphone
 $mq-320: "(max-width: 360px)"; // Media Queries - small-Smartphone
 
-
-// dimen
-$width-base: 1020px;
-$width-text: 520px;
 
 
 // z-index

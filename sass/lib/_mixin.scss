@@ -73,7 +73,7 @@
     display: block;
   }
 }
-@mixin column3 {
+@mixin column3() {
   display: flex;
   flex-wrap: wrap;
   margin: 0 -15px;
@@ -188,5 +188,23 @@
     display: block;
     height: 6rem;
     margin-top: -6rem;
+  }
+}
+
+
+// 日本語と英語が並ぶタイトル
+@mixin section-title() {
+  font-family: $vollkorn;
+  font-weight: normal;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  span {
+    display: block;
+    font-size: .8rem;
+    margin: 0 0 4px;
+    font-family: $yugothic;
+    color: $text-light;
+    font-weight: bold;
+    letter-spacing: .5px;
   }
 }
