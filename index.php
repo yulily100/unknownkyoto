@@ -193,8 +193,7 @@
   <section class="top-footer-contents">
     <p class="top-recruit-heading">RECRUIT</p>
     <h3 class="top-footer-title">スタッフ募集</h3>
-    <p class="top-footer-description">UNKNOWN KYOTOでは<br>住み込みで業務を<br>手伝っていただく<br>ヘルパースタッフを<br>募集しています。</p>
-    <p class="btn-normal"><a href="https://unknown.kyoto/blog/recruit-staff-helper/">詳細はこちら</a></p>
+    <p class="top-footer-description">UNKNOWN KYOTOに興味のある方は<br>info@unknown.kyotoまで<br>ご連絡ください。</p>
   </section>
 </div>
 
