@@ -57,7 +57,7 @@
       <li>
         <img src="<?php echo get_template_directory_uri(); ?>/img/workation/facilities-5.jpg" alt="">
         <p>館内に館内にコインランドリーがあります</p>
-        <p>洗濯機1回200円、ガス乾燥機30分100円</p>
+        <p>洗濯機1回200円 / ガス乾燥機30分100円</p>
       </li>
       <li>
         <img src="<?php echo get_template_directory_uri(); ?>/img/workation/facilities-6.jpg" alt="">
@@ -111,7 +111,7 @@
             <li>ツイン<span class="border"></span>9,900円</li>
             <li class="note">消費税込み、上記意外のお部屋もございます</li>
           </ul>
-          <p>予約はこちら</p>
+          <p class="workation-link"><a href="https://www.beds24.com/book-unknownkyoto">予約はこちら</a></p>
         </li>
         <li>
           <h3 class="workation-price-title">ウィークリープラン</h3>
@@ -122,7 +122,7 @@
             <li>ツイン<span class="border"></span>45,738円(7,623円/泊)</li>
             <li class="note">消費税込み、上記意外のお部屋もございます</li>
           </ul>
-          <p>予約はこちら</p>
+          <p class="workation-link"><a href="https://www.beds24.com/book-unknownkyoto">予約はこちら</a></p>
         </li>
       </ul>
       <div class="workation-plan">

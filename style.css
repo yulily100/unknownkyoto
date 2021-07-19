@@ -5855,7 +5855,7 @@ img {
 .workation-price-desc {
   text-align: left;
   line-height: 1.6;
-  margin: 0 0 10px; }
+  margin: 0 0 16px; }
 
 .workation-price-list li {
   display: -webkit-box;
@@ -5881,6 +5881,33 @@ img {
           flex-grow: 1;
   border-top: 1px dotted #999;
   margin: 0 12px; }
+
+.workation-link {
+  margin: 8px 0 0 0; }
+  .workation-link a {
+    position: relative;
+    padding: 12px 48px 12px 12px;
+    display: inline-block;
+    padding: 8px 48px 8px 12px;
+    border-bottom: 2px solid #7e0f09; }
+    .workation-link a:after {
+      content: "";
+      position: absolute;
+      background-image: url("img/btn-arrow-text.svg");
+      background-size: 34px 6px;
+      width: 34px;
+      height: 6px;
+      display: inline-block;
+      -webkit-transition: -webkit-transform .3s ease-out 0s;
+      transition: -webkit-transform .3s ease-out 0s;
+      transition: transform .3s ease-out 0s;
+      transition: transform .3s ease-out 0s, -webkit-transform .3s ease-out 0s;
+      top: 15px;
+      right: 8px; }
+    .workation-link a:hover:after {
+      -webkit-transform: translateX(2px);
+          -ms-transform: translateX(2px);
+              transform: translateX(2px); }
 
 .workation-plan {
   margin: 0 0 100px 0; }

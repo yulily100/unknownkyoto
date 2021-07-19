@@ -276,7 +276,7 @@ $(function() {
       <div class="hostel2-facilities-contents-right">
         <h3 class="hostel2-facilities-title"><span>レストラン</span>Restaurant</h3>
         <p class="hostel2-facilities-contents-description">元遊郭建築をリノベーションした店内で、昼間はお腹いっぱい食べられる定食や丼ものを、夜は本格的なイタリアンとお酒をお楽しみください。</p>
-        <p class="hostel2-facilities-contents-link"><a href="">詳しくはこちら</a></p>
+        <p class="hostel2-facilities-contents-link"><a href="/restaurant">詳しくはこちら</a></p>
       </div>
     </div>
   </div>
@@ -289,7 +289,7 @@ $(function() {
       <div class="hostel2-facilities-contents-left">
         <h3 class="hostel2-facilities-title"><span>コワーキング</span>Coworking</h3>
         <p class="hostel2-facilities-contents-description">宿泊のお客様はチェックイン日の朝から、チェックアウト日の夜まで、追加料金なしでコワーキングスペースがご利用いただけます。</p>
-        <p class="hostel2-facilities-contents-link"><a href="">詳しくはこちら</a></p>
+        <p class="hostel2-facilities-contents-link"><a href="/coworking">詳しくはこちら</a></p>
       </div>
     </div>
   </div>
