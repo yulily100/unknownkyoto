@@ -18,6 +18,9 @@
     background: rgba(#000000, 0.4);
     display: block;
   }
+  @media #{$mq-sm} {
+    height: 300px;
+  }
 }
 .workation-header-text {
   color: #fff;
@@ -38,6 +41,12 @@
 .workation-wrapper {
   max-width: 900px;
   margin: 0 auto;
+  @media #{$mq-md} {
+    margin: 0 5%;
+  }
+  @media #{$mq-320} {
+    margin: 0 1em;
+  }
 }
 
 .workation-intro-desc {
@@ -45,14 +54,34 @@
   font-size: 1.1rem;
   line-height: 1.6;
   margin: 0 0 12px;
+  @media #{$mq-xs} {
+    font-size: 1rem;
+  }
+
 }
 .workation-intro-img {
-
   margin: 32px 0;
   img {
     width: 100%;
     height: 380px;
     object-fit: cover;
+  }
+  @media #{$mq-sm} {
+    position: relative;
+    width: 100%;
+    &:before {
+      content:"";
+      display: block;
+      padding-top: 66.66%; /* 高さを幅の75%に固定 */
+    }
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      height: 100%;
+    }
   }
 }
 
@@ -62,11 +91,17 @@
   img {
     max-width: 100%;
   }
+  @media #{$mq-sm} {
+    display: block;
+  }
 }
 .workation-intro-img-left {
   margin: 0 20px 0 0;
   flex: 0 0 30%;
   .top {
+    margin: 0 0 20px;
+  }
+  @media #{$mq-sm} {
     margin: 0 0 20px;
   }
 }
@@ -78,11 +113,28 @@
     width: 100%;
     object-fit: cover;
   }
+  @media #{$mq-sm} {
+    position: relative;
+    width: 100%;
+    &:before {
+      content: "";
+      display: block;
+      padding-top: 66.66%;
+    }
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      height: 100%;
+    }
+  }
 }
 
 .workation-facilities {
   @include column3();
-  margin: 100px -10px;
+  margin: 100px -15px;
   li {
     flex-basis: calc(100% / 3 - 30px);
     margin: 0 15px 30px;
@@ -139,8 +191,7 @@
 }
 .workation-area-sightseeing {
   display: flex;
-  max-width: 900px;
-  margin: 0 auto 40px;
+  margin: 0 0 40px;
   justify-content: center;
   text-align: center;
   font-size: .8rem;
@@ -154,11 +205,18 @@
     justify-content: center;
     border-radius: 50%;
   }
+  @media #{$mq-sm} {
+    flex-wrap: wrap;
+    margin: 0 -10px;
+    li {
+      flex-basis: 95px;
+      height: 95px;
+      margin: 0 5px 10px;
+    }
+  }
 }
 
-.workation-price {
 
-}
 .workation-price-img {
   height: 280px;
   background-image: url("img/workation/price.jpg");
@@ -166,6 +224,9 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  @media #{$mq-sm} {
+    height: 240px;
+  }
 }
 .workation-price-contents {
   max-width: $width-middle;
@@ -182,16 +243,30 @@
     text-align: center;
     padding: 0 20px;
   }
-
+  @media #{$mq-sm} {
+    display: block;
+    > li {
+      margin: 0 0 60px;
+      &:last-child {
+        margin: 0;
+      }
+    }
+  }
 }
 .workation-price-title {
-  font-size: 1.4rem;
-  margin: 0 0 1em;
+  font-size: 1.2rem;
+  margin: 0 0 .5em;
+  @media #{$mq-sm} {
+    font-size: 1rem;
+  }
 }
 .workation-price-desc {
   text-align: left;
   line-height: 1.6;
   margin: 0 0 16px;
+  @media #{$mq-sm} {
+    font-size: .9rem;
+  }
 }
 .workation-price-list {
   li {
@@ -213,7 +288,7 @@
   }
 }
 .workation-link {
-  margin: 8px 0 0 0;
+  margin: 16px 0 0 0;
   a {
     @include btn-arrow-text();
     display: inline-block;
@@ -227,6 +302,16 @@
     display: flex;
     margin: 0 0 40px 0;
   }
+  @media #{$mq-sm} {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -5px 40px;
+    li {
+      flex-basis: calc(50% - 10px);
+      display: block;
+      margin: 0 5px 32px;
+    }
+  }
 }
 .workation-plan-img {
   flex: 50% 0 0;
@@ -235,11 +320,17 @@
     max-width: 100%;
     background: #ddd;
   }
+  @media #{$mq-sm} {
+    margin: 0 0 16px;
+  }
 }
 .workation-plan-text {
   flex-basis: calc(50% - 40px);
   flex-grow: 0;
   flex-shrink: 0;
+  @media #{$mq-sm} {
+    flex-basis: calc(100% - 160px);
+  }
 }
 .workation-plan-note {
   background: #e85d5d;
@@ -250,4 +341,7 @@
   margin: 0 0 12px 0;
   font-weight: bold;
   font-size: .95rem;
+  @media #{$mq-sm} {
+    font-size: .8rem;
+  }
 }

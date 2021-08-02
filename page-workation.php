@@ -8,8 +8,8 @@
   </header>
 
   <div class="workation-wrapper">
-    <p class="workation-intro-desc">京都・清水五条駅すぐの「UNKNOWN KYOTO」は<br>
-      京都でのワーケーションや合宿に最適の宿です。<br>
+    <p class="workation-intro-desc">京都・清水五条駅すぐのUNKNOWN KYOTOは<br>
+      ワーケーションや合宿に最適の宿です。<br>
       コワーキングスペースがあり、<br>
       宿泊者は24時間自由に利用可能です。</p>
     <p class="workation-intro-img"><img src="<?php echo get_template_directory_uri(); ?>/img/workation/intro-top.jpg" alt="コワーキング"></p>
@@ -18,9 +18,9 @@
       しっかりと仕事に集中できる空間。<br>
       この雰囲気を実現するため<br>
       あえてBGMを流さないようにしています。</p>
-    <p class="workation-intro-desc">一方で仕事する人の少ない朝や夜はくつろぎの時間に。<br>
+    <p class="workation-intro-desc">一方で仕事する人の少ない<br class="for-sp">朝や夜はくつろぎの時間に。<br>
       宿泊者と施設利用者の間で交流があったりと、<br>
-      観光だけの施設にはない出会いがあるかもしれません。</p>
+      観光だけの施設にはない<br class="for-sp">出会いがあるかもしれません。</p>
     <div class="workation-intro-img-bottom">
       <div class="workation-intro-img-left">
         <img src="<?php echo get_template_directory_uri(); ?>/img/workation/intro-left-1.jpg" alt="" class="top">
@@ -56,7 +56,7 @@
       </li>
       <li>
         <img src="<?php echo get_template_directory_uri(); ?>/img/workation/facilities-5.jpg" alt="">
-        <p>館内に館内にコインランドリーがあります</p>
+        <p>館内にコインランドリーがあります。洗剤はこちらで用意しているものが使えます。</p>
         <p>洗濯機1回200円 / ガス乾燥機30分100円</p>
       </li>
       <li>
@@ -71,28 +71,26 @@
   <section class="workation-area">
     <h2 class="workation-section-title"><span>周辺案内</span>Area</h2>
     <div class="workation-area-img"></div>
-    <div class="workation-area-text">
-      <p>仕事だけではなくて、<br>
-        京都らしさも味わうのも大切。</p>
-      <p>UNKNOWN KYOTOは<br>
-        あらゆる有名観光地へ<br>
-        電車・バス・自転車などで<br>
-        アクセスしやすい立地です。</p>
-      <p>繁華街からも近く、<br>
-        京都で楽しく食べて飲んだ後は<br>
-        歩いてでも帰れます。</p>
-    </div>
-
-
-
+    <div class="workation-wrapper">
+      <div class="workation-area-text">
+        <p>仕事だけではなくて、<br>
+          京都らしさも味わうのも大切。</p>
+        <p>UNKNOWN KYOTOは<br>
+          あらゆる有名観光地へ<br>
+          電車・バス・自転車などで<br>
+          アクセスしやすい立地です。</p>
+        <p>繁華街からも近く、<br>
+          京都で楽しく食べて飲んだ後は<br>
+          歩いてでも帰れます。</p>
+      </div>
       <ul class="workation-area-sightseeing">
-        <li>京都駅<br>タクシー/バス7分</li>
+        <li>京都駅<br>タクシー7分/<br>バス7分</li>
         <li>繁華街エリア<br>徒歩13分</li>
         <li>鴨川<br>徒歩5分</li>
         <li>清水寺エリア<br>バス2分</li>
         <li>伏見稲荷エリア<br>電車7分</li>
       </ul>
-
+    </div>
 
   </section>
 
@@ -100,39 +98,41 @@
     <h2 class="workation-section-title"><span>ご利用料金</span>Price</h2>
     <div class="workation-price-img"></div>
 
-    <div class="workation-price-contents">
-      <ul class="workation-price-basic">
-        <li>
-          <h3 class="workation-price-title">素泊まり</h3>
-          <p class="workation-price-desc">1人ではなく1部屋の価格です。3泊以上からは連泊割引があります。素泊まりでもコワーキングが使えます。</p>
-          <ul class="workation-price-list">
-            <li>ドミトリー<span class="border"></span>3,850円</li>
-            <li>シングル<span class="border"></span>8,250円</li>
-            <li>ツイン<span class="border"></span>9,900円</li>
-            <li class="note">消費税込み、上記意外のお部屋もございます</li>
-          </ul>
-          <p class="workation-link"><a href="https://www.beds24.com/book-unknownkyoto">予約はこちら</a></p>
-        </li>
-        <li>
-          <h3 class="workation-price-title">ウィークリープラン</h3>
-          <p class="workation-price-desc">6泊以上になるとさらにお安く滞在できます。予約サイトで6泊以上を選択すると自動的に適用されます。</p>
-          <ul class="workation-price-list">
-            <li>ドミトリー<span class="border"></span>17,820円(2,970円/泊)</li>
-            <li>シングル<span class="border"></span>38,214円(6,369円/泊)</li>
-            <li>ツイン<span class="border"></span>45,738円(7,623円/泊)</li>
-            <li class="note">消費税込み、上記意外のお部屋もございます</li>
-          </ul>
-          <p class="workation-link"><a href="https://www.beds24.com/book-unknownkyoto">予約はこちら</a></p>
-        </li>
-      </ul>
-      <div class="workation-plan">
-        <ul>
+    <div class="workation-wrapper">
+      <div class="workation-price-contents">
+        <ul class="workation-price-basic">
+          <li>
+            <h3 class="workation-price-title">素泊まり</h3>
+            <p class="workation-price-desc">1人ではなく1部屋の価格です。3泊以上からは連泊割引があります。素泊まりでもコワーキングが使い放題です。</p>
+            <ul class="workation-price-list">
+              <li>ドミトリー<span class="border"></span>3,850円</li>
+              <li>シングル<span class="border"></span>8,250円</li>
+              <li>ツイン(2人可)<span class="border"></span>9,900円</li>
+              <li class="note">消費税込み、上記意外のお部屋もございます</li>
+            </ul>
+            <p class="workation-link"><a href="https://www.beds24.com/book-unknownkyoto">予約はこちら</a></p>
+          </li>
+          <li>
+            <h3 class="workation-price-title">ウィークリープラン</h3>
+            <p class="workation-price-desc">6泊以上になるとさらにお安く滞在できます。予約サイトで6泊以上を選択すると自動的に適用されます。</p>
+            <ul class="workation-price-list">
+              <li>ドミトリー<span class="border"></span>17,820円(2,970円/泊)</li>
+              <li>シングル<span class="border"></span>38,214円(6,369円/泊)</li>
+              <li>ツイン(2人可)<span class="border"></span>45,738円(7,623円/泊)</li>
+              <li class="note">消費税込み、上記意外のお部屋もございます</li>
+            </ul>
+            <p class="workation-link"><a href="https://www.beds24.com/book-unknownkyoto">予約はこちら</a></p>
+          </li>
+        </ul>
+
+        <ul class="workation-plan">
           <li>
             <div class="workation-plan-img"><img src="<?php echo get_template_directory_uri(); ?>/img/workation/plan-gassyuku.jpg" alt="合宿プラン"></div>
             <div class="workation-plan-text">
               <span class="workation-plan-note">おすすめ</span>
               <h3 class="workation-price-title">合宿プラン</h3>
-              <p class="workation-price-desc">ランチをレストランで取る予定ですとこちらがお得です。</p>
+              <p class="workation-price-desc">コワーキングスペース使い放題に加え、会議室1日2時間まで無料・ディスプレイ貸し出しの特典付きです。2泊以上から利用可能です。</p>
+              <p class="workation-link"><a href="https://unknown.kyoto/plan/gasshuku/">詳細はこちら</a></p>
             </div>
           </li>
           <li>
@@ -140,24 +140,20 @@
             <div class="workation-plan-text">
               <span class="workation-plan-note">おすすめ</span>
               <h3 class="workation-price-title">文豪プラン</h3>
-              <p class="workation-price-desc">ランチをレストランで取る予定ですとこちらがお得です。</p>
-            </div>
-          </li>
-          <li>
-            <div class="workation-plan-img"><img src="<?php echo get_template_directory_uri(); ?>/img/workation/plan-rakuen.jpg" alt="楽園プラン"></div>
-            <div class="workation-plan-text">
-              <h3 class="workation-price-title">楽園プラン</h3>
-              <p class="workation-price-desc">ランチをレストランで取る予定ですとこちらがお得です。</p>
+              <p class="workation-price-desc">コワーキングスペース使い放題に加え、レストランのランチが1食付いています。お部屋はドミトリーのみになります。</p>
+              <p class="workation-link"><a href="https://unknown.kyoto/plan/bungo/">詳細はこちら</a></p>
             </div>
           </li>
           <li>
             <div class="workation-plan-img"><img src="<?php echo get_template_directory_uri(); ?>/img/workation/plan-monthly.jpg" alt="マンスリープラン"></div>
             <div class="workation-plan-text">
               <h3 class="workation-price-title">マンスリープラン</h3>
-              <p class="workation-price-desc">1ヶ月単位</p>
+              <p class="workation-price-desc">京都に1ヶ月〜住むプランです。家賃にはコワーキングスペースの月額利用料（税込11,000円）が含まれています。</p>
+              <p class="workation-link"><a href="https://unknown.kyoto/plan/monthly/">詳細はこちら</a></p>
             </div>
           </li>
         </ul>
+
       </div>
     </div>
   </section>

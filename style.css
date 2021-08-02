@@ -5644,6 +5644,9 @@ img {
     height: 100%;
     background: rgba(0, 0, 0, 0.4);
     display: block; }
+  @media (max-width: 767px) {
+    .workation-header {
+      height: 300px; } }
 
 .workation-header-text {
   color: #fff;
@@ -5662,12 +5665,21 @@ img {
 .workation-wrapper {
   max-width: 900px;
   margin: 0 auto; }
+  @media (max-width: 1035px) {
+    .workation-wrapper {
+      margin: 0 5%; } }
+  @media (max-width: 360px) {
+    .workation-wrapper {
+      margin: 0 1em; } }
 
 .workation-intro-desc {
   text-align: center;
   font-size: 1.1rem;
   line-height: 1.6;
   margin: 0 0 12px; }
+  @media (max-width: 480px) {
+    .workation-intro-desc {
+      font-size: 1rem; } }
 
 .workation-intro-img {
   margin: 32px 0; }
@@ -5676,6 +5688,22 @@ img {
     height: 380px;
     -o-object-fit: cover;
        object-fit: cover; }
+  @media (max-width: 767px) {
+    .workation-intro-img {
+      position: relative;
+      width: 100%; }
+      .workation-intro-img:before {
+        content: "";
+        display: block;
+        padding-top: 66.66%;
+        /* 高さを幅の75%に固定 */ }
+      .workation-intro-img img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        height: 100%; } }
 
 .workation-intro-img-bottom {
   margin: 32px 0;
@@ -5684,6 +5712,9 @@ img {
   display: flex; }
   .workation-intro-img-bottom img {
     max-width: 100%; }
+  @media (max-width: 767px) {
+    .workation-intro-img-bottom {
+      display: block; } }
 
 .workation-intro-img-left {
   margin: 0 20px 0 0;
@@ -5692,6 +5723,9 @@ img {
           flex: 0 0 30%; }
   .workation-intro-img-left .top {
     margin: 0 0 20px; }
+  @media (max-width: 767px) {
+    .workation-intro-img-left {
+      margin: 0 0 20px; } }
 
 .workation-intro-img-right {
   -webkit-box-flex: 0;
@@ -5704,6 +5738,21 @@ img {
     width: 100%;
     -o-object-fit: cover;
        object-fit: cover; }
+  @media (max-width: 767px) {
+    .workation-intro-img-right {
+      position: relative;
+      width: 100%; }
+      .workation-intro-img-right:before {
+        content: "";
+        display: block;
+        padding-top: 66.66%; }
+      .workation-intro-img-right img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        height: 100%; } }
 
 .workation-facilities {
   display: -webkit-box;
@@ -5712,7 +5761,7 @@ img {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: 0 -15px;
-  margin: 100px -10px; }
+  margin: 100px -15px; }
   .workation-facilities > li {
     -ms-flex-preferred-size: calc(100% / 3 - 30px);
         flex-basis: calc(100% / 3 - 30px);
@@ -5782,8 +5831,7 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 900px;
-  margin: 0 auto 40px;
+  margin: 0 0 40px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -5805,6 +5853,16 @@ img {
         -ms-flex-pack: center;
             justify-content: center;
     border-radius: 50%; }
+  @media (max-width: 767px) {
+    .workation-area-sightseeing {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      margin: 0 -10px; }
+      .workation-area-sightseeing li {
+        -ms-flex-preferred-size: 95px;
+            flex-basis: 95px;
+        height: 95px;
+        margin: 0 5px 10px; } }
 
 .workation-price-img {
   height: 280px;
@@ -5813,6 +5871,9 @@ img {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat; }
+  @media (max-width: 767px) {
+    .workation-price-img {
+      height: 240px; } }
 
 .workation-price-contents {
   max-width: 740px;
@@ -5847,15 +5908,28 @@ img {
             flex-grow: 1;
     text-align: center;
     padding: 0 20px; }
+  @media (max-width: 767px) {
+    .workation-price-basic {
+      display: block; }
+      .workation-price-basic > li {
+        margin: 0 0 60px; }
+        .workation-price-basic > li:last-child {
+          margin: 0; } }
 
 .workation-price-title {
-  font-size: 1.4rem;
-  margin: 0 0 1em; }
+  font-size: 1.2rem;
+  margin: 0 0 .5em; }
+  @media (max-width: 767px) {
+    .workation-price-title {
+      font-size: 1rem; } }
 
 .workation-price-desc {
   text-align: left;
   line-height: 1.6;
   margin: 0 0 16px; }
+  @media (max-width: 767px) {
+    .workation-price-desc {
+      font-size: .9rem; } }
 
 .workation-price-list li {
   display: -webkit-box;
@@ -5883,7 +5957,7 @@ img {
   margin: 0 12px; }
 
 .workation-link {
-  margin: 8px 0 0 0; }
+  margin: 16px 0 0 0; }
   .workation-link a {
     position: relative;
     padding: 12px 48px 12px 12px;
@@ -5916,6 +5990,19 @@ img {
     display: -ms-flexbox;
     display: flex;
     margin: 0 0 40px 0; }
+  @media (max-width: 767px) {
+    .workation-plan {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      margin: 0 -5px 40px; }
+      .workation-plan li {
+        -ms-flex-preferred-size: calc(50% - 10px);
+            flex-basis: calc(50% - 10px);
+        display: block;
+        margin: 0 5px 32px; } }
 
 .workation-plan-img {
   -webkit-box-flex: 50%;
@@ -5925,6 +6012,9 @@ img {
   .workation-plan-img img {
     max-width: 100%;
     background: #ddd; }
+  @media (max-width: 767px) {
+    .workation-plan-img {
+      margin: 0 0 16px; } }
 
 .workation-plan-text {
   -ms-flex-preferred-size: calc(50% - 40px);
@@ -5934,6 +6024,10 @@ img {
           flex-grow: 0;
   -ms-flex-negative: 0;
       flex-shrink: 0; }
+  @media (max-width: 767px) {
+    .workation-plan-text {
+      -ms-flex-preferred-size: calc(100% - 160px);
+          flex-basis: calc(100% - 160px); } }
 
 .workation-plan-note {
   background: #e85d5d;
@@ -5944,6 +6038,9 @@ img {
   margin: 0 0 12px 0;
   font-weight: bold;
   font-size: .95rem; }
+  @media (max-width: 767px) {
+    .workation-plan-note {
+      font-size: .8rem; } }
 
 .neighbors {
   max-width: 840px;
