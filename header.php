@@ -124,23 +124,24 @@
               <img src="<?php echo get_template_directory_uri(); ?>/img/top-n-active.svg" alt="UNKNWON KYOTO" class="top-n-active">
             </a>
           </div>
-          <?php
+          <!-- <?php
             $args = array(
               'menu_class' => 'header-language',
               'container' => false,
             );
-            wp_nav_menu($args); ?>
+            wp_nav_menu($args); ?> -->
         <?php else : ?>
           <h1 class="header-title">
             <a href="/">
               <img src="<?php echo get_template_directory_uri(); ?>/img/header-logo.svg" alt="UNKNWON KYOTO">
             </a>
           </h1>
-          <p class="header-description"><a href="/campaign-goto">Go Toキャンペーンご利用方法</a></p>
+          <!-- <p class="header-description"><a href="/campaign-goto">Go Toキャンペーンご利用方法</a></p> -->
         <?php endif; ?>
       </div>
       <div class="header-menu">
         <ul class="header-nav">
+            <li><a href="/workation">Workation<span class="header-nav-jp">ワーケーション</span></a></li>
             <li><a href="/hostel">Hostel<span class="header-nav-jp">宿泊</span></a></li>
             <li><a href="/restaurant">Restaurant<span class="header-nav-jp">レストラン</span></a></li>
             <li><a href="/coworking">Coworking<span class="header-nav-jp">コワーキング</span></a></li>
@@ -162,6 +163,7 @@
 
           <ul class="nav-sp-menu">
             <li class="nav-sp-booking"><a href="https://www.beds24.com/book-unknownkyoto" target="_blank">Booking<span>ご予約</span></a></li>
+            <li><a href="/workation">Workation<span>ワーケーション</span></a></li>
             <li><a href="/hostel">Hostel<span>宿泊</span></a></li>
             <li><a href="/restaurant">Restaurant<span>レストラン</span></a></li>
             <li><a href="/coworking">Coworking<span>コワーキング</span></a></li>

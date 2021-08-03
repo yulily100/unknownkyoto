@@ -938,7 +938,7 @@ img {
       font-weight: bold;
       display: block;
       font-size: .8rem; }
-  @media (max-width: 767px) {
+  @media (max-width: 1035px) {
     .header-nav {
       display: none; } }
   @media (max-width: 767px) {
@@ -1006,7 +1006,7 @@ img {
 
 .nav-sp {
   display: none; }
-  @media (max-width: 767px) {
+  @media (max-width: 1035px) {
     .nav-sp {
       display: block; } }
 
@@ -1067,7 +1067,7 @@ img {
       position: absolute;
       left: 4px;
       bottom: 12px; }
-  @media (max-width: 767px) {
+  @media (max-width: 1035px) {
     .nav-sp-toggle {
       display: block; } }
   .page-index .nav-sp-toggle span:before, .page-index .nav-sp-toggle span:after {

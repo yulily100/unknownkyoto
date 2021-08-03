@@ -103,7 +103,7 @@
       font-size: .8rem;
     }
   }
-  @media #{$mq-sm} {
+  @media #{$mq-md} {
     display: none;
   }
   .page-index & {
@@ -181,7 +181,7 @@
 // sp
 .nav-sp {
   display: none;
-    @media #{$mq-sm} {
+    @media #{$mq-md} {
       display: block;
     }
 }
@@ -249,7 +249,7 @@
       bottom: 12px;
     }
   }
-  @media #{$mq-sm} {
+  @media #{$mq-md} {
       display: block;
   }
   .page-index & {
