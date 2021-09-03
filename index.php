@@ -7,9 +7,9 @@
       <img src="<?php echo get_template_directory_uri(); ?>/img/top-logo-sp.svg" alt="UNKNOWN KYOTO" class="logo-sp">
     </h1>
     <p class="top-main-description">京都清水五条駅すぐ、元遊郭建築をリノベーションした宿泊複合施設<br>宿泊者はコワーキングスペースが使えます</p>
-    <!-- おしらせ枠
-    <p class="top-main-info"><span>Recruit</span><a href="https://unknown.kyoto/blog/recruit-staff-helper/">2021春から住み込みで働くスタッフを募集中です</a></p>
-    -->
+
+    <p class="top-main-info"><span>SALE</span><a href="https://unknown.kyoto/blog/sale-202109/">1週間22,000円で泊まれる9月後半限定セール実施中</a></p>
+
   </div>
 
   <div class="top-main-share">
@@ -20,7 +20,7 @@
       <li><a href="https://twitter.com/unknown_kyoto" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/sns-twitter-white.svg" alt="Twitter"></a></li>
     </ul>
   </div>
-  <p class="btn-main-area"><a href="/campaign-goto"><span>Go Toトラベルキャンペーン<br class="for-sp">ご利用方法</span></a></p>
+  <!-- <p class="btn-main-area"><a href="/campaign-goto"><span>Go Toトラベルキャンペーン<br class="for-sp">ご利用方法</span></a></p> -->
 
   <div class="top-main-image">
     <img src="<?php echo get_template_directory_uri(); ?>/img/top-image0207/05.jpg" alt="UNKNOWN KYOTO" class="top-image5">
