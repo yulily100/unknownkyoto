@@ -5,3 +5,4 @@ package-lock.json
 
 # built theme files
 delta-yokoito/
+yarn.lock
