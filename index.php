@@ -193,7 +193,7 @@
   <section class="top-footer-contents">
     <p class="top-recruit-heading">RECRUIT</p>
     <h3 class="top-footer-title">スタッフ募集</h3>
-    <p class="top-footer-description">UNKNOWN KYOTOに興味のある方は<br>info@unknown.kyotoまで<br>ご連絡ください。</p>
+    <p class="top-footer-description">2021/12中旬以降からの<br>住み込みスタッフに興味のある方は<br>info@unknown.kyotoまで<br>ご連絡ください。</p>
   </section>
 </div>
 
