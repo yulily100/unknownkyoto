@@ -6042,6 +6042,96 @@ img {
     .workation-plan-note {
       font-size: .8rem; } }
 
+.meeting-header {
+  text-align: center;
+  padding: 80px 0; }
+
+.meeting-contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-flow: row-reverse;
+          flex-flow: row-reverse;
+  margin: 0 0 60px; }
+  @media (max-width: 767px) {
+    .meeting-contents {
+      display: block; } }
+
+.meeting-contents-img {
+  -ms-flex-preferred-size: calc(50% - 60px);
+      flex-basis: calc(50% - 60px);
+  text-align: center;
+  margin: 0 60px 0; }
+  .meeting-contents-img img {
+    margin: 0 0 40px; }
+
+.meeting-contents-text {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%; }
+
+.meeting-contents-title {
+  margin: 0 0 .5em; }
+  .meeting-contents-title span {
+    background: #e85d5d;
+    color: #fff;
+    display: inline-block;
+    border-radius: 13px;
+    padding: 4px 8px;
+    font-weight: bold;
+    font-size: .9rem;
+    vertical-align: top; }
+
+.meeting-contents-desc {
+  line-height: 1.4; }
+
+.meeting-value {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px 0;
+  line-height: 1.4; }
+
+.meeting-value-title {
+  margin: 0 20px 0 0;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #7e0f09; }
+
+.meeting-calendar {
+  width: 100%; }
+
+.meeting-calendar-more {
+  margin: 12px 0 0 0;
+  font-size: .9rem;
+  font-weight: bold;
+  text-align: right; }
+  .meeting-calendar-more a {
+    display: inline-block;
+    padding: 6px 46px 6px 6px;
+    position: relative; }
+    .meeting-calendar-more a:hover {
+      color: #565246; }
+    .meeting-calendar-more a:after {
+      content: "";
+      position: absolute;
+      background: url("img/section-link.svg");
+      background-size: 34px 6px;
+      width: 34px;
+      height: 6px;
+      display: inline-block;
+      -webkit-transition: -webkit-transform .3s ease-out 0s;
+      transition: -webkit-transform .3s ease-out 0s;
+      transition: transform .3s ease-out 0s;
+      transition: transform .3s ease-out 0s, -webkit-transform .3s ease-out 0s;
+      top: 8px;
+      right: 6px; }
+    .meeting-calendar-more a:hover:after {
+      -webkit-transform: translateX(4px);
+          -ms-transform: translateX(4px);
+              transform: translateX(4px); }
+
 .neighbors {
   max-width: 840px;
   margin: 80px auto;
