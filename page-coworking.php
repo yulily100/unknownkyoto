@@ -54,13 +54,13 @@
         <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/facilities-meetingroom.jpg" alt="会議室" class="office-facilities-img">
         <h3 class="office-facilities-title">会議室</h3>
         <p class="office-facilities-description">4人ほどで使える小さな会議室です。落ち着いて打ち合わせすることができます。</p>
-        <p class="office-facilities-price"><a href="#rentalspace">詳しくはこちら</a></p>
+        <p class="office-facilities-price"><a href="/meeting">詳しくはこちら</a></p>
       </li>
       <li>
         <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/facilities-meetingroom2.jpg" alt="本池中会議室" class="office-facilities-img">
         <h3 class="office-facilities-title">本池中会議室</h3>
         <p class="office-facilities-description">別館であるUNKNOWN KYOTO本池中の会議室を利用することもできます。</p>
-        <p class="office-facilities-price"><a href="#rentalspace">詳しくはこちら</a></p>
+        <p class="office-facilities-price"><a href="/meeting">詳しくはこちら</a></p>
       </li>
     </ul>
     <ul class="coworking-options">
