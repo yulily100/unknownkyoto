@@ -132,11 +132,11 @@
           <h3 class="workation-price-title">ウィークリープラン</h3>
           <p class="workation-price-desc">6泊以上になるとさらにお安く滞在できます。予約サイトで6泊以上を選択すると自動的に適用されます。</p>
           <ul class="workation-price-list">
-            <li>ドミトリー6泊<span class="border"></span>17,820円</li>
-            <li>シングル6泊<span class="border"></span>38,214円</li>
-            <li>ダブル6泊<span class="border"></span>43,296円</li>
-            <li>ツイン6泊<span class="border"></span>45,738円</li>
-            <li>デラックス6泊<span class="border"></span>53,460円</li>
+            <li>ドミトリー6泊<span class="border"></span>16,440円</li>
+            <li>シングル6泊<span class="border"></span>35,100円</li>
+            <li>ダブル6泊<span class="border"></span>39,780円</li>
+            <li>ツイン6泊<span class="border"></span>42,120円</li>
+            <li>デラックス6泊<span class="border"></span>49,140円</li>
             <li class="note">消費税込み</li>
           </ul>
           <p class="workation-link"><a href="/plan/workation/">詳細はこちら</a></p>
