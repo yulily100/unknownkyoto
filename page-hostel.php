@@ -80,10 +80,12 @@ $(function() {
         <li>共同トイレ</li>
       </ul>
       <p class="hostel2-room-price">
-        消費税込み8,250円 ＋ 宿泊税一人200円/一泊
+        1泊　8,250円<br>
+        3泊　22,275円 (1泊7,425円)<br>
+        6泊　38,214円 (1泊6,369円)</p>
+      <p class="hostel-room-note">消費税込み、宿泊税一人200円/一泊</p>
         <!-- <span class="line-through">7,500円</span>
         <br>GO TOトラベル価格で<br>4,880円 + 地域共通クーポン1000円分配布 -->
-      </p>
     </div>
     <div class="hostel2-room-private-img">
       <ul class="hostel2-gallery">
@@ -119,10 +121,13 @@ $(function() {
         <li>共同トイレ</li>
       </ul>
       <p class="hostel2-room-price">
-        消費税込み9,350円 ＋ 宿泊税一人200円/一泊
+        1泊　9,350円<br>
+        3泊　25,245円 (1泊8,415円)<br>
+        6泊　43,296円 (1泊7,216円)</p>
         <!-- <span class="line-through">8,500円</span>
         <br>GO TOトラベル価格で<br>5,530円 + 地域共通クーポン1000円分配布 -->
       </p>
+      <p class="hostel-room-note">消費税込み、宿泊税一人200円/一泊</p>
     </div>
     <div class="hostel2-room-private-img">
       <ul class="hostel2-gallery">
@@ -154,10 +159,13 @@ $(function() {
         <li>共同トイレ</li>
       </ul>
       <p class="hostel2-room-price">
-        消費税込み9,900円 ＋ 宿泊税一人200円/一泊
+        1泊　9,900円<br>
+        3泊　26,730円 (1泊8,910円)<br>
+        6泊　45,738円 (1泊7,623円)</p>
         <!-- <span class="line-through">9,000円</span>
         <br>GO TOトラベル価格で<br>5,850円 + 地域共通クーポン1000円分配布 -->
       </p>
+      <p class="hostel-room-note">消費税込み、宿泊税一人200円/一泊</p>
     </div>
     <div class="hostel2-room-private-img">
       <ul class="hostel2-gallery">
@@ -195,10 +203,13 @@ $(function() {
         <li>共同トイレ</li>
       </ul>
       <p class="hostel2-room-price">
-        消費税込み11,550円 ＋ 宿泊税一人200円/一泊
+        1泊　11,550円<br>
+        3泊　31,185円 (1泊10,395円)<br>
+        6泊　53,460円 (1泊8,910円)</p>
         <!-- <span class="line-through">10,500円</span>
         <br>GO TOトラベル価格で<br>6,830円 + 地域共通クーポン2000円分配布 -->
       </p>
+      <p class="hostel-room-note">消費税込み、宿泊税一人200円/一泊</p>
     </div>
     <div class="hostel2-room-private-img">
       <ul class="hostel2-gallery">

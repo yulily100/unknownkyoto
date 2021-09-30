@@ -100,34 +100,48 @@
 
     <div class="workation-wrapper">
       <ul class="workation-price-basic">
-          <li>
-            <h3 class="workation-price-title">素泊まり</h3>
-            <p class="workation-price-desc">1人ではなく1部屋の価格です。3泊以上からは連泊割引があります。素泊まりでもコワーキングが使い放題です。</p>
-            <ul class="workation-price-list">
-              <li>ドミトリー<span class="border"></span>3,850円</li>
-              <li>シングル<span class="border"></span>8,250円</li>
-              <li>ダブル(2人可)<span class="border"></span>9,350円</li>
-              <li>ツイン(2人可)<span class="border"></span>9,900円</li>
-              <li>デラックス(2人可)<span class="border"></span>11,550円</li>
+        <li>
+          <h3 class="workation-price-title">素泊まり</h3>
+          <p class="workation-price-desc">1人でも2人でも同じ価格です。もちろん素泊まりでもコワーキングが使い放題です。</p>
+          <ul class="workation-price-list">
+            <li>ドミトリー<span class="border"></span>3,850円</li>
+            <li>シングル<span class="border"></span>8,250円</li>
+            <li>ダブル(2人可)<span class="border"></span>9,350円</li>
+            <li>ツイン(2人可)<span class="border"></span>9,900円</li>
+            <li>デラックス(2人可)<span class="border"></span>11,550円</li>
 
-              <li class="note">消費税込み、上記意外のお部屋もございます</li>
+            <li class="note">消費税込み</li>
+          </ul>
+          <p class="workation-link"><a href="https://www.beds24.com/book-unknownkyoto">予約はこちら</a></p>
+        </li>
+        <li>
+            <h3 class="workation-price-title">3泊割</h3>
+            <p class="workation-price-desc">3泊以上からは10%割引いたします。予約サイトで3泊以上を選択すると自動的に適用されます。</p>
+            <ul class="workation-price-list">
+              <li>ドミトリー3泊<span class="border"></span>10,395円</li>
+              <li>シングル3泊<span class="border"></span>22,275円</li>
+              <li>ダブル3泊<span class="border"></span>25,245円</li>
+              <li>ツイン3泊<span class="border"></span>26,730円</li>
+              <li>デラックス3泊<span class="border"></span>31,185円</li>
+
+              <li class="note">消費税込み</li>
             </ul>
             <p class="workation-link"><a href="https://www.beds24.com/book-unknownkyoto">予約はこちら</a></p>
           </li>
-          <li>
-            <h3 class="workation-price-title">ウィークリープラン</h3>
-            <p class="workation-price-desc">6泊以上になるとさらにお安く滞在できます。予約サイトで6泊以上を選択すると自動的に適用されます。</p>
-            <ul class="workation-price-list">
-              <li>ドミトリー<span class="border"></span>17,820円(2,970円/泊)</li>
-              <li>シングル<span class="border"></span>38,214円(6,369円/泊)</li>
-              <li>ダブル(2人可)<span class="border"></span>43,296円(7,216円/泊)</li>
-              <li>ツイン(2人可)<span class="border"></span>45,738円(7,623円/泊)</li>
-              <li>デラックス(2人可)<span class="border"></span>53,460円(8,910円/泊)</li>
-              <li class="note">消費税込み、上記意外のお部屋もございます</li>
-            </ul>
-            <p class="workation-link"><a href="/plan/workation/">詳細はこちら</a></p>
-          </li>
-        </ul>
+        <li>
+          <h3 class="workation-price-title">ウィークリープラン</h3>
+          <p class="workation-price-desc">6泊以上になるとさらにお安く滞在できます。予約サイトで6泊以上を選択すると自動的に適用されます。</p>
+          <ul class="workation-price-list">
+            <li>ドミトリー6泊<span class="border"></span>17,820円</li>
+            <li>シングル6泊<span class="border"></span>38,214円</li>
+            <li>ダブル6泊<span class="border"></span>43,296円</li>
+            <li>ツイン6泊<span class="border"></span>45,738円</li>
+            <li>デラックス6泊<span class="border"></span>53,460円</li>
+            <li class="note">消費税込み</li>
+          </ul>
+          <p class="workation-link"><a href="/plan/workation/">詳細はこちら</a></p>
+        </li>
+      </ul>
       <div class="workation-price-contents">
 
 

@@ -3754,6 +3754,11 @@ img {
   font-weight: bold;
   line-height: 1.4; }
 
+.hostel-room-note {
+  font-size: .8rem;
+  margin: 10px 0 0 0;
+  color: #666054; }
+
 .hostel2-room-private-text {
   padding: 60px;
   -ms-flex-preferred-size: calc(100% / 2);
