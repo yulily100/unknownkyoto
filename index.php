@@ -8,7 +8,7 @@
     </h1>
     <p class="top-main-description">京都清水五条駅すぐ、元遊郭建築をリノベーションした宿泊複合施設<br>宿泊者はコワーキングスペースが使えます</p>
 
-     <!-- <p class="top-main-info"><span>SALE</span><a href="https://unknown.kyoto/blog/sale-202109/">1週間22,000円で泊まれる9月後半限定セール実施中</a></p> -->
+     <p class="top-main-info"><span>SALE</span><a href="https://unknown.kyoto/blog/sale-2021kibuntenkan/">4泊19,800円 or 2泊以上10%オフセール中</a></p>
 
   </div>
 
