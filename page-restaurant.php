@@ -27,7 +27,7 @@
           </div>
           <div class="restaurant-intro-open">
             <h3 class="restaurant-intro-open-title">Dinner</h3>
-            <p class="restaurant-intro-open-time">17:00 - 23:00</br>
+            <p class="restaurant-intro-open-time">17:30 - 23:00</br>
               L.O. お食事22:00,ドリンク22:30</p>
           </div>
           <div class="restaurant-intro-open">
@@ -82,7 +82,7 @@
     <div class="restaurant-contents-text">
       <div class="restaurant-contents-left">
         <h2 class="restaurant-contents-title-dinner">Dinner Time</h2>
-        <p class="restaurant-contents-open">17:00 - 23:00</p>
+        <p class="restaurant-contents-open">17:30 - 23:00</p>
         <p class="restaurant-contents-description">
           夜は本格的なイタリアンとお酒で特別なひとときを。ちょっとしたアテにもなる和風居酒屋メニューもございます。<br>
           ご友人やご家族同士でわいわい楽しむだけでなく、普通の夕食としてパスタのみ注文、といったスタイルも歓迎しています。
@@ -182,7 +182,7 @@
         <h3 class="restaurant-detail-title">営業時間</h3>
         <p class="restaurant-detail-description">
           11:30 - 15:00 (L.O. 14:30)<br>
-          17:00 - 23:00 (L.O. お食事22:00,ドリンク22:30)</p>
+          17:30 - 23:00 (L.O. お食事22:00,ドリンク22:30)</p>
         <p class="restaurant-detail-description">日曜定休</p>
         <h3 class="restaurant-detail-title">店舗規模</h3>
         <p class="restaurant-detail-description">
