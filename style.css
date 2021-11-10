@@ -2415,7 +2415,16 @@ img {
 .top-main-info {
   margin: 60px 8% 0;
   font-size: .9rem;
-  line-height: 1.4; }
+  line-height: 1.4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
   .top-main-info a {
     color: #fff;
     text-decoration: underline; }

@@ -6,9 +6,9 @@
       <img src="<?php echo get_template_directory_uri(); ?>/img/top-logo.svg" alt="UNKNOWN KYOTO" class="logo-pc">
       <img src="<?php echo get_template_directory_uri(); ?>/img/top-logo-sp.svg" alt="UNKNOWN KYOTO" class="logo-sp">
     </h1>
-    <p class="top-main-description">京都清水五条駅すぐ、元遊郭建築をリノベーションした宿泊複合施設<br>宿泊者はコワーキングスペースが使えます</p>
+    <p class="top-main-description">京都清水五条駅すぐ、元遊郭建築をリノベーションした宿泊複合施設<br>宿泊者はコワーキングスペースが使い放題です</p>
 
-     <p class="top-main-info"><span>SALE</span><a href="https://unknown.kyoto/blog/sale-2021kibuntenkan/">4泊19,800円 or 2泊以上10%オフセール中</a></p>
+     <p class="top-main-info"><span>SALE</span><a href="https://unknown.kyoto/blog/kyoto-miryoku/">京都府民なら実質400円〜で<br class="for-sp">宿泊＆コワーキング使い放題</a></p>
 
   </div>
 
@@ -193,7 +193,8 @@
   <section class="top-footer-contents">
     <p class="top-recruit-heading">RECRUIT</p>
     <h3 class="top-footer-title">スタッフ募集</h3>
-    <p class="top-footer-description">2021/11中旬以降からの<br>住み込みスタッフに興味のある方は<br>info@unknown.kyotoまで<br>ご連絡ください。</p>
+    <p class="top-footer-description">2021/11中旬以降からの<br>住み込みスタッフを募集しています！</p>
+    <p class="btn-normal"><a href="https://unknown.kyoto/blog/recruit-202111/">詳しくはこちら</a></p>
   </section>
 </div>
 
