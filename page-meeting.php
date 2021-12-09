@@ -80,11 +80,11 @@ $(function() {
     <p class="meeting-contents-desc">別館であるUNKNOWN KYOTO本池中の会議室です。10名様ほどの大人数での打ち合わせにも対応しています。</p>
     <div class="meeting-value">
       <h3 class="meeting-value-title">値段</h3>
-      <p class="meeting-value-desc">税込2,200円/1時間</p>
+      <p class="meeting-value-desc">税込2,200円/1時間<br>税込16,500円/丸一日</p>
     </div>
     <div class="meeting-value">
       <h3 class="meeting-value-title">時間</h3>
-      <p class="meeting-value-desc">毎日10:00〜19:00</p>
+      <p class="meeting-value-desc">毎日10:00〜19:00（1日貸し切りの場合は〜22:00まで可能）</p>
     </div>
     <iframe class="meeting-calendar" src="https://calendar.google.com/calendar/embed?src=c_18847vmluptcmgarkvp359ludtrbi%40resource.calendar.google.com&ctz=Asia%2FTokyo" frameborder="0" height="400" title="本池中会議室（小）"></iframe>
     <p class="meeting-calendar-more"><a href="https://calendar.google.com/calendar/embed?src=c_18847vmluptcmgarkvp359ludtrbi%40resource.calendar.google.com&ctz=Asia%2FTokyo">空き状況カレンダーを大きな画面で表示</a></p>
