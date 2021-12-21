@@ -42,7 +42,7 @@ $(function() {
     出来るだけ昔の姿を残しながら、使いやすく改装しました。<br>
     ホテルのような重厚な設備はございませんが、<br class="for-pc">
     古い木造建物ならではの息づかいをお楽しみください。</p>
-    <p class="hostel2-intro-description">宿泊のお客様はチェックインの朝からチェックアウトの夜まで<br class="for-pc">追加料金なしでコワーキングがご利用いただけます。</p>
+    <p class="hostel2-intro-description">宿泊のお客様はチェックインの朝からチェックアウトの夜まで<br class="for-pc">追加料金なしでコワーキングがご利用いただけます。<br>また、会議室が1日2時間まで利用可能です。</p>
     <div class="hostel2-intro-footer">
       <div class="hostel2-intro-open">
         <h3 class="hostel2-intro-open-title">チェックイン</h3>
@@ -78,6 +78,10 @@ $(function() {
         <li>ドライヤー</li>
         <li>共同シャワー</li>
         <li>共同トイレ</li>
+      </ul>
+      <ul class="hostel2-room-equipment">
+        <li>コワーキング無料</li>
+        <li>会議室2時間無料</li>
       </ul>
       <p class="hostel2-room-price">
         1泊　8,250円<br>
@@ -120,6 +124,10 @@ $(function() {
         <li>共同シャワー</li>
         <li>共同トイレ</li>
       </ul>
+      <ul class="hostel2-room-equipment">
+        <li>コワーキング無料</li>
+        <li>会議室2時間無料</li>
+      </ul>
       <p class="hostel2-room-price">
         1泊　9,350円<br>
         3泊　25,245円 (1泊8,415円)<br>
@@ -157,6 +165,10 @@ $(function() {
         <li>ドライヤー</li>
         <li>共同シャワー</li>
         <li>共同トイレ</li>
+      </ul>
+      <ul class="hostel2-room-equipment">
+        <li>コワーキング無料</li>
+        <li>会議室2時間無料</li>
       </ul>
       <p class="hostel2-room-price">
         1泊　9,900円<br>
@@ -202,6 +214,10 @@ $(function() {
         <li>共同シャワー</li>
         <li>共同トイレ</li>
       </ul>
+      <ul class="hostel2-room-equipment">
+        <li>コワーキング無料</li>
+        <li>会議室2時間無料</li>
+      </ul>
       <p class="hostel2-room-price">
         1泊　11,550円<br>
         3泊　31,185円 (1泊10,395円)<br>
@@ -239,6 +255,10 @@ $(function() {
         <li>共同シャワー</li>
         <li>共同トイレ</li>
       </ul>
+      <ul class="hostel2-room-equipment">
+        <li>コワーキング無料</li>
+        <li>会議室2時間無料</li>
+      </ul>
       <p class="hostel2-room-note">タオルはこちらのお部屋にはついておりません。ご持参いただくか、レンタルをご用意しておりますのでご利用ください。</p>
       <p class="hostel2-room-price">
         消費税込み3,850円 ＋ 宿泊税一人200円/一泊
@@ -256,6 +276,10 @@ $(function() {
         <li>ドライヤー</li>
         <li>共同シャワー</li>
         <li>共同トイレ</li>
+      </ul>
+      <ul class="hostel2-room-equipment">
+        <li>コワーキング無料</li>
+        <li>会議室2時間無料</li>
       </ul>
       <p class="hostel2-room-note">タオルはこちらのお部屋にはついておりません。ご持参いただくか、レンタルをご用意しておりますのでご利用ください。</p>
       <p class="hostel2-room-price">
