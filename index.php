@@ -193,7 +193,8 @@
   <section class="top-footer-contents">
     <p class="top-recruit-heading">RECRUIT</p>
     <h3 class="top-footer-title">スタッフ募集</h3>
-    <p class="top-footer-description">現在募集はありません<br>募集時にはブログでお知らせします</p>
+    <p class="top-footer-description">2022/1/11<br>住み込みスタッフの<br>募集を開始しました</p>
+    <p class="btn-normal"><a href="https://unknown.kyoto/blog/recruit-202111/" target="_blank" rel="noopener">詳細はこちら</a></p>
   </section>
 </div>
 
