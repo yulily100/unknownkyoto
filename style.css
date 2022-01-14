@@ -530,7 +530,7 @@ img {
       margin: 0 auto; } }
   @media (max-width: 767px) {
     .wrapper {
-      margin: 0 8%; } }
+      margin: 0 5%; } }
   @media (max-width: 360px) {
     .wrapper {
       margin: 0 1em; } }
@@ -609,7 +609,7 @@ img {
       margin: 0 auto; } }
   @media (max-width: 767px) {
     .footer-info {
-      margin: 0 8%; } }
+      margin: 0 5%; } }
   @media (max-width: 360px) {
     .footer-info {
       margin: 0 1em; } }
@@ -673,7 +673,7 @@ img {
       margin: 0 auto; } }
   @media (max-width: 767px) {
     .footer-bottom-inner {
-      margin: 0 8%; } }
+      margin: 0 5%; } }
   @media (max-width: 360px) {
     .footer-bottom-inner {
       margin: 0 1em; } }
@@ -3417,7 +3417,7 @@ img {
       margin: 0 auto; } }
   @media (max-width: 767px) {
     .plan {
-      margin: 0 8%; } }
+      margin: 0 5%; } }
   @media (max-width: 360px) {
     .plan {
       margin: 0 1em; } }
