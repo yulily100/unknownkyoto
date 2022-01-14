@@ -22,7 +22,7 @@
             <span class="article-date"><?php echo get_the_date(); ?></span>
           </span>
         </header>
-        <div class="entry-content">
+        <div class="entry-content editable-content">
           <?php the_content(); ?>
         </div>
         <?php if ( function_exists( 'wpsabox_author_box' ) ) echo wpsabox_author_box(); ?>

@@ -2731,8 +2731,8 @@ img {
     margin: 1.5em 0 0 0; }
 
 .editable-content, .plan-content {
-  font-size: 1.1rem;
-  line-height: 2; }
+  line-height: 1.6;
+  font-size: 1rem; }
   .editable-content h2, .plan-content h2, .editable-content h3, .plan-content h3, .editable-content h4, .plan-content h4 {
     margin: 2.2em 0 .8em 0;
     line-height: 1.4; }
@@ -2754,6 +2754,12 @@ img {
     max-width: 100%;
     height: auto;
     margin: 0 0 1em 0; }
+  .editable-content ul, .plan-content ul, .editable-content li, .plan-content li {
+    list-style: disc; }
+  .editable-content ul, .plan-content ul {
+    padding: 0 0 0 1.5em; }
+  .editable-content li, .plan-content li {
+    line-height: 1.4; }
   @media (max-width: 767px) {
     .editable-content h2, .plan-content h2, .editable-content h3, .plan-content h3, .editable-content h4, .plan-content h4, .editable-content p, .plan-content p, .editable-content .wp-block-quote, .plan-content .wp-block-quote {
       margin-left: 0;
@@ -3121,29 +3127,32 @@ img {
     .entry-title {
       font-size: 1.4rem; } }
 
-.entry-content {
-  line-height: 1.6;
-  font-size: 1.05rem; }
-  .entry-content h2, .entry-content h3, .entry-content h4 {
-    margin: 2.2em 0 .8em 0;
-    line-height: 1.4; }
-  .entry-content h2 {
-    font-size: 1.8rem; }
-  .entry-content h3 {
-    font-size: 1.5rem; }
-  .entry-content h4 {
-    font-size: 1.2rem; }
-  .entry-content p {
-    margin: 0 0 1.5em; }
-  .entry-content a {
-    color: #7e0f09;
+.entry-content h2, .entry-content h3, .entry-content h4 {
+  margin: 2.2em 0 .8em 0;
+  line-height: 1.4; }
+
+.entry-content h2 {
+  font-size: 1.8rem; }
+
+.entry-content h3 {
+  font-size: 1.5rem; }
+
+.entry-content h4 {
+  font-size: 1.2rem; }
+
+.entry-content p {
+  margin: 0 0 1.5em; }
+
+.entry-content a {
+  color: #7e0f09;
+  text-decoration: underline; }
+  .entry-content a:hover {
+    opacity: .8;
     text-decoration: underline; }
-    .entry-content a:hover {
-      opacity: .8;
-      text-decoration: underline; }
-  .entry-content img {
-    max-width: 100%;
-    height: auto; }
+
+.entry-content img {
+  max-width: 100%;
+  height: auto; }
 
 .wp-block-image {
   margin: 2em 0; }
