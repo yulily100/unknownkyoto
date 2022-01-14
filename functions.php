@@ -79,4 +79,9 @@
     return $slug;
 	}
 	add_filter( 'wp_unique_post_slug', 'auto_post_slug', 10, 4  );
+
+
+	// エディターのスタイルを追加する
+	add_editor_style('editor.css');
+
 ?>
