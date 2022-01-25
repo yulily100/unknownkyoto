@@ -171,7 +171,7 @@
             <tr>
               <th><span class="title"><span class="name">本館・小個室</span><span class="member">4人まで会員登録可</span></span></th>
               <td class="price">55,000円/月</td>
-              <td>24時間<span class="status">満室</span></td>
+              <td>24時間<span class="status">5月〜空きあり</span></td>
             </tr>
             <tr>
               <th><span class="title"><span class="name">別館・小個室</span><span class="member">4人まで会員登録可</span></span></th>
