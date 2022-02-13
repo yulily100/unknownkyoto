@@ -1,3 +1,145 @@
+.index-hero {
+  text-align: center;
+  background: $bg;
+}
+.index-hero-inner {
+  @include wrapper();
+  padding: 80px 0 0 0;
+}
+.index-hero-title {
+  margin: 0 0 40px;
+  img {
+    height: 60px;
+  }
+}
+.index-hero-img {
+  object-fit: cover;
+  width: 1000px;
+  height: 600px;
+}
+.index-hero-desc {
+  font-family: $yumincho;
+  font-size: 1.4rem;
+  padding: 12px 0;
+}
+
+.index-main-share {
+  position: fixed;
+  right: 28px;
+  top:calc(50% - 108px/2);
+  @media #{$mq-sm} {
+    left: inherit;
+    bottom: 120px;
+  }
+}
+.index-main-share-text {
+  font-family: $vollkorn;
+  display: inline-block;
+  transform: rotate(90deg);
+  position: absolute;
+  top: -95px;
+  letter-spacing: .8px;
+  width: 50px;
+  left: -12px;
+  @media #{$mq-sm} {
+    display: none;
+  }
+}
+.index-main-share-icon {
+  width: 24px;
+  position: relative;
+  &:before {
+    content: "";
+    width: 1px;
+    height: 40px;
+    display: inline-block;
+    background: $text;
+    position: absolute;
+    top: -55px;
+  }
+  li {
+    display: block;
+    width: 24px;
+    margin: 0 0 12px;
+  }
+  a {
+    display: inline-block;
+  }
+  img {
+    width: 24px;
+    height: 24px;
+  }
+  @media #{$mq-sm} {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    li {
+      margin: 0 8px;
+    }
+    &:before {
+      display: none;
+    }
+  }
+}
+
+
+.index-info {
+  background: $bg-dark;
+  padding: 20px 0;
+}
+.index-info-list {
+  @include wrapper();
+  color: $text;
+  display: flex;
+  justify-content: space-between;
+  font-size: .9rem;
+  > li {
+    flex: 48% 0 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+}
+.index-info-cat {
+  background: $text;
+  color: #fff;
+  font-family: $vollkorn;
+  padding: 2px 8px;
+  flex-shrink: 0;
+  margin: 0 8px 0 0;
+}
+
+.index-about {
+  @include wrapper();
+}
+.index-about-block1 {
+
+}
+.index-stay {
+  background: $bg;
+  padding: 40px 0;
+}
+.index-stay-inner {
+  @include wrapper();
+}
+.index-stay-title {
+  font-family: $vollkorn;
+  text-align: center;
+}
+.index-stay-rooms {
+  @include column3();
+}
+.index-stay-dormitory-text {
+  @include wrapper();
+}
+.index-stay-facilities {
+  @include column5();
+  max-width: 800px;
+  margin: 0 auto;
+
+}
+
+
 // Core (Main Style)
 
 
@@ -279,21 +421,27 @@
 }
 
 // 営業時間
-.top-open {
+.index-open {
   background: $bg;
-  padding: 12px;
+  padding: 20px;
   @media #{$mq-sm} {
     padding-top: 20px;
   }
 }
-.top-open-contents {
+.index-open-contents {
+  max-width: 900px;
+  margin: 0 auto;
   text-align: center;
+  justify-content: center;
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -15px;
   > li {
-    flex-basis: calc(100% / 4 - 30px);
-    margin: 0 15px;
+    flex-basis: calc(100% / 3 - 30px);
+    padding: 0 30px;
+    border-right: 1px solid $border;
+    &:last-child {
+      border: none;
+    }
   }
   @media #{$mq-sm} {
     display: block;
@@ -302,17 +450,17 @@
     }
   }
 }
-.top-open-heading {
+.index-open-heading {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-.top-open-title {
+.index-open-title {
   font-size: 1.2rem;
   margin: 0 0 8px 0;
 }
-.top-open-note {
+.index-open-note {
   font-size: .85rem;
   text-align: left;
   margin: 0 12px 4px;
@@ -321,12 +469,12 @@
   }
 }
 
-.top-open-body {
+.index-open-body {
   @media #{$mq-sm} {
     display: flex;
   }
 }
-.top-open-contents-title {
+.index-open-contents-title {
   font-family: $vollkorn;
   font-weight: normal;
   margin: 0 0 8px 0;
@@ -343,9 +491,10 @@
     font-size: .9rem;
   }
 }
-.top-open-contents-description {
+.index-open-contents-desc {
   font-size: .9rem;
   line-height: 1.4;
+  text-align: left;
   .limited {
     font-weight: bold;
     text-decoration: underline;
@@ -360,7 +509,7 @@
     text-align: left;
   }
 }
-.top-open-contents-note {
+.index-open-contents-note {
   font-size: .85rem;
   display: inline-block;
   margin: 8px 0 0 0;
@@ -422,7 +571,6 @@
   font-size: 2rem;
   letter-spacing: 2px;
   margin: 0.8em 0;
-  font-weight: normal;
   @media #{$mq-sm} {
     font-size: 1.4rem;
     letter-spacing: 1.5px;
