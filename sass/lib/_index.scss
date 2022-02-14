@@ -112,7 +112,14 @@
 .index-about {
   @include wrapper();
 }
+.index-about-title {
+  font-family: $yumincho;
+}
+@mixin index-about-block() {
+  display: flex;
+}
 .index-about-block1 {
+  @include index-about-block();
 
 }
 .index-stay {

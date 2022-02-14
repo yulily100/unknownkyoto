@@ -41,7 +41,7 @@ $(function() {
     </div>
     <div class="meeting-value">
       <h3 class="meeting-value-title">時間</h3>
-      <p class="meeting-value-desc">毎日10:00〜19:00</p>
+      <p class="meeting-value-desc">月-土 10:00〜19:00</p>
     </div>
     <div class="meeting-value">
       <h3 class="meeting-value-title">設備</h3>
@@ -68,7 +68,7 @@ $(function() {
     </div>
     <div class="meeting-value">
       <h3 class="meeting-value-title">時間</h3>
-      <p class="meeting-value-desc">毎日10:00〜19:00（1日貸し切りの場合は〜22:00まで可能）</p>
+      <p class="meeting-value-desc">月-土 10:00〜19:00（1日貸し切りの場合は〜22:00まで可能）</p>
     </div>
     <div class="meeting-value">
       <h3 class="meeting-value-title">設備</h3>
@@ -97,7 +97,7 @@ $(function() {
     </div>
     <div class="meeting-value">
       <h3 class="meeting-value-title">時間</h3>
-      <p class="meeting-value-desc">毎日10:00〜19:00（1日貸し切りの場合は〜22:00まで可能）</p>
+      <p class="meeting-value-desc">月-土 10:00〜19:00（1日貸し切りの場合は〜22:00まで可能）</p>
     </div>
     <div class="meeting-value">
       <h3 class="meeting-value-title">設備</h3>

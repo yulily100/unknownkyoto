@@ -56,22 +56,31 @@
 
 <section class="index-about">
   <div class="index-about-block1">
-    <h2>築100年超え京都の元遊郭建築をリノベーション</h2>
-    <p>京都・清水五条駅すぐ。古い建築が並ぶエリア鴨川と高瀬川のせせらぎ築100年を超える元遊郭建築をリノベーションして「仕事ができる宿」にしました。</p>
+    <img src="" alt="" class="">
+    <div class="index-about-text">
+      <h3 class="index-about-title">築100年超え<br>京都の元遊郭建築を<br>リノベーション</h3>
+      <p>京都・清水五条駅すぐ。古い建築が並ぶエリア鴨川と高瀬川のせせらぎ築100年を超える元遊郭建築をリノベーションして「仕事ができる宿」にしました。</p>
+    </div>
   </div>
   <div class="index-about-block2">
-    <h2>コワーキング使い放題会議室2時間無料</h2>
-    <p>チェックインの日の朝10時からチェックアウトの日の夜19時までコワーキングスペースが自由に使えます。ディスプレイや充電器の用意もございます。</p>
+    <img src="" alt="">
+    <div class="index-about-text">
+      <h3 class="index-about-title">コワーキング使い放題<br>会議室2時間無料</h3>
+      <p>チェックインの日の朝10時からチェックアウトの日の夜19時までコワーキングスペースが自由に使えます。ディスプレイや充電器の用意もございます。</p>
+    </div>
   </div>
   <div class="index-about-block3">
-    <h2>長めに滞在するからこそわかる京都がある</h2>
-    <p>UNKNOWN KYOTOの魅力が一番味わえるのは
+    <img src="" alt="">
+    <div class="index-about-text">
+      <h3 class="index-about-title">長めに滞在するからこそ<br>わかる京都がある</h3>
+      <p>UNKNOWN KYOTOの魅力が一番味わえるのは
       2泊、3泊、もしくはそれ以上かけて
       じっくりと京都を味わうような滞在です。
       シェアキッチンやランドリーなど、
       暮らすのに必要なものはすべて揃っています。
       2泊以上からお安く滞在いただける
       連泊用のプランもございます。</p>
+    </div>
   </div>
 </section>
 <section class="index-stay">
