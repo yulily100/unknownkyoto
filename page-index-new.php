@@ -4,7 +4,7 @@
 <div class="index-hero">
   <div class="index-hero-inner">
     <h1 class="index-hero-title"><img src="<?php echo get_template_directory_uri(); ?>/img/index-logo.svg" alt="UNKNOWN KYOTO"></h1>
-    <img src="<?php echo get_template_directory_uri(); ?>/img/top-image0207/01.jpg" alt="UNKNOWN KYOTO" class="index-hero-img">
+    <img src="<?php echo get_template_directory_uri(); ?>/img/index/intro-01.jpg" alt="UNKNOWN KYOTO" class="index-hero-img">
     <p class="index-hero-desc">元遊郭建築を改装、コワーキングのある宿</p>
     <div class="index-main-share">
       <p class="index-main-share-text">SNS</p>
@@ -56,21 +56,23 @@
 
 <section class="index-about">
   <div class="index-about-block1">
-    <img src="" alt="" class="">
+  <img src="<?php echo get_template_directory_uri(); ?>/img/index/about-01.jpg" alt="" class="index-about-block1-img">
     <div class="index-about-text">
       <h3 class="index-about-title">築100年超え<br>京都の元遊郭建築を<br>リノベーション</h3>
       <p>京都・清水五条駅すぐ。古い建築が並ぶエリア鴨川と高瀬川のせせらぎ築100年を超える元遊郭建築をリノベーションして「仕事ができる宿」にしました。</p>
     </div>
+    
+
   </div>
   <div class="index-about-block2">
-    <img src="" alt="">
     <div class="index-about-text">
       <h3 class="index-about-title">コワーキング使い放題<br>会議室2時間無料</h3>
       <p>チェックインの日の朝10時からチェックアウトの日の夜19時までコワーキングスペースが自由に使えます。ディスプレイや充電器の用意もございます。</p>
     </div>
+    <img src="<?php echo get_template_directory_uri(); ?>/img/index/about-02.jpg" alt="" class="index-about-block2-img">
   </div>
   <div class="index-about-block3">
-    <img src="" alt="">
+  <img src="<?php echo get_template_directory_uri(); ?>/img/index/about-03.jpg" alt="" class="index-about-block2-img">
     <div class="index-about-text">
       <h3 class="index-about-title">長めに滞在するからこそ<br>わかる京都がある</h3>
       <p>UNKNOWN KYOTOの魅力が一番味わえるのは
@@ -87,8 +89,17 @@
   <div class="index-stay-inner">
     <h2 class="index-stay-title">Stay</h2>
     <ul class="index-stay-rooms">
-      <li>リラックスシングル</li>
-      <li>ワイドベッドルーム</li>
+      <li>
+        <img src="<?php echo get_template_directory_uri(); ?>/img/index/room-reluxsingle.jpg" alt="">
+        <h4>リラックスシングルルーム</h4>
+
+        </li>
+      <li>
+        <h4>ワイドベッドルーム（2名可）</h4>
+      </li>
+      <li>
+        <h4>デラックスツインルーム（2名可）</h4>
+      </li>
     </ul>
   </div>
   <div class="index-stay-dormitory">

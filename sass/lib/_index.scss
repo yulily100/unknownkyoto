@@ -20,7 +20,24 @@
 .index-hero-desc {
   font-family: $yumincho;
   font-size: 1.4rem;
-  padding: 12px 0;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:before, &:after {
+    content: "";
+    width: 118px;
+    height: 26px;
+    display: inline-block;
+    background-size: 118px 26px;
+    margin: 0 16px;
+  }
+  &:before {
+    background: url("img/index-hero-desc-l.svg");
+  }
+  &:after {
+    background: url("img/index-hero-desc-r.svg");
+  }
 }
 
 .index-main-share {
@@ -111,17 +128,39 @@
 
 .index-about {
   @include wrapper();
+  background: url("img/index-about.svg");
+  background-size: 333px 191px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  padding: 200px 0 0 0;
 }
 .index-about-title {
   font-family: $yumincho;
+  font-size: 1.6rem;
+  margin: 0 0 .5em;
 }
 @mixin index-about-block() {
   display: flex;
 }
 .index-about-block1 {
   @include index-about-block();
-
 }
+.index-about-block2 {
+  @include index-about-block();
+}
+.index-about-block3 {
+  @include index-about-block();
+}
+.index-about-block1-img {
+  width: 60%;
+}
+.index-about-block2-img {
+  width: 60%;
+}
+.index-about-text {
+  width: 40%;
+}
+
 .index-stay {
   background: $bg;
   padding: 40px 0;
@@ -445,13 +484,13 @@
   > li {
     flex-basis: calc(100% / 3 - 30px);
     padding: 0 30px;
-    border-right: 1px solid $border;
+    border-right: 1px solid $border-dark;
     &:last-child {
       border: none;
     }
   }
   @media #{$mq-sm} {
-    display: block;
+    display: flex;
     > li {
       margin-bottom: 16px;
     }
@@ -476,11 +515,7 @@
   }
 }
 
-.index-open-body {
-  @media #{$mq-sm} {
-    display: flex;
-  }
-}
+
 .index-open-contents-title {
   font-family: $vollkorn;
   font-weight: normal;

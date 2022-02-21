@@ -2514,7 +2514,27 @@ img {
 .index-hero-desc {
   font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
   font-size: 1.4rem;
-  padding: 12px 0; }
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .index-hero-desc:before, .index-hero-desc:after {
+    content: "";
+    width: 118px;
+    height: 26px;
+    display: inline-block;
+    background-size: 118px 26px;
+    margin: 0 16px; }
+  .index-hero-desc:before {
+    background: url("img/index-hero-desc-l.svg"); }
+  .index-hero-desc:after {
+    background: url("img/index-hero-desc-r.svg"); }
 
 .index-main-share {
   position: fixed;
@@ -2622,7 +2642,12 @@ img {
 
 .index-about {
   margin-right: 80px;
-  margin-left: 80px; }
+  margin-left: 80px;
+  background: url("img/index-about.svg");
+  background-size: 333px 191px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  padding: 200px 0 0 0; }
   @media (min-width: 1360px) {
     .index-about {
       max-width: 1200px;
@@ -2635,12 +2660,33 @@ img {
       margin: 0 1em; } }
 
 .index-about-title {
-  font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif; }
+  font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+  font-size: 1.6rem;
+  margin: 0 0 .5em; }
 
 .index-about-block1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
+
+.index-about-block2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.index-about-block3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.index-about-block1-img {
+  width: 60%; }
+
+.index-about-block2-img {
+  width: 60%; }
+
+.index-about-text {
+  width: 40%; }
 
 .index-stay {
   background: #f1eded;
@@ -2943,12 +2989,14 @@ img {
     -ms-flex-preferred-size: calc(100% / 3 - 30px);
         flex-basis: calc(100% / 3 - 30px);
     padding: 0 30px;
-    border-right: 1px solid #ddd; }
+    border-right: 1px solid #c4bbbb; }
     .index-open-contents > li:last-child {
       border: none; }
   @media (max-width: 767px) {
     .index-open-contents {
-      display: block; }
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
       .index-open-contents > li {
         margin-bottom: 16px; } }
 
@@ -2978,12 +3026,6 @@ img {
   @media (max-width: 767px) {
     .index-open-note {
       margin: 0 0 4px; } }
-
-@media (max-width: 767px) {
-  .index-open-body {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; } }
 
 .index-open-contents-title {
   font-family: "Vollkorn", serif;
