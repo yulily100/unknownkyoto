@@ -24,7 +24,7 @@
         <h3 class="top-open-contents-title">
           <a href="/coworking">Coworking</a>
         </h3>
-        <p class="top-open-contents-description">ドロップイン…10:00 - 19:00<br>月額会員…24時間年中無休</p>
+        <p class="top-open-contents-description">ドロップイン…毎日10:00-19:00<br>月額会員…24時間年中無休</p>
       </p>
       </li>
     </ul>
