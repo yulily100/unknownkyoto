@@ -2602,46 +2602,56 @@ img {
 
 .index-info-cat {
   background: #3a372f;
-  color: #fff;
   font-family: "Vollkorn", serif;
   padding: 3px 8px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
   margin: 0 8px 0 0; }
+  .index-info-cat a {
+    color: #fff; }
 
 .index-about {
+  margin-right: 80px;
+  margin-left: 80px;
   background: url("img/index-about.svg");
   background-size: 333px 191px;
   background-repeat: no-repeat;
   background-position: center 70px;
-  padding: 320px 0 0 0; }
+  padding: 280px 0 0 0; }
+  @media (min-width: 1360px) {
+    .index-about {
+      max-width: 1200px;
+      margin: 0 auto; } }
+  @media (max-width: 767px) {
+    .index-about {
+      margin: 0 5%; } }
+  @media (max-width: 360px) {
+    .index-about {
+      margin: 0 1em; } }
 
 .index-about-wrapper {
   max-width: 1000px;
   margin: 0 auto; }
 
+.index-about-block1 {
+  text-align: center;
+  margin: 0 0 100px; }
+
 .index-about-block1-title {
   font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
   margin: 0 0 .5em;
-  line-height: 1.6;
-  font-size: 1.8rem;
-  text-align: center;
-  padding: 0 40px; }
+  font-size: 1.5rem; }
+
+.index-about-block1-desc {
+  margin: 0 0 2em;
+  line-height: 1.5;
+  font-size: 1.1rem; }
 
 .index-about-block1-img {
   width: 100%;
-  height: 450px;
+  height: 500px;
   -o-object-fit: cover;
      object-fit: cover; }
-
-.index-about-block1-contents {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 40px 0 100px 0; }
 
 .index-about-title {
   font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
@@ -2652,6 +2662,34 @@ img {
 .index-about-desc {
   font-size: 1.1rem;
   line-height: 1.8; }
+
+.index-about-detail {
+  margin: 12px 0 0 0; }
+  .index-about-detail a {
+    display: inline-block;
+    padding: 6px 46px 6px 6px;
+    position: relative;
+    border-bottom: 1px solid #3a372f; }
+    .index-about-detail a:hover {
+      color: #565246; }
+    .index-about-detail a:after {
+      content: "";
+      position: absolute;
+      background: url("img/section-link.svg");
+      background-size: 34px 6px;
+      width: 34px;
+      height: 6px;
+      display: inline-block;
+      -webkit-transition: -webkit-transform .3s ease-out 0s;
+      transition: -webkit-transform .3s ease-out 0s;
+      transition: transform .3s ease-out 0s;
+      transition: transform .3s ease-out 0s, -webkit-transform .3s ease-out 0s;
+      top: 12px;
+      right: 6px; }
+    .index-about-detail a:hover:after {
+      -webkit-transform: translateX(4px);
+          -ms-transform: translateX(4px);
+              transform: translateX(4px); }
 
 .index-about-block2 {
   display: -webkit-box;
@@ -2695,18 +2733,8 @@ img {
   padding: 80px 0; }
 
 .index-stay-inner {
-  margin-right: 80px;
-  margin-left: 80px; }
-  @media (min-width: 1360px) {
-    .index-stay-inner {
-      max-width: 1200px;
-      margin: 0 auto; } }
-  @media (max-width: 767px) {
-    .index-stay-inner {
-      margin: 0 5%; } }
-  @media (max-width: 360px) {
-    .index-stay-inner {
-      margin: 0 1em; } }
+  max-width: 1000px;
+  margin: 0 auto; }
 
 .index-stay-title {
   font-family: "Vollkorn", serif;
@@ -2715,25 +2743,61 @@ img {
   font-size: 2rem;
   margin: 0 0 0.6em; }
 
-.index-stay-rooms {
+.index-rooms {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 0 -15px;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap; }
-  .index-stay-rooms > li {
-    -ms-flex-preferred-size: calc(100% / 3 - 30px);
-        flex-basis: calc(100% / 3 - 30px);
-    margin: 0 15px 30px; }
+  margin: 0 -20px;
+  flex-wrap: wrap; }
+  .index-rooms > li {
+    -ms-flex-preferred-size: calc(100% / 2 - 40px);
+        flex-basis: calc(100% / 2 - 40px);
+    margin: 0 20px 40px; }
   @media (max-width: 767px) {
-    .index-stay-rooms {
+    .index-rooms {
       display: block; } }
 
-.index-stay-room-title {
-  margin: .5em 0; }
+.index-rooms-text {
+  padding: 8px 16px; }
+
+.index-rooms-title {
+  margin: .5em 0;
+  font-size: 1.1rem;
+  font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif; }
+
+.index-rooms-desc {
+  line-height: 1.4;
+  margin: 0 0 .8em; }
+
+.index-rooms-detail {
+  margin: 12px 0 0 0; }
+  .index-rooms-detail a {
+    display: inline-block;
+    padding: 6px 46px 6px 6px;
+    position: relative;
+    border-bottom: 1px solid #3a372f; }
+    .index-rooms-detail a:hover {
+      color: #565246; }
+    .index-rooms-detail a:after {
+      content: "";
+      position: absolute;
+      background: url("img/section-link.svg");
+      background-size: 34px 6px;
+      width: 34px;
+      height: 6px;
+      display: inline-block;
+      -webkit-transition: -webkit-transform .3s ease-out 0s;
+      transition: -webkit-transform .3s ease-out 0s;
+      transition: transform .3s ease-out 0s;
+      transition: transform .3s ease-out 0s, -webkit-transform .3s ease-out 0s;
+      top: 9px;
+      right: 6px; }
+    .index-rooms-detail a:hover:after {
+      -webkit-transform: translateX(4px);
+          -ms-transform: translateX(4px);
+              transform: translateX(4px); }
 
 .index-dormitory {
   margin-right: 80px;
@@ -2808,12 +2872,13 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 40px 0 100px; }
+  max-width: 1000px;
+  margin: 40px auto 100px; }
 
 .index-dormitory-title {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 25%;
-          flex: 0 0 25%;
+      -ms-flex: 0 0 30%;
+          flex: 0 0 30%;
   font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
   font-size: 1.6rem; }
   .index-dormitory-title span {
@@ -2827,7 +2892,7 @@ img {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: 0 -10px;
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto; }
   .index-facilities > li {
     -ms-flex-preferred-size: calc(100% / 5 - 20px);
@@ -3049,7 +3114,7 @@ img {
 
 .index-open {
   background: #f1eded;
-  padding: 40px 20px; }
+  padding: 20px 20px; }
   @media (max-width: 767px) {
     .index-open {
       padding-top: 20px; } }

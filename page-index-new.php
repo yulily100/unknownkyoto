@@ -1,7 +1,34 @@
 <?php get_header(); ?>
 
+<div class="top-main">
+  <div class="top-main-inner">
+    <h1 class="top-main-logo">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/top-logo.svg" alt="UNKNOWN KYOTO" class="logo-pc">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/top-logo-sp.svg" alt="UNKNOWN KYOTO" class="logo-sp">
+    </h1>
 
-<div class="index-hero">
+  </div>
+
+  <div class="top-main-share">
+    <p class="top-main-share-text">SNS</p>
+    <ul class="top-main-share-icon">
+      <li><a href="https://www.instagram.com/unknownkyoto/" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/sns-instagram-white.svg" alt="Instagram"></a></li>
+      <li><a href="https://www.facebook.com/Unknown.Kyoto.Gojo.Rakuen" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/sns-facebook-white.svg" alt="Facebook"></a></li>
+      <li><a href="https://twitter.com/unknown_kyoto" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/sns-twitter-white.svg" alt="Twitter"></a></li>
+    </ul>
+  </div>
+  <!-- <p class="btn-main-area"><a href="/campaign-goto"><span>Go Toトラベルキャンペーン<br class="for-sp">ご利用方法</span></a></p> -->
+
+  <div class="top-main-image">
+    <img src="<?php echo get_template_directory_uri(); ?>/img/top-image0207/05.jpg" alt="UNKNOWN KYOTO" class="top-image5">
+    <img src="<?php echo get_template_directory_uri(); ?>/img/top-image0207/04.jpg" alt="UNKNOWN KYOTO" class="top-image4">
+    <img src="<?php echo get_template_directory_uri(); ?>/img/top-image0207/03.jpg" alt="UNKNOWN KYOTO" class="top-image3">
+    <img src="<?php echo get_template_directory_uri(); ?>/img/top-image0207/02.jpg" alt="UNKNOWN KYOTO" class="top-image2">
+    <img src="<?php echo get_template_directory_uri(); ?>/img/top-image0207/01.jpg" alt="UNKNOWN KYOTO" class="top-image1">
+  </div>
+</div>
+
+<!-- <div class="index-hero">
   <div class="index-hero-inner">
     <h1 class="index-hero-title"><img src="<?php echo get_template_directory_uri(); ?>/img/index-logo.svg" alt="UNKNOWN KYOTO"></h1>
     <p class="index-hero-desc">元遊郭建築を改装、コワーキングのある宿</p>
@@ -15,7 +42,7 @@
       </ul>
     </div>
   </div>
-</div>
+</div> -->
 
 
 <section class="index-open">
@@ -46,27 +73,42 @@
 
 </section>
 
+<?php
+	$toplist = array(
+		'posts_per_page' => 2,
+		'meta_key' => 'show_pick_up',
+		'meta_value' => 'show',
+		'meta_compare' => 'LIKE'
+	);
+	$toplist_query = new WP_Query( $toplist );
+?>
+
 <section class="index-info">
   <ul class="index-info-list">
-    <li><span class="index-info-cat">sale</span>京都府民なら実質400円〜で宿泊＆コワーキング使い放題</li>
-    <li><span class="index-info-cat">info</span>ディスプレイモニタのレンタルを開始しました</li>
+    <?php if ($toplist_query->have_posts()) : while($toplist_query->have_posts()) : $toplist_query->the_post(); ?>
+    <li>
+    <div class="index-info-cat">
+      <?php the_category(); ?>
+    </div>
+    <a href="<?php the_permalink(); ?>"><?php echo get_the_title(); ?></a>
+    </li>
+    <?php endwhile; endif; wp_reset_postdata(); ?>
   </ul>
+
 </section>
 
 <section class="index-about">
-<div class="index-about-wrapper">
+
   <div class="index-about-block1">
+    <h3 class="index-about-block1-title">元遊郭建築を改装、コワーキングのある宿</h3>
+    <p class="index-about-block1-desc">京都・清水五条駅すぐ。<br>
+      古い建築が並ぶエリア鴨川と高瀬川のせせらぎ<br>
+      築100年を超える元遊郭建築をリノベーションして<br>
+      「仕事ができる宿」にしました。</p>
     <img src="<?php echo get_template_directory_uri(); ?>/img/index/about-01.jpg" alt="" class="index-about-block1-img">
-    <div class="index-about-block1-contents">
-      <h3 class="index-about-block1-title">築100年超え<br>京都の元遊郭建築を<br>リノベーション</h3>
-      <p class="index-about-desc">京都・清水五条駅すぐ。<br>
-        古い建築が並ぶエリア鴨川と高瀬川のせせらぎ<br>
-        築100年を超える元遊郭建築をリノベーションして<br>
-        「仕事ができる宿」にしました。</p>
-    </div>
   </div>
 
-  
+  <div class="index-about-wrapper">
     <div class="index-about-block2">
       <div class="index-about-text">
         <h3 class="index-about-title">コワーキング使い放題<br>会議室2時間無料</h3>
@@ -74,7 +116,7 @@
         チェックアウトの日の夜19時まで<br>
         コワーキングスペースが自由に使えます。<br>
         ディスプレイや充電器の用意もございます。</p>
-        <p>詳しくはこちら</p>
+        <p class="index-about-detail"><a href="/coworking">詳しくはこちら</a></p>
       </div>
       <div class="index-about-img">
         <img src="<?php echo get_template_directory_uri(); ?>/img/index/about-02.jpg" alt="">
@@ -91,7 +133,7 @@
           地元の人からも愛される飲食店です。<br>
           名物の「唐揚げ」はぜひ一度<br>
           食べていただきたい逸品です。</p>
-        <p>詳しくはこちら</p>
+        <p class="index-about-detail"><a href="/restaurant">詳しくはこちら</a></p>
       </div>
     </div>
 
@@ -105,7 +147,7 @@
           暮らすのに必要なものはすべて揃っています。<br>
           2泊以上からお安く滞在いただける<br>
           連泊用のプランもございます。</p>
-          <p>詳しくはこちら</p>
+          <p class="index-about-detail"><a href="https://unknown.kyoto/plan/workation/">詳しくはこちら</a></p>
       </div>
       <div class="index-about-img">
         <img src="<?php echo get_template_directory_uri(); ?>/img/index/about-04.jpg" alt="">
@@ -115,35 +157,43 @@
 </section>
 <section class="index-stay">
   <div class="index-stay-inner">
-    <h2 class="index-stay-title">Stay</h2>
-    <ul class="index-stay-rooms">
+    <h2 class="index-stay-title">Rooms</h2>
+    <ul class="index-rooms">
       <li>
         <img src="<?php echo get_template_directory_uri(); ?>/img/index/room-reluxsingle.jpg" alt="">
-        <h4 class="index-stay-room-title">リラックスシングルルーム</h4>
-        <p>1泊9,350円 / 2泊17,600円<br>
-        4泊以上 7,700円 × 泊数</p>
-        <p>詳しく見る</p>
+        <div class="index-rooms-text">
+          <h4 class="index-rooms-title">リラックスシングルルーム（定員1名）</h4>
+          <p class="index-rooms-desc">デスクの付いた、シングルベッドのゆったりとしたお部屋です。長期滞在をされる方には特におすすめです。</p>
+          <p>1泊 9,350円</p>
+          <p class="index-rooms-detail"><a href="/hostel">詳しく見る</a></p>
+        </div>
       </li>
       <li>
-      <img src="<?php echo get_template_directory_uri(); ?>/img/index/room-reluxsingle.jpg" alt="">
-        <h4 class="index-stay-room-title">ワイドベッドルーム（2名可）</h4>
-        <p>1泊9,350円 / 2泊17,600円<br>
-        4泊以上 7,700円 × 泊数</p>
-        <p>詳しく見る</p>
+        <img src="<?php echo get_template_directory_uri(); ?>/img/index/room-widebed.jpg" alt="">
+        <div class="index-rooms-text">
+          <h4 class="index-rooms-title">ワイドベッドルーム（定員2名）</h4>
+          <p class="index-rooms-desc">デスクの付いた、ダブルベッドのお部屋です。小さな床の間付きの和風な趣を残しています。</p>
+          <p>1泊 9,350円（2名でも同価格）</p>
+          <p class="index-rooms-detail"><a href="/hostel">詳しく見る</a></p>
+        </div>
       </li>
       <li>
-      <img src="<?php echo get_template_directory_uri(); ?>/img/index/room-reluxsingle.jpg" alt="">
-        <h4 class="index-stay-room-title">デラックスツインルーム（2名可）</h4>
-        <p>1泊9,350円 / 2泊17,600円<br>
-        4泊以上 7,700円 × 泊数</p>
-        <p>詳しく見る</p>
+        <img src="<?php echo get_template_directory_uri(); ?>/img/index/room-deluxetwin.jpg" alt="">
+        <div class="index-rooms-text">
+          <h4 class="index-rooms-title">デラックスツインルーム（定員2名）</h4>
+          <p class="index-rooms-desc">洗面台付きの広めのお部屋です。大きめのデスクが付き、ゆったり過ごせます。</p>
+          <p>1泊 11,550円（2名でも同価格）</p>
+          <p class="index-rooms-detail"><a href="/hostel">詳しく見る</a></p>
+        </div>
       </li>
       <li>
-      <img src="<?php echo get_template_directory_uri(); ?>/img/index/room-reluxsingle.jpg" alt="">
-        <h4 class="index-stay-room-title">シングルルーム</h4>
-        <p>1泊9,350円 / 2泊17,600円<br>
-        4泊以上 7,700円 × 泊数</p>
-        <p>詳しく見る</p>
+        <img src="<?php echo get_template_directory_uri(); ?>/img/index/room-single.jpg" alt="">
+        <div class="index-rooms-text">
+          <h4 class="index-rooms-title">シングルルーム（定員1名）</h4>
+          <p class="index-rooms-desc">デスクのないミニマルなシングルベッドのお部屋です。作業はコワーキングでされる方におすすめです。</p>
+          <p>1泊 8,250円</p>
+          <p class="index-rooms-detail"><a href="/hostel">詳しく見る</a></p>
+        </div>
       </li>
     </ul>
   </div>
@@ -162,19 +212,20 @@
     <div class="index-dormitory-contents">
       <h3 class="index-dormitory-title"><span>泊まれるデスク</span><br>ワーキングベッド</h3>
       <div class="index-dormitory-text">
-        <p class="">UNKNOWN KYOTOのドミトリー（二段ベッド相部屋）は、全室にミニデスクがついています。
+        <p class="index-rooms-desc">UNKNOWN KYOTOのドミトリー（二段ベッド相部屋）は、全室にミニデスクがついています。
         「泊まれるデスク」として、宿泊にもデイユースにも。</p>
-        <p>1泊4,180円<br>一部屋まるまる 30,000円（6ベッド）</p>
+        <p class="index-rooms-">1泊 3,850円〜 / ひと部屋まるまる貸し切り 19,800円（定員6名）</p>
+        <p class="index-rooms-detail"><a href="/hostel">詳しく見る</a></p>
       </div>
     </div>
   </div>
-  <ul class="index-facilities">
+  <!-- <ul class="index-facilities">
     <li>コワーキング</li>
     <li>会議室</li>
     <li>ディスプレイモニター</li>
     <li>シェアキッチン<br>コインランドリーあり</li>
     <li>二泊以上から割引</li>
-  </ul>
+  </ul> -->
 
 
 </section>
