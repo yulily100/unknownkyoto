@@ -3140,26 +3140,13 @@ img {
       border: none; }
   @media (max-width: 767px) {
     .index-open-contents {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex; }
+      display: block; }
       .index-open-contents > li {
-        margin-bottom: 16px; } }
-
-.index-open-heading {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column; }
+        margin-bottom: 16px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        border: none; } }
 
 .index-open-title {
   font-size: 1.2rem;

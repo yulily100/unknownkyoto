@@ -47,14 +47,14 @@
 
 <section class="index-open">
   <ul class="index-open-contents">
-    <li class="index-open-body">
+    <li>
       <h3 class="index-open-contents-title">
         <a href="/hostel">Hostel</a>
       </h3>
       <p class="index-open-contents-desc">CHECK IN…16:00 - 22:00<br>
       CHECK OUT　11:00</p>
     </li>
-    <li class="index-open-body">
+    <li>
       <h3 class="index-open-contents-title">
         <a href="/restaurant">Restaurant</a>
       </h3>
@@ -62,7 +62,7 @@
       <span class="index-open-contents-note">日曜はポップアップ</span>
       </p>
     </li>
-    <li class="index-open-body">
+    <li>
       <h3 class="index-open-contents-title">
         <a href="/coworking">Coworking</a>
       </h3>

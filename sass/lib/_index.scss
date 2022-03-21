@@ -615,17 +615,13 @@
     }
   }
   @media #{$mq-sm} {
-    display: flex;
+    display: block;
     > li {
       margin-bottom: 16px;
+      display: flex;
+      border: none;
     }
   }
-}
-.index-open-heading {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
 }
 .index-open-title {
   font-size: 1.2rem;
