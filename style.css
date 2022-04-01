@@ -2599,16 +2599,21 @@ img {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
+  @media (max-width: 767px) {
+    .index-info-list {
+      display: block; }
+      .index-info-list > li {
+        margin: 12px 0; } }
 
 .index-info-cat {
-  background: #3a372f;
+  border: 1px solid #3a372f;
   font-family: "Vollkorn", serif;
   padding: 3px 8px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
   margin: 0 8px 0 0; }
   .index-info-cat a {
-    color: #fff; }
+    color: #3a372f; }
 
 .index-about {
   margin-right: 80px;
@@ -2628,6 +2633,9 @@ img {
   @media (max-width: 360px) {
     .index-about {
       margin: 0 1em; } }
+  @media (max-width: 767px) {
+    .index-about {
+      background-position: center 40px; } }
 
 .index-about-wrapper {
   max-width: 1000px;
@@ -2640,24 +2648,37 @@ img {
 .index-about-block1-title {
   font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
   margin: 0 0 .5em;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  line-height: 1.6; }
 
 .index-about-block1-desc {
   margin: 0 0 2em;
-  line-height: 1.5;
-  font-size: 1.1rem; }
+  line-height: 1.8;
+  font-size: 1.2rem; }
+  @media (max-width: 767px) {
+    .index-about-block1-desc {
+      font-size: 1.1rem; } }
 
-.index-about-block1-img {
+.index-about-block1-img img {
   width: 100%;
   height: 500px;
   -o-object-fit: cover;
      object-fit: cover; }
+
+@media (max-width: 767px) {
+  .index-about-block1-img {
+    margin: 0 -5%; }
+    .index-about-block1-img img {
+      height: auto; } }
 
 .index-about-title {
   font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
   font-size: 1.5rem;
   margin: 0 0 .5em;
   line-height: 1.6; }
+  @media (max-width: 767px) {
+    .index-about-title {
+      font-size: 1.4rem; } }
 
 .index-about-desc {
   font-size: 1.1rem;
@@ -2698,7 +2719,14 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 100px; }
+  margin-bottom: 100px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse; }
+  @media (max-width: 767px) {
+    .index-about-block2 {
+      display: block; } }
 
 .index-about-block3 {
   display: -webkit-box;
@@ -2708,6 +2736,9 @@ img {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 100px; }
+  @media (max-width: 767px) {
+    .index-about-block3 {
+      display: block; } }
 
 .index-about-block4 {
   display: -webkit-box;
@@ -2716,17 +2747,32 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 100px; }
+  margin-bottom: 100px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse; }
+  @media (max-width: 767px) {
+    .index-about-block4 {
+      display: block; } }
   .index-about-block4 img {
     width: 80%; }
 
 .index-about-img {
   width: 50%;
   text-align: center; }
+  @media (max-width: 767px) {
+    .index-about-img {
+      width: 100%;
+      margin-bottom: 12px; } }
 
 .index-about-text {
   width: 50%;
   padding: 0 60px; }
+  @media (max-width: 767px) {
+    .index-about-text {
+      width: 100%;
+      padding: 0 10px; } }
 
 .index-stay {
   background: #f1eded;
@@ -2758,9 +2804,18 @@ img {
   @media (max-width: 767px) {
     .index-rooms {
       display: block; } }
+  @media (max-width: 767px) {
+    .index-rooms {
+      margin: 0; }
+      .index-rooms > li {
+        margin-left: 5%;
+        margin-right: 5%; } }
 
 .index-rooms-text {
   padding: 8px 16px; }
+  @media (max-width: 767px) {
+    .index-rooms-text {
+      padding: 8px 10px; } }
 
 .index-rooms-title {
   margin: .5em 0;
@@ -2768,7 +2823,7 @@ img {
   font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif; }
 
 .index-rooms-desc {
-  line-height: 1.4;
+  line-height: 1.6;
   margin: 0 0 .8em; }
 
 .index-rooms-detail {
@@ -2824,6 +2879,9 @@ img {
     height: auto;
     -o-object-fit: cover;
        object-fit: cover; }
+  @media (max-width: 767px) {
+    .index-dormitory-img {
+      display: block; } }
 
 .index-dormitory-left {
   -ms-flex-preferred-size: calc(45% - 10px);
@@ -2832,7 +2890,13 @@ img {
       flex-shrink: 0;
   -webkit-box-flex: 0;
       -ms-flex-positive: 0;
-          flex-grow: 0; }
+          flex-grow: 0;
+  text-align: center; }
+  @media (max-width: 767px) {
+    .index-dormitory-left {
+      margin-bottom: 20px; }
+      .index-dormitory-left img {
+        width: 80%; } }
 
 .index-dormitory-right {
   display: -webkit-box;
@@ -2855,6 +2919,9 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
+  @media (max-width: 767px) {
+    .index-dormitory-bottom {
+      display: block; } }
 
 .index-dormitory-bottom-img {
   -ms-flex-preferred-size: calc(50% - 10px);
@@ -2874,16 +2941,24 @@ img {
   display: flex;
   max-width: 1000px;
   margin: 40px auto 100px; }
+  @media (max-width: 767px) {
+    .index-dormitory-contents {
+      display: block;
+      margin: 20px auto 0;
+      padding: 0 10px; } }
 
 .index-dormitory-title {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 30%;
-          flex: 0 0 30%;
+      -ms-flex: 0 0 35%;
+          flex: 0 0 35%;
   font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+  margin: 0 0 12px; }
   .index-dormitory-title span {
     font-size: .9rem;
-    font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", sans-serif; }
+    font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", sans-serif;
+    margin: 0 0 6px;
+    display: inline-block; }
 
 .index-facilities {
   display: -webkit-box;
@@ -3142,6 +3217,7 @@ img {
     .index-open-contents {
       display: block; }
       .index-open-contents > li {
+        padding: 0;
         margin-bottom: 16px;
         display: -webkit-box;
         display: -ms-flexbox;

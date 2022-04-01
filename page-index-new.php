@@ -100,16 +100,21 @@
 <section class="index-about">
 
   <div class="index-about-block1">
-    <h3 class="index-about-block1-title">元遊郭建築を改装、コワーキングのある宿</h3>
+    <h3 class="index-about-block1-title">元遊郭建築を改装、<br class="for-sp">コワーキングのある宿</h3>
     <p class="index-about-block1-desc">京都・清水五条駅すぐ。<br>
-      古い建築が並ぶエリア鴨川と高瀬川のせせらぎ<br>
-      築100年を超える元遊郭建築をリノベーションして<br>
+      築100年を超える明治期の元遊郭建築を<br>
+      できるだけ元の姿を残しながら<br class="for-sp">リノベーションして<br>
       「仕事ができる宿」にしました。</p>
-    <img src="<?php echo get_template_directory_uri(); ?>/img/index/about-01.jpg" alt="" class="index-about-block1-img">
+    <div class="index-about-block1-img">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/index/about-01.jpg" alt="玄関">
+    </div>
   </div>
 
   <div class="index-about-wrapper">
     <div class="index-about-block2">
+      <div class="index-about-img">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/index/about-02.jpg" alt="">
+      </div>
       <div class="index-about-text">
         <h3 class="index-about-title">コワーキング使い放題<br>会議室2時間無料</h3>
         <p class="index-about-desc">チェックインの日の朝10時から<br>
@@ -118,9 +123,7 @@
         ディスプレイや充電器の用意もございます。</p>
         <p class="index-about-detail"><a href="/coworking">詳しくはこちら</a></p>
       </div>
-      <div class="index-about-img">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/index/about-02.jpg" alt="">
-      </div>
+
     </div>
 
     <div class="index-about-block3">
@@ -138,10 +141,13 @@
     </div>
 
     <div class="index-about-block4">
+      <div class="index-about-img">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/index/about-04.jpg" alt="">
+      </div>
       <div class="index-about-text">
         <h3 class="index-about-title">長めに滞在するからこそ<br>わかる京都がある</h3>
-        <p class="index-about-desc">UNKNOWN KYOTOの魅力が一番味わえるのは<br>
-          2泊、3泊、もしくはそれ以上かけて<br>
+        <p class="index-about-desc">UNKNOWN KYOTOの魅力が一番味わえるのは<br class="for-pc">
+          2泊、3泊、もしくはそれ以上かけて<br  class="for-pc">
           じっくりと京都を味わうような滞在です。<br>
           シェアキッチンやランドリーなど、<br>
           暮らすのに必要なものはすべて揃っています。<br>
@@ -149,9 +155,7 @@
           連泊用のプランもございます。</p>
           <p class="index-about-detail"><a href="https://unknown.kyoto/plan/workation/">詳しくはこちら</a></p>
       </div>
-      <div class="index-about-img">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/index/about-04.jpg" alt="">
-      </div>
+
     </div>
   </div>
 </section>
@@ -210,10 +214,10 @@
 
     </div>
     <div class="index-dormitory-contents">
-      <h3 class="index-dormitory-title"><span>泊まれるデスク</span><br>ワーキングベッド</h3>
+      <h3 class="index-dormitory-title"><span>泊まれるデスク</span><br>ワーキングポッド</h3>
       <div class="index-dormitory-text">
-        <p class="index-rooms-desc">UNKNOWN KYOTOのドミトリー（二段ベッド相部屋）は、全室にミニデスクがついています。
-        「泊まれるデスク」として、宿泊にもデイユースにも。</p>
+        <p class="index-rooms-desc">UNKNOWN KYOTOの二段ベッド相部屋は、全室にミニデスクがついています。<br>幅約160cmと一般的な「ドミトリー」よりゆったりとしたつくりで、相部屋ですが広々とお使いいただけます。<br>
+        「横になれるデスク」として、気軽な宿泊だけでなくデイユースにもおすすめです。</p>
         <p class="index-rooms-">1泊 3,850円〜 / ひと部屋まるまる貸し切り 19,800円（定員6名）</p>
         <p class="index-rooms-detail"><a href="/hostel">詳しく見る</a></p>
       </div>

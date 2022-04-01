@@ -32,7 +32,7 @@
           </div>
           <div class="restaurant-intro-open">
             <h3 class="restaurant-intro-open-title">TEL</h3>
-            <p class="restaurant-intro-open-time">075-746-4665</p>
+            <p class="restaurant-intro-open-time">075-203-8383</p>
           </div>
         </div>
       </div>
@@ -190,8 +190,8 @@
         <p class="restaurant-detail-description">立ち飲み席には椅子を出すこともできます。</p>
         <h3 class="restaurant-detail-title">ご連絡</h3>
         <p class="restaurant-detail-description">お問い合わせ・ご予約はこちらまで。</p>
-        <p class="restaurant-detail-tel-pc">075-746-4665</p>
-        <p class="restaurant-detail-tel-sp"><a href="tel:075-746-4665">075-746-4665</a><br><span>タップで電話アプリに移動します</span></p>
+        <p class="restaurant-detail-tel-pc">075-203-8383</p>
+        <p class="restaurant-detail-tel-sp"><a href="tel:075-203-8383">075-203-8383</a><br><span>タップで電話アプリに移動します</span></p>
         <div class="restaurant-detail-access">
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1473.2485986550075!2d135.76626007865065!3d34.994540147960905!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1b71b7865ff3b755!2sSin%20-Dining%EF%BC%86Bar-!5e0!3m2!1sja!2sjp!4v1602139890455!5m2!1sja!2sjp" width="auto" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
           <p class="restaurant-detail-access-btn"><a href="https://g.page/sin-diningbar?share">google mapで表示する</a></p>
