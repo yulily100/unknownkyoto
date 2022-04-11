@@ -97,7 +97,7 @@
 
 </section>
 
-<section class="index-about">
+<section class="index-about js-fadein">
 
   <div class="index-about-block1">
     <h3 class="index-about-block1-title">元遊郭建築を改装、<br class="for-sp">コワーキングのある宿</h3>
@@ -161,8 +161,8 @@
 </section>
 <section class="index-stay">
   <div class="index-stay-inner">
-    <h2 class="index-stay-title">Rooms</h2>
-    <ul class="index-rooms">
+    <h2 class="index-stay-title js-fadein">Rooms</h2>
+    <ul class="index-rooms js-fadein">
       <li>
         <img src="<?php echo get_template_directory_uri(); ?>/img/index/room-reluxsingle.jpg" alt="">
         <div class="index-rooms-text">
@@ -201,7 +201,7 @@
       </li>
     </ul>
   </div>
-  <div class="index-dormitory">
+  <div class="index-dormitory js-fadein">
     <div class="index-dormitory-img">
       <div class="index-dormitory-left"><img src="<?php echo get_template_directory_uri(); ?>/img/index/dormi-1.jpg" alt=""></div>
       <div class="index-dormitory-right">
