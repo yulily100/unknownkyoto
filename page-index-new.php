@@ -218,7 +218,7 @@
       <div class="index-dormitory-text">
         <p class="index-rooms-desc">UNKNOWN KYOTOの二段ベッド相部屋は、全室にミニデスクがついています。<br>幅約160cmと一般的な「ドミトリー」よりゆったりとしたつくりで、相部屋ですが広々とお使いいただけます。<br>
         「横になれるデスク」として、気軽な宿泊におすすめです。</p>
-        <p class="index-rooms-">1泊 3,850円〜 / ひと部屋まるまる貸し切り 19,800円（定員6名）</p>
+        <p class="index-rooms-">1泊 3,850円〜</p>
         <p class="index-rooms-detail"><a href="/hostel">詳しく見る</a></p>
       </div>
     </div>
@@ -354,8 +354,8 @@
   <section class="top-footer-contents">
     <p class="top-recruit-heading">RECRUIT</p>
     <h3 class="top-footer-title">スタッフ募集</h3>
-    <p class="top-footer-description">2022/1/11<br>住み込みスタッフの<br>募集を開始しました</p>
-    <p class="btn-normal"><a href="https://unknown.kyoto/blog/recruit-202111/" target="_blank" rel="noopener">詳細はこちら</a></p>
+    <p class="top-footer-description">現在募集はありません</p>
+    <!-- <p class="btn-normal"><a href="https://unknown.kyoto/blog/recruit-202111/" target="_blank" rel="noopener">詳細はこちら</a></p> -->
   </section>
 </div>
 
