@@ -6,9 +6,6 @@
       <img src="<?php echo get_template_directory_uri(); ?>/img/top-logo.svg" alt="UNKNOWN KYOTO" class="logo-pc">
       <img src="<?php echo get_template_directory_uri(); ?>/img/top-logo-sp.svg" alt="UNKNOWN KYOTO" class="logo-sp">
     </h1>
-    <p class="top-main-description">京都清水五条駅すぐ、元遊郭建築をリノベーションした宿泊複合施設<br>宿泊者はコワーキングスペースが使い放題です</p>
-
-     <p class="top-main-info"><span>SALE</span><a href="https://unknown.kyoto/blog/kyoto-miryoku/">京都府民なら実質400円〜で<br class="for-sp">宿泊＆コワーキング使い放題</a></p>
 
   </div>
 
@@ -31,46 +28,209 @@
   </div>
 </div>
 
-<?php get_template_part( "top-open" ); ?>
+<!-- <div class="index-hero">
+  <div class="index-hero-inner">
+    <h1 class="index-hero-title"><img src="<?php echo get_template_directory_uri(); ?>/img/index-logo.svg" alt="UNKNOWN KYOTO"></h1>
+    <p class="index-hero-desc">元遊郭建築を改装、コワーキングのある宿</p>
+    <img src="<?php echo get_template_directory_uri(); ?>/img/index/intro-01.jpg" alt="UNKNOWN KYOTO" class="index-hero-img">
+    <div class="index-main-share">
+      <p class="index-main-share-text">SNS</p>
+      <ul class="index-main-share-icon">
+      <li><a href="https://twitter.com/unknown_kyoto" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/index-sns-twitter.svg" alt="Twitter"></a></li>
+        <li><a href="https://www.instagram.com/unknownkyoto/" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/index-sns-instagram.svg" alt="Instagram"></a></li>
+        <li><a href="https://www.facebook.com/Unknown.Kyoto.Gojo.Rakuen" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/index-sns-facebook.svg" alt="Facebook"></a></li>
+      </ul>
+    </div>
+  </div>
+</div> -->
 
-<section class="top-about">
-  <div class="wrapper">
-    <div class="top-about-intro js-fadein">
-      <h2 class="top-about-title"><img src="<?php echo get_template_directory_uri(); ?>/img/top-about-title.svg" alt="UNKNOWN KYOTO"></h2>
-      <p class="top-about-description">
-        UNKNOWN KYOTOは<br>
-        京都の元遊郭建築をリノベーション<br class="for-sp">した宿泊複合施設です。<br>
-        ホステルとレストランと<br class="for-sp">コワーキングペースを併設しています。<br>
-        ベッドでくつろいで、<br class="for-sp">おいしいご飯を食べて、<br class="for-sp">それから仕事まで。<br>
-        旅をしながら働く<br class="for-sp">「ワーケーション」の場としても<br class="for-sp">ご利用いただけます。
+
+<section class="index-open">
+  <ul class="index-open-contents">
+    <li>
+      <h3 class="index-open-contents-title">
+        <a href="/hostel">Hostel</a>
+      </h3>
+      <p class="index-open-contents-desc">CHECK IN…16:00 - 22:00<br>
+      CHECK OUT　11:00</p>
+    </li>
+    <li>
+      <h3 class="index-open-contents-title">
+        <a href="/restaurant">Restaurant</a>
+      </h3>
+      <p class="index-open-contents-desc">11:30 - 15:00 (L.O. 14:30)<br>17:30 - 23:00<br>
+      <span class="index-open-contents-note">日曜はポップアップ</span>
       </p>
+    </li>
+    <li>
+      <h3 class="index-open-contents-title">
+        <a href="/coworking">Coworking</a>
+      </h3>
+      <p class="index-open-contents-desc">ドロップイン…10:00 - 19:00<br>月額会員…24時間年中無休<br>
+    </p>
+    </li>
+  </ul>
+
+</section>
+
+<?php
+	$toplist = array(
+		'posts_per_page' => 2,
+		'meta_key' => 'show_pick_up',
+		'meta_value' => 'show',
+		'meta_compare' => 'LIKE'
+	);
+	$toplist_query = new WP_Query( $toplist );
+?>
+
+<section class="index-info">
+  <ul class="index-info-list">
+    <?php if ($toplist_query->have_posts()) : while($toplist_query->have_posts()) : $toplist_query->the_post(); ?>
+    <li>
+    <div class="index-info-cat">
+      <?php the_category(); ?>
+    </div>
+    <a href="<?php the_permalink(); ?>"><?php echo get_the_title(); ?></a>
+    </li>
+    <?php endwhile; endif; wp_reset_postdata(); ?>
+  </ul>
+
+</section>
+
+<section class="index-about js-fadein">
+
+  <div class="index-about-block1">
+    <h3 class="index-about-block1-title">元遊郭建築を改装、<br class="for-sp">コワーキングのある宿</h3>
+    <p class="index-about-block1-desc">京都・清水五条駅すぐ。<br>
+      築100年を超える明治期の元遊郭建築を<br>
+      できるだけ元の姿を残しながら<br class="for-sp">リノベーションして<br>
+      「仕事ができる宿」にしました。</p>
+    <div class="index-about-block1-img">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/index/about-01.jpg" alt="玄関">
+    </div>
+  </div>
+
+  <div class="index-about-wrapper">
+    <div class="index-about-block2">
+      <div class="index-about-img">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/index/about-02.jpg" alt="">
+      </div>
+      <div class="index-about-text">
+        <h3 class="index-about-title">コワーキング使い放題<br>会議室2時間無料</h3>
+        <p class="index-about-desc">チェックインの日の朝10時から<br>
+        チェックアウトの日の夜19時まで<br>
+        コワーキングスペースが自由に使えます。<br>
+        ディスプレイや充電器の用意もございます。</p>
+        <p class="index-about-detail"><a href="/coworking">詳しくはこちら</a></p>
+      </div>
+
+    </div>
+
+    <div class="index-about-block3">
+      <div class="index-about-img">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/index/about-03.jpg" alt="">
+      </div>
+      <div class="index-about-text">
+        <h3 class="index-about-title">昼は定食でお腹いっぱいに<br>夜は本格的なイタリアンで乾杯</h3>
+        <p class="index-about-desc">昼は定食ランチ、夜は本格イタリアンのお店。<br>
+          地元の人からも愛される飲食店です。<br>
+          名物の「唐揚げ」はぜひ一度<br>
+          食べていただきたい逸品です。</p>
+        <p class="index-about-detail"><a href="/restaurant">詳しくはこちら</a></p>
+      </div>
+    </div>
+
+    <div class="index-about-block4">
+      <div class="index-about-img">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/index/about-04.jpg" alt="">
+      </div>
+      <div class="index-about-text">
+        <h3 class="index-about-title">長めに滞在するからこそ<br>わかる京都がある</h3>
+        <p class="index-about-desc">UNKNOWN KYOTOの魅力が一番味わえるのは<br class="for-pc">
+          2泊、3泊、もしくはそれ以上かけて<br  class="for-pc">じっくりと京都を味わうような滞在です。<br>
+          シェアキッチンやランドリーなど、<br>
+          暮らすのに必要なものはすべて揃っています。<br>
+          3泊以上から宿泊料金の総額を10%オフします。<br>
+          6泊以上からのプランもございます。</p>
+          <p class="index-about-detail"><a href="https://unknown.kyoto/plan/workation/">詳しくはこちら</a></p>
+      </div>
+
     </div>
   </div>
 </section>
-<section class="top-facilities-hostel">
-  <div class="wrapper">
-    <h3 class="top-facilities-title">Hostel<span>泊まる</span></h3>
-    <p class="top-facilities-description">
-      築100年以上の元遊郭建築をベッドのお部屋に。<br>
-      もっと気軽に泊まれるドミトリーも用意しています。<br>
-      宿泊者はコワーキングスペースが自由に使えます。
-      </p>
-    <p class="top-facilities-readmore"><a href="/hostel">詳しくはこちら</a></p>
+<section class="index-stay">
+  <div class="index-stay-inner">
+    <h2 class="index-stay-title js-fadein">Rooms</h2>
+    <ul class="index-rooms js-fadein">
+      <li>
+        <img src="<?php echo get_template_directory_uri(); ?>/img/index/room-reluxsingle.jpg" alt="">
+        <div class="index-rooms-text">
+          <h4 class="index-rooms-title">リラックスシングルルーム（定員1名）</h4>
+          <p class="index-rooms-desc">デスクの付いた、シングルベッドのゆったりとしたお部屋です。長期滞在をされる方には特におすすめです。</p>
+          <p>1泊 9,350円</p>
+          <p class="index-rooms-detail"><a href="/hostel">詳しく見る</a></p>
+        </div>
+      </li>
+      <li>
+        <img src="<?php echo get_template_directory_uri(); ?>/img/index/room-widebed.jpg" alt="">
+        <div class="index-rooms-text">
+          <h4 class="index-rooms-title">ワイドベッドルーム（定員2名）</h4>
+          <p class="index-rooms-desc">デスクの付いた、ダブルベッドのお部屋です。小さな床の間付きの和風な趣を残しています。</p>
+          <p>1泊 9,350円（2名でも同価格）</p>
+          <p class="index-rooms-detail"><a href="/hostel">詳しく見る</a></p>
+        </div>
+      </li>
+      <li>
+        <img src="<?php echo get_template_directory_uri(); ?>/img/index/room-deluxetwin.jpg" alt="">
+        <div class="index-rooms-text">
+          <h4 class="index-rooms-title">デラックスツインルーム（定員2名）</h4>
+          <p class="index-rooms-desc">洗面台付きの広めのお部屋です。大きめのデスクが付き、ゆったり過ごせます。</p>
+          <p>1泊 11,550円（2名でも同価格）</p>
+          <p class="index-rooms-detail"><a href="/hostel">詳しく見る</a></p>
+        </div>
+      </li>
+      <li>
+        <img src="<?php echo get_template_directory_uri(); ?>/img/index/room-single.jpg" alt="">
+        <div class="index-rooms-text">
+          <h4 class="index-rooms-title">シングルルーム（定員1名）</h4>
+          <p class="index-rooms-desc">デスクのないミニマルなシングルベッドのお部屋です。作業はコワーキングでされる方におすすめです。</p>
+          <p>1泊 8,250円</p>
+          <p class="index-rooms-detail"><a href="/hostel">詳しく見る</a></p>
+        </div>
+      </li>
+    </ul>
   </div>
-</section>
-<section class="top-facilities-restaurant">
-  <div class="wrapper">
-    <h3 class="top-facilities-title">Restaurant & Bar<span>食べる</span></h3>
-    <p class="top-facilities-description">昼は定食、夜は本格的なイタリアンが楽しめます。<br>宿泊者以外も、誰でも利用することができます。</p>
-    <p class="top-facilities-readmore"><a href="/restaurant">詳しくはこちら</a></p>
+  <div class="index-dormitory js-fadein">
+    <div class="index-dormitory-img">
+      <div class="index-dormitory-left"><img src="<?php echo get_template_directory_uri(); ?>/img/index/dormi-1.jpg" alt=""></div>
+      <div class="index-dormitory-right">
+        <div class="index-dormitory-2"><img src="<?php echo get_template_directory_uri(); ?>/img/index/dormi-2.jpg" alt=""></div>
+        <div class="index-dormitory-bottom">
+          <div class="index-dormitory-bottom-img"><img src="<?php echo get_template_directory_uri(); ?>/img/index/dormi-3.jpg" alt=""></div>
+          <div class="index-dormitory-bottom-img"><img src="<?php echo get_template_directory_uri(); ?>/img/index/dormi-4.jpg" alt=""></div>
+        </div>
+      </div>
+
+    </div>
+    <div class="index-dormitory-contents">
+      <h3 class="index-dormitory-title"><span>泊まれるデスク</span><br>ワーキングベッド</h3>
+      <div class="index-dormitory-text">
+        <p class="index-rooms-desc">UNKNOWN KYOTOの二段ベッド相部屋は、全室にミニデスクがついています。一般的な「ドミトリー」よりゆったりとしたつくりで、相部屋ですが広々とお使いいただけます。<br>
+        「横になれるデスク」として、気軽な宿泊におすすめです。</p>
+        <p class="index-rooms-">1泊 3,850円〜</p>
+        <p class="index-rooms-detail"><a href="/hostel">詳しく見る</a></p>
+      </div>
+    </div>
   </div>
-</section>
-<section class="top-facilities-coworking">
-  <div class="wrapper">
-    <h3 class="top-facilities-title">Coworking<span>働く</span></h3>
-    <p class="top-facilities-description">旅先にいながらもしっかりとお仕事することができます。<br>コワーキングのみの月額利用も可能です。</p>
-    <p class="top-facilities-readmore"><a href="/coworking">詳しくはこちら</a></p>
-  </div>
+  <!-- <ul class="index-facilities">
+    <li>コワーキング</li>
+    <li>会議室</li>
+    <li>ディスプレイモニター</li>
+    <li>シェアキッチン<br>コインランドリーあり</li>
+    <li>二泊以上から割引</li>
+  </ul> -->
+
+
 </section>
 
 <div class="wrapper">
@@ -193,8 +353,8 @@
   <section class="top-footer-contents">
     <p class="top-recruit-heading">RECRUIT</p>
     <h3 class="top-footer-title">スタッフ募集</h3>
-    <p class="top-footer-description">2022/1/11<br>住み込みスタッフの<br>募集を開始しました</p>
-    <p class="btn-normal"><a href="https://unknown.kyoto/blog/recruit-202111/" target="_blank" rel="noopener">詳細はこちら</a></p>
+    <p class="top-footer-description">現在募集はありません</p>
+    <!-- <p class="btn-normal"><a href="https://unknown.kyoto/blog/recruit-202111/" target="_blank" rel="noopener">詳細はこちら</a></p> -->
   </section>
 </div>
 
