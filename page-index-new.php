@@ -147,12 +147,11 @@
       <div class="index-about-text">
         <h3 class="index-about-title">長めに滞在するからこそ<br>わかる京都がある</h3>
         <p class="index-about-desc">UNKNOWN KYOTOの魅力が一番味わえるのは<br class="for-pc">
-          2泊、3泊、もしくはそれ以上かけて<br  class="for-pc">
-          じっくりと京都を味わうような滞在です。<br>
+          2泊、3泊、もしくはそれ以上かけて<br  class="for-pc">じっくりと京都を味わうような滞在です。<br>
           シェアキッチンやランドリーなど、<br>
           暮らすのに必要なものはすべて揃っています。<br>
-          2泊以上からお安く滞在いただける<br>
-          連泊用のプランもございます。</p>
+          3泊以上から宿泊料金の総額を10%オフします。<br>
+          6泊以上からのプランもございます。</p>
           <p class="index-about-detail"><a href="https://unknown.kyoto/plan/workation/">詳しくはこちら</a></p>
       </div>
 
@@ -216,7 +215,7 @@
     <div class="index-dormitory-contents">
       <h3 class="index-dormitory-title"><span>泊まれるデスク</span><br>ワーキングベッド</h3>
       <div class="index-dormitory-text">
-        <p class="index-rooms-desc">UNKNOWN KYOTOの二段ベッド相部屋は、全室にミニデスクがついています。<br>幅約160cmと一般的な「ドミトリー」よりゆったりとしたつくりで、相部屋ですが広々とお使いいただけます。<br>
+        <p class="index-rooms-desc">UNKNOWN KYOTOの二段ベッド相部屋は、全室にミニデスクがついています。一般的な「ドミトリー」よりゆったりとしたつくりで、相部屋ですが広々とお使いいただけます。<br>
         「横になれるデスク」として、気軽な宿泊におすすめです。</p>
         <p class="index-rooms-">1泊 3,850円〜</p>
         <p class="index-rooms-detail"><a href="/hostel">詳しく見る</a></p>
