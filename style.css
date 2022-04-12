@@ -2616,30 +2616,38 @@ img {
     color: #3a372f; }
 
 .index-about {
-  margin-right: 80px;
-  margin-left: 80px;
   background: url("img/index-about.svg");
   background-size: 333px 191px;
   background-repeat: no-repeat;
   background-position: center 70px;
   padding: 280px 0 0 0; }
-  @media (min-width: 1360px) {
+  @media (max-width: 767px) {
     .index-about {
+      background-position: center 40px;
+      padding-top: 250px; } }
+
+.index-about-wrapper {
+  margin-right: 80px;
+  margin-left: 80px;
+  max-width: 1000px;
+  margin: 0 auto; }
+  @media (min-width: 1360px) {
+    .index-about-wrapper {
       max-width: 1200px;
       margin: 0 auto; } }
   @media (max-width: 767px) {
-    .index-about {
+    .index-about-wrapper {
       margin: 0 5%; } }
   @media (max-width: 360px) {
-    .index-about {
+    .index-about-wrapper {
       margin: 0 1em; } }
+  @media (max-width: 1035px) {
+    .index-about-wrapper {
+      margin-right: 80px;
+      margin-left: 80px; } }
   @media (max-width: 767px) {
-    .index-about {
-      background-position: center 40px; } }
-
-.index-about-wrapper {
-  max-width: 1000px;
-  margin: 0 auto; }
+    .index-about-wrapper {
+      margin: 0 5%; } }
 
 .index-about-block1 {
   text-align: center;
@@ -2657,7 +2665,7 @@ img {
   font-size: 1.2rem; }
   @media (max-width: 767px) {
     .index-about-block1-desc {
-      font-size: 1.1rem; } }
+      font-size: 1rem; } }
 
 .index-about-block1-img img {
   width: 100%;
@@ -2666,10 +2674,8 @@ img {
      object-fit: cover; }
 
 @media (max-width: 767px) {
-  .index-about-block1-img {
-    margin: 0 -5%; }
-    .index-about-block1-img img {
-      height: auto; } }
+  .index-about-block1-img img {
+    height: auto; } }
 
 .index-about-title {
   font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
@@ -2683,6 +2689,9 @@ img {
 .index-about-desc {
   font-size: 1.1rem;
   line-height: 1.8; }
+  @media (max-width: 767px) {
+    .index-about-desc {
+      font-size: 1rem; } }
 
 .index-about-detail {
   margin: 12px 0 0 0; }

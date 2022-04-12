@@ -137,7 +137,7 @@
 }
 
 .index-about {
-  @include wrapper();
+  
   background: url("img/index-about.svg");
   background-size: 333px 191px;
   background-repeat: no-repeat;
@@ -145,12 +145,21 @@
   padding: 280px 0 0 0;
   @media #{$mq-sm} {
     background-position: center 40px;
+    padding-top: 250px;
   }
 
 }
 .index-about-wrapper {
+  @include wrapper();
   max-width: 1000px;
   margin: 0 auto;
+  @media #{$mq-md} {
+    margin-right: 80px;
+    margin-left: 80px;
+  }
+  @media #{$mq-sm} {
+    margin: 0 5%;
+  }
 }
 .index-about-block1 {
   text-align: center;
@@ -167,7 +176,7 @@
   line-height: 1.8;
   font-size: 1.2rem;
   @media #{$mq-sm} {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
 }
@@ -179,7 +188,6 @@
   }
 
   @media #{$mq-sm} {
-    margin: 0 -5%;
     img {
       height: auto;
     }
@@ -199,6 +207,9 @@
 .index-about-desc {
   font-size: 1.1rem;
   line-height: 1.8;
+  @media #{$mq-sm} {
+    font-size: 1rem;
+  }
 }
 .index-about-detail {
   margin: 12px 0 0 0;
