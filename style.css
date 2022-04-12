@@ -2724,7 +2724,7 @@ img {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse; }
-  @media (max-width: 767px) {
+  @media (max-width: 1035px) {
     .index-about-block2 {
       display: block; } }
 
@@ -2736,7 +2736,7 @@ img {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 100px; }
-  @media (max-width: 767px) {
+  @media (max-width: 1035px) {
     .index-about-block3 {
       display: block; } }
 
@@ -2752,7 +2752,7 @@ img {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse; }
-  @media (max-width: 767px) {
+  @media (max-width: 1035px) {
     .index-about-block4 {
       display: block; } }
   .index-about-block4 img {
@@ -2761,7 +2761,7 @@ img {
 .index-about-img {
   width: 50%;
   text-align: center; }
-  @media (max-width: 767px) {
+  @media (max-width: 1035px) {
     .index-about-img {
       width: 100%;
       margin-bottom: 12px; } }
@@ -2769,7 +2769,7 @@ img {
 .index-about-text {
   width: 50%;
   padding: 0 60px; }
-  @media (max-width: 767px) {
+  @media (max-width: 1035px) {
     .index-about-text {
       width: 100%;
       padding: 0 10px; } }
@@ -2804,12 +2804,14 @@ img {
   @media (max-width: 767px) {
     .index-rooms {
       display: block; } }
-  @media (max-width: 767px) {
+  @media (max-width: 1035px) {
     .index-rooms {
-      margin: 0; }
-      .index-rooms > li {
-        margin-left: 5%;
-        margin-right: 5%; } }
+      padding: 0 80px;
+      margin: 0; } }
+  @media (max-width: 767px) {
+    .index-rooms > li {
+      margin-left: 5%;
+      margin-right: 5%; } }
 
 .index-rooms-text {
   padding: 8px 16px; }
@@ -5540,15 +5542,14 @@ img {
               flex-direction: column-reverse; } }
 
 .hostel2-room-title {
-  font-family: "Vollkorn", serif;
-  font-weight: normal;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
+  font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
   margin: 0 0 12px 0; }
   .hostel2-room-title span {
+    font-family: "Vollkorn", serif;
     display: block;
-    font-size: .8rem;
+    font-size: 1rem;
     margin: 0 0 4px;
-    font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", sans-serif;
     color: #666054;
     font-weight: bold; }
   @media (min-width: 1360px) {
@@ -5742,16 +5743,16 @@ img {
       height: 100%; } }
 
 .hostel2-section-title {
-  font-family: "Vollkorn", serif;
-  font-weight: normal;
+  font-size: 1.4rem;
+  font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
   font-size: 2rem;
   text-align: center;
   margin: 0 0 40px; }
   .hostel2-section-title span {
+    font-family: "Vollkorn", serif;
     display: block;
-    font-size: .8rem;
+    font-size: 1rem;
     margin: 0 0 4px;
-    font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", sans-serif;
     color: #666054;
     font-weight: bold; }
 
@@ -5764,15 +5765,15 @@ img {
     margin-top: -6rem; }
 
 .hostel2-facilities-title {
-  font-family: "Vollkorn", serif;
-  font-weight: normal;
+  font-size: 1.4rem;
+  font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
   font-size: 1.7rem;
   margin: 0 0 12px; }
   .hostel2-facilities-title span {
+    font-family: "Vollkorn", serif;
     display: block;
-    font-size: .8rem;
+    font-size: 1rem;
     margin: 0 0 4px;
-    font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", sans-serif;
     color: #666054;
     font-weight: bold; }
 
@@ -5907,16 +5908,16 @@ img {
       display: block; } }
 
 .hostel2-amenities-title {
-  font-family: "Vollkorn", serif;
-  font-weight: normal;
+  font-size: 1.4rem;
+  font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
   font-size: 1.7rem;
   -ms-flex-preferred-size: 200px;
       flex-basis: 200px; }
   .hostel2-amenities-title span {
+    font-family: "Vollkorn", serif;
     display: block;
-    font-size: .8rem;
+    font-size: 1rem;
     margin: 0 0 4px;
-    font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", sans-serif;
     color: #666054;
     font-weight: bold; }
 

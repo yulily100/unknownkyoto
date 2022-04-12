@@ -211,7 +211,7 @@
   display: flex;
   align-items: center;
   margin-bottom: 100px;
-  @media #{$mq-sm} {
+  @media #{$mq-md} {
     display: block;
   }
 }
@@ -235,7 +235,7 @@
 .index-about-img {
   width: 50%;
   text-align: center;
-  @media #{$mq-sm} {
+  @media #{$mq-md} {
     width: 100%;
     margin-bottom: 12px;
   }
@@ -244,7 +244,7 @@
 .index-about-text {
   width: 50%;
   padding: 0 60px;
-  @media #{$mq-sm} {
+  @media #{$mq-md} {
     width: 100%;
     padding: 0 10px;
   }
@@ -268,8 +268,11 @@
 .index-rooms {
   @include column2();
   flex-wrap: wrap;
-  @media #{$mq-sm} {
+  @media #{$mq-md} {
+    padding: 0 80px;
     margin: 0;
+  }
+  @media #{$mq-sm} {
     > li {
       margin-left: 5%;
       margin-right: 5%;
