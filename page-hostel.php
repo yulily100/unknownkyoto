@@ -64,10 +64,53 @@ $(function() {
 </ul>
 
 <div class="hostel2-room" id="hostel2-room">
+<section class="hostel2-room-private">
+    <div class="hostel2-room-private-text">
+      <h3 class="hostel2-room-title"><span>Relux Single Room</span>リラックスシングルルーム(定員1名)</h3>
+      <p class="hostel2-room-description">デスクのついたゆったりとしたシングルルームです。中・長期の滞在や、お部屋でもテレビ会議などをしたい方に特におすすめです。</p>
+      <ul class="hostel2-room-equipment">
+        <li>デスク</li>
+        <li>スタンドライト</li>
+        <li>バスタオル</li>
+        <li>フェイスタオル</li>
+      </ul>
+      <ul class="hostel2-room-equipment">
+        <li>掛け鏡</li>
+        <li>ドライヤー</li>
+        <li>共同シャワー</li>
+        <li>共同トイレ</li>
+      </ul>
+      <ul class="hostel2-room-equipment">
+        <li>コワーキング無料</li>
+        <li>会議室2時間無料</li>
+      </ul>
+      <p class="hostel2-room-price">
+        1泊　9,350円<br>
+        3泊　25,245円 (1泊8,415円)<br>
+        6泊　39,780円 (1泊6,630円)</p>
+      <p class="hostel-room-note">消費税込み、宿泊税一人200円/一泊</p>
+        <!-- <span class="line-through">7,500円</span>
+        <br>GO TOトラベル価格で<br>4,880円 + 地域共通クーポン1000円分配布 -->
+    </div>
+    <div class="hostel2-room-private-img">
+      <ul class="hostel2-gallery">
+        <li id="relux1" class="is-active hostel2-gallery-img relux"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-relux1.jpg" alt="リラックスシングルルーム"></li>
+        <li id="relux2" class="hostel2-gallery-img relux"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-relux2.jpg" alt="リラックスシングルルーム"></li>
+        <li id="relux3" class="hostel2-gallery-img relux"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-relux3.jpg" alt="リラックスシングルルーム"></li>
+        <li id="relux4" class="hostel2-gallery-img relux"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-relux4.jpg" alt="リラックスシングルルーム"></li>
+      </ul>
+      <ul class="hostel2-gallery-thumb">
+        <li><button type="button" id="relux1-thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-relux1-thumb.jpg" alt="リラックスシングルルーム"></button></li>
+        <li><button type="button" id="relux2-thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-relux2-thumb.jpg" alt="リラックスシングルルーム"></button></li>
+        <li><button type="button" id="relux3-thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-relux3-thumb.jpg" alt="リラックスシングルルーム"></button></li>
+        <li><button type="button" id="relux4-thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-relux4-thumb.jpg" alt="リラックスシングルルーム"></button></li>
+      </ul>
+    </div>
+  </section>
   <section class="hostel2-room-private">
     <div class="hostel2-room-private-text">
-      <h3 class="hostel2-room-title"><span>シングルルーム</span>Single Room</h3>
-      <p class="hostel2-room-description">障子や床の間がある和風な趣を残したシングルルームです。<br>障子のお部屋は完全遮光ではありませんが、柔らかな日差しとともに朝を迎えることができます。</p>
+      <h3 class="hostel2-room-title"><span>Single Room</span>シングルルーム(定員1名)</h3>
+      <p class="hostel2-room-description">床の間のある和風な趣を残したシングルルームです。障子は完全遮光ではありませんが、柔らかな日差しとともに朝を迎えることができます。<br>※こちらのお部屋にはデスクは付きません。</p>
       <ul class="hostel2-room-equipment">
         <li>スタンドライト</li>
         <li>バスタオル</li>
@@ -95,25 +138,20 @@ $(function() {
       <ul class="hostel2-gallery">
         <li id="single1" class="is-active hostel2-gallery-img single"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-single1.jpg" alt="シングルルーム"></li>
         <li id="single2" class="hostel2-gallery-img single"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-single2.jpg" alt="シングルルーム"></li>
-        <li id="single3" class="hostel2-gallery-img single"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-single3.jpg" alt="シングルルーム"></li>
-        <li id="single4" class="hostel2-gallery-img single"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-single4.jpg" alt="シングルルーム"></li>
-        <li id="single5" class="hostel2-gallery-img single"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-single5.jpg" alt="シングルルーム"></li>
         
       </ul>
       <ul class="hostel2-gallery-thumb">
         <li><button type="button" id="single1-thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-single1-thumb.jpg" alt="シングルルーム"></button></li>
         <li><button type="button" id="single2-thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-single2-thumb.jpg" alt="シングルルーム"></button></li>
-        <li><button type="button" id="single3-thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-single3-thumb.jpg" alt="シングルルーム"></button></li>
-        <li><button type="button" id="single4-thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-single4-thumb.jpg" alt="シングルルーム"></button></li>
-        <li><button type="button" id="single5-thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-single5-thumb.jpg" alt="シングルルーム"></button></li>
       </ul>
     </div>
   </section>
   <section class="hostel2-room-private">
     <div class="hostel2-room-private-text">
-      <h3 class="hostel2-room-title"><span>ダブルルーム</span>Double Room</h3>
-      <p class="hostel2-room-description">小さな床の間付きの和風な趣を残すダブルルームです。窓と部屋の間は障子で仕切られているため、完全遮光のお部屋ではありませんが優しい光を感じられるお部屋です。</p>
+      <h3 class="hostel2-room-title"><span>Double Room</span>ワイドベッドルーム(定員２名)</h3>
+      <p class="hostel2-room-description">デスクのついた、和風な趣を残すダブルベッドのお部屋です。窓と部屋の間は障子で仕切られているため、完全遮光のお部屋ではありませんが優しい光を感じられるお部屋です。</p>
       <ul class="hostel2-room-equipment">
+        <li>デスク</li>
         <li>スタンドライト</li>
         <li>バスタオル</li>
         <li>フェイスタオル</li>
@@ -129,7 +167,7 @@ $(function() {
         <li>会議室2時間無料</li>
       </ul>
       <p class="hostel2-room-price">
-        1泊　9,350円<br>
+        1泊　9,350円 (2名でも同価格)<br>
         3泊　25,245円 (1泊8,415円)<br>
         6泊　39,780円 (1泊6,630円)</p>
         <!-- <span class="line-through">8,500円</span>
@@ -152,8 +190,8 @@ $(function() {
   </section>
   <section class="hostel2-room-private">
     <div class="hostel2-room-private-text">
-      <h3 class="hostel2-room-title"><span>ツインルーム</span>Twin Room</h3>
-      <p class="hostel2-room-description">シングルベッドが２台置かれたツインルームです。各部屋は遊郭建築の趣がたっぷりと感じられるつくりになっています。
+      <h3 class="hostel2-room-title"><span>Twin Room</span>ツインルーム(定員2名)</h3>
+      <p class="hostel2-room-description">洋館のような趣のある、シングルベッドが２台置かれたツインルームです。天井が高く天窓がつきます。<br>※こちらのお部屋にはデスクは付きません。
       </p>
       <ul class="hostel2-room-equipment">
         <li>スタンドライト</li>
@@ -171,7 +209,7 @@ $(function() {
         <li>会議室2時間無料</li>
       </ul>
       <p class="hostel2-room-price">
-        1泊　9,900円<br>
+        1泊　9,900円 (2名でも同価格)<br>
         3泊　26,730円 (1泊8,910円)<br>
         6泊　42,120円 (1泊7,020円)</p>
         <!-- <span class="line-through">9,000円</span>
@@ -198,7 +236,7 @@ $(function() {
   </section>
   <section class="hostel2-room-private">
     <div class="hostel2-room-private-text">
-      <h3 class="hostel2-room-title"><span>デラックスツインルーム</span>Deluxe Twin Room</h3>
+      <h3 class="hostel2-room-title"><span>Deluxe Twin Room</span>デラックスツインルーム(定員2名)</h3>
       <p class="hostel2-room-description">洗面台付きの広めのツインルームです。洗面台の他にデスクもあり、お部屋でちょっと仕事をしたいという時にもぴったりです。東西の２面に窓があるのでとても明るく気持ちの良いお部屋です。</p>
       <ul class="hostel2-room-equipment">
         <li>スタンドライト</li>
@@ -219,7 +257,7 @@ $(function() {
         <li>会議室2時間無料</li>
       </ul>
       <p class="hostel2-room-price">
-        1泊　11,550円<br>
+        1泊　11,550円 (2名でも同価格)<br>
         3泊　31,185円 (1泊10,395円)<br>
         6泊　49,140円 (1泊8,190円)</p>
         <!-- <span class="line-through">10,500円</span>
@@ -246,8 +284,8 @@ $(function() {
   <div class="hostel2-room-dormitory">
     <div class="hostel2-room-dormitory-contents">
       <img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/dormitory1.jpg" alt="男女混合ドミトリー">
-      <h3 class="hostel2-room-title"><span>男女混合ドミトリー</span>MIX Dormitory</h3>
-      <p class="hostel2-room-description">男女混合のドミトリールームです。<br>各ベッドにはカウンターテーブルが付き、通常のベッドよりもゆったりとした空間になっています。</p>
+      <h3 class="hostel2-room-title"><span>MIX Dormitory</span>ワーキングベッド</h3>
+      <p class="hostel2-room-description">男女混合のドミトリールーム（二段ベッド相部屋）です。<br>各ベッドにはカウンターテーブルが付き、通常のベッドよりもゆったりとした空間になっています。</p>
       <ul class="hostel2-room-equipment">
         <li>読書灯</li>
         <li>置き鏡</li>
@@ -268,8 +306,8 @@ $(function() {
     </div>
     <div class="hostel2-room-dormitory-contents">
       <img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/dormitory2.jpg" alt="女性専用ドミトリー">
-      <h3 class="hostel2-room-title"><span>女性専用ドミトリー</span>Female Only Dormitory</h3>
-      <p class="hostel2-room-description">女性専用のドミトリールームです。<br>各ベッドにはカウンターテーブルが付き、通常のベッドよりもゆったりとした空間になっています。</p>
+      <h3 class="hostel2-room-title"><span>Female Only Dormitory</span>女性専用ワーキングベッド</h3>
+      <p class="hostel2-room-description">女性専用のドミトリールーム（二段ベッド相部屋）です。<br>各ベッドにはカウンターテーブルが付き、通常のベッドよりもゆったりとした空間になっています。</p>
       <ul class="hostel2-room-equipment">
         <li>読書灯</li>
         <li>置き鏡</li>

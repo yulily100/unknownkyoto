@@ -1,12 +1,12 @@
 // hostel
 @mixin hostel2-heading-title {
-  font-family: $vollkorn;
-  font-weight: normal;
+  font-size: 1.4rem;
+  font-family: $yumincho;
   span {
+    font-family: $vollkorn;
     display: block;
-    font-size: .8rem;
+    font-size: 1rem;
     margin: 0 0 4px;
-    font-family: $yugothic;
     color: $text-light;
     font-weight: bold;
   }
@@ -133,7 +133,6 @@
 }
 .hostel2-room-title {
   @include hostel2-heading-title();
-  font-size: 1.8rem;
   margin: 0 0 12px 0;
   @media #{$mq-lg} {
     margin: 20px 0;

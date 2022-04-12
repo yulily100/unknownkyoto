@@ -84,7 +84,7 @@
 
     // 画像ギャラリー
     $(function() {
-      ['single', 'double', 'twin', 'deluxe'].forEach(function(roomType) {
+      ['relux', 'single', 'double', 'twin', 'deluxe'].forEach(function(roomType) {
         for (let i = 1; i <= 5; i++) {
           // single1, double3 などの文字列 
           const name = roomType + i
