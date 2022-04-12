@@ -273,6 +273,7 @@
     margin: 0;
   }
   @media #{$mq-sm} {
+    padding: 0;
     > li {
       margin-left: 5%;
       margin-right: 5%;
