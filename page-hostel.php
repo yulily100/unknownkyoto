@@ -66,7 +66,7 @@ $(function() {
 <div class="hostel2-room" id="hostel2-room">
 <section class="hostel2-room-private">
     <div class="hostel2-room-private-text">
-      <h3 class="hostel2-room-title"><span>Relux Single Room</span>リラックスシングルルーム(定員1名)</h3>
+      <h3 class="hostel2-room-title"><span>Relax Single Room</span>リラックスシングルルーム(定員1名)</h3>
       <p class="hostel2-room-description">デスクのついたゆったりとしたシングルルームです。中・長期の滞在や、お部屋でもテレビ会議などをしたい方に特におすすめです。</p>
       <ul class="hostel2-room-equipment">
         <li>デスク</li>
@@ -94,16 +94,16 @@ $(function() {
     </div>
     <div class="hostel2-room-private-img">
       <ul class="hostel2-gallery">
-        <li id="relux1" class="is-active hostel2-gallery-img relux"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-relux1.jpg" alt="リラックスシングルルーム"></li>
-        <li id="relux2" class="hostel2-gallery-img relux"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-relux2.jpg" alt="リラックスシングルルーム"></li>
-        <li id="relux3" class="hostel2-gallery-img relux"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-relux3.jpg" alt="リラックスシングルルーム"></li>
-        <li id="relux4" class="hostel2-gallery-img relux"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-relux4.jpg" alt="リラックスシングルルーム"></li>
+        <li id="relax1" class="is-active hostel2-gallery-img relax"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-relax1.jpg" alt="リラックスシングルルーム"></li>
+        <li id="relax2" class="hostel2-gallery-img relax"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-relax2.jpg" alt="リラックスシングルルーム"></li>
+        <li id="relax3" class="hostel2-gallery-img relax"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-relax3.jpg" alt="リラックスシングルルーム"></li>
+        <li id="relax4" class="hostel2-gallery-img relax"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-relax4.jpg" alt="リラックスシングルルーム"></li>
       </ul>
       <ul class="hostel2-gallery-thumb">
-        <li><button type="button" id="relux1-thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-relux1-thumb.jpg" alt="リラックスシングルルーム"></button></li>
-        <li><button type="button" id="relux2-thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-relux2-thumb.jpg" alt="リラックスシングルルーム"></button></li>
-        <li><button type="button" id="relux3-thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-relux3-thumb.jpg" alt="リラックスシングルルーム"></button></li>
-        <li><button type="button" id="relux4-thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-relux4-thumb.jpg" alt="リラックスシングルルーム"></button></li>
+        <li><button type="button" id="relax1-thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-relax1-thumb.jpg" alt="リラックスシングルルーム"></button></li>
+        <li><button type="button" id="relax2-thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-relax2-thumb.jpg" alt="リラックスシングルルーム"></button></li>
+        <li><button type="button" id="relax3-thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-relax3-thumb.jpg" alt="リラックスシングルルーム"></button></li>
+        <li><button type="button" id="relax4-thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-relax4-thumb.jpg" alt="リラックスシングルルーム"></button></li>
       </ul>
     </div>
   </section>

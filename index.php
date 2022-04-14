@@ -163,7 +163,7 @@
     <h2 class="index-stay-title js-fadein">Rooms</h2>
     <ul class="index-rooms js-fadein">
       <li>
-        <img src="<?php echo get_template_directory_uri(); ?>/img/index/room-reluxsingle.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/index/room-relaxsingle.jpg" alt="">
         <div class="index-rooms-text">
           <h4 class="index-rooms-title">リラックスシングルルーム（定員1名）</h4>
           <p class="index-rooms-desc">デスクの付いた、シングルベッドのゆったりとしたお部屋です。長期滞在をされる方には特におすすめです。</p>
