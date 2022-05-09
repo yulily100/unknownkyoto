@@ -299,10 +299,10 @@ $(function() {
       </ul>
       <p class="hostel2-room-note">タオルはこちらのお部屋にはついておりません。ご持参いただくか、レンタルをご用意しておりますのでご利用ください。</p>
       <p class="hostel2-room-price">
-        消費税込み3,850円 ＋ 宿泊税一人200円/一泊
-        <!-- <span class="line-through">3,500円</span>
-        <br>GO TOトラベル価格で<br>2,280円 + 地域共通クーポン1000円分配布 -->
+        4泊 11,000円<br>
+        1泊 3,850円
       </p>
+      <p class="hostel-room-note">消費税込み、宿泊税一人200円/一泊</p>
     </div>
     <div class="hostel2-room-dormitory-contents">
       <img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/dormitory2.jpg" alt="女性専用ドミトリー">
@@ -321,10 +321,10 @@ $(function() {
       </ul>
       <p class="hostel2-room-note">タオルはこちらのお部屋にはついておりません。ご持参いただくか、レンタルをご用意しておりますのでご利用ください。</p>
       <p class="hostel2-room-price">
-        消費税込み4,400円 ＋ 宿泊税一人200円/一泊
-        <!-- <span class="line-through">4,000円</span>
-        <br>GO TOトラベル価格で<br>2,600円 + 地域共通クーポン1000円分配布 -->
+        4泊 11,000円<br>
+        1泊 4,400円
       </p>
+      <p class="hostel-room-note">消費税込み、宿泊税一人200円/一泊</p>
     </div>
   </div>
   <div class="hostel2-longterm">
