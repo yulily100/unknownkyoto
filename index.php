@@ -216,8 +216,8 @@
       <h3 class="index-dormitory-title"><span>泊まれるデスク</span><br>ワーキングベッド</h3>
       <div class="index-dormitory-text">
         <p class="index-rooms-desc">UNKNOWN KYOTOの二段ベッド相部屋は、全室にミニデスクがついています。一般的な「ドミトリー」よりゆったりとしたつくりで、相部屋ですが広々とお使いいただけます。<br>
-        「横になれるデスク」として、気軽な宿泊におすすめです。</p>
-        <p class="index-rooms-">1泊 3,850円〜</p>
+        お手頃な価格で、観光よりも長い京都滞在をしてみませんか。</p>
+        <p class="index-rooms-price">4泊5日 11,000円<br>1泊 3,850円〜</p>
         <p class="index-rooms-detail"><a href="/hostel">詳しく見る</a></p>
       </div>
     </div>
