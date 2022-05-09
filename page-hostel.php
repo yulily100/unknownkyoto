@@ -340,21 +340,7 @@ $(function() {
 
 <div class="hostel2-facilities" id="hostel2-facilities">
   <h2 class="hostel2-section-title"><span>施設・設備</span>Facilities</h2>
-
   <div class="hostel2-facilities-contents">
-    <div class="hostel2-facilities-contents-img">
-      <img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/coworking.jpg" alt="">
-    </div>
-
-    <div class="hostel2-facilities-contents-text">
-      <div class="hostel2-facilities-contents-left">
-        <h3 class="hostel2-facilities-title"><span>コワーキング</span>Coworking</h3>
-        <p class="hostel2-facilities-contents-description">宿泊のお客様はチェックイン日の朝から、チェックアウト日の夜まで、追加料金なしでコワーキングスペースがご利用いただけます。</p>
-        <p class="hostel2-facilities-contents-link"><a href="/coworking">詳しくはこちら</a></p>
-      </div>
-    </div>
-  </div>
-  <div class="hostel2-facilities-contents reverse">
     <div class="hostel2-facilities-contents-img">
       <img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/restaurant.jpg" alt="レストランがございます">
     </div>
@@ -367,7 +353,19 @@ $(function() {
       </div>
     </div>
   </div>
+  <div class="hostel2-facilities-contents reverse">
+    <div class="hostel2-facilities-contents-img">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/coworking.jpg" alt="">
+    </div>
 
+    <div class="hostel2-facilities-contents-text">
+      <div class="hostel2-facilities-contents-left">
+        <h3 class="hostel2-facilities-title"><span>コワーキング</span>Coworking</h3>
+        <p class="hostel2-facilities-contents-description">宿泊のお客様はチェックイン日の朝から、チェックアウト日の夜まで、追加料金なしでコワーキングスペースがご利用いただけます。</p>
+        <p class="hostel2-facilities-contents-link"><a href="/coworking">詳しくはこちら</a></p>
+      </div>
+    </div>
+  </div>
 
   <div class="wrapper">
     <div class="hostel2-facilities-secondary">
