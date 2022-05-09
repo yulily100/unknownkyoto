@@ -340,20 +340,8 @@ $(function() {
 
 <div class="hostel2-facilities" id="hostel2-facilities">
   <h2 class="hostel2-section-title"><span>施設・設備</span>Facilities</h2>
-  <div class="hostel2-facilities-contents">
-    <div class="hostel2-facilities-contents-img">
-      <img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/restaurant.jpg" alt="レストランがございます">
-    </div>
 
-    <div class="hostel2-facilities-contents-text">
-      <div class="hostel2-facilities-contents-right">
-        <h3 class="hostel2-facilities-title"><span>レストラン</span>Restaurant</h3>
-        <p class="hostel2-facilities-contents-description">元遊郭建築をリノベーションした店内で、昼間はお腹いっぱい食べられる定食や丼ものを、夜は本格的なイタリアンとお酒をお楽しみください。</p>
-        <p class="hostel2-facilities-contents-link"><a href="/restaurant">詳しくはこちら</a></p>
-      </div>
-    </div>
-  </div>
-  <div class="hostel2-facilities-contents reverse">
+  <div class="hostel2-facilities-contents">
     <div class="hostel2-facilities-contents-img">
       <img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/coworking.jpg" alt="">
     </div>
@@ -366,6 +354,20 @@ $(function() {
       </div>
     </div>
   </div>
+  <div class="hostel2-facilities-contents reverse">
+    <div class="hostel2-facilities-contents-img">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/restaurant.jpg" alt="レストランがございます">
+    </div>
+
+    <div class="hostel2-facilities-contents-text">
+      <div class="hostel2-facilities-contents-right">
+        <h3 class="hostel2-facilities-title"><span>レストラン</span>Restaurant</h3>
+        <p class="hostel2-facilities-contents-description">元遊郭建築をリノベーションした店内で、昼間はお腹いっぱい食べられる定食や丼ものを、夜は本格的なイタリアンとお酒をお楽しみください。</p>
+        <p class="hostel2-facilities-contents-link"><a href="/restaurant">詳しくはこちら</a></p>
+      </div>
+    </div>
+  </div>
+
 
   <div class="wrapper">
     <div class="hostel2-facilities-secondary">
