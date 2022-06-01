@@ -322,7 +322,7 @@ $(function() {
       <p class="hostel2-room-note">タオルはこちらのお部屋にはついておりません。ご持参いただくか、レンタルをご用意しておりますのでご利用ください。</p>
       <p class="hostel2-room-price">
         4泊 11,000円<br>
-        1泊 4,400円
+        1泊 3,850円
       </p>
       <p class="hostel-room-note">消費税込み、宿泊税一人200円/一泊</p>
     </div>
