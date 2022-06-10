@@ -53,13 +53,13 @@
       <li>
         <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/facilities-meetingroom.jpg" alt="会議室" class="office-facilities-img">
         <h3 class="office-facilities-title">会議室</h3>
-        <p class="office-facilities-description">4人ほどで使える小さな会議室です。落ち着いて打ち合わせすることができます。</p>
+        <p class="office-facilities-description">最大3名ほどで使える小さな会議室です。オンライン会議にもおすすめです。</p>
         <p class="office-facilities-price"><a href="/meeting">詳しくはこちら</a></p>
       </li>
       <li>
         <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/facilities-meetingroom2.jpg" alt="本池中会議室" class="office-facilities-img">
         <h3 class="office-facilities-title">本池中会議室</h3>
-        <p class="office-facilities-description">別館であるUNKNOWN KYOTO本池中の会議室を利用することもできます。</p>
+        <p class="office-facilities-description">別館の会議室も利用可能です。4,5名ほどで使える小部屋と最大15名ほどで使える大部屋とあります。</p>
         <p class="office-facilities-price"><a href="/meeting">詳しくはこちら</a></p>
       </li>
     </ul>
@@ -206,16 +206,18 @@
         <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/event.jpg" alt="イベント利用" class="office-facilities-img">
         <h3 class="office-facilities-title">イベント利用</h3>
         <p class="coworking-rental-description">フリースペースでイベントが行えます。スピーカーとモニターが利用可能。３時間以上からご利用いただけます。</p>
+        <p class="coworking-facilities-price"><a href="/meeting">詳しくはこちら</a></p>
         <p class="coworking-rental-plan">7,700円/1時間<br>
         水金:18:00~22:00<br>
         土:10:00~22:00</p>
-
+        
         <p class="coworking-rental-btn"><a href="https://calendar.google.com/calendar/embed?src=unknown.kyoto_1885cn5hd6mo2jdjkhgei9r0kgas06gb74rjgd9i6gr3edpl6g%40resource.calendar.google.com&ctz=Asia%2FTokyo" target="_blank" rel="noopener">カレンダーで空きを確認</a></p>
       </li>
       <li>
         <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/facilities-meetingroom.jpg" alt="会議室" class="office-facilities-img">
         <h3 class="office-facilities-title">会議室</h3>
-        <p class="coworking-rental-description">4人ほどで使える小さな会議室です。落ち着いて打ち合わせすることができます。</p>
+        <p class="coworking-rental-description">3名ほどで使える小さな会議室です。オンライン会議にもおすすめです。</p>
+        <p class="coworking-facilities-price"><a href="/meeting">詳しくはこちら</a></p>
         <p class="coworking-rental-plan">550円/1時間<br>
         毎日:10:00~19:00</p>
         <p class="coworking-rental-btn"><a href="https://calendar.google.com/calendar/embed?src=unknown.kyoto_1888eqjoh1j6chk9h6ehd9b1ve3co6gb6sp3acpj6os36chk6k%40resource.calendar.google.com&ctz=Asia%2FTokyo" target="_blank" rel="noopener">カレンダーで空きを確認</a></p>
@@ -224,6 +226,7 @@
         <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/facilities-meetingroom2.jpg" alt="本池中会議室" class="office-facilities-img">
         <h3 class="office-facilities-title">本池中会議室</h3>
         <p class="coworking-rental-description">別館であるUNKNOWN KYOTO本池中の会議室です。畳敷きの和室です。</p>
+        <p class="coworking-facilities-price"><a href="/meeting">詳しくはこちら</a></p>
         <p class="coworking-rental-plan">1,100円/1時間<br>
           毎日:10:00~19:00</p>
         <p class="coworking-rental-btn"><a href="https://calendar.google.com/calendar/embed?src=unknown.kyoto_1888b9a18gqv4ggtnk34evr8m1btq6gb68p3gd9n6ko3ad9o6k%40resource.calendar.google.com&ctz=Asia%2FTokyo" target="_blank" rel="noopener">カレンダーで空きを確認</a></p>

@@ -22,7 +22,6 @@
   }
 }
 .coworking-header-inner {
-  animation: fadein 1s ease-in 0s;
   margin: 0 8%;
 }
 .coworking-header-title {
@@ -329,5 +328,14 @@
   font-weight: bold;
   a {
     @include link-arrow-right($top: 8px);
+  }
+}
+
+.coworking-facilities-price {
+  text-align: left;
+  margin: 8px 0 12px 0;
+  font-size: .9rem;
+  a {
+    text-decoration: underline;
   }
 }

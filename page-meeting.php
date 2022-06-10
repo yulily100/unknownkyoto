@@ -28,8 +28,8 @@ $(function() {
 <div class="container">
 <div class="wrapper">
 <header class="meeting-header">
-    <h1 class="meeting-title"><a href="/meeting">会議室</a></h1>
-    <p class="meeting-desc">会議室は会員でなくても誰でも予約可能です。<br>予約ボタンから連絡ください。<br>カレンダーでは予約のある場合でも<br class="for-sp">対応可能な場合もございます。</p>
+    <h1 class="meeting-title"><a href="/meeting">会議室・レンタルスペース</a></h1>
+    <p class="meeting-desc">会議室は会員でなくても誰でも予約可能です。<br>会議のほか、ケータリングなどを頼んで食事するお部屋としても使いただけます。<br>カレンダーでは予約のある場合でも<br class="for-sp">対応可能な場合もございます。</p>
   </header>
 <div class="meeting-contents">
   <div class="meeting-contents-text">
@@ -37,7 +37,7 @@ $(function() {
     <p class="meeting-contents-desc">本館の小さな会議室です。1人でのビデオ会議や2,3名様程度の打ち合わせに最適です。</p>
     <div class="meeting-value">
       <h3 class="meeting-value-title">値段</h3>
-      <p class="meeting-value-desc">税込550円/1時間<br>会員：無料（1日2時間まで）</p>
+      <p class="meeting-value-desc">税込550円/1時間<br>会員：無料（1日2時間まで）<br>宿泊者：1日2時間無料</p>
     </div>
     <div class="meeting-value">
       <h3 class="meeting-value-title">時間</h3>
@@ -45,26 +45,26 @@ $(function() {
     </div>
     <div class="meeting-value">
       <h3 class="meeting-value-title">設備</h3>
-      <p class="meeting-value-desc">女優ライト</p>
+      <p class="meeting-value-desc">女優ライト、ディスプレイ</p>
     </div>
     <iframe class="meeting-calendar" src="https://calendar.google.com/calendar/embed?src=unknown.kyoto_1888eqjoh1j6chk9h6ehd9b1ve3co6gb6sp3acpj6os36chk6k%40resource.calendar.google.com&ctz=Asia%2FTokyo" frameborder="0" height="400" title="本池中会議室（小）"></iframe>
     <p class="meeting-calendar-more"><a href="https://calendar.google.com/calendar/embed?src=unknown.kyoto_1888eqjoh1j6chk9h6ehd9b1ve3co6gb6sp3acpj6os36chk6k%40resource.calendar.google.com&ctz=Asia%2FTokyo">空き状況カレンダーを大きな画面で表示</a></p>
   </div>
   <div class="meeting-contents-img">
-    <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/facilities-meetingroom.jpg" alt="本館会議室">
+    <img src="<?php echo get_template_directory_uri(); ?>/img/meeting/honkan.jpg" alt="本館会議室">
     <p class="btn-primary"><a href="https://forms.gle/6J7F7cMpVtWgtKzJA">本館会議室を予約</a></p>
   </div>
 </div>
 
 <div class="meeting-contents">
   <div class="meeting-contents-text">
-    <h2 class="meeting-contents-title">本池中会議室（伍の間）<span>おすすめ</span></h2>
-    <p class="meeting-contents-desc">別館であるUNKNOWN KYOTO本池中の会議室です。4名様程度の打ち合わせに最適です。机と椅子が使いたい方におすすめです。</p>
+    <h2 class="meeting-contents-title">本池中会議室・小（弐の間）<span>おすすめ</span></h2>
+    <p class="meeting-contents-desc">別館であるUNKNOWN KYOTO本池中の会議室です。4〜6名様程度の打ち合わせに最適です。机と椅子がありますが、畳に座布団での利用も可能です。</p>
     <div class="meeting-value">
       <h3 class="meeting-value-title">値段</h3>
       <p class="meeting-value-desc">税込1,100円/1時間<br>
         税込11,000円/丸一日貸し切り<br>
-        会員：550円/1時間（毎月2時間まで無料）</p>
+        会員：550円/1時間（毎月2時間まで無料）<br>宿泊者：1日2時間無料</p>
     </div>
     <div class="meeting-value">
       <h3 class="meeting-value-title">時間</h3>
@@ -89,8 +89,8 @@ $(function() {
 
 <div class="meeting-contents">
   <div class="meeting-contents-text">
-    <h2 class="meeting-contents-title">本池中会議室（壱の間）</h2>
-    <p class="meeting-contents-desc">別館であるUNKNOWN KYOTO本池中の会議室です。隣の部屋と繋げて最大15名様ほどの大人数での打ち合わせにも対応しています。畳に座布団でお座りいただきます。</p>
+    <h2 class="meeting-contents-title">本池中会議室・大（壱の間）</h2>
+    <p class="meeting-contents-desc">別館であるUNKNOWN KYOTO本池中の会議室です。隣の部屋と繋げて最大15名様ほどの大人数での打ち合わせにも対応しています。畳に座布団でお座りいただきます。企業様の合宿などにもおすすめです。</p>
     <div class="meeting-value">
       <h3 class="meeting-value-title">値段</h3>
       <p class="meeting-value-desc">税込2,200円/1時間<br>税込16,500円/丸一日貸し切り</p>
@@ -101,7 +101,7 @@ $(function() {
     </div>
     <div class="meeting-value">
       <h3 class="meeting-value-title">設備</h3>
-      <p class="meeting-value-desc">マイク、カメラ、ディスプレイ、ホワイトボード</p>
+      <p class="meeting-value-desc">テレビ会議システム、複数人数対応マイク、webカメラ、ディスプレイ、ホワイトボード</p>
     </div>
     <div class="meeting-value">
       <h3 class="meeting-value-title">広さ</h3>

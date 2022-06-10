@@ -5998,8 +5998,6 @@ img {
         height: 120px; } }
 
 .restaurant-header-inner {
-  -webkit-animation: fadein 1s ease-in 0s;
-          animation: fadein 1s ease-in 0s;
   text-align: center; }
 
 .restaurant-header-note {
@@ -6583,8 +6581,6 @@ img {
       height: 300px; } }
 
 .coworking-header-inner {
-  -webkit-animation: fadein 1s ease-in 0s;
-          animation: fadein 1s ease-in 0s;
   margin: 0 8%; }
 
 .coworking-header-title {
@@ -6986,6 +6982,13 @@ img {
       -webkit-transform: translateX(4px);
           -ms-transform: translateX(4px);
               transform: translateX(4px); }
+
+.coworking-facilities-price {
+  text-align: left;
+  margin: 8px 0 12px 0;
+  font-size: .9rem; }
+  .coworking-facilities-price a {
+    text-decoration: underline; }
 
 .page-office .header {
   display: none; }
