@@ -287,8 +287,8 @@ $(function() {
   </div>
   <div class="hostel2-longterm">
     <h3 class="hostel2-longterm-title">泊まるほどお得に</h3>
-    <p class="hostel2-longterm-description">3泊以上ご宿泊で宿泊料金の20%オフいたします。<br>
-      6泊以上ではウィークリープラン適用でさらにお安くなります。<br>
+    <p class="hostel2-longterm-description">
+      4泊以上ではロングステイプラン適用でさらにお安くなります。<br>
       1ヶ月以上から住むマンスリープランもございます。</p>
     <p class="hostel2-longterm-link"><a href="#hostel2-plan">プランについてはこちら</a></p>
   </div>
