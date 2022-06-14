@@ -116,6 +116,7 @@
     position: relative;
     display: flex;
     align-items: center;
+    line-height: 1.4;
   }
   @media #{$mq-sm} {
     display: block;
@@ -166,14 +167,16 @@
 }
 .index-about-block1-title {
   font-family: $yumincho;
-  margin: 0 0 .5em;
-  font-size: 1.5rem;
+  margin: .8em 0;
+  font-size: 1.4rem;
   line-height: 1.6;
+  letter-spacing: -0.5px;
 }
 .index-about-block1-desc {
   margin: 0 0 2em;
   line-height: 1.8;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
   @media #{$mq-sm} {
     font-size: 1rem;
   }
@@ -192,7 +195,32 @@
     }
   }
 }
-
+.index-about-intro {
+  @include wrapper();
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+.index-about-intro-v {
+  margin: 0 0 20px;
+}
+.index-about-intro-h {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 20px;
+  img {
+    width: calc(50% - 10px);
+  }
+  @media #{$mq-sm} {
+    display: block;
+    margin: 0;
+    img {
+      width: 100%;
+      margin: 0 0 20px;
+    }
+  }
+}
 
 .index-about-title {
   font-family: $yumincho;
@@ -204,7 +232,7 @@
   }
 }
 .index-about-desc {
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.8;
   @media #{$mq-sm} {
     font-size: 1rem;
@@ -307,7 +335,7 @@
   margin: 0 0 .8em;
 }
 .index-rooms-price {
-  line-height: 1.4;
+  line-height: 1.5;
 }
 .index-rooms-detail {
   margin: 12px 0 0 0;

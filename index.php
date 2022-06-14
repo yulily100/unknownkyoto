@@ -104,10 +104,20 @@
     <p class="index-about-block1-desc">京都・清水五条駅すぐ。<br>
       築100年を超える明治期の元遊郭建築を<br>
       できるだけ元の姿を残しながら<br class="for-sp">リノベーションして<br>
-      「仕事ができる宿」にしました。</p>
-    <div class="index-about-block1-img">
+      「仕事もできて暮らせる宿」にしました。</p>
+      <div class="index-about-intro">
+        <div class="index-about-intro-v js-fadein"><img src="<?php echo get_template_directory_uri(); ?>/img/index/intro-01.jpg" alt="玄関"></div>
+        <div class="index-about-intro-h js-fadein">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/index/intro-02.jpg" alt="玄関">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/index/intro-03.jpg" alt="玄関">
+        </div>
+        <div class="index-about-intro-v js-fadein">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/index/intro-04.jpg" alt="玄関">
+        </div>
+      </div>
+    <!-- <div class="index-about-block1-img">
       <img src="<?php echo get_template_directory_uri(); ?>/img/index/about-01.jpg" alt="玄関">
-    </div>
+    </div> -->
   </div>
 
   <div class="index-about-wrapper">
@@ -218,7 +228,7 @@
       <div class="index-dormitory-text">
         <p class="index-rooms-desc">UNKNOWN KYOTOの二段ベッド相部屋は、全室にミニデスクがついています。一般的な「ドミトリー」よりゆったりとしたつくりで、相部屋ですが広々とお使いいただけます。<br>
         お手頃な価格で、観光よりも長い京都滞在をしてみませんか。</p>
-        <p class="index-rooms-price">4泊5日 11,000円<br>1泊 3,850円〜</p>
+        <p class="index-rooms-price">男女混合・女性専用ともに<br>1泊 3,850円<br>4泊5日 11,000円</p>
         <p class="index-rooms-detail"><a href="/hostel">詳しく見る</a></p>
       </div>
     </div>
@@ -273,8 +283,7 @@
   <div class="js-fadein">
     <p class="top-location-heading">LOCATION</p>
     <h2 class="top-location-title">知られざる京都<span class="for-pc">、</span><br class="for-sp">五條楽園</h2>
-
-    <p class="top-location-description">かつて「五條楽園」と呼ばれた<br class="for-sp">このエリアは<br class="for-pc">すぐ近くに鴨川と<br class="for-sp">高瀬川が流れ、迷路のように<br>細い路地が入り組んだ、古き良き<br class="for-sp">佇まいを残したまち。<br class="for-pc">そんな中に<br class="for-sp">UNKNOWN KYOTOはあります。</p>
+    <p class="top-location-description">かつて「五條楽園」と呼ばれた<br class="for-sp">このエリアは<br class="for-pc">すぐ近くに鴨川と<br class="for-sp">高瀬川が流れ、迷路のように<br>細い路地が入り組んだ、古き良き<br class="for-sp">佇まいを残したまち。<br>あちこちに古い建築や美しいタイルの造形が並びます。<br>繁華街エリアや、がんばれば京都駅からも徒歩圏内です。</p>
   </div>
   <div class="js-fadein">
     <ul class="top-architecture-street">
@@ -288,8 +297,6 @@
   </div>
 
   <div class="top-access js-fadein">
-    <h2 class="top-access-title">河原町駅からも京都駅からも歩けます</h2>
-
     <div class="top-access-map">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1959.2511057065767!2d135.76514277873042!3d34.9937988822923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x79557a17e1c2815d!2sUNKNOWN+KYOTO+GOJO-RAKUEN!5e0!3m2!1sja!2sjp!4v1553674826210" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
