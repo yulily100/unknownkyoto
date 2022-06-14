@@ -121,7 +121,8 @@
         チェックアウトの日の夜19時まで<br>
         コワーキングスペースが自由に使えます。<br>
         ディスプレイや充電器の用意もございます。</p>
-        <p class="index-about-detail"><a href="/coworking">詳しくはこちら</a></p>
+        <p class="index-about-detail"><a href="/coworking">コワーキング詳細</a></p>
+        <p class="index-about-detail"><a href="/meeting">会議室詳細</a></p>
       </div>
 
     </div>
@@ -136,7 +137,7 @@
           地元の人からも愛される飲食店です。<br>
           名物の「唐揚げ」はぜひ一度<br>
           食べていただきたい逸品です。</p>
-        <p class="index-about-detail"><a href="/restaurant">詳しくはこちら</a></p>
+        <p class="index-about-detail"><a href="/restaurant">レストラン詳細</a></p>
       </div>
     </div>
 

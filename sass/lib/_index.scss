@@ -212,8 +212,9 @@
 }
 .index-about-detail {
   margin: 12px 0 0 0;
+  font-size: .9rem;
   a {
-    @include link-arrow-right();
+    @include link-arrow-right($top:8px);
     border-bottom: 1px solid $text;
   }
 }

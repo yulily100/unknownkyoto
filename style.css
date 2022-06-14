@@ -2682,7 +2682,8 @@ img {
       font-size: 1rem; } }
 
 .index-about-detail {
-  margin: 12px 0 0 0; }
+  margin: 12px 0 0 0;
+  font-size: .9rem; }
   .index-about-detail a {
     display: inline-block;
     padding: 6px 46px 6px 6px;
@@ -2702,7 +2703,7 @@ img {
       transition: -webkit-transform .3s ease-out 0s;
       transition: transform .3s ease-out 0s;
       transition: transform .3s ease-out 0s, -webkit-transform .3s ease-out 0s;
-      top: 12px;
+      top: 8px;
       right: 6px; }
     .index-about-detail a:hover:after {
       -webkit-transform: translateX(4px);
