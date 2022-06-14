@@ -178,7 +178,7 @@
         <div class="index-rooms-text">
           <h4 class="index-rooms-title">リラックスシングルルーム（定員1名）</h4>
           <p class="index-rooms-desc">デスクの付いた、シングルベッドのゆったりとしたお部屋です。長期滞在をされる方には特におすすめです。</p>
-          <p>1泊 9,350円</p>
+          <p>1泊 8,800円</p>
           <p class="index-rooms-detail"><a href="/hostel">詳しく見る</a></p>
         </div>
       </li>
@@ -205,7 +205,7 @@
         <div class="index-rooms-text">
           <h4 class="index-rooms-title">シングルルーム（定員1名）</h4>
           <p class="index-rooms-desc">デスクのないミニマルなシングルベッドのお部屋です。作業はコワーキングでされる方におすすめです。</p>
-          <p>1泊 8,250円</p>
+          <p>1泊 8,000円</p>
           <p class="index-rooms-detail"><a href="/hostel">詳しく見る</a></p>
         </div>
       </li>

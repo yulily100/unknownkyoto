@@ -85,9 +85,10 @@ $(function() {
         <li>会議室2時間無料</li>
       </ul>
       <p class="hostel2-room-price">
-        1泊　9,350円<br>
-        3泊　25,245円 (1泊8,415円)<br>
-        6泊　39,780円 (1泊6,630円)</p>
+        1泊　8,800円<br>
+        2泊　16,500円 (1泊8,250円)<br>
+        3泊　24,000円 (1泊8,000円)<br>
+        4泊　24,200円 (1泊6,050円)</p>
       <p class="hostel-room-note">消費税込み、宿泊税一人200円/一泊</p>
         <!-- <span class="line-through">7,500円</span>
         <br>GO TOトラベル価格で<br>4,880円 + 地域共通クーポン1000円分配布 -->
@@ -127,9 +128,10 @@ $(function() {
         <li>会議室2時間無料</li>
       </ul>
       <p class="hostel2-room-price">
-        1泊　8,250円<br>
-        3泊　22,275円 (1泊7,425円)<br>
-        6泊　35,100円 (1泊5,850円)</p>
+        1泊　8,000円<br>
+        2泊　16,000円 (1泊8,000円)<br>
+        3泊　19,800円 (1泊6,600円)<br>
+        4泊　19,800円 (1泊4,950円)</p>
       <p class="hostel-room-note">消費税込み、宿泊税一人200円/一泊</p>
         <!-- <span class="line-through">7,500円</span>
         <br>GO TOトラベル価格で<br>4,880円 + 地域共通クーポン1000円分配布 -->
@@ -168,8 +170,9 @@ $(function() {
       </ul>
       <p class="hostel2-room-price">
         1泊　9,350円 (2名でも同価格)<br>
-        3泊　25,245円 (1泊8,415円)<br>
-        6泊　39,780円 (1泊6,630円)</p>
+        2泊　17,600円 (1泊8,800円)<br>
+        3泊　24,750円 (1泊8,250円)<br>
+        4泊　26,400円 (1泊6,600円)</p>
         <!-- <span class="line-through">8,500円</span>
         <br>GO TOトラベル価格で<br>5,530円 + 地域共通クーポン1000円分配布 -->
       </p>
@@ -185,52 +188,6 @@ $(function() {
         <li><button type="button" id="double1-thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-double1-thumb.jpg" alt="ダブルルーム"></button></li>
         <li><button type="button" id="double2-thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-double2-thumb.jpg" alt="ダブルルーム"></button></li>
         <li><button type="button" id="double3-thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-double3-thumb.jpg" alt="ダブルルーム"></button></li>
-      </ul>
-    </div>
-  </section>
-  <section class="hostel2-room-private">
-    <div class="hostel2-room-private-text">
-      <h3 class="hostel2-room-title"><span>Twin Room</span>ツインルーム(定員2名)</h3>
-      <p class="hostel2-room-description">洋館のような趣のある、シングルベッドが２台置かれたツインルームです。天井が高く天窓がつきます。<br>※こちらのお部屋にはデスクは付きません。
-      </p>
-      <ul class="hostel2-room-equipment">
-        <li>スタンドライト</li>
-        <li>バスタオル</li>
-        <li>フェイスタオル</li>
-      </ul>
-      <ul class="hostel2-room-equipment">
-        <li>掛け鏡</li>
-        <li>ドライヤー</li>
-        <li>共同シャワー</li>
-        <li>共同トイレ</li>
-      </ul>
-      <ul class="hostel2-room-equipment">
-        <li>コワーキング無料</li>
-        <li>会議室2時間無料</li>
-      </ul>
-      <p class="hostel2-room-price">
-        1泊　9,900円 (2名でも同価格)<br>
-        3泊　26,730円 (1泊8,910円)<br>
-        6泊　42,120円 (1泊7,020円)</p>
-        <!-- <span class="line-through">9,000円</span>
-        <br>GO TOトラベル価格で<br>5,850円 + 地域共通クーポン1000円分配布 -->
-      </p>
-      <p class="hostel-room-note">消費税込み、宿泊税一人200円/一泊</p>
-    </div>
-    <div class="hostel2-room-private-img">
-      <ul class="hostel2-gallery">
-        <li id="twin1" class="is-active hostel2-gallery-img twin"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-twin1.jpg" alt="ツインルーム"></li>
-        <li id="twin2" class="hostel2-gallery-img twin"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-twin2.jpg" alt="ツインルーム"></li>
-        <li id="twin3" class="hostel2-gallery-img twin"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-twin3.jpg" alt="ツインルーム"></li>
-        <li id="twin4" class="hostel2-gallery-img twin"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-twin4.jpg" alt="ツインルーム"></li>
-        <li id="twin5" class="hostel2-gallery-img twin"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-twin5.jpg" alt="ツインルーム"></li>
-      </ul>
-      <ul class="hostel2-gallery-thumb">
-        <li><button type="button" id="twin1-thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-twin1-thumb.jpg" alt="ツインルーム"></button></li>
-        <li><button type="button" id="twin2-thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-twin2-thumb.jpg" alt="ツインルーム"></button></li>
-        <li><button type="button" id="twin3-thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-twin3-thumb.jpg" alt="ツインルーム"></button></li>
-        <li><button type="button" id="twin4-thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-twin4-thumb.jpg" alt="ツインルーム"></button></li>
-        <li><button type="button" id="twin5-thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-twin5-thumb.jpg" alt="ツインルーム"></button></li>
       </ul>
     </div>
   </section>
@@ -258,8 +215,9 @@ $(function() {
       </ul>
       <p class="hostel2-room-price">
         1泊　11,550円 (2名でも同価格)<br>
-        3泊　31,185円 (1泊10,395円)<br>
-        6泊　49,140円 (1泊8,190円)</p>
+        2泊　22,000円 (1泊11,000円)<br>
+        3泊　31,350円 (1泊10,450円)<br>
+        4泊　35,200円 (1泊8,800円)</p>
         <!-- <span class="line-through">10,500円</span>
         <br>GO TOトラベル価格で<br>6,830円 + 地域共通クーポン2000円分配布 -->
       </p>
