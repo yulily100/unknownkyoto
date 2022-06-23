@@ -38,13 +38,16 @@ img {
   margin-left: 80px;
   @media #{$mq-lg} {
     max-width: 1200px;
-    margin: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
   }
   @media #{$mq-sm} {
-    margin: 0 5%;
+    margin-right: 5%;
+    margin-left: 5%;
   }
   @media #{$mq-320} {
-    margin: 0 1em;
+    margin-right: 1em;
+    margin-left: 1em;
   }
 }
 .wrapper {
