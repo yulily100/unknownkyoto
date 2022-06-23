@@ -30,7 +30,6 @@
 }
 
 .about-contents {
-  @include wrapper();
   max-width: $width-text;
   margin: 0 auto;
   p {
@@ -73,7 +72,6 @@
   }
 }
 .about-company {
-  @include wrapper();
   max-width: $width-middle;
   margin: 20px auto 100px;
   display: flex;
