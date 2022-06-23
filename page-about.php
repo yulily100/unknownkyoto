@@ -21,13 +21,13 @@
 	<ul class="about-img">
 		<li>
 			<figure>
-				<img src="<?php echo get_template_directory_uri(); ?>/img/about/about-01.jpg" alt="">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/about/about-01.jpg" alt="玄関 改装前">
 				<figcaption>玄関 改装前</figcaption>
 			</figure>
 		</li>
 		<li>
 			<figure>
-				<img src="<?php echo get_template_directory_uri(); ?>/img/about/about-02.jpg" alt="">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/about/about-02.jpg" alt="コワーキング 改装前">
 				<figcaption>コワーキング 改装前</figcaption>
 			</figure>
 		</li>
@@ -47,13 +47,13 @@
 	<ul class="about-img">
 		<li>
 			<figure>
-				<img src="<?php echo get_template_directory_uri(); ?>/img/about/about-03.jpg" alt="">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/about/about-03.jpg" alt="高瀬川五条エリアの町並み">
 				<figcaption>高瀬川五条エリアの町並み</figcaption>
 			</figure>
 		</li>
 		<li>
 			<figure>
-				<img src="<?php echo get_template_directory_uri(); ?>/img/about/about-04.jpg" alt="">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/about/about-04.jpg" alt="泰山タイルが使われた暖炉">
 				<figcaption>泰山タイルが使われた暖炉</figcaption>
 			</figure>
 		</li>
