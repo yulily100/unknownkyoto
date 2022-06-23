@@ -1,0 +1,136 @@
+// UNKNOWN KYOTO aboutページ
+
+.about-header {
+  background-image: url("img/about/about-top.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @media #{$mq-xs} {
+    height: 300px;
+  }
+}
+.about-header-inner {
+  margin: 0 8%;
+}
+.about-header-title {
+  font-family: $vollkorn;
+  text-align: center;
+  font-weight: normal;
+  letter-spacing: 2px;
+  font-size: 2.2rem;
+  a {
+    color: #fff;
+  }
+}
+
+.about-contents {
+  @include wrapper();
+  max-width: $width-text;
+  margin: 0 auto;
+  p {
+    line-height: 1.8;
+    margin: 0 0 1em;
+    font-size: 1.15rem;
+  }
+}
+.about-contents-title {
+  font-family: $yumincho;
+  text-align: center;
+  margin: 3.5em 0 1.5em;
+  line-height: 1.4;
+  font-size: 1.4rem;
+  @media #{$mq-sm} {
+    font-size: 1.3rem;
+    margin-top: 2em;
+  }
+}
+.about-contents-title-sub {
+  margin: 2em 0 1em;
+}
+.about-img {
+  display: flex;
+  margin: 60px 0;
+  figure {
+    margin: 0;
+  }
+  figcaption {
+    text-align: center;
+    color: #999;
+    font-size: .9rem;
+    margin: 12px 0;
+  }
+  @media #{$mq-md} {
+    display: block;
+    > li {
+      margin: 0 0 20px;
+    }
+  }
+}
+.about-company {
+  @include wrapper();
+  max-width: $width-middle;
+  margin: 20px auto 100px;
+  display: flex;
+  justify-content: space-between;
+  > li {
+    flex-basis: calc(33.33% - 20px);
+    flex-shrink: 0;
+    flex-grow: 0;
+  }
+  @media #{$mq-sm} {
+    display: block;
+    > li {
+      display: flex;
+      margin: 0 0 32px;
+    }
+  }
+
+}
+.about-company-logo {
+  text-align: center;
+  flex-shrink: 0;
+  flex-grow: 0;
+  img {
+    width: 100px;
+    height: 100px;
+  }
+}
+.about-company-text {
+  @media #{$mq-sm} {
+    margin-left: 12px;
+  }
+}
+.about-company-title {
+  font-size: 1.1rem;
+  text-align: center;
+  font-family: $yumincho;
+  margin: 0 0 1em;
+  @media #{$mq-sm} {
+    font-size: 1rem;
+    text-align: left;
+    margin: 0 0 8px;
+  }
+}
+.about-company-desc {
+  line-height: 1.6;
+  font-size: .95rem;
+}
+.about-company-link {
+  margin: 12px 0 0 0;
+  a {
+    color: $primary;
+    text-decoration: underline;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  @media #{$mq-sm} {
+    margin: 4px 0 0 0;
+  }
+}

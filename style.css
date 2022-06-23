@@ -7502,6 +7502,173 @@ img {
   font-size: 1.0rem;
   text-decoration: underline; }
 
+.about-header {
+  background-image: url("img/about/about-top.jpg");
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 450px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  @media (max-width: 480px) {
+    .about-header {
+      height: 300px; } }
+
+.about-header-inner {
+  margin: 0 8%; }
+
+.about-header-title {
+  font-family: "Vollkorn", serif;
+  text-align: center;
+  font-weight: normal;
+  letter-spacing: 2px;
+  font-size: 2.2rem; }
+  .about-header-title a {
+    color: #fff; }
+
+.about-contents {
+  margin-right: 80px;
+  margin-left: 80px;
+  max-width: 620px;
+  margin: 0 auto; }
+  @media (min-width: 1360px) {
+    .about-contents {
+      max-width: 1200px;
+      margin: 0 auto; } }
+  @media (max-width: 767px) {
+    .about-contents {
+      margin: 0 5%; } }
+  @media (max-width: 360px) {
+    .about-contents {
+      margin: 0 1em; } }
+  .about-contents p {
+    line-height: 1.8;
+    margin: 0 0 1em;
+    font-size: 1.15rem; }
+
+.about-contents-title {
+  font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+  text-align: center;
+  margin: 3.5em 0 1.5em;
+  line-height: 1.4;
+  font-size: 1.4rem; }
+  @media (max-width: 767px) {
+    .about-contents-title {
+      font-size: 1.3rem;
+      margin-top: 2em; } }
+
+.about-contents-title-sub {
+  margin: 2em 0 1em; }
+
+.about-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 60px 0; }
+  .about-img figure {
+    margin: 0; }
+  .about-img figcaption {
+    text-align: center;
+    color: #999;
+    font-size: .9rem;
+    margin: 12px 0; }
+  @media (max-width: 1035px) {
+    .about-img {
+      display: block; }
+      .about-img > li {
+        margin: 0 0 20px; } }
+
+.about-company {
+  margin-right: 80px;
+  margin-left: 80px;
+  max-width: 740px;
+  margin: 20px auto 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  @media (min-width: 1360px) {
+    .about-company {
+      max-width: 1200px;
+      margin: 0 auto; } }
+  @media (max-width: 767px) {
+    .about-company {
+      margin: 0 5%; } }
+  @media (max-width: 360px) {
+    .about-company {
+      margin: 0 1em; } }
+  .about-company > li {
+    -ms-flex-preferred-size: calc(33.33% - 20px);
+        flex-basis: calc(33.33% - 20px);
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0; }
+  @media (max-width: 767px) {
+    .about-company {
+      display: block; }
+      .about-company > li {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin: 0 0 32px; } }
+
+.about-company-logo {
+  text-align: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0; }
+  .about-company-logo img {
+    width: 100px;
+    height: 100px; }
+
+@media (max-width: 767px) {
+  .about-company-text {
+    margin-left: 12px; } }
+
+.about-company-title {
+  font-size: 1.1rem;
+  text-align: center;
+  font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+  margin: 0 0 1em; }
+  @media (max-width: 767px) {
+    .about-company-title {
+      font-size: 1rem;
+      text-align: left;
+      margin: 0 0 8px; } }
+
+.about-company-desc {
+  line-height: 1.6;
+  font-size: .95rem; }
+
+.about-company-link {
+  margin: 12px 0 0 0; }
+  .about-company-link a {
+    color: #7e0f09;
+    text-decoration: underline; }
+    .about-company-link a:hover {
+      text-decoration: underline; }
+  @media (max-width: 767px) {
+    .about-company-link {
+      margin: 4px 0 0 0; } }
+
 .workation-header {
   height: 400px;
   text-align: center;
