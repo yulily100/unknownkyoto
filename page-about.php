@@ -19,16 +19,16 @@
 	</div>
 
 	<ul class="about-img">
-		<li>
+		<li class="about-img-before">
 			<figure>
 				<img src="<?php echo get_template_directory_uri(); ?>/img/about/about-01.jpg" alt="玄関 改装前">
 				<figcaption>玄関 改装前</figcaption>
 			</figure>
 		</li>
-		<li>
+		<li class="about-img-after">
 			<figure>
 				<img src="<?php echo get_template_directory_uri(); ?>/img/about/about-02.jpg" alt="コワーキング 改装前">
-				<figcaption>コワーキング 改装前</figcaption>
+				<figcaption>玄関 改装後</figcaption>
 			</figure>
 		</li>
 	</ul>

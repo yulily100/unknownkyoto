@@ -64,12 +64,31 @@
     font-size: .9rem;
     margin: 12px 0;
   }
+  > li {
+    position: relative;
+  }
   @media #{$mq-md} {
     display: block;
     > li {
       margin: 0 0 20px;
     }
   }
+}
+.about-img-before::after,
+.about-img-after::after {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #fff;
+  font-family: $vollkorn;
+  letter-spacing: 1px;
+}
+.about-img-before::after {
+  content: "BEFORE";
+
+}
+.about-img-after::after {
+  content: "AFTER";
 }
 .about-company {
   max-width: $width-middle;
