@@ -141,7 +141,7 @@
       </div>
       <div class="header-menu">
         <ul class="header-nav">
-            <li><a href="/workation">Workation<span class="header-nav-jp">ワーケーション</span></a></li>
+            <li><a href="/about">About<span class="header-nav-jp">施設について</span></a></li>
             <li><a href="/hostel">Hostel<span class="header-nav-jp">宿泊</span></a></li>
             <li><a href="/restaurant">Restaurant<span class="header-nav-jp">レストラン</span></a></li>
             <li><a href="/coworking">Coworking<span class="header-nav-jp">コワーキング</span></a></li>
