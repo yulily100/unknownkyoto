@@ -264,7 +264,6 @@
   position: relative;
   background: $text;
   display: flex;
-  transition: .2s;
 
   &:before,
   &:after {
@@ -274,7 +273,6 @@
     height: 100%;
     background: $text;
     position: absolute;
-    transition: .2s;
   }
   &:before {
     transform: translateY(-8px);
