@@ -1089,25 +1089,7 @@
 .header-menu {
   height: 100%;
 }
-.header-nav {
-  font-weight: normal;
-  margin: 0;
-  height: 100%;
-  li {
-    margin: 0 0 0 12px;
-    display: flex;
-    align-items: center;
-  }
-  a {
-    &:hover {
-      text-decoration: none;
-      opacity: .7;
-    }
-  }
-  @media #{$mq-sm} {
-    display: none;
-  }
-}
+
 .top-about {
   padding: 80px 0;
 }

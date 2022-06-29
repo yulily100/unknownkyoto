@@ -79,6 +79,7 @@
     $(function() {
       $('.js-btn-toggle').on('click',function() {
         $('.nav-sp').toggleClass('is-open');
+        $('.nav-toggle-btn').toggleClass('is-open');
       });
     });
 
@@ -141,29 +142,25 @@
       </div>
       <div class="header-menu">
         <ul class="header-nav">
-            <li><a href="/about">About<span class="header-nav-jp">施設について</span></a></li>
-            <li><a href="/hostel">Hostel<span class="header-nav-jp">宿泊</span></a></li>
-            <li><a href="/restaurant">Restaurant<span class="header-nav-jp">レストラン</span></a></li>
-            <li><a href="/coworking">Coworking<span class="header-nav-jp">コワーキング</span></a></li>
-            <li><a href="/plan">Plan<span class="header-nav-jp">プラン</span></a></li>
-            <li><a href="/access">Access<span class="header-nav-jp">アクセス</span></a></li>
-            <li class="header-nav-booking"><a href="https://www.beds24.com/book-unknownkyoto" target="_blank">Booking<span>ご予約</span></a></li>
+          <li><a href="/about">About<span class="header-nav-jp">施設について</span></a></li>
+          <li><a href="/hostel">Hostel<span class="header-nav-jp">宿泊</span></a></li>
+          <li><a href="/restaurant">Restaurant<span class="header-nav-jp">レストラン</span></a></li>
+          <li><a href="/coworking">Coworking<span class="header-nav-jp">コワーキング</span></a></li>
+          <li><a href="/plan">Plan<span class="header-nav-jp">プラン</span></a></li>
+          <li><a href="/access">Access<span class="header-nav-jp">アクセス</span></a></li>
         </ul>
+        <button type="button" class="nav-toggle-btn js-btn-toggle">
+          <span class="nav-toggle-btn-line"></span>
+        </button>
+        <p class="header-nav-booking"><a href="https://www.beds24.com/book-unknownkyoto" target="_blank">Booking<span>ご予約</span></a></p>
       </div>
 
       <div class="nav-sp">
-        <button type="button" class="nav-sp-toggle js-btn-toggle"><span></span></button>
-
+        
         <div class="nav-sp-body">
-          <h2 class="nav-sp-title">
-            <a href="/">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/header-logo.svg" alt="UNKNWON KYOTO">
-            </a>
-          </h2>
 
           <ul class="nav-sp-menu">
-            <li class="nav-sp-booking"><a href="https://www.beds24.com/book-unknownkyoto" target="_blank">Booking<span>ご予約</span></a></li>
-            <li><a href="/workation">Workation<span>ワーケーション</span></a></li>
+            <li><a href="/about">About<span>施設について</span></a></li>
             <li><a href="/hostel">Hostel<span>宿泊</span></a></li>
             <li><a href="/restaurant">Restaurant<span>レストラン</span></a></li>
             <li><a href="/coworking">Coworking<span>コワーキング</span></a></li>
