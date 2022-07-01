@@ -197,43 +197,6 @@
   }
 }
 
-// クラウドファンディング
-// クリックしたら下に
-// .top-main-funding {
-//   width: 160px;
-//   height: 160px;
-//   position: fixed;
-//   z-index: 100;
-//   left: 20px;
-//   bottom: 20px;
-//   margin: 0;
-//   font-weight: bold;
-//   font-size: .75rem;
-//   letter-spacing: -0.8px;
-//   box-sizing: border-box;
-//   background: url("img/header-funding.svg") no-repeat;
-//   background-size: 160px 160px;
-//   opacity: 1;
-//   visibility: visible;
-//   transition: opacity .2s, visibility 0s ease .2s;
-//   line-height: 1.5;
-//   a {
-//     text-decoration: none;
-//     color: #fff;
-//     display: inline-block;
-//     width: 160px;
-//     height: 160px;
-//     padding: 70px 0 0 0;
-//     box-sizing: border-box;
-//   }
-//   &.is-active {
-//     opacity: 0;
-//     visibility: hidden;
-//   }
-//   @media #{$mq-sm} {
-//     display: none;
-//   }
-// }
 
 
 .top-main-image {
@@ -279,40 +242,43 @@
 }
 
 // 営業時間
-.top-open {
+.index-open {
   background: $bg;
-  padding: 12px;
+  padding: 20px 20px;
   @media #{$mq-sm} {
     padding-top: 20px;
   }
 }
-.top-open-contents {
+.index-open-contents {
+  max-width: 900px;
+  margin: 0 auto;
   text-align: center;
+  justify-content: center;
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -15px;
   > li {
-    flex-basis: calc(100% / 4 - 30px);
-    margin: 0 15px;
+    flex-basis: calc(100% / 3 - 30px);
+    padding: 0 30px;
+    border-right: 1px solid $border-dark;
+    &:last-child {
+      border: none;
+    }
   }
   @media #{$mq-sm} {
     display: block;
     > li {
+      padding: 0;
       margin-bottom: 16px;
+      display: flex;
+      border: none;
     }
   }
 }
-.top-open-heading {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-.top-open-title {
+.index-open-title {
   font-size: 1.2rem;
   margin: 0 0 8px 0;
 }
-.top-open-note {
+.index-open-note {
   font-size: .85rem;
   text-align: left;
   margin: 0 12px 4px;
@@ -321,12 +287,8 @@
   }
 }
 
-.top-open-body {
-  @media #{$mq-sm} {
-    display: flex;
-  }
-}
-.top-open-contents-title {
+
+.index-open-contents-title {
   font-family: $vollkorn;
   font-weight: normal;
   margin: 0 0 8px 0;
@@ -343,9 +305,10 @@
     font-size: .9rem;
   }
 }
-.top-open-contents-description {
+.index-open-contents-desc {
   font-size: .9rem;
   line-height: 1.4;
+  text-align: left;
   .limited {
     font-weight: bold;
     text-decoration: underline;
@@ -360,11 +323,12 @@
     text-align: left;
   }
 }
-.top-open-contents-note {
+.index-open-contents-note {
   font-size: .85rem;
   display: inline-block;
   margin: 8px 0 0 0;
 }
+
 
 
 // about
