@@ -32,22 +32,6 @@
   </div> -->
 </div>
 
-<!-- <div class="index-hero">
-  <div class="index-hero-inner">
-    <h1 class="index-hero-title"><img src="<?php echo get_template_directory_uri(); ?>/img/index-logo.svg" alt="UNKNOWN KYOTO"></h1>
-    <p class="index-hero-desc">元遊郭建築を改装、コワーキングのある宿</p>
-    <img src="<?php echo get_template_directory_uri(); ?>/img/index/intro-01.jpg" alt="UNKNOWN KYOTO" class="index-hero-img">
-    <div class="index-main-share">
-      <p class="index-main-share-text">SNS</p>
-      <ul class="index-main-share-icon">
-      <li><a href="https://twitter.com/unknown_kyoto" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/index-sns-twitter.svg" alt="Twitter"></a></li>
-        <li><a href="https://www.instagram.com/unknownkyoto/" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/index-sns-instagram.svg" alt="Instagram"></a></li>
-        <li><a href="https://www.facebook.com/Unknown.Kyoto.Gojo.Rakuen" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/index-sns-facebook.svg" alt="Facebook"></a></li>
-      </ul>
-    </div>
-  </div>
-</div> -->
-
 
 <section class="index-open">
   <ul class="index-open-contents">
