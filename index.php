@@ -174,11 +174,20 @@
     <h2 class="index-stay-title js-fadein">Rooms</h2>
     <ul class="index-rooms js-fadein">
       <li>
+        <img src="<?php echo get_template_directory_uri(); ?>/img/index/room-single.jpg" alt="">
+        <div class="index-rooms-text">
+          <h4 class="index-rooms-title">シングルルーム（定員1名）</h4>
+          <p class="index-rooms-desc">デスクのないミニマルなシングルベッドのお部屋です。作業はコワーキングでされる方におすすめです。</p>
+          <p>1泊 8,000円<br>4泊 19,800円</p>
+          <p class="index-rooms-detail"><a href="/hostel">詳しく見る</a></p>
+        </div>
+      </li>
+      <li>
         <img src="<?php echo get_template_directory_uri(); ?>/img/index/room-relaxsingle.jpg" alt="">
         <div class="index-rooms-text">
           <h4 class="index-rooms-title">リラックスシングルルーム（定員1名）</h4>
           <p class="index-rooms-desc">デスクの付いた、シングルベッドのゆったりとしたお部屋です。長期滞在をされる方には特におすすめです。</p>
-          <p>1泊 8,800円</p>
+          <p>1泊 8,800円<br>4泊 24,200円</p>
           <p class="index-rooms-detail"><a href="/hostel">詳しく見る</a></p>
         </div>
       </li>
@@ -187,7 +196,7 @@
         <div class="index-rooms-text">
           <h4 class="index-rooms-title">ワイドベッドルーム（定員2名）</h4>
           <p class="index-rooms-desc">デスクの付いた、ダブルベッドのお部屋です。小さな床の間付きの和風な趣を残しています。</p>
-          <p>1泊 9,350円（2名でも同価格）</p>
+          <p>1泊 9,350円（2名でも同価格）<br>4泊 26,400円</p>
           <p class="index-rooms-detail"><a href="/hostel">詳しく見る</a></p>
         </div>
       </li>
@@ -196,19 +205,11 @@
         <div class="index-rooms-text">
           <h4 class="index-rooms-title">デラックスツインルーム（定員2名）</h4>
           <p class="index-rooms-desc">洗面台付きの広めのお部屋です。大きめのデスクが付き、ゆったり過ごせます。</p>
-          <p>1泊 11,550円（2名でも同価格）</p>
+          <p>1泊 11,550円（2名でも同価格）<br>4泊 35,200円</p>
           <p class="index-rooms-detail"><a href="/hostel">詳しく見る</a></p>
         </div>
       </li>
-      <li>
-        <img src="<?php echo get_template_directory_uri(); ?>/img/index/room-single.jpg" alt="">
-        <div class="index-rooms-text">
-          <h4 class="index-rooms-title">シングルルーム（定員1名）</h4>
-          <p class="index-rooms-desc">デスクのないミニマルなシングルベッドのお部屋です。作業はコワーキングでされる方におすすめです。</p>
-          <p>1泊 8,000円</p>
-          <p class="index-rooms-detail"><a href="/hostel">詳しく見る</a></p>
-        </div>
-      </li>
+
     </ul>
   </div>
   <div class="index-dormitory js-fadein">
@@ -228,7 +229,7 @@
       <div class="index-dormitory-text">
         <p class="index-rooms-desc">UNKNOWN KYOTOの二段ベッド相部屋は、全室にミニデスクがついています。一般的な「ドミトリー」よりゆったりとしたつくりで、相部屋ですが広々とお使いいただけます。<br>
         お手頃な価格で、観光よりも長い京都滞在をしてみませんか。</p>
-        <p class="index-rooms-price">男女混合・女性専用ともに<br>1泊 3,850円<br>4泊5日 11,000円</p>
+        <p class="index-rooms-price">男女混合・女性専用ともに<br>1泊 3,850円<br>4泊 11,000円</p>
         <p class="index-rooms-detail"><a href="/hostel">詳しく見る</a></p>
       </div>
     </div>
