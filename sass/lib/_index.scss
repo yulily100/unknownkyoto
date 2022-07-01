@@ -480,6 +480,9 @@
   align-items: center;
   color: #fff;
   position: relative;
+  @media #{$mq-sm} {
+    height: calc(100vh - 70px) !important;
+  }
 }
 .top-main-inner {
   @media #{$mq-sm} {
@@ -505,24 +508,11 @@
   }
   @media #{$mq-sm} {
     img {
-      max-width: 85%;
+      max-width: 80%;
       height: auto;
     }
   }
 }
-
-.top-main-open { // todo けす
-  display: inline-block;
-  margin: 0;
-  font-weight: bold;
-  font-size: 1.2rem;
-  letter-spacing: 3px;
-  img {
-    width: 280px;
-    height: 50px;
-  }
-}
-
 @keyframes vertical {
   0% { transform:translateY(0); opacity: 1; }
   50% { opacity: 1; }
@@ -687,109 +677,6 @@
   }
   @media #{$mq-md} {
     max-width: 600px;
-  }
-}
-
-@mixin top-facilities {
-  color: #fff;
-  height: 430px;
-  background-position: center;
-  background-size: cover;
-  text-shadow: 1px 1px 0px #000;
-  @media #{$mq-sm} {
-    color: $text;
-    background-position: top;
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 61.8% 0 36px 0;
-    height: inherit;
-    text-shadow: none;
-    background-color: $bg;
-    margin: 0 0 20px;
-  }
-}
-
-.top-facilities-hostel {
-  @include top-facilities();
-  background-image: url("img/top-facilities/hostel.jpg");
-  @media #{$mq-sm} {
-    background-image: url("img/top-facilities/hostel-sp.jpg");
-  }
-}
-.top-facilities-restaurant {
-  @include top-facilities();
-  background-image: url("img/top-facilities/restaurant.jpg");
-  @media #{$mq-sm} {
-    background-image: url("img/top-facilities/restaurant-sp.jpg");
-  }
-}
-.top-facilities-coworking {
-  @include top-facilities();
-  background-image: url("img/top-facilities/coworking.jpg");
-  @media #{$mq-sm} {
-    background-image: url("img/top-facilities/coworking-sp.jpg");
-  }
-}
-.top-facilities-title {
-  font-family: $vollkorn;
-  font-size: 2.4rem;
-  font-weight: normal;
-  margin: 0 0 20px;
-  padding: 60px 0 0 0;
-  span {
-    font-family: $yugothic;
-    font-weight: bold;
-    display: block;
-    font-size: .95rem;
-    margin: 8px 0 0 0;
-    padding: 0 0 0 32px;
-    position: relative;
-    &:before {
-      content: "";
-      display: inline-block;
-      width: 24px;
-      height: 1px;
-      background: #fff;
-      position: absolute;
-      top: 8px;
-      left: 0;
-    }
-  }
-  @media #{$mq-sm} {
-    font-size: 2rem;
-    padding: 32px 0 0 0;
-    span:before {
-      background: $text;
-    }
-  }
-}
-.top-facilities-description {
-  max-width: 45%;
-  line-height: 1.6;
-  font-size: 1.1rem;
-  margin: 0 0 40px;
-  @media #{$mq-sm} {
-    max-width: 100%;
-    font-size: 1rem;
-    margin: 0 0 20px;
-  }
-}
-.top-facilities-readmore {
-  a {
-    @include btn-border();
-    @include btn-arrow();
-    background-color: rgba(0,0,0,.2);
-    padding: 12px 72px 12px 32px;
-    &:after {
-      right: 20px;
-    }
-  }
-  @media #{$mq-sm} {
-    a {
-      @include btn-border($color: $text);
-      @include btn-arrow-text();
-      background-color: inherit;
-    }
   }
 }
 
@@ -1487,107 +1374,6 @@
     margin: -12px 0 0 0;
   }
 }
-.top-main-logo {
-  margin: 0;
-  img {
-    width: 500px;
-    height: 250px;
-  }
-  .logo-pc {
-    @media #{$mq-sm} {
-      display: none;
-    }
-  }
-  .logo-sp {
-    display: none;
-    @media #{$mq-sm} {
-      display: inline-block;
-    }
-  }
-  @media #{$mq-sm} {
-    img {
-      max-width: 85%;
-      height: auto;
-    }
-  }
-}
-
-.top-main-open { // todo けす
-  display: inline-block;
-  margin: 0;
-  font-weight: bold;
-  font-size: 1.2rem;
-  letter-spacing: 3px;
-  img {
-    width: 280px;
-    height: 50px;
-  }
-}
-
-@keyframes vertical {
-  0% { transform:translateY(0); opacity: 1; }
-  50% { opacity: 1; }
-  100% { transform:translateY(8px); opacity: 0; }
-}
-
-.top-main-share {
-  position: absolute;
-  left: 28px;
-  bottom: 20px;
-  @media #{$mq-sm} {
-    left: inherit;
-    bottom: 120px;
-  }
-}
-.top-main-share-text {
-  font-family: $vollkorn;
-  display: inline-block;
-  transform: rotate(90deg);
-  position: absolute;
-  top: -95px;
-  letter-spacing: .8px;
-  width: 50px;
-  left: -12px;
-  @media #{$mq-sm} {
-    display: none;
-  }
-}
-.top-main-share-icon {
-  width: 24px;
-  position: relative;
-  &:before {
-    content: "";
-    width: 1px;
-    height: 40px;
-    display: inline-block;
-    background: #fff;
-    position: absolute;
-    top: -55px;
-  }
-  li {
-    display: block;
-    width: 24px;
-    margin: 0 0 12px;
-  }
-  a {
-    display: inline-block;
-  }
-  img {
-    width: 24px;
-    height: 24px;
-  }
-  @media #{$mq-sm} {
-    width: auto;
-    display: flex;
-    justify-content: center;
-    li {
-      margin: 0 8px;
-    }
-    &:before {
-      display: none;
-    }
-  }
-}
 
 
 
@@ -1607,6 +1393,7 @@
     object-fit: cover;
     opacity: 0;
   }
+
 }
 
 // トップの背景アニメーション
@@ -1632,6 +1419,27 @@
 .top-image5 {
   animation: topfade 20s linear 16s infinite;
 }
+
+.top-main-image-sp {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  overflow: hidden;
+  display: none;
+  flex-direction: column;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  @media #{$mq-sm} {
+    display: flex;
+  }
+}
+
 
 // 営業時間
 .index-open {
@@ -1823,110 +1631,6 @@
     max-width: 600px;
   }
 }
-
-@mixin top-facilities {
-  color: #fff;
-  height: 430px;
-  background-position: center;
-  background-size: cover;
-  text-shadow: 1px 1px 0px #000;
-  @media #{$mq-sm} {
-    color: $text;
-    background-position: top;
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 61.8% 0 36px 0;
-    height: inherit;
-    text-shadow: none;
-    background-color: $bg;
-    margin: 0 0 20px;
-  }
-}
-
-.top-facilities-hostel {
-  @include top-facilities();
-  background-image: url("img/top-facilities/hostel.jpg");
-  @media #{$mq-sm} {
-    background-image: url("img/top-facilities/hostel-sp.jpg");
-  }
-}
-.top-facilities-restaurant {
-  @include top-facilities();
-  background-image: url("img/top-facilities/restaurant.jpg");
-  @media #{$mq-sm} {
-    background-image: url("img/top-facilities/restaurant-sp.jpg");
-  }
-}
-.top-facilities-coworking {
-  @include top-facilities();
-  background-image: url("img/top-facilities/coworking.jpg");
-  @media #{$mq-sm} {
-    background-image: url("img/top-facilities/coworking-sp.jpg");
-  }
-}
-.top-facilities-title {
-  font-family: $vollkorn;
-  font-size: 2.4rem;
-  font-weight: normal;
-  margin: 0 0 20px;
-  padding: 60px 0 0 0;
-  span {
-    font-family: $yugothic;
-    font-weight: bold;
-    display: block;
-    font-size: .95rem;
-    margin: 8px 0 0 0;
-    padding: 0 0 0 32px;
-    position: relative;
-    &:before {
-      content: "";
-      display: inline-block;
-      width: 24px;
-      height: 1px;
-      background: #fff;
-      position: absolute;
-      top: 8px;
-      left: 0;
-    }
-  }
-  @media #{$mq-sm} {
-    font-size: 2rem;
-    padding: 32px 0 0 0;
-    span:before {
-      background: $text;
-    }
-  }
-}
-.top-facilities-description {
-  max-width: 45%;
-  line-height: 1.6;
-  font-size: 1.1rem;
-  margin: 0 0 40px;
-  @media #{$mq-sm} {
-    max-width: 100%;
-    font-size: 1rem;
-    margin: 0 0 20px;
-  }
-}
-.top-facilities-readmore {
-  a {
-    @include btn-border();
-    @include btn-arrow();
-    background-color: rgba(0,0,0,.2);
-    padding: 12px 72px 12px 32px;
-    &:after {
-      right: 20px;
-    }
-  }
-  @media #{$mq-sm} {
-    a {
-      @include btn-border($color: $text);
-      @include btn-arrow-text();
-      background-color: inherit;
-    }
-  }
-}
-
 .top-plan {
   margin: 60px 0 80px;
 }

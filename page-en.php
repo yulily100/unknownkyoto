@@ -62,7 +62,6 @@ $(function() {
   <div>
     <h1 class="top-main-logo"><img src="<?php echo get_template_directory_uri(); ?>/img/top-logo.svg" alt="UNKNOWN KYOTO"></h1>
     <p class="top-main-description">Hostel, Dining, Co-working</p>
-    <p class="top-main-open"><img src="<?php echo get_template_directory_uri(); ?>/img/en/header-open.png" alt="2019秋OPEN予定"></p>
   </div>
 
   <div class="top-main-image">
