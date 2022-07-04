@@ -5,7 +5,6 @@
   align-items: center;
   justify-content: space-between;
   height: 68px;
-  border-bottom: 1px solid $border;
   width: 100%;
   background: #fff;
   z-index: 100;
@@ -14,22 +13,10 @@
 
   // トップページのみ
   .page-index & {
-    z-index: $z-higher;
-    border: none;
-    background: none;
-    padding: 0;
-    a,
-    .header-nav-jp {
-      color: #fff;
-    }
+    background: rgba($color: #fff, $alpha: 0.8);
+
     &.is-active {
       background: #fff;
-      a {
-        color: $text;
-        .header-nav-jp {
-          color: #808080;
-        }
-      }
     }
 
     @media #{$mq-sm} {
@@ -97,9 +84,6 @@
     &:hover {
       text-decoration: none;
       opacity: .7;
-    }
-    .header-nav-jp {
-      color: #808080;
     }
     span {
       font-family: $yugothic;
@@ -221,7 +205,7 @@
   background: $bg;
   height: 100vh;
   z-index: 110;
-  padding: 80px 0 0 0;
+  padding: 70px 0 0 0;
   a {
     color: #000 !important;
   }
@@ -274,21 +258,9 @@
     transform: translateY(8px);
   }
 
-  // トップページでは白
-  .page-index & {
-    background: #fff;
-    &:before, &:after {
-      background: #fff;
-    }
-  }
+
 
   // トップページでスクロールしたら黒
-  .is-active & {
-    background: $text;
-    &:before, &:after {
-      background: $text;
-    }
-  }
 
   .is-open & {
     background: transparent;
@@ -327,6 +299,10 @@
     font-weight: normal;
     font-size: 1.2rem;
   }
+}
+.nav-sp-faq {
+  font-size: .9rem;
+  margin: 16px 0 0 0;
 }
 .nav-sp-sns {
   display: flex;

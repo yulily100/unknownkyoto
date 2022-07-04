@@ -118,27 +118,13 @@
 
     <header class="header">
       <div class="header-main">
-        <?php if ( is_front_page() && is_home() || is_page('en') || is_page('index-new') ) : ?>
-          <div class="header-n-logo">
-            <a href="/">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/top-n-default.svg" alt="UNKNWON KYOTO" class="top-n-default">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/top-n-active.svg" alt="UNKNWON KYOTO" class="top-n-active">
-            </a>
-          </div>
-          <!-- <?php
-            $args = array(
-              'menu_class' => 'header-language',
-              'container' => false,
-            );
-            wp_nav_menu($args); ?> -->
-        <?php else : ?>
+
           <h1 class="header-title">
             <a href="/">
               <img src="<?php echo get_template_directory_uri(); ?>/img/header-logo.svg" alt="UNKNWON KYOTO">
             </a>
           </h1>
-          <!-- <p class="header-description"><a href="/campaign-goto">Go Toキャンペーンご利用方法</a></p> -->
-        <?php endif; ?>
+
       </div>
       <div class="header-menu">
         <ul class="header-nav">
@@ -168,6 +154,7 @@
             <li><a href="/access">Access<span>アクセス</span></a></li>
             <li><a href="/blog">Blog<span>ブログ</span></a></li>
           </ul>
+          <p class="nav-sp-faq"><a href="/faq">よくある質問</a></p>
           <ul class="nav-sp-sns">
             <li><a href="https://www.instagram.com/unknownkyoto/" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/sns-instagram.svg" alt="Instagram"></a></li>
             <li><a href="https://www.facebook.com/Unknown.Kyoto.Gojo.Rakuen" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/sns-facebook.svg" alt="Facebook"></a></li>

@@ -848,26 +848,15 @@ img {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 68px;
-  border-bottom: 1px solid #ddd;
   width: 100%;
   background: #fff;
   z-index: 100;
   height: 60px;
   position: fixed; }
   .page-index .header {
-    z-index: 100;
-    border: none;
-    background: none;
-    padding: 0; }
-    .page-index .header a,
-    .page-index .header .header-nav-jp {
-      color: #fff; }
+    background: rgba(255, 255, 255, 0.8); }
     .page-index .header.is-active {
       background: #fff; }
-      .page-index .header.is-active a {
-        color: #3a372f; }
-        .page-index .header.is-active a .header-nav-jp {
-          color: #808080; }
     @media (max-width: 767px) {
       .page-index .header {
         display: -webkit-box;
@@ -945,8 +934,6 @@ img {
     .header-nav a:hover {
       text-decoration: none;
       opacity: .7; }
-    .header-nav a .header-nav-jp {
-      color: #808080; }
     .header-nav a span {
       font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", sans-serif;
       font-weight: bold;
@@ -1063,7 +1050,7 @@ img {
   background: #f1eded;
   height: 100vh;
   z-index: 110;
-  padding: 80px 0 0 0; }
+  padding: 70px 0 0 0; }
   .nav-sp-body a {
     color: #000 !important; }
   .is-open .nav-sp-body {
@@ -1109,14 +1096,6 @@ img {
     -webkit-transform: translateY(8px);
         -ms-transform: translateY(8px);
             transform: translateY(8px); }
-  .page-index .nav-toggle-btn-line {
-    background: #fff; }
-    .page-index .nav-toggle-btn-line:before, .page-index .nav-toggle-btn-line:after {
-      background: #fff; }
-  .is-active .nav-toggle-btn-line {
-    background: #3a372f; }
-    .is-active .nav-toggle-btn-line:before, .is-active .nav-toggle-btn-line:after {
-      background: #3a372f; }
   .is-open .nav-toggle-btn-line {
     background: transparent; }
     .is-open .nav-toggle-btn-line:before, .is-open .nav-toggle-btn-line:after {
@@ -1166,6 +1145,10 @@ img {
       border-right: 1px solid #3a372f;
       right: -5px;
       bottom: -5px; }
+
+.nav-sp-faq {
+  font-size: .9rem;
+  margin: 16px 0 0 0; }
 
 .nav-sp-sns {
   display: -webkit-box;
