@@ -4,7 +4,7 @@
   <div class="restaurant-header">
     <div class="restaurant-header-inner">
       <h1><img src="<?php echo get_template_directory_uri(); ?>/img/restaurant-logo.svg" alt="Sin -Dinging & Bar-" width="150" height="150"></h1>
-      <p class="restaurant-header-note">地域共通クーポン<br class="for-sp"><span class="for-pc">、</span>京都Go To Eatが利用可能です</p>
+      <p class="restaurant-header-note">京都応援クーポンが利用可能です</p>
     </div>
   </div>
 
