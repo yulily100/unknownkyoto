@@ -213,10 +213,10 @@
 
     </div>
     <div class="index-dormitory-contents">
-      <h3 class="index-dormitory-title"><span>泊まれるデスク</span><br>ワーキングベッド</h3>
+      <h3 class="index-dormitory-title"><span>メゾネット式ドミトリー</span><br>ワーキングベッド</h3>
       <div class="index-dormitory-text">
-        <p class="index-rooms-desc">UNKNOWN KYOTOの二段ベッド相部屋は、全室にミニデスクがついています。一般的な「ドミトリー」よりゆったりとしたつくりで、相部屋ですが広々とお使いいただけます。<br>
-        お手頃な価格で、観光よりも長い京都滞在をしてみませんか。</p>
+        <p class="index-rooms-desc">全室にミニデスクがついていて作業することができます。一般的な「ドミトリー」よりゆったりとしたつくりで広々とお使いいただけます。</p>
+        <p class="index-rooms-desc"><b>2022年9月より二段ベッドの上下両方とも1人でお使いいただけるようになりました。</b>定員は3名ですが、4〜6名で貸し切りにすることもできます。</p>
         <p class="index-rooms-price">男女混合・女性専用ともに<br>1泊 3,850円<br>4泊 11,000円</p>
         <p class="index-rooms-detail"><a href="/hostel">詳しく見る</a></p>
       </div>

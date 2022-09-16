@@ -239,55 +239,49 @@ $(function() {
     </div>
   </section>
 
-  <div class="hostel2-room-dormitory">
-    <div class="hostel2-room-dormitory-contents">
-      <img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/dormitory1.jpg" alt="男女混合ドミトリー">
-      <h3 class="hostel2-room-title"><span>MIX Dormitory</span>ワーキングベッド</h3>
-      <p class="hostel2-room-description">男女混合のドミトリールーム（二段ベッド相部屋）です。<br>各ベッドにはカウンターテーブルが付き、通常のベッドよりもゆったりとした空間になっています。</p>
-      <ul class="hostel2-room-equipment">
-        <li>読書灯</li>
-        <li>置き鏡</li>
-        <li>ドライヤー</li>
-        <li>共同シャワー</li>
-        <li>共同トイレ</li>
-      </ul>
-      <ul class="hostel2-room-equipment">
-        <li>コワーキング無料</li>
-        <li>会議室2時間無料</li>
-      </ul>
-      <p class="hostel2-room-note">タオルはこちらのお部屋にはついておりません。ご持参いただくか、レンタルをご用意しておりますのでご利用ください。</p>
-      <p class="hostel2-room-price">
-        4泊 11,000円<br>
-        1泊 3,850円
-      </p>
-      <p class="hostel-room-note">消費税込み、宿泊税一人200円/一泊</p>
+  <div class="index-dormitory js-fadein">
+    <div class="index-dormitory-img">
+      <div class="index-dormitory-left"><img src="<?php echo get_template_directory_uri(); ?>/img/index/dormi-1.jpg" alt=""></div>
+      <div class="index-dormitory-right">
+        <div class="index-dormitory-2"><img src="<?php echo get_template_directory_uri(); ?>/img/index/dormi-2.jpg" alt=""></div>
+        <div class="index-dormitory-bottom">
+          <div class="index-dormitory-bottom-img"><img src="<?php echo get_template_directory_uri(); ?>/img/index/dormi-3.jpg" alt=""></div>
+          <div class="index-dormitory-bottom-img"><img src="<?php echo get_template_directory_uri(); ?>/img/index/dormi-4.jpg" alt=""></div>
+        </div>
+      </div>
+
     </div>
-    <div class="hostel2-room-dormitory-contents">
-      <img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/dormitory2.jpg" alt="女性専用ドミトリー">
-      <h3 class="hostel2-room-title"><span>Female Only Dormitory</span>女性専用ワーキングベッド</h3>
-      <p class="hostel2-room-description">女性専用のドミトリールーム（二段ベッド相部屋）です。<br>各ベッドにはカウンターテーブルが付き、通常のベッドよりもゆったりとした空間になっています。</p>
-      <ul class="hostel2-room-equipment">
-        <li>読書灯</li>
-        <li>置き鏡</li>
-        <li>ドライヤー</li>
-        <li>共同シャワー</li>
-        <li>共同トイレ</li>
-      </ul>
-      <ul class="hostel2-room-equipment">
-        <li>コワーキング無料</li>
-        <li>会議室2時間無料</li>
-      </ul>
-      <p class="hostel2-room-note">タオルはこちらのお部屋にはついておりません。ご持参いただくか、レンタルをご用意しておりますのでご利用ください。</p>
-      <p class="hostel2-room-price">
-        4泊 11,000円<br>
-        1泊 3,850円
-      </p>
-      <p class="hostel-room-note">消費税込み、宿泊税一人200円/一泊</p>
+    <div class="index-dormitory-contents">
+      <h3 class="index-dormitory-title"><span>メゾネット式ドミトリー</span><br>ワーキングベッド</h3>
+      <div class="index-dormitory-text">
+        <p class="index-rooms-desc">全室にミニデスクがついていて作業することができます。一般的な「ドミトリー」よりゆったりとしたつくりで広々とお使いいただけます。</p>
+        <p class="index-rooms-desc"><b>2022年9月より二段ベッドの上下両方とも1人でお使いいただけるようになりました。</b>定員は3名ですが、4〜6名で貸し切りにすることもできます。</p>
+        <ul class="hostel2-room-equipment">
+          <li>読書灯</li>
+          <li>置き鏡</li>
+          <li>ドライヤー</li>
+          <li>共同シャワー</li>
+          <li>共同トイレ</li>
+        </ul>
+        <ul class="hostel2-room-equipment">
+          <li>コワーキング無料</li>
+          <li>会議室2時間無料</li>
+        </ul>
+        <p class="hostel2-room-note">タオルはこちらのお部屋にはついておりません。ご持参いただくか、レンタルをご用意しておりますのでご利用ください。</p>
+        <p class="hostel2-room-price">
+          男女混合・女性専用ともに<br>
+          1泊 3,850円<br>
+          4泊 11,000円
+        </p>
+        <p class="hostel-room-note">消費税込み、宿泊税一人200円/一泊</p>
+      </div>
     </div>
   </div>
+
   <div class="hostel2-longterm">
     <h3 class="hostel2-longterm-title">泊まるほどお得に</h3>
     <p class="hostel2-longterm-description">
+      2泊から連泊すればするほど1泊の価格が下がります。<br>
       4泊以上ではロングステイプラン適用でさらにお安くなります。<br>
       1ヶ月以上から住むマンスリープランもございます。</p>
     <p class="hostel2-longterm-link"><a href="#hostel2-plan">プランについてはこちら</a></p>

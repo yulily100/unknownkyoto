@@ -150,3 +150,52 @@
     font-size: 1.4rem;
   }
 }
+
+
+.plan-table {
+  font-size: .9rem;
+  @media #{$mq-sm} {
+    font-size: .8rem;
+  }
+}
+.plan-table-body {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid $border;
+
+}
+.plan-table-header {
+  display: flex;
+  align-items: center;
+  .plan-table-title,
+  .plan-table-contents {
+    background: $secondary;
+    border: 1px solid #fff;
+    font-weight: bold;
+  }
+}
+.plan-table-title {
+  flex: 25% 0 0;
+  text-align: center;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: #f7f7f7;
+  font-weight: bold;
+}
+.plan-table-contents {
+  flex: 25% 0 0;
+  text-align: center;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.plan-table-term {
+  font-size: .8rem;
+}
+
+.plan-table-note {
+  font-size: .8rem;
+}

@@ -4813,6 +4813,76 @@ img {
       padding: 100px 0 0 0;
       font-size: 1.4rem; } }
 
+.plan-table {
+  font-size: .9rem; }
+  @media (max-width: 767px) {
+    .plan-table {
+      font-size: .8rem; } }
+
+.plan-table-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #ddd; }
+
+.plan-table-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .plan-table-header .plan-table-title,
+  .plan-table-header .plan-table-contents {
+    background: #d3b471;
+    border: 1px solid #fff;
+    font-weight: bold; }
+
+.plan-table-title {
+  -webkit-box-flex: 25%;
+      -ms-flex: 25% 0 0px;
+          flex: 25% 0 0;
+  text-align: center;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #f7f7f7;
+  font-weight: bold; }
+
+.plan-table-contents {
+  -webkit-box-flex: 25%;
+      -ms-flex: 25% 0 0px;
+          flex: 25% 0 0;
+  text-align: center;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.plan-table-term {
+  font-size: .8rem; }
+
+.plan-table-note {
+  font-size: .8rem; }
+
 .hostel2-header {
   background-image: url("img/hostel2/header.jpg");
   background-size: cover;
