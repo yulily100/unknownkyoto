@@ -124,6 +124,10 @@
               <img src="<?php echo get_template_directory_uri(); ?>/img/header-logo.svg" alt="UNKNWON KYOTO">
             </a>
           </h1>
+          <ul class="header-lang">
+            <li><a href="/" class="jp">JP</a></li>
+            <li><a href="/en" class="en">EN</a></li>
+          </ul>
 
       </div>
       <div class="header-menu">
@@ -142,9 +146,7 @@
       </div>
 
       <div class="nav-sp">
-        
         <div class="nav-sp-body">
-
           <ul class="nav-sp-menu">
             <li><a href="/about">About<span>施設について</span></a></li>
             <li><a href="/hostel">Hostel<span>宿泊</span></a></li>
@@ -153,8 +155,8 @@
             <li><a href="/plan">Plan<span>プラン</span></a></li>
             <li><a href="/access">Access<span>アクセス</span></a></li>
             <li><a href="/blog">Blog<span>ブログ</span></a></li>
+            <li><a href="/faq">FAQ<span>よくある質問</span></a></li>
           </ul>
-          <p class="nav-sp-faq"><a href="/faq">よくある質問</a></p>
           <ul class="nav-sp-sns">
             <li><a href="https://www.instagram.com/unknownkyoto/" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/sns-instagram.svg" alt="Instagram"></a></li>
             <li><a href="https://www.facebook.com/Unknown.Kyoto.Gojo.Rakuen" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/sns-facebook.svg" alt="Facebook"></a></li>
@@ -162,4 +164,36 @@
           </ul>
         </div>
       </div>
+
     </header>
+
+<?php
+  global $single1;
+  global $single4;
+  global $relax1;
+  global $relax4;
+  global $double1;
+  global $double4;
+  global $deluxe1;
+  global $deluxe4;
+  global $dormitory1;
+  global $dormitory4;
+
+  $single1 = '8,000';
+  $single4 = '19,800';
+
+  $relax1 = '8,800';
+  $relax4 = '24,200';
+
+  $double1 = '9,350';
+  $double4 = '26,400';
+
+  $deluxe1 = '11,550';
+  $deluxe4 = '35,200';
+
+  $dormitory1 = '3,850';
+  $dormitory4 = '11,000';
+
+  global $phoneNumber;
+  global $phoneNumber_restaurant;
+?>

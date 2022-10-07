@@ -144,14 +144,15 @@
         <img src="<?php echo get_template_directory_uri(); ?>/img/index/about-04.jpg" alt="">
       </div>
       <div class="index-about-text">
-        <h3 class="index-about-title">長めに滞在するからこそ<br>わかる京都がある</h3>
+        <h3 class="index-about-title">長期滞在もおすすめです</h3>
         <p class="index-about-desc">UNKNOWN KYOTOの魅力が一番味わえるのは<br class="for-pc">
           2,3泊、もしくはそれ以上かけて<br  class="for-pc">じっくりと京都を味わうような滞在です。<br>
           シェアキッチンやランドリーなど、<br>
-          暮らすのに必要なものはすべて揃っています。<br>
-          2,3泊すると1泊の価格が下がります。<br>
-          それ以上でさらにお得なプランになります。</p>
+          住むのに必要なものはすべて揃っています。<br>
+          長期滞在用のプランもございます。</p>
           <p class="index-about-detail"><a href="https://unknown.kyoto/plan/workation/">4泊以上のロングステイプランはこちら</a></p>
+          <p class="index-about-detail"><a href="https://unknown.kyoto/plan/monthly/">2週間/1ヶ月滞在のプランはこちら</a></p>
+          
       </div>
 
     </div>
@@ -222,13 +223,6 @@
       </div>
     </div>
   </div>
-  <!-- <ul class="index-facilities">
-    <li>コワーキング</li>
-    <li>会議室</li>
-    <li>ディスプレイモニター</li>
-    <li>シェアキッチン<br>コインランドリーあり</li>
-    <li>二泊以上から割引</li>
-  </ul> -->
 
 
 </section>
