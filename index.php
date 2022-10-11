@@ -6,7 +6,7 @@
       <img src="<?php echo get_template_directory_uri(); ?>/img/top-logo.svg" alt="UNKNOWN KYOTO" class="logo-pc">
       <img src="<?php echo get_template_directory_uri(); ?>/img/top-logo-sp.svg" alt="UNKNOWN KYOTO" class="logo-sp">
     </h1>
-
+    <p class="top-main-btn"><a href="https://unknown.kyoto/blog/ryoko-shien/"><span>全国旅行支援ご利用方法</span></a></p>
   </div>
 
   <div class="top-main-share">
@@ -17,7 +17,7 @@
       <li><a href="https://twitter.com/unknown_kyoto" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/img/sns-twitter-white.svg" alt="Twitter"></a></li>
     </ul>
   </div>
-  <!-- <p class="btn-main-area"><a href="/campaign-goto"><span>Go Toトラベルキャンペーン<br class="for-sp">ご利用方法</span></a></p> -->
+
 
   <div class="top-main-image">
     <img src="<?php echo get_template_directory_uri(); ?>/img/top-image0207/05.jpg" alt="UNKNOWN KYOTO" class="top-image5">

@@ -519,6 +519,22 @@
   100% { transform:translateY(8px); opacity: 0; }
 }
 
+.top-main-btn {
+  font-weight: bold;
+  font-size: .9rem;
+  margin: 40px 0 0 0;
+  span {
+    margin: 0 4px 0 0;
+    letter-spacing: .8px;
+  }
+  a {
+    @include btn-border();
+    @include btn-arrow();
+    letter-spacing: .5px;
+    background: rgba(0,0,0,.3);
+  }
+}
+
 .top-main-share {
   position: absolute;
   left: 28px;
@@ -528,6 +544,7 @@
     bottom: 120px;
   }
 }
+
 .top-main-share-text {
   font-family: $vollkorn;
   display: inline-block;
