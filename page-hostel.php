@@ -64,7 +64,47 @@ $(function() {
 </ul>
 
 <div class="hostel2-room" id="hostel2-room">
-<section class="hostel2-room-private">
+  <section class="hostel2-room-private">
+    <div class="hostel2-room-private-text">
+      <h3 class="hostel2-room-title"><span>Single Room</span>シングルルーム(定員1名)</h3>
+      <p class="hostel2-room-description">床の間のある和風な趣を残したシングルルームです。障子は完全遮光ではありませんが、柔らかな日差しとともに朝を迎えることができます。<br>※こちらのお部屋にはデスクは付きません。</p>
+      <ul class="hostel2-room-equipment">
+        <li>スタンドライト</li>
+        <li>バスタオル</li>
+        <li>フェイスタオル</li>
+      </ul>
+      <ul class="hostel2-room-equipment">
+        <li>掛け鏡</li>
+        <li>ドライヤー</li>
+        <li>共同シャワー</li>
+        <li>共同トイレ</li>
+      </ul>
+      <ul class="hostel2-room-equipment">
+        <li>コワーキング無料</li>
+        <li>会議室2時間無料</li>
+      </ul>
+      <p class="hostel2-room-price">
+        1泊　<?php echo $single1; ?>円<br>
+        2泊　16,000円 (1泊8,000円)<br>
+        3泊　19,800円 (1泊6,600円)<br>
+        4泊　<?php echo $single4; ?>円 (1泊5,000円)</p>
+      <p class="hostel-room-note">消費税込み、宿泊税一人200円/一泊</p>
+        <!-- <span class="line-through">7,500円</span>
+        <br>GO TOトラベル価格で<br>4,880円 + 地域共通クーポン1000円分配布 -->
+    </div>
+    <div class="hostel2-room-private-img">
+      <ul class="hostel2-gallery">
+        <li id="single1" class="is-active hostel2-gallery-img single"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-single1.jpg" alt="シングルルーム"></li>
+        <li id="single2" class="hostel2-gallery-img single"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-single2.jpg" alt="シングルルーム"></li>
+        
+      </ul>
+      <ul class="hostel2-gallery-thumb">
+        <li><button type="button" id="single1-thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-single1-thumb.jpg" alt="シングルルーム"></button></li>
+        <li><button type="button" id="single2-thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-single2-thumb.jpg" alt="シングルルーム"></button></li>
+      </ul>
+    </div>
+  </section>
+  <section class="hostel2-room-private">
     <div class="hostel2-room-private-text">
       <h3 class="hostel2-room-title"><span>Relax Single Room</span>リラックスシングルルーム(定員1名)</h3>
       <p class="hostel2-room-description">デスクのついたゆったりとしたシングルルームです。中・長期の滞在や、お部屋でもテレビ会議などをしたい方に特におすすめです。</p>
@@ -110,46 +150,6 @@ $(function() {
   </section>
   <section class="hostel2-room-private">
     <div class="hostel2-room-private-text">
-      <h3 class="hostel2-room-title"><span>Single Room</span>シングルルーム(定員1名)</h3>
-      <p class="hostel2-room-description">床の間のある和風な趣を残したシングルルームです。障子は完全遮光ではありませんが、柔らかな日差しとともに朝を迎えることができます。<br>※こちらのお部屋にはデスクは付きません。</p>
-      <ul class="hostel2-room-equipment">
-        <li>スタンドライト</li>
-        <li>バスタオル</li>
-        <li>フェイスタオル</li>
-      </ul>
-      <ul class="hostel2-room-equipment">
-        <li>掛け鏡</li>
-        <li>ドライヤー</li>
-        <li>共同シャワー</li>
-        <li>共同トイレ</li>
-      </ul>
-      <ul class="hostel2-room-equipment">
-        <li>コワーキング無料</li>
-        <li>会議室2時間無料</li>
-      </ul>
-      <p class="hostel2-room-price">
-        1泊　8,000円<br>
-        2泊　16,000円 (1泊8,000円)<br>
-        3泊　19,800円 (1泊6,600円)<br>
-        4泊　19,800円 (1泊4,950円)</p>
-      <p class="hostel-room-note">消費税込み、宿泊税一人200円/一泊</p>
-        <!-- <span class="line-through">7,500円</span>
-        <br>GO TOトラベル価格で<br>4,880円 + 地域共通クーポン1000円分配布 -->
-    </div>
-    <div class="hostel2-room-private-img">
-      <ul class="hostel2-gallery">
-        <li id="single1" class="is-active hostel2-gallery-img single"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-single1.jpg" alt="シングルルーム"></li>
-        <li id="single2" class="hostel2-gallery-img single"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-single2.jpg" alt="シングルルーム"></li>
-        
-      </ul>
-      <ul class="hostel2-gallery-thumb">
-        <li><button type="button" id="single1-thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-single1-thumb.jpg" alt="シングルルーム"></button></li>
-        <li><button type="button" id="single2-thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/room-single2-thumb.jpg" alt="シングルルーム"></button></li>
-      </ul>
-    </div>
-  </section>
-  <section class="hostel2-room-private">
-    <div class="hostel2-room-private-text">
       <h3 class="hostel2-room-title"><span>Double Room</span>ワイドベッドルーム(定員２名)</h3>
       <p class="hostel2-room-description">デスクのついた、和風な趣を残すダブルベッドのお部屋です。窓と部屋の間は障子で仕切られているため、完全遮光のお部屋ではありませんが優しい光を感じられるお部屋です。</p>
       <ul class="hostel2-room-equipment">
@@ -169,10 +169,10 @@ $(function() {
         <li>会議室2時間無料</li>
       </ul>
       <p class="hostel2-room-price">
-        1泊　9,350円 (2名でも同価格)<br>
+        1泊　<?php echo $double1; ?>円 (2名でも同価格)<br>
         2泊　17,600円 (1泊8,800円)<br>
         3泊　24,750円 (1泊8,250円)<br>
-        4泊　26,400円 (1泊6,600円)</p>
+        4泊　<?php echo $double4; ?>円 (1泊6,600円)</p>
         <!-- <span class="line-through">8,500円</span>
         <br>GO TOトラベル価格で<br>5,530円 + 地域共通クーポン1000円分配布 -->
       </p>
@@ -214,10 +214,10 @@ $(function() {
         <li>会議室2時間無料</li>
       </ul>
       <p class="hostel2-room-price">
-        1泊　11,550円 (2名でも同価格)<br>
+        1泊　<?php echo $deluxe1; ?>円 (2名でも同価格)<br>
         2泊　22,000円 (1泊11,000円)<br>
         3泊　31,350円 (1泊10,450円)<br>
-        4泊　35,200円 (1泊8,800円)</p>
+        4泊　<?php echo $deluxe4; ?>円 (1泊8,800円)</p>
         <!-- <span class="line-through">10,500円</span>
         <br>GO TOトラベル価格で<br>6,830円 + 地域共通クーポン2000円分配布 -->
       </p>
@@ -270,8 +270,8 @@ $(function() {
         <p class="hostel2-room-note">タオルはこちらのお部屋にはついておりません。ご持参いただくか、レンタルをご用意しておりますのでご利用ください。</p>
         <p class="hostel2-room-price">
           男女混合・女性専用ともに<br>
-          1泊 3,850円<br>
-          4泊 11,000円
+          1泊 <?php echo $dormitory1; ?>円<br>
+          4泊 <?php echo $dormitory4; ?>円
         </p>
         <p class="hostel-room-note">消費税込み、宿泊税一人200円/一泊</p>
       </div>

@@ -180,7 +180,7 @@
   global $dormitory4;
 
   $single1 = '8,000';
-  $single4 = '19,800';
+  $single4 = '20,000';
 
   $relax1 = '8,800';
   $relax4 = '24,200';

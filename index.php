@@ -167,7 +167,7 @@
         <div class="index-rooms-text">
           <h4 class="index-rooms-title">シングルルーム（定員1名）</h4>
           <p class="index-rooms-desc">デスクのないミニマルなシングルベッドのお部屋です。作業はコワーキングでされる方におすすめです。</p>
-          <p>1泊 8,000円<br>4泊 19,800円</p>
+          <p>1泊 <?php echo $single1; ?>円<br>4泊 <?php echo $single4; ?>円</p>
           <p class="index-rooms-detail"><a href="/hostel">詳しく見る</a></p>
         </div>
       </li>
@@ -176,7 +176,7 @@
         <div class="index-rooms-text">
           <h4 class="index-rooms-title">リラックスシングルルーム（定員1名）</h4>
           <p class="index-rooms-desc">デスクの付いた、シングルベッドのゆったりとしたお部屋です。長期滞在をされる方には特におすすめです。</p>
-          <p>1泊 8,800円<br>4泊 24,200円</p>
+          <p>1泊 <?php echo $relax1; ?>円<br>4泊 <?php echo $relax4; ?>円</p>
           <p class="index-rooms-detail"><a href="/hostel">詳しく見る</a></p>
         </div>
       </li>
@@ -185,7 +185,7 @@
         <div class="index-rooms-text">
           <h4 class="index-rooms-title">ワイドベッドルーム（定員2名）</h4>
           <p class="index-rooms-desc">デスクの付いた、ダブルベッドのお部屋です。小さな床の間付きの和風な趣を残しています。</p>
-          <p>1泊 9,350円（2名でも同価格）<br>4泊 26,400円</p>
+          <p>1泊 <?php echo $double1; ?>円（2名でも同価格）<br>4泊 <?php echo $double4; ?>円</p>
           <p class="index-rooms-detail"><a href="/hostel">詳しく見る</a></p>
         </div>
       </li>
@@ -194,7 +194,7 @@
         <div class="index-rooms-text">
           <h4 class="index-rooms-title">デラックスツインルーム（定員2名）</h4>
           <p class="index-rooms-desc">洗面台付きの広めのお部屋です。大きめのデスクが付き、ゆったり過ごせます。</p>
-          <p>1泊 11,550円（2名でも同価格）<br>4泊 35,200円</p>
+          <p>1泊 <?php echo $deluxe1; ?>円（2名でも同価格）<br>4泊 <?php echo $deluxe4; ?>円</p>
           <p class="index-rooms-detail"><a href="/hostel">詳しく見る</a></p>
         </div>
       </li>
@@ -218,7 +218,7 @@
       <div class="index-dormitory-text">
         <p class="index-rooms-desc">全室にミニデスクがついていて作業することができます。一般的な「ドミトリー」よりゆったりとしたつくりで広々とお使いいただけます。</p>
         <p class="index-rooms-desc"><b>2022年9月より二段ベッドの上下両方とも1人でお使いいただけるようになりました。</b>定員は3名ですが、4〜6名で貸し切りにすることもできます。</p>
-        <p class="index-rooms-price">男女混合・女性専用ともに<br>1泊 3,850円<br>4泊 11,000円</p>
+        <p class="index-rooms-price">男女混合・女性専用ともに<br>1泊 <?php echo $dormitory1; ?>円<br>4泊 <?php echo $dormitory4; ?>円</p>
         <p class="index-rooms-detail"><a href="/hostel">詳しく見る</a></p>
       </div>
     </div>
