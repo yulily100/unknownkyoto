@@ -344,8 +344,8 @@
   <section class="top-footer-contents">
     <p class="top-recruit-heading">RECRUIT</p>
     <h3 class="top-footer-title">スタッフ募集</h3>
-    <p class="top-footer-description">現在募集はありません</p>
-    <!-- <p class="btn-normal"><a href="https://unknown.kyoto/blog/recruit-202111/" target="_blank" rel="noopener">詳細はこちら</a></p> -->
+    <p class="top-footer-description">現在の募集状況は以下をご覧ください</p>
+    <p class="btn-normal"><a href="https://unknown.kyoto/recruit/">詳細はこちら</a></p>
   </section>
 </div>
 

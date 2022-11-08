@@ -36,7 +36,9 @@
         <li><a href="/coworking">Coworking</a></li>
         <li><a href="/blog">Blog</a></li>
         <li><a href="/faq">よくある質問</a></li>
+        <li><a href="https://unknown.kyoto/recruit/">スタッフ募集</a></li>
         <li><a href="/transaction">特定商取引法に基づく表記</a></li>
+        
       </ul>
       <p class="footer-copyright">Copyright © UNKNOWN KYOTO</p>
     </div>
