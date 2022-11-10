@@ -212,6 +212,7 @@
         土:10:00~22:00</p>
         
         <p class="coworking-rental-btn"><a href="https://calendar.google.com/calendar/embed?src=unknown.kyoto_1885cn5hd6mo2jdjkhgei9r0kgas06gb74rjgd9i6gr3edpl6g%40resource.calendar.google.com&ctz=Asia%2FTokyo" target="_blank" rel="noopener">カレンダーで空きを確認</a></p>
+        <p class="btn-primary"><a href="https://forms.gle/VcJ5JaqLDGtDtuPE8" target="_blank" rel="noopener noreferrer">イベント利用申し込み</a></p>
       </li>
       <li>
         <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/facilities-meetingroom.jpg" alt="会議室" class="office-facilities-img">
@@ -221,6 +222,7 @@
         <p class="coworking-rental-plan">550円/1時間<br>
         毎日:10:00~19:00</p>
         <p class="coworking-rental-btn"><a href="https://calendar.google.com/calendar/embed?src=unknown.kyoto_1888eqjoh1j6chk9h6ehd9b1ve3co6gb6sp3acpj6os36chk6k%40resource.calendar.google.com&ctz=Asia%2FTokyo" target="_blank" rel="noopener">カレンダーで空きを確認</a></p>
+        <p class="btn-primary"><a href="https://forms.gle/kjvYqWJYYTFjwaHW7" target="_blank" rel="noopener noreferrer">会議室利用申し込み</a></p>
       </li>
       <li>
         <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/facilities-meetingroom2.jpg" alt="本池中会議室" class="office-facilities-img">
@@ -230,9 +232,10 @@
         <p class="coworking-rental-plan">1,100円/1時間<br>
           毎日:10:00~19:00</p>
         <p class="coworking-rental-btn"><a href="https://calendar.google.com/calendar/embed?src=unknown.kyoto_1888b9a18gqv4ggtnk34evr8m1btq6gb68p3gd9n6ko3ad9o6k%40resource.calendar.google.com&ctz=Asia%2FTokyo" target="_blank" rel="noopener">カレンダーで空きを確認</a></p>
+        <p class="btn-primary"><a href="https://forms.gle/kjvYqWJYYTFjwaHW7" target="_blank" rel="noopener noreferrer">会議室利用申し込みは</a></p>
+
       </li>
     </ul>
-    <p class="btn-primary"><a href="https://docs.google.com/forms/d/1quuihBBg9HkvCRx7wk7HhMFsrastC6G_sI3cQ9vwwkQ/viewform?edit_requested=true" target="_blank" rel="noopener noreferrer">利用申し込みはこちら</a></p>
   </div>
 </section>
 

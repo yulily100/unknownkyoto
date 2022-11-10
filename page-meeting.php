@@ -52,7 +52,7 @@ $(function() {
   </div>
   <div class="meeting-contents-img">
     <img src="<?php echo get_template_directory_uri(); ?>/img/meeting/honkan.jpg" alt="本館会議室">
-    <p class="btn-primary"><a href="https://forms.gle/6J7F7cMpVtWgtKzJA">本館会議室を予約</a></p>
+    <p class="btn-primary"><a href="https://forms.gle/kjvYqWJYYTFjwaHW7">本館会議室を予約</a></p>
   </div>
 </div>
 
@@ -83,7 +83,7 @@ $(function() {
   </div>
   <div class="meeting-contents-img">
     <img src="<?php echo get_template_directory_uri(); ?>/img/meeting/room-5.jpg" alt="本池中会議室（小）">
-    <p class="btn-primary"><a href="https://forms.gle/6J7F7cMpVtWgtKzJA">本池中会議室（小）を予約</a></p>
+    <p class="btn-primary"><a href="https://forms.gle/kjvYqWJYYTFjwaHW7">本池中会議室（小）を予約</a></p>
   </div>
 </div>
 
@@ -112,7 +112,7 @@ $(function() {
   </div>
   <div class="meeting-contents-img">
     <img src="<?php echo get_template_directory_uri(); ?>/img/meeting/room-1.jpg" alt="本池中会議室（大）">
-    <p class="btn-primary"><a href="https://forms.gle/6J7F7cMpVtWgtKzJA">本池中会議室（大）を予約</a></p>
+    <p class="btn-primary"><a href="https://forms.gle/kjvYqWJYYTFjwaHW7">本池中会議室（大）を予約</a></p>
   </div>
 </div>
 
