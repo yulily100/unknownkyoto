@@ -252,7 +252,7 @@ $(function() {
 
     </div>
     <div class="index-dormitory-contents">
-      <h3 class="index-dormitory-title"><span>メゾネット式ドミトリー</span><br>ワーキングベッド</h3>
+      <h3 class="index-dormitory-title"><span>ミニデスク付きドミトリー</span><br>ワーキングベッド</h3>
       <div class="index-dormitory-text">
         <p class="index-rooms-desc">全室にミニデスクがついていて作業することができます。一般的な「ドミトリー」よりも、ややゆったりとしたつくりです。</p>
         <ul class="hostel2-room-equipment">

@@ -90,9 +90,9 @@
 <section class="index-about js-fadein">
 
   <div class="index-about-block1">
-    <h3 class="index-about-block1-title">Renovated former brothel building, <br class="for-sp">inn with coworking facilities</h3>
+    <h3 class="index-about-block1-title">Renovated old traditional japanase house, <br class="for-sp">inn with coworking facilities</h3>
     <p class="index-about-block1-desc">Located near Kiyomizu Gojo Station, Kyoto.<br>
-      A former brothel building from the Meiji period (over 100 years old) was renovated<br>while retaining as much of its original appearance<br>as possible to create an "inn where you can work and live".</p>
+      A 111-year-old traditional japanase house from the Meiji era (over 100 years old) was renovated<br>while retaining as much of its original appearance<br>as possible to create an "inn where you can work and live".</p>
       <div class="index-about-intro">
         <div class="index-about-intro-v js-fadein"><img src="<?php echo get_template_directory_uri(); ?>/img/index/intro-01.jpg" alt="玄関"></div>
         <div class="index-about-intro-h js-fadein">
@@ -127,10 +127,10 @@
         <img src="<?php echo get_template_directory_uri(); ?>/img/index/about-03.jpg" alt="">
       </div>
       <div class="index-about-text">
-        <h3 class="index-about-title">Fill up on set menus for lunch.<br>Cheers to authentic Italian cuisine at night!</h3>
-        <p class="index-about-desc">Set lunch during the day and authentic Italian cuisine at night.<br>
-        It is a restaurant loved by locals.<br>
-        The famous "fried chicken" is a must-try item.</p>
+        <h3 class="index-about-title">Satisfied set meals for lunch.<br>Cheers to authentic Italian cuisine at night!</h3>
+        <p class="index-about-desc">Set meals lunch during the day and authentic Italian cuisine at night.<br>
+        It is a restaurant loved by KYOTOITE.<br>
+        The famous "karaage" is a must-try.</p>
         <p class="index-about-detail"><a href="/restaurant">Restaurant Details</a></p>
       </div>
     </div>
@@ -142,7 +142,7 @@
       <div class="index-about-text">
         <h3 class="index-about-title">Longer stays are also recommended.</h3>
         <p class="index-about-desc">The best way to enjoy the charm of UNKNOWN KYOTO is to stay for 2 or 3 nights, or even longer, to get a good taste of Kyoto.<br>
-        The share kitchen, laundry, and everything you need to live in a share house are provided.<br>
+        The share kitchen, laundry, and everything you need to live in a hostel are provided.<br>
         Long-term stay plans are also available.</p>
           <p class="index-about-detail"><a href="https://unknown.kyoto/plan/workation/">Click here for long stay plans of 4 nights or more</a></p>
           <p class="index-about-detail"><a href="https://unknown.kyoto/plan/monthly/">Click here for 2-week/1-month stay plans</a></p>
@@ -158,7 +158,7 @@
       <li>
         <img src="<?php echo get_template_directory_uri(); ?>/img/index/room-single.jpg" alt="">
         <div class="index-rooms-text">
-          <h4 class="index-rooms-title">Single room (Max. 1 person)</h4>
+          <h4 class="index-rooms-title">Single room (Max. 1 guest)</h4>
           <p class="index-rooms-desc">This is a minimalist single-bed room without a desk. Recommended for those who work in a co-working environment.</p>
           <p>1 night <?php echo $single1; ?> yen<br>4 nights <?php echo $single4; ?> yen</p>
           <p class="index-rooms-detail"><a href="/hostel">See details</a></p>
@@ -167,7 +167,7 @@
       <li>
         <img src="<?php echo get_template_directory_uri(); ?>/img/index/room-relaxsingle.jpg" alt="">
         <div class="index-rooms-text">
-          <h4 class="index-rooms-title">Relax Single Room (Max. 1 person)</h4>
+          <h4 class="index-rooms-title">Relax Single Room (Max. 1 guest)</h4>
           <p class="index-rooms-desc">A spacious single-bed room with a desk. This room is especially recommended for those staying for an extended period of time.</p>
           <p>1 night <?php echo $relax1; ?> yen<br>4 nights <?php echo $relax4; ?> yen</p>
           <p class="index-rooms-detail"><a href="/hostel">See details</a></p>
@@ -176,18 +176,18 @@
       <li>
         <img src="<?php echo get_template_directory_uri(); ?>/img/index/room-widebed.jpg" alt="">
         <div class="index-rooms-text">
-          <h4 class="index-rooms-title">Double room (Max. 2 persons)</h4>
+          <h4 class="index-rooms-title">Double room (Max. 2 guests)</h4>
           <p class="index-rooms-desc">This room has a double bed with a desk. It retains the Japanese style with a small tokonoma.</p>
-          <p>1 night <?php echo $double1; ?> yen (same price for 2 persons)<br>4 nights <?php echo $double4; ?> yen</p>
+          <p>1 night <?php echo $double1; ?> yen (same price for 2 guests)<br>4 nights <?php echo $double4; ?> yen</p>
           <p class="index-rooms-detail"><a href="/hostel">See details</a></p>
         </div>
       </li>
       <li>
         <img src="<?php echo get_template_directory_uri(); ?>/img/index/room-deluxetwin.jpg" alt="">
         <div class="index-rooms-text">
-          <h4 class="index-rooms-title">Deluxe Twin Room (Max. 2 persons)</h4>
+          <h4 class="index-rooms-title">Deluxe Twin Room (Max. 2 guests)</h4>
           <p class="index-rooms-desc">A spacious room with a washbasin. A large desk is provided for a relaxing stay.</p>
-          <p>1 night <?php echo $deluxe1; ?> yen (same price for 2 persons)<br>4 nights <?php echo $deluxe4; ?> yen</p>
+          <p>1 night <?php echo $deluxe1; ?> yen (same price for 2 guests)<br>4 nights <?php echo $deluxe4; ?> yen</p>
           <p class="index-rooms-detail"><a href="/hostel">See details</a></p>
         </div>
       </li>
@@ -210,7 +210,6 @@
       <h3 class="index-dormitory-title">Dormitory</h3>
       <div class="index-dormitory-text">
         <p class="index-rooms-desc">All rooms are equipped with a mini desk for working. The rooms are more spacious than a typical "dormitory" and can be used spaciously.</p>
-        <p class="index-rooms-desc">From September 2022, both the upper and lower bunk beds can be used by one person. The maximum number of guests is 3, but can also be rented out for 4 to 6 people.</p>
         <p class="index-rooms-price">For both mixed-sex and women-only rooms<br>1 night <?php echo $dormitory1; ?> yen<br>4 nights <?php echo $dormitory4; ?> yen</p>
         <p class="index-rooms-detail"><a href="/hostel">See details</a></p>
       </div>
@@ -224,7 +223,7 @@
     <div class="top-plan-head">
       <h2 class="top-plan-title">Plan</h2>
       <p class="top-plan-description">
-        To make the "stay, eat, and work" experience easier to understand, we have prepared a plan for you to enjoy UNKNOWN KYOTO even more.
+        To make the "stay, eat, and work" experience easier to understand, we have prepared plans for you to enjoy UNKNOWN KYOTO even more.
       </p>
     </div>
     <ul class="top-plan-list">

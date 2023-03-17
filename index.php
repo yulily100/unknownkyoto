@@ -214,7 +214,7 @@
 
     </div>
     <div class="index-dormitory-contents">
-      <h3 class="index-dormitory-title"><span>メゾネット式ドミトリー</span><br>ワーキングベッド</h3>
+      <h3 class="index-dormitory-title"><span>ミニデスク付きドミトリー</span><br>ワーキングベッド</h3>
       <div class="index-dormitory-text">
         <p class="index-rooms-desc">全室にミニデスクがついていて作業することができます。一般的な「ドミトリー」よりも、ややゆったりとしたつくりです。</p>
         <p class="index-rooms-price">男女混合・女性専用ともに<br>1泊 <?php echo $dormitory1; ?>円<br>4泊 <?php echo $dormitory4; ?>円</p>

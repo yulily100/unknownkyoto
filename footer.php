@@ -16,8 +16,8 @@
     <div class="footer-adress">
       <p class="footer-text">〒600-8118<br>京都府京都市下京区平居町55番地１</p>
       <p class="footer-text">55-1, Hirai-cho, Shimogyo-ku, Kyoto-shi, Kyoto</p>
-      <p class="footer-text">075-203-4818（代表 Representative）<br>
-      075-203-8383（飲食 Restaurant）
+      <p class="footer-text">(+81)075-203-4818（代表 Representative）<br>
+      (+81)075-203-8383（飲食 Restaurant）
       </p>
       <p class="footer-text">info@unknown.kyoto</p>
     </div>
@@ -35,8 +35,8 @@
         <li><a href="/restaurant">Restaurant</a></li>
         <li><a href="/coworking">Coworking</a></li>
         <li><a href="/blog">Blog</a></li>
-        <li><a href="/faq">よくある質問</a></li>
-        <li><a href="https://unknown.kyoto/recruit/">スタッフ募集</a></li>
+        <li><a href="/faq">FAQ</a></li>
+        <li><a href="https://unknown.kyoto/recruit/">Recruit</a></li>
         <li><a href="/transaction">特定商取引法に基づく表記</a></li>
         
       </ul>
