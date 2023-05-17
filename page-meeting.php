@@ -87,6 +87,7 @@ $(function() {
   </div>
 </div>
 
+<!-- 壱の間が会議室として使える時だけ出す
 <div class="meeting-contents">
   <div class="meeting-contents-text">
     <h2 class="meeting-contents-title">本池中会議室・大（壱の間）</h2>
@@ -115,6 +116,8 @@ $(function() {
     <p class="btn-primary"><a href="https://forms.gle/kjvYqWJYYTFjwaHW7">本池中会議室（大）を予約</a></p>
   </div>
 </div>
+-->
+
 
 <div class="meeting-contents">
   <div class="meeting-contents-text">
