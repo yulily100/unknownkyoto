@@ -84,10 +84,8 @@ $(function() {
         <li>会議室2時間無料</li>
       </ul>
       <p class="hostel2-room-price">
-        1泊　<?php echo $single1; ?>円<br>
-        2泊　16,000円 (1泊8,000円)<br>
-        3泊　19,800円 (1泊6,600円)<br>
-        4泊　<?php echo $single4; ?>円 (1泊5,000円)</p>
+        1泊　<?php echo $single1; ?>円〜<br>
+        4泊　<?php echo $single4; ?>円</p>
       <p class="hostel-room-note">消費税込み、宿泊税一人200円/一泊</p>
         <!-- <span class="line-through">7,500円</span>
         <br>GO TOトラベル価格で<br>4,880円 + 地域共通クーポン1000円分配布 -->
@@ -125,10 +123,8 @@ $(function() {
         <li>会議室2時間無料</li>
       </ul>
       <p class="hostel2-room-price">
-        1泊　8,800円<br>
-        2泊　16,500円 (1泊8,250円)<br>
-        3泊　24,000円 (1泊8,000円)<br>
-        4泊　24,200円 (1泊6,050円)</p>
+        1泊　<?php echo $relax1; ?>円〜<br>
+        4泊　<?php echo $relax4; ?>円</p>
       <p class="hostel-room-note">消費税込み、宿泊税一人200円/一泊</p>
         <!-- <span class="line-through">7,500円</span>
         <br>GO TOトラベル価格で<br>4,880円 + 地域共通クーポン1000円分配布 -->
@@ -169,10 +165,8 @@ $(function() {
         <li>会議室2時間無料</li>
       </ul>
       <p class="hostel2-room-price">
-        1泊　<?php echo $double1; ?>円 (2名でも同価格)<br>
-        2泊　17,600円 (1泊8,800円)<br>
-        3泊　24,750円 (1泊8,250円)<br>
-        4泊　<?php echo $double4; ?>円 (1泊6,600円)</p>
+        1泊　<?php echo $double1; ?>円〜 (2名でも同価格)<br>
+        4泊　<?php echo $double4; ?>円</p>
         <!-- <span class="line-through">8,500円</span>
         <br>GO TOトラベル価格で<br>5,530円 + 地域共通クーポン1000円分配布 -->
       </p>
@@ -214,10 +208,8 @@ $(function() {
         <li>会議室2時間無料</li>
       </ul>
       <p class="hostel2-room-price">
-        1泊　<?php echo $deluxe1; ?>円 (2名でも同価格)<br>
-        2泊　22,000円 (1泊11,000円)<br>
-        3泊　31,350円 (1泊10,450円)<br>
-        4泊　<?php echo $deluxe4; ?>円 (1泊8,800円)</p>
+        1泊　<?php echo $deluxe1; ?>円〜 (2名でも同価格)<br>
+        4泊　<?php echo $deluxe4; ?>円</p>
         <!-- <span class="line-through">10,500円</span>
         <br>GO TOトラベル価格で<br>6,830円 + 地域共通クーポン2000円分配布 -->
       </p>
@@ -269,7 +261,7 @@ $(function() {
         <p class="hostel2-room-note">タオルはこちらのお部屋にはついておりません。ご持参いただくか、レンタルをご用意しておりますのでご利用ください。</p>
         <p class="hostel2-room-price">
           男女混合・女性専用ともに<br>
-          1泊 <?php echo $dormitory1; ?>円<br>
+          1泊 <?php echo $dormitory1; ?>円〜<br>
           4泊 <?php echo $dormitory4; ?>円
         </p>
         <p class="hostel-room-note">消費税込み、宿泊税一人200円/一泊</p>

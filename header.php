@@ -179,19 +179,19 @@
   global $dormitory1;
   global $dormitory4;
 
-  $single1 = '8,000';
-  $single4 = '20,000';
+  $single1 = '8,800';
+  $single4 = '23,320';
 
-  $relax1 = '8,800';
-  $relax4 = '24,200';
+  $relax1 = '9,350';
+  $relax4 = '26,400';
 
-  $double1 = '9,350';
-  $double4 = '26,400';
+  $double1 = '11,000';
+  $double4 = '31,680';
 
-  $deluxe1 = '11,550';
-  $deluxe4 = '35,200';
+  $deluxe1 = '13,200';
+  $deluxe4 = '39,160';
 
-  $dormitory1 = '3,850';
+  $dormitory1 = '4,180';
   $dormitory4 = '11,000';
 
   global $phoneNumber;
