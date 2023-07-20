@@ -6,9 +6,13 @@
     </div>
     <div class="footer-feed-contents">
       <h2 class="footer-feed-title">Twitter</h2>
+      <p>こちらからフォローお願いします</p>
+      <p><a href="https://twitter.com/unknown_kyoto?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @unknown_kyoto</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+      <!--
       <div class="footer-feed-inner">
         <a class="twitter-timeline" href="https://twitter.com/unknown_kyoto?ref_src=twsrc%5Etfw">Tweets by unknown_kyoto</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
+      -->
     </div>
   </div>
   <div class="footer-info">

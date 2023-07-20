@@ -586,6 +586,8 @@ img {
 .footer-feed-contents {
   width: 420px;
   margin: 0 16px; }
+  .footer-feed-contents p {
+    margin: 0 0 .5em; }
 
 .footer-feed-title {
   font-family: "Vollkorn", serif;

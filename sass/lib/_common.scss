@@ -101,6 +101,9 @@ img {
 .footer-feed-contents {
   width: 420px;
   margin: 0 16px;
+  p {
+    margin: 0 0 .5em;
+  }
 }
 .footer-feed-title {
   font-family: $vollkorn;

@@ -6,7 +6,7 @@
       <img src="<?php echo get_template_directory_uri(); ?>/img/top-logo.svg" alt="UNKNOWN KYOTO" class="logo-pc">
       <img src="<?php echo get_template_directory_uri(); ?>/img/top-logo-sp.svg" alt="UNKNOWN KYOTO" class="logo-sp">
     </h1>
-    <p class="top-main-btn"><a href="https://unknown.kyoto/blog/ryoko-shien/"><span>全国旅行支援ご利用方法</span></a></p>
+    <!--<p class="top-main-btn"><a href="https://unknown.kyoto/blog/ryoko-shien/"><span>全国旅行支援ご利用方法</span></a></p>-->
   </div>
 
   <div class="top-main-share">
