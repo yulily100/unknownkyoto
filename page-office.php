@@ -95,7 +95,7 @@ get_header(); ?>
 
 <section id="office-plan" class="office-section bg">
   <div class="office-section-inner">
-
+    <h2 class="office-section-title">Price / Plan<span>利⽤料金 / プラン</span></h2>
     <?php the_content(); ?>
 
   </div>
