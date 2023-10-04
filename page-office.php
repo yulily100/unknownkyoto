@@ -16,7 +16,7 @@ get_header(); ?>
     </ul>
   </nav>
   <h1 class="office-title"><img src="<?php echo get_template_directory_uri(); ?>/img/office/office-title.svg" alt="UNKNOWN KYOTO 本池中"></h1>
-  <p class="office-description">【2021/7/1】<br>現在3部屋募集中です</p>
+  <p class="office-description">【2023/10】<br>現在3部屋募集中です</p>
   <p class="btn-main-area"><a href="https://unknown.kyoto/"><span>UNKNOWN KYOTO</span>本館はこちら</a></p>
 </section>
 <section class="office-about">
@@ -70,7 +70,7 @@ get_header(); ?>
         <p class="office-facilities-description">UNKNOWN KYOTO本館のコワーキングが利用可能です。気分を変えたいときなどにオープンな空間をご利用ください。宿泊・飲食も可能です。</p>
       </li>
       <li>
-        <img src="/wp-content/themes/unknownkyoto/img/office/photo-honkan-meeting.jpg" alt="本館会議室" class="office-facilities-img">
+        <img src="/wp-content/themes/unknownkyoto/img/meeting/honkan.jpg" alt="本館会議室" class="office-facilities-img">
         <h3 class="office-facilities-title">本館会議室</h3>
         <p class="office-facilities-description">最大４名でご利用いただけるモニター付きのミーティングルームを本館にご用意しております。</p>
       </li>
@@ -89,94 +89,15 @@ get_header(); ?>
 <section id="office-floor" class="office-section">
   <div class="office-section-inner">
     <h2 class="office-section-title">Floor<span>フロア</span></h2>
-<img src="/wp-content/themes/unknownkyoto/img/office/plan2107.jpg" alt="UNKNOWN KYOTO 本池中　間取り図" style="width:100%">
-<p class="onlySP"><a href="/wp-content/themes/unknownkyoto/img/office/plan2107.jpg" target="honikenaka" rel="noopener noreferrer">新規ウインドウで拡大して表示する</a></p>
+<img src="/wp-content/themes/unknownkyoto/img/office/plan2310.png" alt="UNKNOWN KYOTO 本池中　間取り図" style="width:100%">
+<p class="onlySP"><a href="/wp-content/themes/unknownkyoto/img/office/plan2310.png" target="honikenaka" rel="noopener noreferrer">新規ウインドウで拡大して表示する</a></p>
 </div></section>
 
 <section id="office-plan" class="office-section bg">
   <div class="office-section-inner">
-    <h2 class="office-section-title">Price / Plan<span>利⽤料金 / プラン</span></h2>
-    <p class="office-plan-price">4.5畳 税込66,000円/月　8:00~22:00（募集中）<br>
-　 &nbsp;6畳 税込88,000円/月　8:00~22:00（募集中）　　　&nbsp;</p>
-	<table class="table-comparison">
-		<thead>
-			<tr class="even">
-				<th rowspan="2">&nbsp;</th>
-				<th colspan="2">プラン</th>
-			</tr>
-			<tr class="even">
-				<th class="w30">6畳<br>（募集中）</th>
-				<th class="w30">4.5畳<br>（2室募集中）</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class="even">
-				<th>部屋名</th>
-				<td>【募集中】壱の間</td>
-				<td>【募集中】会議室ブース、弐の間<br>
-【入居中】参の間、四の間</td>
-			</tr>
-			<tr class="odd">
-				<th>利用可能時間</th>
-				<td colspan="2">8:00～22:00</td>
-			</tr>
-			<tr class="even">
-				<th>入会金</th>
-				<td colspan="2">税込5,500円</td>
-			</tr>
-			<tr class="odd">
-				<th>使用料金<br>
-（共益費込み）</th>
-				<td>税込88,000円/月</td>
-				<td>税込66,000円/月</td>
-			</tr>
-			<tr class="even">
-				<th>駐輪場</th>
-				<td colspan="2">1枠無料<br><br>
-＜追加＞
-<br>自転車：税込1,650円 / 枠 <br>
-　原付：税込3,300円 / 枠 <br>
-※バイクは駐輪不可</td>
-			</tr>
-			<tr class="odd">
-				<th>メンバー登録定員</th>
-				<td>6人</td>
-				<td>4人</td>
-			</tr>
-			<tr class="even">
-				<th>コミュニティスペース利用（本池中）</th>
-				<td colspan="2">無料</td>
-			</tr>
-			<tr class="odd">
-				<th>会議室利用（本池中）</th>
-				<td colspan="2">税込1,100円（入居者は550円） / 時間</td>
-			</tr>
-			<tr class="even">
-				<th>複合機利用</th>
-				<td colspan="2">A4サイズ<br>カラー印刷・コピー　20円 / 枚<br>
-モノクロ印刷・コピー 5円 / 枚<br>
-スキャン 無料（ゲスト利用可）
-</td>
-			</tr>
-			<tr class="odd">
-				<th>登記</th>
-				<td colspan="2">本館で登録可能</td>
-			</tr>
-			<tr class="even">
-				<th>支払い方法</th>
-				<td colspan="2">クレジットカード払い</td>
-			</tr>
-		</tbody>
-	</table>
 
+    <?php the_content(); ?>
 
-    <ul class="office-plan-notice">
-      <li>水道光熱費、Wi-Fiは賃料に含みます。</li>
-      <li>本館のサービスもご利用いただけます。<br>（フリードリンク、キッチン利用、リビング利用、コワーキング利用）</li>
-      <li>ミーティングルーム（本館）をご利用いただけます。</li>
-      <li>家具、照明は⼊居者の⽅に⽤意していただきます</li>
-      <li>⼊居に当たっては⼤家の佐藤様との⾯談があります</li>
-    </ul>
   </div>
 </section>
 

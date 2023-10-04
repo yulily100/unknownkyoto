@@ -6734,7 +6734,10 @@ img {
   height: auto;
   display: inline-block;
   background: #ddd;
-  margin: 0 0 12px; }
+  margin: 0 0 12px;
+  aspect-ratio: 3 / 2;
+  -o-object-fit: cover;
+     object-fit: cover; }
 
 .office-facilities-title {
   font-size: 1rem;

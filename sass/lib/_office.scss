@@ -188,7 +188,10 @@
   display: inline-block;
   background: #ddd;
   margin: 0 0 12px;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
 }
+
 .office-facilities-title {
   font-size: 1rem;
   margin: 0 0 8px;
