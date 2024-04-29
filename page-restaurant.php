@@ -4,7 +4,7 @@
   <div class="restaurant-header">
     <div class="restaurant-header-inner">
       <h1><img src="<?php echo get_template_directory_uri(); ?>/img/restaurant-logo.svg" alt="Sin -Dinging & Bar-" width="150" height="150"></h1>
-      <p class="restaurant-header-note">京都応援クーポンが利用可能です</p>
+      <!-- <p class="restaurant-header-note">京都応援クーポンが利用可能です</p> -->
     </div>
   </div>
 
@@ -124,33 +124,33 @@
       <div class="restaurant-menu-contents">
         <h3 class="restaurant-menu-title">Italian</h3>
         <ul class="restaurant-menu-list">
-          <li>アンチョビポテトサラダ<span class="restaurant-menu-price">400円</span></li>
-          <li>ポッロフリット（唐揚げ）<span class="restaurant-menu-price">600円</span></li>
-          <li>パスタ<span class="restaurant-menu-price">900円〜</span></li>
-          <li>ピザ<span class="restaurant-menu-price">900円〜</span></li>
-          <li>メインのお肉料理<span class="restaurant-menu-price">1200円〜</span></li>
+          <li>アンチョビポテトサラダ</li>
+          <li>ポッロフリット（唐揚げ）</li>
+          <li>パスタ</li>
+          <li>ピザ</li>
+          <li>メインのお肉料理</li>
           <li>その他</li>
         </ul>
       </div>
       <div class="restaurant-menu-contents">
         <h3 class="restaurant-menu-title">Izakaya menu</h3>
         <ul class="restaurant-menu-list">
-          <li>枝豆<span class="restaurant-menu-price">350円</span></li>
-          <li>酒盗クリームチーズ<span class="restaurant-menu-price">400円</span></li>
-          <li>茄子と玉ねぎの甘酢漬け<span class="restaurant-menu-price">450円</span></li>
-          <li>やわらか鶏レバー<span class="restaurant-menu-price">550円</span></li>
-          <li>とり天からしポン酢<span class="restaurant-menu-price">600円</span></li>
+          <li>枝豆</li>
+          <li>酒盗クリームチーズ</li>
+          <li>茄子と玉ねぎの甘酢漬け</li>
+          <li>やわらか鶏レバー</li>
+          <li>とり天からしポン酢</li>
           <li>その他</li>
         </ul>
       </div>
       <div class="restaurant-menu-contents">
         <h3 class="restaurant-menu-title">Drink</h3>
         <ul class="restaurant-menu-list">
-          <li>生ビール<span class="restaurant-menu-price">550円</span></li>
-          <li>自家製サングリア<span class="restaurant-menu-price">650円</span></li>
-          <li>サワー・酎ハイ各種<span class="restaurant-menu-price">550円</span></li>
-          <li>焼酎<span class="restaurant-menu-price">500円</span></li>
-          <li>ソフトドリンク各種<span class="restaurant-menu-price">350円</span></li>
+          <li>生ビール</li>
+          <li>自家製サングリア</li>
+          <li>サワー・酎ハイ各種</li>
+          <li>焼酎</li>
+          <li>ソフトドリンク各種</li>
           <li>その他</li>
         </ul>
       </div>
@@ -162,16 +162,15 @@
       <div class="restaurant-party-text">
         <h2 class="restaurant-party-title">Party Plan</h2>
         <p class="restaurant-party-description">歓送迎会、懇親会等、コース料理のプランがございます。<br>
-          2名様より承っております。気軽にご相談ください。</p>
-        <h3 class="restaurant-party-item"><span class="for-pc">シェフのお任せ</span>カジュアルプラン<span class="restaurant-party-border"></span><span class="restaurant-party-price">3000円/お一人様</span></h3>
-        <p class="restaurant-party-detail">前菜、アラカルト3〜4種、<br>パスタ、ピザ、メイン、デザート</p>
-        <h3 class="restaurant-party-item"><span class="for-pc">シェフのお任せ</span>イタリアンプラン<span class="restaurant-party-border"></span><span class="restaurant-party-price">4000円/お一人様</span></h3>
-        <p class="restaurant-party-detail">前菜、アラカルト5〜6種、<br>パスタ、ピザ、メイン、デザート</p>
-        <h3 class="restaurant-party-item">オリジナルプラン</h3>
-        <p class="restaurant-party-detail">ご利用のシーンに合わせて、予算・お食事内容を自由にカスタマイズすることができます。</p>
-        <h3 class="restaurant-party-item">飲み放題<span class="restaurant-party-border"></span><span class="restaurant-party-price">1500円/1.5時間・2000円/2時間</span></h3>
+          3名様より承っております。気軽にご相談ください。</p>
+        <h3 class="restaurant-party-item"><span class="for-pc">パーティプラン<span class="restaurant-party-border"></span><span class="restaurant-party-price">3500円〜/お一人様</span></h3>
+        <p class="restaurant-party-detail">前菜盛り合わせ、唐揚げ、パスタ、ピザ、メイン<br>
+          大皿で取り分けて召し上がっていただくスタイルでの提供です。<br>
+          プラス料金で食後の簡単なデザートやコーヒーがお付けできます。<br>
+          アレルギー等は事前にお知らせください。</p>
+        <h3 class="restaurant-party-item">飲み放題<span class="restaurant-party-border"></span><span class="restaurant-party-price">2000円/1.5時間・2500円/2時間</span></h3>
         <p class="restaurant-party-detail">生ビール（ハートランド）、ハイボール、各種サワー<br>ワイン、梅酒、焼酎、各種ソフトドリンク</p>
-        <p class="restaurant-party-detail">プランと一緒に注文いただけます。<br>女性限定グループは2時間1500円にてご用意可能です。</p>
+        <p class="restaurant-party-detail">プランと一緒に注文いただけます。<br>女性限定グループは2時間2000円にてご用意可能です。</p>
       </div>
     </div>
   </div>
