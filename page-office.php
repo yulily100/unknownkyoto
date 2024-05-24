@@ -16,7 +16,6 @@ get_header(); ?>
     </ul>
   </nav>
   <h1 class="office-title"><img src="<?php echo get_template_directory_uri(); ?>/img/office/office-title.svg" alt="UNKNOWN KYOTO 本池中"></h1>
-  <p class="office-description">【2023/10】<br>現在3部屋募集中です</p>
   <p class="btn-main-area"><a href="https://unknown.kyoto/"><span>UNKNOWN KYOTO</span>本館はこちら</a></p>
 </section>
 <section class="office-about">
@@ -51,7 +50,7 @@ get_header(); ?>
         <img src="/wp-content/themes/unknownkyoto/img/office/photo-meeting.jpg" alt="会議室の写真" class="office-facilities-img">
         <h3 class="office-facilities-title">本池中会議室</h3>
         <p class="office-facilities-description">最大５名くらいでご利用いただけます。<br>
-料金は１時間税込1,100円（入居者は550円）となります。</p>
+        料金は1時間税込1,100円となります。</p>
       </li>
       <li>
         <img src="/wp-content/themes/unknownkyoto/img/office/photo-communityroom.jpg" alt="コミュニティスペース写真" class="office-facilities-img">

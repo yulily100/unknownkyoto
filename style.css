@@ -6467,7 +6467,8 @@ img {
   border-bottom: 1px solid #B2ACA3;
   position: relative;
   line-height: 1.5;
-  padding: 8px 0; }
+  padding: 8px 0;
+  margin: 0 0 16px; }
   .coworking-rental-plan:before, .coworking-rental-plan:after {
     content: "";
     display: block;
@@ -6480,35 +6481,6 @@ img {
     top: 2px; }
   .coworking-rental-plan:after {
     bottom: 2px; }
-
-.coworking-rental-btn {
-  margin: 12px 0 12px 0;
-  font-size: .9rem;
-  font-weight: bold; }
-  .coworking-rental-btn a {
-    display: inline-block;
-    padding: 6px 46px 6px 6px;
-    position: relative; }
-    .coworking-rental-btn a:hover {
-      color: #565246; }
-    .coworking-rental-btn a:after {
-      content: "";
-      position: absolute;
-      background: url("img/section-link.svg");
-      background-size: 34px 6px;
-      width: 34px;
-      height: 6px;
-      display: inline-block;
-      -webkit-transition: -webkit-transform .3s ease-out 0s;
-      transition: -webkit-transform .3s ease-out 0s;
-      transition: transform .3s ease-out 0s;
-      transition: transform .3s ease-out 0s, -webkit-transform .3s ease-out 0s;
-      top: 8px;
-      right: 6px; }
-    .coworking-rental-btn a:hover:after {
-      -webkit-transform: translateX(4px);
-          -ms-transform: translateX(4px);
-              transform: translateX(4px); }
 
 .coworking-facilities-price {
   text-align: left;
@@ -7617,15 +7589,6 @@ img {
 
 .meeting-contents-title {
   margin: 0 0 .5em; }
-  .meeting-contents-title span {
-    background: #e85d5d;
-    color: #fff;
-    display: inline-block;
-    border-radius: 13px;
-    padding: 4px 8px;
-    font-weight: bold;
-    font-size: .9rem;
-    vertical-align: top; }
 
 .meeting-contents-desc {
   line-height: 1.4; }

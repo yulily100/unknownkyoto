@@ -29,7 +29,7 @@ $(function() {
 <div class="wrapper">
 <header class="meeting-header">
     <h1 class="meeting-title"><a href="/meeting">会議室・レンタルスペース</a></h1>
-    <p class="meeting-desc">会議室は会員でなくても誰でも予約可能です。<br>会議のほか、ケータリングなどを頼んで食事するお部屋としても使いただけます。<br>カレンダーでは予約のある場合でも<br class="for-sp">対応可能な場合もございます。</p>
+    <p class="meeting-desc">会議室は会員でなくても誰でも予約可能です。<br>本館会議室はカレンダーから空き状況をご確認ください。<br>本池中会議室とイベントスペースの利用については<br class="for-sp">個別にお問い合わせください。</p>
   </header>
 <div class="meeting-contents">
   <div class="meeting-contents-text">
@@ -58,13 +58,12 @@ $(function() {
 
 <div class="meeting-contents">
   <div class="meeting-contents-text">
-    <h2 class="meeting-contents-title">本池中会議室・小（弐の間）<span>おすすめ</span></h2>
+    <h2 class="meeting-contents-title">本池中会議室</h2>
     <p class="meeting-contents-desc">別館であるUNKNOWN KYOTO本池中の会議室です。4〜6名様程度の打ち合わせに最適です。机と椅子がありますが、畳に座布団での利用も可能です。</p>
     <div class="meeting-value">
       <h3 class="meeting-value-title">値段</h3>
       <p class="meeting-value-desc">税込1,100円/1時間<br>
-        税込11,000円/丸一日貸し切り<br>
-        会員：550円/1時間（毎月2時間まで無料）<br>宿泊者：1日2時間無料</p>
+        税込11,000円/丸一日貸し切り</p>
     </div>
     <div class="meeting-value">
       <h3 class="meeting-value-title">時間</h3>
@@ -72,18 +71,19 @@ $(function() {
     </div>
     <div class="meeting-value">
       <h3 class="meeting-value-title">設備</h3>
-      <p class="meeting-value-desc">女優ライト、USBマイク</p>
+      <p class="meeting-value-desc">テレビ会議システム（モニター）、USBマイク、ホワイトボード</p>
     </div>
     <div class="meeting-value">
       <h3 class="meeting-value-title">広さ</h3>
-      <p class="meeting-value-desc">四畳半（8.2㎡）</p>
+      <p class="meeting-value-desc">六畳間（11.8㎡）</p>
     </div>
-    <iframe class="meeting-calendar" src="https://calendar.google.com/calendar/embed?src=unknown.kyoto_1888b9a18gqv4ggtnk34evr8m1btq6gb68p3gd9n6ko3ad9o6k%40resource.calendar.google.com&ctz=Asia%2FTokyo" frameborder="0" height="400" title="本池中会議室（小）"></iframe>
-    <p class="meeting-calendar-more"><a href="https://calendar.google.com/calendar/embed?src=unknown.kyoto_1888b9a18gqv4ggtnk34evr8m1btq6gb68p3gd9n6ko3ad9o6k%40resource.calendar.google.com&ctz=Asia%2FTokyo">空き状況カレンダーを大きな画面で表示</a></p>
+
+    <p class="meeting-contents-desc">利用希望日の3日前までにお申し込みください</p>
+    <p class="meeting-contents-desc">こちらからの予約確定メールの送信をもって、予約が確定いたします</p>
   </div>
   <div class="meeting-contents-img">
     <img src="<?php echo get_template_directory_uri(); ?>/img/meeting/room-5.jpg" alt="本池中会議室（小）">
-    <p class="btn-primary"><a href="https://forms.gle/kjvYqWJYYTFjwaHW7">本池中会議室（小）を予約</a></p>
+    <p class="btn-primary"><a href="https://forms.gle/kjvYqWJYYTFjwaHW7">本池中会議室を予約</a></p>
   </div>
 </div>
 
@@ -132,8 +132,8 @@ $(function() {
       <p class="meeting-value-desc">水金:18:00~22:00<br>
       土:10:00~22:00</p>
     </div>
-    <iframe class="meeting-calendar" src="https://calendar.google.com/calendar/embed?src=unknown.kyoto_1885cn5hd6mo2jdjkhgei9r0kgas06gb74rjgd9i6gr3edpl6g%40resource.calendar.google.com&ctz=Asia%2FTokyo" frameborder="0" height="400" title="本池中会議室（小）"></iframe>
-    <p class="meeting-calendar-more"><a href="https://calendar.google.com/calendar/embed?src=unknown.kyoto_1885cn5hd6mo2jdjkhgei9r0kgas06gb74rjgd9i6gr3edpl6g%40resource.calendar.google.com&ctz=Asia%2FTokyo">空き状況カレンダーを大きな画面で表示</a></p>
+    <p class="meeting-contents-desc">利用希望日の10日前までにお申し込みください</p>
+    <p class="meeting-contents-desc">こちらからの予約確定メールの送信をもって、予約が確定いたします</p>
   </div>
   <div class="meeting-contents-img">
     <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/event.jpg" alt="本館でのイベント開催">

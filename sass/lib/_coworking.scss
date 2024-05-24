@@ -321,14 +321,7 @@
   @include border-style;
   line-height: 1.5;
   padding: 8px 0;
-}
-.coworking-rental-btn {
-  margin: 12px 0 12px 0;
-  font-size: .9rem;
-  font-weight: bold;
-  a {
-    @include link-arrow-right($top: 8px);
-  }
+  margin: 0 0 16px;
 }
 
 .coworking-facilities-price {

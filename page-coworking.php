@@ -59,7 +59,7 @@
       <li>
         <img src="<?php echo get_template_directory_uri(); ?>/img/coworking/facilities-meetingroom2.jpg" alt="本池中会議室" class="office-facilities-img">
         <h3 class="office-facilities-title">本池中会議室</h3>
-        <p class="office-facilities-description">別館の会議室も利用可能です。4,5名ほどで使える小部屋と最大15名ほどで使える大部屋とあります。</p>
+        <p class="office-facilities-description">別館の会議室も利用可能です。椅子座にて4,5名ほどで使える他、畳に床座することでフレキシブルにお使いいただけます。</p>
         <p class="office-facilities-price"><a href="/meeting">詳しくはこちら</a></p>
       </li>
     </ul>
@@ -199,7 +199,7 @@
     <h2 class="office-section-title">Rental Space<span>レンタルスペース</span></h2>
     <p class="office-section-description">
       コワーキングの会員以外の方でも<br class="for-sp">施設を利用することができます。<br>
-      カレンダーで空きを確認のうえ、<br class="for-sp">お問い合わせフォームから<br class="for-sp">お申し込みください。<br>
+      お問い合わせフォームから<br class="for-sp">空き状況を確認・お申し込みください。<br>
       ご利用の当日は受付のスタッフまで<br class="for-sp">お声掛けください。</p>
     <ul class="office-facilities-list">
       <li>
@@ -211,7 +211,6 @@
         水金:18:00~22:00<br>
         土:10:00~22:00</p>
         
-        <p class="coworking-rental-btn"><a href="https://calendar.google.com/calendar/embed?src=unknown.kyoto_1885cn5hd6mo2jdjkhgei9r0kgas06gb74rjgd9i6gr3edpl6g%40resource.calendar.google.com&ctz=Asia%2FTokyo" target="_blank" rel="noopener">カレンダーで空きを確認</a></p>
         <p class="btn-primary"><a href="https://forms.gle/VcJ5JaqLDGtDtuPE8" target="_blank" rel="noopener noreferrer">イベント利用申し込み</a></p>
       </li>
       <li>
@@ -221,7 +220,6 @@
         <p class="coworking-facilities-price"><a href="/meeting">詳しくはこちら</a></p>
         <p class="coworking-rental-plan">550円/1時間<br>
         毎日:10:00~19:00</p>
-        <p class="coworking-rental-btn"><a href="https://calendar.google.com/calendar/embed?src=unknown.kyoto_1888eqjoh1j6chk9h6ehd9b1ve3co6gb6sp3acpj6os36chk6k%40resource.calendar.google.com&ctz=Asia%2FTokyo" target="_blank" rel="noopener">カレンダーで空きを確認</a></p>
         <p class="btn-primary"><a href="https://forms.gle/kjvYqWJYYTFjwaHW7" target="_blank" rel="noopener noreferrer">会議室利用申し込み</a></p>
       </li>
       <li>
@@ -231,8 +229,7 @@
         <p class="coworking-facilities-price"><a href="/meeting">詳しくはこちら</a></p>
         <p class="coworking-rental-plan">1,100円/1時間<br>
           毎日:10:00~19:00</p>
-        <p class="coworking-rental-btn"><a href="https://calendar.google.com/calendar/embed?src=unknown.kyoto_1888b9a18gqv4ggtnk34evr8m1btq6gb68p3gd9n6ko3ad9o6k%40resource.calendar.google.com&ctz=Asia%2FTokyo" target="_blank" rel="noopener">カレンダーで空きを確認</a></p>
-        <p class="btn-primary"><a href="https://forms.gle/kjvYqWJYYTFjwaHW7" target="_blank" rel="noopener noreferrer">会議室利用申し込みは</a></p>
+        <p class="btn-primary"><a href="https://forms.gle/kjvYqWJYYTFjwaHW7" target="_blank" rel="noopener noreferrer">会議室利用申し込み</a></p>
 
       </li>
     </ul>
