@@ -176,7 +176,7 @@
             <tr>
               <th><span class="title"><span class="name">別館・小個室</span><span class="member">4人まで会員登録可</span></span></th>
               <td class="price">66,000円/月</td>
-              <td>8:00～22:00<span class="status">空室あり</span></td>
+              <td>8:00～22:00<span class="status">お問い合わせください</span></td>
             </tr>
           </tbody>
         </table>
