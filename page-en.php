@@ -160,7 +160,7 @@
         <div class="index-rooms-text">
           <h4 class="index-rooms-title">Single room (Max. 1 guest)</h4>
           <p class="index-rooms-desc">This is a minimalist single-bed room without a desk. Recommended for those who work in a co-working environment.</p>
-          <p>1 night <?php echo $single1; ?> yen~<br>4 nights <?php echo $single4; ?> yen</p>
+          <p>1 night <?php echo hotel_price('single1') ?> yen~<br>4 nights <?php echo hotel_price('single4') ?> yen</p>
           <p class="index-rooms-detail"><a href="/hostel">See details</a></p>
         </div>
       </li>
@@ -169,7 +169,7 @@
         <div class="index-rooms-text">
           <h4 class="index-rooms-title">Relax Single Room (Max. 1 guest)</h4>
           <p class="index-rooms-desc">A spacious single-bed room with a desk. This room is especially recommended for those staying for an extended period of time.</p>
-          <p>1 night <?php echo $relax1; ?> yen~<br>4 nights <?php echo $relax4; ?> yen</p>
+          <p>1 night <?php echo hotel_price('relax1') ?> yen~<br>4 nights <?php echo hotel_price('relax4') ?> yen</p>
           <p class="index-rooms-detail"><a href="/hostel">See details</a></p>
         </div>
       </li>
@@ -178,7 +178,7 @@
         <div class="index-rooms-text">
           <h4 class="index-rooms-title">Double room (Max. 2 guests)</h4>
           <p class="index-rooms-desc">This room has a double bed with a desk. It retains the Japanese style with a small tokonoma.</p>
-          <p>1 night <?php echo $double1; ?> yen~ (same price for 2 guests)<br>4 nights <?php echo $double4; ?> yen</p>
+          <p>1 night <?php echo hotel_price('double1') ?> yen~ (same price for 2 guests)<br>4 nights <?php echo hotel_price('double4') ?> yen</p>
           <p class="index-rooms-detail"><a href="/hostel">See details</a></p>
         </div>
       </li>
@@ -187,7 +187,7 @@
         <div class="index-rooms-text">
           <h4 class="index-rooms-title">Deluxe Twin Room (Max. 2 guests)</h4>
           <p class="index-rooms-desc">A spacious room with a washbasin. A large desk is provided for a relaxing stay.</p>
-          <p>1 night <?php echo $deluxe1; ?> yen~ (same price for 2 guests)<br>4 nights <?php echo $deluxe4; ?> yen</p>
+          <p>1 night <?php echo hotel_price('deluxe1') ?> yen~ (same price for 2 guests)<br>4 nights <?php echo hotel_price('deluxe4') ?> yen</p>
           <p class="index-rooms-detail"><a href="/hostel">See details</a></p>
         </div>
       </li>
@@ -210,7 +210,7 @@
       <h3 class="index-dormitory-title">Dormitory</h3>
       <div class="index-dormitory-text">
         <p class="index-rooms-desc">All rooms are equipped with a mini desk for working. The rooms are more spacious than a typical "dormitory" and can be used spaciously.</p>
-        <p class="index-rooms-price">For both mixed-sex and women-only rooms<br>1 night <?php echo $dormitory1; ?> yen~<br>4 nights <?php echo $dormitory4; ?> yen</p>
+        <p class="index-rooms-price">For both mixed-sex and women-only rooms<br>1 night <?php echo hotel_price('dormitory1') ?> yen~<br>4 nights <?php echo hotel_price('dormitory4') ?> yen</p>
         <p class="index-rooms-detail"><a href="/hostel">See details</a></p>
       </div>
     </div>

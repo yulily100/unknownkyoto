@@ -37,6 +37,7 @@ $(function() {
     <img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/intro.jpg" alt="宿泊2階廊下">
   </div>
   <div class="hostel2-intro-text">
+        <?php var_dump(function_exists('hotel_price')); ?>
     <h3 class="hostel2-intro-title">築100年以上の元遊郭建築を、<br>清潔なベッドのお部屋に。<br>コワーキングが無料で利用可能です。</h3>
     <p class="hostel2-intro-description">
     出来るだけ昔の姿を残しながら、使いやすく改装しました。<br>
@@ -84,8 +85,8 @@ $(function() {
         <li>会議室2時間無料</li>
       </ul>
       <p class="hostel2-room-price">
-        1泊　<?php echo $single1; ?>円〜<br>
-        4泊　<?php echo $single4; ?>円</p>
+        1泊　<?php echo hotel_price('single1'); ?>円〜<br>
+        4泊　<?php echo hotel_price('single4'); ?>円</p>
       <p class="hostel-room-note">消費税込み、宿泊税一人200円/一泊</p>
         <!-- <span class="line-through">7,500円</span>
         <br>GO TOトラベル価格で<br>4,880円 + 地域共通クーポン1000円分配布 -->
@@ -123,8 +124,8 @@ $(function() {
         <li>会議室2時間無料</li>
       </ul>
       <p class="hostel2-room-price">
-        1泊　<?php echo $relax1; ?>円〜<br>
-        4泊　<?php echo $relax4; ?>円</p>
+        1泊　<?php echo hotel_price('relax1') ?>円〜<br>
+        4泊　<?php echo hotel_price('relax4') ?>円</p>
       <p class="hostel-room-note">消費税込み、宿泊税一人200円/一泊</p>
         <!-- <span class="line-through">7,500円</span>
         <br>GO TOトラベル価格で<br>4,880円 + 地域共通クーポン1000円分配布 -->
@@ -165,8 +166,8 @@ $(function() {
         <li>会議室2時間無料</li>
       </ul>
       <p class="hostel2-room-price">
-        1泊　<?php echo $double1; ?>円〜 (2名でも同価格)<br>
-        4泊　<?php echo $double4; ?>円</p>
+        1泊　<?php echo hotel_price('double1') ?>円〜 (2名でも同価格)<br>
+        4泊　<?php echo hotel_price('double4') ?>円</p>
         <!-- <span class="line-through">8,500円</span>
         <br>GO TOトラベル価格で<br>5,530円 + 地域共通クーポン1000円分配布 -->
       </p>
@@ -208,8 +209,8 @@ $(function() {
         <li>会議室2時間無料</li>
       </ul>
       <p class="hostel2-room-price">
-        1泊　<?php echo $deluxe1; ?>円〜 (2名でも同価格)<br>
-        4泊　<?php echo $deluxe4; ?>円</p>
+        1泊　<?php echo hotel_price('deluxe1') ?>円〜 (2名でも同価格)<br>
+        4泊　<?php echo hotel_price('deluxe4') ?>円</p>
         <!-- <span class="line-through">10,500円</span>
         <br>GO TOトラベル価格で<br>6,830円 + 地域共通クーポン2000円分配布 -->
       </p>
@@ -261,8 +262,8 @@ $(function() {
         <p class="hostel2-room-note">タオルはこちらのお部屋にはついておりません。ご持参いただくか、レンタルをご用意しておりますのでご利用ください。</p>
         <p class="hostel2-room-price">
           男女混合・女性専用ともに<br>
-          1泊 <?php echo $dormitory1; ?>円〜<br>
-          4泊 <?php echo $dormitory4; ?>円
+          1泊 <?php echo hotel_price('dormitory1') ?>円〜<br>
+          4泊 <?php echo hotel_price('dormitory4') ?>円
         </p>
         <p class="hostel-room-note">消費税込み、宿泊税一人200円/一泊</p>
       </div>

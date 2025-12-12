@@ -167,33 +167,3 @@
 
     </header>
 
-<?php
-  global $single1;
-  global $single4;
-  global $relax1;
-  global $relax4;
-  global $double1;
-  global $double4;
-  global $deluxe1;
-  global $deluxe4;
-  global $dormitory1;
-  global $dormitory4;
-
-  $single1 = '8,800';
-  $single4 = '23,320';
-
-  $relax1 = '9,350';
-  $relax4 = '26,400';
-
-  $double1 = '11,000';
-  $double4 = '31,680';
-
-  $deluxe1 = '13,200';
-  $deluxe4 = '39,160';
-
-  $dormitory1 = '4,180';
-  $dormitory4 = '11,000';
-
-  global $phoneNumber;
-  global $phoneNumber_restaurant;
-?>

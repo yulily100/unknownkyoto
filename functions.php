@@ -12,25 +12,6 @@
 	add_theme_support( 'title-tag' );
 
 	// カスタム投稿タイプ
-	function register_member () {
-		$args = array(
-			'label' => 'メンバー',
-			'labels' => array(
-				'name' => 'メンバー一覧',
-				'add_new' => '新しいメンバーを追加',
-				'add_new_item' => '新しいメンバーを追加',
-			),
-			'public' => true,
-			'supports' => array( 'title', 'editor', 'thumbnail', 'custom-fields'),
-			'menu_position' => 5,
-			'menu_icon'   => 'dashicons-groups',
-		);
-		register_post_type('member', $args);
-	}
-	add_action('init', 'register_member');
-
-
-
 	function register_plan () {
 		$args = array(
 			'label' => 'プラン',
@@ -84,4 +65,62 @@
 	// エディターのスタイルを追加する
 	add_editor_style('editor.css');
 
+
+	add_action('customize_register', function($wp_customize){
+
+	// セクション追加
+	$wp_customize->add_section('hotel_price_section', [
+		'title'    => '料金設定',
+		'priority' => 30,
+	]);
+
+	// 金額一覧（key => 初期値）
+	$prices = [
+		'single1'     => '8,800',
+		'single4day'     => '23,320',
+		'relax1day'      => '9,350',
+		'relax4day'      => '26,400',
+		'double1day'     => '11,000',
+		'double4day'     => '31,680',
+		'deluxe1day'     => '13,200',
+		'deluxe4day'     => '39,160',
+		'dormitory1day'  => '4,180',
+		'dormitory4day'  => '11,000',
+	];
+
+	foreach ($prices as $key => $default) {
+
+		$wp_customize->add_setting($key, [
+		'default' => $default,
+		'sanitize_callback' => function($value){
+			// 数字とカンマのみ許可
+			return preg_replace('/[^0-9,]/', '', (string)$value);
+		},
+		]);
+
+		$wp_customize->add_control($key, [
+		'label'   => strtoupper($key) . ' 料金',
+		'section' => 'hotel_price_section',
+		'type'    => 'text',
+		]);
+	}
+	});
+
+	function hotel_price($key) {
+	$defaults = [
+		'single1'     => '8,800',
+		'single4'     => '23,320',
+		'relax1'      => '9,350',
+		'relax4'      => '26,400',
+		'double1'     => '11,000',
+		'double4'     => '31,680',
+		'deluxe1'     => '13,200',
+		'deluxe4'     => '39,160',
+		'dormitory1'  => '4,180',
+		'dormitory4'  => '11,000',
+	];
+
+	$default = $defaults[$key] ?? '';
+	return esc_html( get_theme_mod($key, $default) );
+	}
 ?>
