@@ -37,7 +37,6 @@ $(function() {
     <img src="<?php echo get_template_directory_uri(); ?>/img/hostel2/intro.jpg" alt="宿泊2階廊下">
   </div>
   <div class="hostel2-intro-text">
-        <?php var_dump(function_exists('hotel_price')); ?>
     <h3 class="hostel2-intro-title">築100年以上の元遊郭建築を、<br>清潔なベッドのお部屋に。<br>コワーキングが無料で利用可能です。</h3>
     <p class="hostel2-intro-description">
     出来るだけ昔の姿を残しながら、使いやすく改装しました。<br>
@@ -87,7 +86,7 @@ $(function() {
       <p class="hostel2-room-price">
         1泊　<?php echo hotel_price('single1'); ?>円〜<br>
         4泊　<?php echo hotel_price('single4'); ?>円</p>
-      <p class="hostel-room-note">消費税込み、宿泊税一人200円/一泊</p>
+      <p class="hostel-room-note">消費税込み、宿泊税一人<?php echo hotel_price('accommodation_tax') ?>円/一泊</p>
         <!-- <span class="line-through">7,500円</span>
         <br>GO TOトラベル価格で<br>4,880円 + 地域共通クーポン1000円分配布 -->
     </div>
@@ -126,7 +125,7 @@ $(function() {
       <p class="hostel2-room-price">
         1泊　<?php echo hotel_price('relax1') ?>円〜<br>
         4泊　<?php echo hotel_price('relax4') ?>円</p>
-      <p class="hostel-room-note">消費税込み、宿泊税一人200円/一泊</p>
+      <p class="hostel-room-note">消費税込み、宿泊税一人<?php echo hotel_price('accommodation_tax') ?>円/一泊</p>
         <!-- <span class="line-through">7,500円</span>
         <br>GO TOトラベル価格で<br>4,880円 + 地域共通クーポン1000円分配布 -->
     </div>
@@ -171,7 +170,7 @@ $(function() {
         <!-- <span class="line-through">8,500円</span>
         <br>GO TOトラベル価格で<br>5,530円 + 地域共通クーポン1000円分配布 -->
       </p>
-      <p class="hostel-room-note">消費税込み、宿泊税一人200円/一泊</p>
+      <p class="hostel-room-note">消費税込み、宿泊税一人<?php echo hotel_price('accommodation_tax') ?>円/一泊</p>
     </div>
     <div class="hostel2-room-private-img">
       <ul class="hostel2-gallery">
@@ -214,7 +213,7 @@ $(function() {
         <!-- <span class="line-through">10,500円</span>
         <br>GO TOトラベル価格で<br>6,830円 + 地域共通クーポン2000円分配布 -->
       </p>
-      <p class="hostel-room-note">消費税込み、宿泊税一人200円/一泊</p>
+      <p class="hostel-room-note">消費税込み、宿泊税一人<?php echo hotel_price('accommodation_tax') ?>円/一泊</p>
     </div>
     <div class="hostel2-room-private-img">
       <ul class="hostel2-gallery">
@@ -265,7 +264,7 @@ $(function() {
           1泊 <?php echo hotel_price('dormitory1') ?>円〜<br>
           4泊 <?php echo hotel_price('dormitory4') ?>円
         </p>
-        <p class="hostel-room-note">消費税込み、宿泊税一人200円/一泊</p>
+        <p class="hostel-room-note">消費税込み、宿泊税一人<?php echo hotel_price('accommodation_tax') ?>円/一泊</p>
       </div>
     </div>
   </div>

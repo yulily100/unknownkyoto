@@ -77,15 +77,16 @@
 	// 金額一覧（key => 初期値）
 	$prices = [
 		'single1'     => '8,800',
-		'single4day'     => '23,320',
-		'relax1day'      => '9,350',
-		'relax4day'      => '26,400',
-		'double1day'     => '11,000',
-		'double4day'     => '31,680',
-		'deluxe1day'     => '13,200',
-		'deluxe4day'     => '39,160',
-		'dormitory1day'  => '4,180',
-		'dormitory4day'  => '11,000',
+		'single4'     => '23,320',
+		'relax1'      => '9,350',
+		'relax4'      => '26,400',
+		'double1'     => '11,000',
+		'double4'     => '31,680',
+		'deluxe1'     => '13,200',
+		'deluxe4'     => '39,160',
+		'dormitory1'  => '4,180',
+		'dormitory4'  => '11,000',
+		'accommodation_tax' => '200',
 	];
 
 	foreach ($prices as $key => $default) {
@@ -118,6 +119,7 @@
 		'deluxe4'     => '39,160',
 		'dormitory1'  => '4,180',
 		'dormitory4'  => '11,000',
+		'accommodation_tax' => '200',
 	];
 
 	$default = $defaults[$key] ?? '';
