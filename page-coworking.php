@@ -227,7 +227,7 @@
         <h3 class="office-facilities-title">本池中会議室</h3>
         <p class="coworking-rental-description">別館であるUNKNOWN KYOTO本池中の会議室です。畳敷きの和室です。</p>
         <p class="coworking-facilities-price"><a href="/meeting">詳しくはこちら</a></p>
-        <p class="coworking-rental-plan">1,100円/1時間<br>
+        <p class="coworking-rental-plan">2,200円/1時間<br>
           毎日:10:00~19:00</p>
         <p class="btn-primary"><a href="https://forms.gle/kjvYqWJYYTFjwaHW7" target="_blank" rel="noopener noreferrer">会議室利用申し込み</a></p>
 

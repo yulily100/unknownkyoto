@@ -62,8 +62,7 @@ $(function() {
     <p class="meeting-contents-desc">別館であるUNKNOWN KYOTO本池中の会議室です。4〜6名様程度の打ち合わせに最適です。机と椅子がありますが、畳に座布団での利用も可能です。</p>
     <div class="meeting-value">
       <h3 class="meeting-value-title">値段</h3>
-      <p class="meeting-value-desc">税込1,100円/1時間<br>
-        税込11,000円/丸一日貸し切り</p>
+      <p class="meeting-value-desc">税込2,200円/1時間</p>
     </div>
     <div class="meeting-value">
       <h3 class="meeting-value-title">時間</h3>
